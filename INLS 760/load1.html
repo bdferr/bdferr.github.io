@@ -1,0 +1,39 @@
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.mi
+n.js"></script>
+<script>
+ $(document).ready(function(){
+ $("#b1").click(function() {
+ $("#d1").load("ethel1.php");
+ });
+ $("#b2").click(function() {
+ $("#d2").load("ethel2.php");
+ });
+ $("#b3").click(function() {
+ $("#d1").load("ethel1_slow.php");
+ });
+ });
+</script>
+<h1>Heading 1</h1>
+<div id='d1'>This is div1</div>
+<div id='d2'>This is div2</div>
+<p>
+<button id='b1'>Load d1</button>
+<button id='b2'>Load d2</button>
+<button id='b3'>Load d1 slow</button>
+
+//ethel1.php
+<?php
+echo "Ethel 1";
+?>
+
+//ethel2.php
+<?php
+echo "Ethel 2";
+?>
+
+//ethel1_slow.php
+<?php
+sleep(8);
+echo "Ethel 1 slow";
+?>

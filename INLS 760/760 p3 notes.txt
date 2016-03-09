@@ -1,0 +1,139 @@
+When I try "alter table users add fulltext (username, firstname, password), I get an error message telling me
+that "the used table type doesn't support FULLTEXT indexes."
+However, when I try to change the engine to Aria so that I might
+be able to do fulltext indexing, I get the error message
+"Cannot delete or update a parent row: a foreign key constraint fails."
+
+select firstname, lastname, username, cheep_text from users, cheeps where match (users.firstname, users.lastname, users.username, cheeps.cheep_text) against ("function") order by cheeps.created_date limit 3;
+
+
+create table users (user_id int(11) not null primary key auto_increment,
+username varchar(20) unique,
+firstname varchar(40),
+lastname varchar(40),
+password varchar(40),
+usertype varchar(20),
+created_date timestamp,
+fulltext (username, firstname, lastname))
+engine = Aria;
+
+
++-----------+------------------+-----------+---------------------+---------------------------------------------------------------------------------------------+
+| firstname | lastname         | username  | created_date        | cheep_text                                                                                  |
++-----------+------------------+-----------+---------------------+---------------------------------------------------------------------------------------------+
+| Brendan   | Ferreri-Hanberry | brendanfh | 0000-00-00 00:00:00 | This is only a test cheep                                                                   |
+| Brendan   | Ferreri-Hanberry | brendanfh | 0000-00-00 00:00:00 | New and improved cheeps are waiting for you at your local CheepMart!                        |
+| Brendan   | Ferreri-Hanberry | brendanfh | 0000-00-00 00:00:00 | Give me a cheep long enough, and I can move the world.                                      |
+| Brendan   | Ferreri-Hanberry | brendanfh | 0000-00-00 00:00:00 | You might have guessed that the word cheep is so common here as to not show up in searches. |
+| Brendan   | Ferreri-Hanberry | brendanfh | 2015-03-31 12:32:00 | Why is my time stamp not working?                                                           |
+| Brendan   | Ferreri-Hanberry | brendanfh | 2015-04-02 15:17:25 | test cheep text goes here! :D                                                               |
+| Brendan   | Ferreri-Hanberry | brendanfh | 2015-04-02 15:42:04 | test cheep text from test file :D                                                           |
+| Brendan   | Ferreri-Hanberry | brendanfh | 2015-04-02 15:43:46 | test cheep text from test file :D                                                           |
+| Fake      | Fakington        | fakename  | 0000-00-00 00:00:00 | This is an even more exciting test cheep!                                                   |
+| Fake      | Fakington        | fakename  | 0000-00-00 00:00:00 | You are not going to believe what is in this cheep.                                         |
+| Fake      | Fakington        | fakename  | 0000-00-00 00:00:00 | I love cheeping like a fat kid loves cake                                                   |
++-----------+------------------+-----------+---------------------+---------------------------------------------------------------------------------------------+
+11 rows in set (0.00 sec)
+
++--------------+--------------+------+-----+-------------------+-----------------------------+
+| Field        | Type         | Null | Key | Default           | Extra                       |
++--------------+--------------+------+-----+-------------------+-----------------------------+
+| cheep_text   | varchar(141) | YES  |     | NULL              |                             |
+| created_date | timestamp    | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| user_id      | int(11)      | YES  | MUL | NULL              |                             |
+| cheep_id     | int(11)      | NO   | PRI | NULL              | auto_increment              |
++--------------+--------------+------+-----+-------------------+-----------------------------+
+
+create table cheeps(
+cheep_id int(11) not null primary key auto_increment,
+user_id int(11) not null,
+cheep_text varchar(141) not null,
+created_date timestamp default current_timestamp,
+fulltext (cheep_text))
+foreign key(user_id) references users(user_id),
+engine = Aria;
+
+
++--------------+-----------+------+-----+-------------------+-----------------------------+
+| Field        | Type      | Null | Key | Default           | Extra                       |
++--------------+-----------+------+-----+-------------------+-----------------------------+
+| user_id      | int(11)   | NO   | PRI | 0                 |                             |
+| follows_id   | int(11)   | NO   | PRI | 0                 |                             |
+| created_date | timestamp | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
++--------------+-----------+------+-----+-------------------+-----------------------------+
+
+create table follows(
+user_id int(11) not null primary key,
+follows_id int(11) not null primary key,
+created_date timestamp not null)
+foreign key(user_id) references users(user_id),
+foreign key(follows_id) references users(user_id);
+
+cheep_text varchar(141) not null,
+created_date timestamp on update current_timestamp,
+fulltext (cheep_text))
+foreign key(user_id) references users(user_id),
+engine = Aria;
+
++------------+-----------+-----------+------------------+------------------------------------------+----------+---------------------+
+| user_id    | username  | firstname | lastname         | password                                 | usertype | created_date        |
++------------+-----------+-----------+------------------+------------------------------------------+----------+---------------------+
+| 1234567891 | fakename  | Fake      | Fakington        | 077979800f7d969ae34884b6d827b371868102b7 | standard | 2015-03-29 23:50:28 |
+| 1234567890 | brendanfh | Brendan   | Ferreri-Hanberry | 2b8889e80cb6afc64ea9923339183799475b1123 | admin    | 2015-03-29 23:44:12 |
++------------+-----------+-----------+------------------+------------------------------------------+----------+---------------------+
+
++------------+------------+---------------------+
+| user_id    | follows_id | created_date        |
++------------+------------+---------------------+
+| 1234567890 | 2147483647 | 2015-03-29 23:01:45 |
+| 2147483647 | 1234567890 | 2015-03-29 23:51:38 |
++------------+------------+---------------------+
+
++-----------------------------------------------------+---------------------+------------+----------+
+| cheep_text                                          | created_date        | user_id    | cheep_id |
++-----------------------------------------------------+---------------------+------------+----------+
+| This is only a test cheep                           | 2015-03-28 22:04:06 | 2147483647 |        1 |
+| This is an even more exciting test cheep!           | 2015-03-28 23:28:24 | 2147483647 |        2 |
+| You are not going to believe what is in this cheep. | 2015-03-28 23:30:55 | 2147483647 |        4 |
++-----------------------------------------------------+---------------------+------------+----------+
+
+
+how to add auto_increment:
+ 
+ alter table users change user_id user_id int(11) auto_increment;
+ alter table users change created_date created_date timestamp default current_timestamp;
+ 
+ password matching code (not successful):
+ 
+ 	<span id="alert" class="hidden">Your passwords do not match!</span>
+ echo <<<_END
+	<html>
+	<head>
+	<title>
+	Login
+	</title>
+	<link rel="stylesheet" type="text/css" href="ferrerih_p3_stylesheet.css">
+	<script type="text/javascript">
+	function matching_passwords()
+	{
+		if (!document.getElementsByName("password")[0].value == getElementsByName("password2")[0].value)
+		{
+			document.getElementById("alert").style.class = "visible";
+		}
+			
+	}
+	</script>
+	</head>
+	<body>
+	<h1>Login</h1>
+	<style>
+	.hidden
+	{
+		visibility: hidden;
+	}
+	.visible
+	{
+		visibility: visible;
+	}
+	</style>
+_END;

@@ -1,0 +1,29 @@
+<html> lect10/ex2_select.html
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+
+<script>
+ $(document).ready(function(){
+ $("button:last").click(function() {
+ $("p:first").text("Hello world");
+ });
+ });
+</script>
+<h1>Heading 1</h1>
+<p class="one">This is paragraph 1, of class one.</p>
+<p class="two">This is paragraph 2, of class two.</p>
+<div id='fred1'>
+ <p class="one">This is paragraph 1 in fred1, of class one.</p>
+ <p class="two">This is paragraph 2 in fred1, of class two.</p>
+</div>
+<div id='fred2'>This is div fred2, which is not a paragraph.</div>
+<button id='button1' onclick='$("#fred2").hide();'>Hide Fred2</button>
+<button id='button2' onclick='$("#fred2").show();'>Show Fred2</button>
+<button id='button3' onclick='$("p").hide();'>Hide Paragraphs</button>
+<button id='button4' onclick='$("p").show();'>Show Paragraphs</button>
+<button id='button5' onclick='$("p.one").hide();'>Hide Class One Paragraphs</button>
+<button id='button6' onclick='$("p.one").show();'>Show Class One Paragraphs</button>
+<button id='button7' onclick='$("div p.one").hide();'>Hide Class One Paragraphs Within Div</button>
+<button id='button8' onclick='$("div p.one").show();'>Hide Class One Paragraphs Within Div</button>
+</html>
