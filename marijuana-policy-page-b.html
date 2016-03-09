@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!--This should be accessible at http://ils.unc.edu/~ferrerih/web-dev-project/marijuana-policy-page-b.html-->
+<html>
+<head>
+   <title>Marijuana Policy Page</title>
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta charset="utf-8">
+   <meta name="viewport" content="initial-scale=1.0, width=device-width">
+   <meta name="author" content="Brendan Ferreri-Hanberry">
+   <meta name="description" content="Last modified 3/4/2016">  
+   <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <link href="stylereflow.css" rel="stylesheet" /> <!-- place last !!!  -->
+</head>
+<body>
+	<header>
+		<h1>Marijuana Law Reform in the US</h1>
+		<hr>
+		<section>
+			<img src="http://ils.unc.edu/~ferrerih/web-dev-project/latest-mpp-map-edited-min.jpg" alt="A map from MPP."><!--previously http://www.unc.edu/~ferrerih/mpp-map2-re-resized-min.jpg-->
+		</section>
+		<hr>
+	</header>
+
+	<section class="center">
+		<i>Image credit to <a href="http://mpp.org">Marijuana Policy Project</a>.</i>
+		<br />
+		<br />
+		Although I am no longer so enthusiastic about the cause, I was active in drug policy reform for some time.
+		This included working as an intern for the <a href="http://blog.mpp.org/author/bhanberry/">Marijuana Policy Project</a> (MPP), working in various capacities for <a href="http://www.leap.cc">Law Enforcement Against Prohibition</a> and writing articles for
+		a similar nonprofit advocacy organization, <a href="http://ssdp.org/about/blog-contributors/brendan-ferreri-hanberry/">Students for Sensible Drug Policy.</a>
+        The diagram above, from MPP, depicts the current state of state-level marijuana laws, while pending changes to federal law can be found <a href="https://www.mpp.org/federal/marijuana-policy-reform-in-the-114th-congress/">here</a>. Those in black have both removed criminal penalties
+		for possession of small amounts of marijuana and passed medical marijuana laws. Those in dark gray have only removed criminal penalties for possession
+		of small amounts, which is commonly known as decriminalization. Those in light gray have passed medical marijuana measures only, while those in blue have legalized marijuana
+		in a similar manner to alcohol, with a minimum legal age of 21. The data in the table below consist of the same information, but in a responsive table format which is implemented with jQuery. 
+		The presence of a decriminalization measure in a legalized state is of course superfluous,
+		but it is noted as it reflects the fact that there were earlier reforms to the law before the recent legalization.
+		<br />
+		<br />
+		Currently, about 5.3% of the US population about 16.9 million out of and estimated 319 million people, live in the four states where marijuana legalization measures have been passed.
+		The majority of Americans live in one of the 27 states (or the District of Columbia) where some sort of marijuana law reform has been passed. Fourteen states have decriminalization
+		in effect, while 23 states plus the District of Columbia (including many of the same states with decriminalization) have medical marijuana laws in effect.
+		These numbers are a significant increase from the state of affairs as recently as <a href="http://www.huffingtonpost.com/rob-kampia/marijuana-legal-states_b_3750123.html">2013</a>.
+		<br />
+		<br />
+		*Whether Missouri qualifies as a state with marijuana decriminalization is debatable. A bill was <a href="http://www.thedailychronic.net/2014/32351/missouri-marijuana-decriminalization-bill-becomes-law-without-governors-signature/">passed</a>
+		in May of 2014 which removes the possibility of jail time for possession of up to 10 grams of marijuana. However, the law will not take effect
+		until 2017, only applies to first offenses, and would not actually remove the threat of criminal penalties other than incarceration.<br />
+		*Washington, DC passed a <a href="https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)">referendum</a> on November 4th of 2014
+		legalizing the possession (up to a certain amount) and home cultivation of marijuana,
+		and although House Republicans <a href="http://www.washingtonpost.com/local/dc-politics/house-republican-vows-to-upend-dc-ballot-measure-legalizing-marijuana/2014/11/05/10304f2c-6508-11e4-9fdc-d43b053ecb4d_story.html">threatened</a> to overturn the measure,
+		there was no action by Congress within 30 days, so it went into effect on February 26th of 2015.<br />
+		*New York passed a decriminalization measure in 1973 but there have since then been 
+		<a href="http://www.alternet.org/story/141866/the_epidemic_of_pot_arrests_in_new_york_city">complaints</a> of frequent arrests for minor marijuana possession,
+		arguably due to exploitation of a loophole in the law.
+		<br />
+		</section>
+		<section>
+		<table data-role="table" data-mode="reflow" class="lh-list">
+		  <thead>
+			<tr>
+			  <th>State</th>
+			  <th>Legalized</th>
+			  <th>Medical</th>
+			  <th>Decriminalized</th>
+			  <th>More info</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <th class="title">Alabama</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/alabama-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/alabama/">news</a></td>
+			</tr>
+			<tr>
+			  <th class="title">Alaska</th>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/alaska-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/alaska/">news</a></td>
+			</tr>
+			<tr>
+			  <th class="title">Arizona</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/arizona-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/arizona/">news</a></td>
+			</tr>
+			<tr>
+			  <th class="title">Arkansas</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/arkansas-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/arkansas/">news</a></td>
+			</tr>
+			<tr>
+			  <th class="title">California</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/california-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/california/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Colorado</th>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/colorado-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/colorado/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Connecticut</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/connecticut-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/connecticut/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Delaware</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/delaware-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/delaware/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">District of Columbia</th>
+			  <td>Yes*</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/district-of-columbia-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/district-of-columbia/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Florida</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/florida-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/florida/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Georgia</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/georgia-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/georgia/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Hawaii</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/hawaii-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/hawaii/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Idaho</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/idaho-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/idaho/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Illinois</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/illinois-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/illinois/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Indiana</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/indiana-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/indiana/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Iowa</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/iowa-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/iowa/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Kansas</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/kansas-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/kansas/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Kentucky</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/kentucky-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/kentucky/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Louisiana</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/louisiana-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/louisiana/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Maine</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/maine-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/maine/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Maryland</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/maryland-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/maryland/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Massachusetts</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/massachusetts-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/massachusetts/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Michigan</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/michigan-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/michigan/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Minnesota</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/minnesota-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/minnesota/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Mississippi</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/mississippi-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/mississippi/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Missouri</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No*</td>
+			  <td><a href="http://norml.org/laws/item/missouri-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/missouri/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Montana</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/montana-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/montana/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Nebraska</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/nebraska-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/nebraska/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Nevada</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/nevada-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/nevada/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">New Hampshire</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/new-hampshire-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/new-hampshire/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">New Jersey</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/new-jersey-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/new-jersey/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">New Mexico</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/new-mexico-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/new-mexico/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">New York</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes*</td>
+			  <td><a href="http://norml.org/laws/item/new-york-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/new-york/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">North Carolina</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/north-carolina-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/north-carolina/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">North Dakota</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/north-carolina-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/north-dakota/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Ohio</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/ohio-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/ohio/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Oklahoma</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/oklahoma-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/oklahoma/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Oregon</th>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/oregon-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/oregon/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Pennsylvania</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/pennsylvania-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/pennsylvania/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Rhode Island</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/rhode-island-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/rhode-island/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">South Carolina</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/south-carolina-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/south-carolina/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">South Dakota</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/south-dakota-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/south-dakota/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Tennessee</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/tennessee-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/tennessee/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Texas</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/texas-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/texas/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Utah</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/utah-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/utah/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Vermont</th>
+			  <td>No</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/vermont-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/vermont/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Virginia</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/virginia-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/virginia/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Washington</th>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td>Yes</td>
+			  <td><a href="http://norml.org/laws/item/washington-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/washington/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">West Virginia</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/west-virginia-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/west-virginia/">news</a></td>
+			</tr>
+				<tr>
+			  <th class="title">Wisconsin</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/wisconsin-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/wisconsin/">news</a></td>
+			  </tr>
+			  <tr>
+			  <th class="title">Wyoming</th>
+			  <td>No</td>
+			  <td>No</td>
+			  <td>No</td>
+			  <td><a href="http://norml.org/laws/item/wyoming-penalties" data-rel="external">Current laws</a>, <a href="http://www.mpp.org/states/wyoming/">news</a></td>
+			  </tr>
+		  </tbody>
+		</table>
+
+		<footer>
+			<br />
+			<div>
+    		<ul class="nav">
+				<li class="navbar"><address><a href="mailto:skepticism9@gmail.com">Contact Me</a></address></li>
+				<li class="navbar"><a href="http://ils.unc.edu/~ferrerih/web-dev-project/main-page-2.html">Main Site</a></li>
+	   		</ul class="nav">
+			</div>
+			<br />
+			<div>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss"
+						alt="Valid CSS!" />
+				</a>
+			</div>
+			<br />
+			<div>Last updated on 3/4/2016.</div>
+		</footer>
+		</section>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

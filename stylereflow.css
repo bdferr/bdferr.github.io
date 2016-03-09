@@ -1,0 +1,252 @@
+/*Last updated 1/25/2016*/
+
+a
+{
+    display:inline;
+	text-decoration:none;
+}
+a:link{
+	color: #848282; /*alternatively #006E00;*/
+}
+
+a:hover
+{
+    color: silver; /*previously #000099;*/
+    text-decoration:underline;
+}
+a:visited
+{
+	color: silver;/*alternatively #604E3D;*/
+} 
+
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #630;
+  width: 100%;
+  line-height:200%;
+}
+footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 100%;
+	font-style: italic;
+	background-color: #630;
+	padding-left: 2.0em;
+	padding-right: 2.0em;
+	padding-top:1.0em;
+	padding-bottom:1.0em;
+	margin-top:1.0em;
+	margin-bottom:1.0em;
+	margin-left: 2.0em;
+	margin-right: 2.0em;
+	}
+
+header {
+	text-align: center;
+	color: #000000;
+	font-family: "Century Gothic", "Times New Roman", Trebuchet, sans-serif;
+/*	font-size: 100%;*/
+	font-weight: normal;
+	margin-left:0.938em;
+	margin-right:0.938em;
+} 
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	font-size: 2em;
+	line-height:150%;
+	font-weight:normal;
+}
+
+img{
+   border: solid 2px black;
+   border-radius: 1.0em;
+   max-width: 100%;
+   max-height:100%;
+   margin:auto;
+}
+
+li.navbar
+{
+font-size: 1.5em;
+background: repeating-radial-gradient(#532900 10%, #630 20%);
+padding-left: 1.2em;
+padding-right: 1.2em;
+padding-top: 0.4em;
+padding-bottom: 0.4em;
+margin-top:0.4em;
+margin-bottom:0.4em;
+margin-left: 0.4em;
+margin-right:0.4em;
+border: 0.125em;
+border-radius:1.0em;
+border-style: solid;
+border-color: black;
+display: inline-flex;
+}
+
+nav
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+	text-align: center;
+	margin-bottom:20px;
+}	
+
+section  {
+  border: solid 2px black;
+  border-radius: 1.0em;
+  background-color: #630;
+  margin-top:1.0em;
+  margin-bottom:1.0em;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0.750em;
+  width: 80%;
+}
+
+section.center
+{
+	max-width:60%;
+	margin:auto;
+}
+
+/*Here are the rules specific to table design:*/
+/*Add a bit of extra left padding for the state name */
+.lh-list tbody td.title {
+    padding-left: .8em;
+}
+
+.lh-list tbody th {
+    font-size: 1.2em;
+    background-color: #630;
+    color: black;
+    text-align: center;
+}
+
+.lh-list thead th,
+.lh-list tbody th .ui-table-cell-label,
+.lh-list tbody td .ui-table-cell-label {
+    text-transform: uppercase;
+    font-size: 1.0em;
+    color: black;
+    font-weight: bold;
+}
+
+/* Lines at the bottom of each cell, including column headings*/
+.lh-list thead th,
+.lh-list tbody th,
+.lh-list tbody td
+ {
+    border-bottom: 1px solid black;
+}
+
+    /*  Negate the margin between sections */
+    .lh-list tbody th 
+	{
+        margin-top: 0;
+        text-align: left;
+    }
+    /* Headings and state names */
+    .lh-list tbody th,
+    .lh-list tbody td.title 
+	{
+        display: block;
+        font-size: 1.2em;
+        line-height: 110%;
+        padding: .3em .3em;
+        color: black;
+	    background-color: #630;
+    }
+    /*  Hide labels for name */
+    .lh-list tbody th .ui-table-cell-label,
+    .lh-list tbody td.title .ui-table-cell-label 
+	{
+        display: none;
+    }
+    /*  Position the name, pad to the left */
+    .lh-list tbody td.title 
+	{
+        margin-top: -2.1em;
+        padding-left: 2.2em; 
+        border-bottom: 1px solid black;
+    }
+    /*  Make the data bold */
+    .lh-list th,
+    .lh-list td 
+	{
+        font-weight: bold;
+    }
+    /* Make the label elements a percentage width */
+	/*Make the label elements indented compared to the state name*/
+    .lh-list td .ui-table-cell-label,
+    .lh-list th .ui-table-cell-label 
+	{
+        min-width: 20%;
+		margin: -.4em 1em -.4em 0.4em;
+    }
+
+	section.center
+	{
+	max-width:80%;
+	margin:auto;
+	}
+	
+@media ( min-width: 47.5em ) 
+{
+    /* Show the table header rows */
+	.lh-list tbody th,
+    .lh-list tbody td,
+    .lh-list thead td,
+    .lh-list thead th 
+	{
+        display: table-cell;
+        margin: 0;
+    }
+	
+	h1
+	{font-size: 3.0em}
+		
+    /* Hide the labels in each cell */
+    .lh-list td .ui-table-cell-label,
+    .lh-list th .ui-table-cell-label 
+	{
+        display: none;
+    }
+	/*Increase the font size for the navigation links*/
+	li.navbar
+	{
+	font-size: 1.5em
+	}
+	section.center
+	{
+	max-width:60%;
+	margin:auto;
+	}
+}
+@media (min-width:65em)
+{
+.lh-list thead th,
+.lh-list tbody th .ui-table-cell-label,
+.lh-list tbody td .ui-table-cell-label 
+{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+	}
+	section.center
+{
+	max-width:50%;
+	margin:auto;
+}
+	h1
+	{font-size: 4.0em}
+}
+	
+	

@@ -1,0 +1,266 @@
+/*! jQuery Mobile 1.4.5 | Git HEADhash: 68e55e7 <> 2014-10-31T17:33:30Z | (c) 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
+
+html{font-size:100%}body,input,select,textarea,button,.ui-btn{font-size:1em;line-height:1.3;font-family:sans-serif}legend,.ui-input-text input,.ui-input-search input{color:inherit;text-shadow:none}.ui-mobile label,div.ui-controlgroup-label{font-weight:400;font-size:16px}.ui-field-contain{border-bottom-color:#828282;border-bottom-color:rgba(0,0,0,.15);border-bottom-width:1px;border-bottom-style:solid}.table-stroke thead th,.table-stripe thead th,.table-stripe tbody tr:last-child{border-bottom:1px solid #d6d6d6;border-bottom:1px solid rgba(0,0,0,.1)}.table-stroke tbody th,.table-stroke tbody td{border-bottom:1px solid #e6e6e6;border-bottom:1px solid rgba(0,0,0,.05)}.table-stripe.table-stroke tbody tr:last-child th,.table-stripe.table-stroke tbody tr:last-child td{border-bottom:0}.table-stripe tbody tr:nth-child(odd) td,.table-stripe tbody tr:nth-child(odd) th{background-color:#630;}.ui-btn,label.ui-btn{font-weight:700;border-width:1px;border-style:solid}.ui-btn{text-decoration:none!important}.ui-btn-active{cursor:pointer}
+
+.ui-page-theme-a .ui-btn:hover,html .ui-bar-a .ui-btn:hover,html .ui-body-a .ui-btn:hover,html body .ui-group-theme-a .ui-btn:hover,html head+body .ui-btn.ui-btn-a:hover{background-color:#ededed;border-color:#ddd;color:#000;text-shadow:none;}.ui-page-theme-a .ui-btn:active,html .ui-bar-a .ui-btn:active,html .ui-body-a .ui-btn:active,html body .ui-group-theme-a .ui-btn:active,html head+body .ui-btn.ui-btn-a:active{background-color:#e8e8e8;border-color:#ddd;color:#000;text-shadow:none}
+
+.ui-mobile,.ui-mobile body{height:99.9%}.ui-mobile fieldset,.ui-page{padding:0;margin:0}.ui-mobile a img,.ui-mobile fieldset{border-width:0}.ui-mobile fieldset{min-width:0}.ui-mobile-viewport{margin:0;overflow-x:visible;-webkit-text-size-adjust:100%;-ms-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}body.ui-mobile-viewport,div.ui-mobile-viewport{overflow-x:hidden}.ui-mobile [data-role=page],.ui-mobile [data-role=dialog],.ui-page{top:0;left:0;width:100%;min-height:100%;position:absolute;display:none;border:0}.ui-page{outline:0}.ui-mobile .ui-page-active{display:block;overflow:visible;overflow-x:hidden}@media screen and (orientation:portrait){.ui-mobile .ui-page{min-height:420px}}
+@media screen and (orientation:landscape){.ui-mobile .ui-page{min-height:300px}}.ui-mobile-rendering>*{visibility:hidden}.ui-nojs{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}.ui-loading .ui-loader{display:block}.ui-loader{display:none;z-index:9999999;position:fixed;top:50%;left:50%;border:0}.ui-loader-default{background:0;opacity:.18;width:2.875em;height:2.875em;margin-left:-1.4375em;margin-top:-1.4375em}.ui-mobile label,.ui-controlgroup-label{display:block;margin:0 0 .4em}.ui-hide-label>label,.ui-hide-label .ui-controlgroup-label,.ui-hide-label .ui-rangeslider label,.ui-hidden-accessible{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}.ui-screen-hidden{display:none!important}.ui-mobile-viewport-transitioning,.ui-mobile-viewport-transitioning .ui-page{width:100%;height:100%;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+/*Something table-related starts here.*/
+.ui-table{border:0;border-collapse:collapse;padding:0;width:100%}.ui-table th,.ui-table td{line-height:1.5em;text-align:left;padding:.4em .5em;vertical-align:top}.ui-table th .ui-btn,.ui-table td .ui-btn{line-height:normal}.ui-table th{font-weight:700}.ui-table caption{text-align:left;margin-bottom:1.4em;opacity:.5}.ui-table-columntoggle-btn{float:right;margin-bottom:.8em}.ui-table-columntoggle-popup fieldset{margin:0}.ui-table-columntoggle{clear:both}.ui-table-columntoggle th.ui-table-cell-hidden,.ui-table-columntoggle  td.ui-table-cell-hidden,.ui-table-columntoggle.ui-responsive  th.ui-table-cell-hidden,.ui-table-columntoggle.ui-responsive  td.ui-table-cell-hidden{display:none} .ui-table-columntoggle  th.ui-table-cell-visible,.ui-table-columntoggle  td.ui-table-cell-visible,.ui-table-columntoggle.ui-responsive  th.ui-table-cell-visible,.ui-table-columntoggle.ui-responsive  td.ui-table-cell-visible{display:table-cell} .ui-table-reflow td .ui-table-cell-label,.ui-table-reflow  th .ui-table-cell-label{display:none} @media only all {.ui-table-reflow thead td, .ui-table-reflow  thead th {display:none}.ui-table-reflow td,.ui-table-reflow th {text-align:left;display:block}.ui-table-reflow  tbody th{margin-top:3em}.ui-table-reflow td  .ui-table-cell-label,.ui-table-reflow th .ui-table-cell-label {padding:.4em;min-width:30%; display:inline-block; margin:-.4em 1em -.4em -.4em} .ui-table-reflow th .ui-table-cell-label-top, .ui-table-reflow td .ui-table-cell-label-top {
+display:block;
+ padding:.4em 0;
+ margin:.4em 0; text-transform:uppercase;font-size:.9em;font-weight:400
+ }
+ } 
+ /*There used to be a media query here which I took out to make things more mobile-first.*/
+
+.ui-table-reflow.ui-responsive td,
+.ui-table-reflow.ui-responsive
+ th
+ {
+width:100%;
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+ float:left;
+ clear:left
+ }
+  @media (min-width:35em) {.ui-table-reflow.ui-responsive td, .ui-table-reflow.ui-responsive th, .ui-table-reflow.ui-responsive tbody th, .ui-table-reflow.ui-responsive tbody td, .ui-table-reflow.ui-responsive thead td, .ui-table-reflow.ui-responsive thead th {
+	 display:table-cell;
+	 margin:0;
+}.ui-table-reflow.ui-responsive td .ui-table-cell-label,.ui-table-reflow.ui-responsive 
+th .ui-table-cell-label
+{display:none}
+}
+ 
+/*The section which used to be stylereflow.css (although it has had modifications) starts here.*/
+
+html {
+  background: repeating-radial-gradient(#532900 10%, #630 20%);
+} 
+hr
+{
+   border: 0px;
+   margin-top: 0.625em;
+   margin-bottom: 0.625em;
+   width: 100%;
+   color: #000;
+   background-color: #000;
+   height: 2px;
+}
+
+body {
+  font: 100% 'Times New Roman', sans-serif;
+  margin-left: 2.0em;
+  margin-right:2.0em;
+  width: 95%;
+  background: repeating-radial-gradient(#532900 10%, #630 20%);
+  line-height:150%;
+}
+img{
+   border: solid 2px black;
+   border-radius: 1.0em;
+   width: 100%;
+   height:100%;
+   margin:0px;
+   text-align:center;
+}
+header {
+	text-align: center;
+	color: #000;
+	font-family: "Century Gothic", "Times New Roman", Trebuchet, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	margin-left:0.938em;
+	margin-right:0.938em;
+} 
+h1 {
+	text-align: center;
+	color: #262626;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	font-size: 2em;
+	line-height:150%;
+}
+section  {
+  border: solid 2px black;
+  border-radius: 1.0em;
+  background-color: #630;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:1.0em;
+  margin-bottom:1.0em;
+  padding: 0.750em;
+  width: 90%;
+}
+
+a:link{
+	color: #262626;
+}
+
+a:visited
+{
+	color: silver;/*previously #3E3228;*/
+} 
+/*
+li.navbar
+{
+font-size: 1.2em;
+background-color: #630;
+padding-left: 1.5em;
+padding-right: 1.5em;
+padding-top: 0.4em;
+padding-bottom: 0.4em;
+margin-top:0.4em;
+margin-bottom:0.4em;
+margin-left:0.4em;
+margin-right:0.4em;
+border: 2px;
+border-radius:1.0em;
+border-style: solid;
+border-color: black;
+display: inline-flex;
+font-weight:bold;
+}
+*/
+nav
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+	text-align: center;
+	margin-bottom:20px;
+}	
+
+ul
+ {
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+  padding: 0.375em;
+  font-size: 1.0em;
+}
+.lh-list thead th,
+.lh-list tbody th .ui-table-cell-label,
+.lh-list tbody td .ui-table-cell-label {
+    text-transform: uppercase;
+    font-size: 1.0em;
+    color: #262626;
+    font-weight: bold;
+}
+/* White bg?? large text for lighthouse name */
+.lh-list tbody th {
+    font-size: 1.2em;
+    background-color: #630;
+    color: #262626; /* #77bbff;  */
+    text-align: center;
+}
+/*  Add a bit of extra left padding for the state name */
+.lh-list tbody td.title {
+    padding-left: .8em;
+}
+/* Lines at the bottom of each cell, including column headings*/
+.lh-list thead th,
+.lh-list tbody th,
+.lh-list tbody td {
+    border-bottom: 1px solid black;
+}
+
+    /*  Negate the margin between sections */
+    .lh-list tbody th {
+        margin-top: 0;
+        text-align: left;
+    }
+    /* Headings and state names */
+    .lh-list tbody th,
+    .lh-list tbody td.title {
+        display: block;
+        font-size: 1.2em;
+        line-height: 110%;
+        padding: .3em .3em;
+        color: #262626;
+	    background-color: #630;
+    }
+    /*  Hide labels for name */
+    .lh-list tbody th .ui-table-cell-label,
+    .lh-list tbody td.title .ui-table-cell-label {
+        display: none;
+    }
+    /*  Position the name, pad to the left */
+    .lh-list tbody td.title {
+        margin-top: -2.1em;
+        padding-left: 2.2em; 
+        border-bottom: 1px solid black;
+    }
+    /*  Make the data bold */
+    .lh-list th,
+    .lh-list td {
+        font-weight: bold;
+    }
+    /* Make the label elements a percentage width */
+    .lh-list td .ui-table-cell-label,
+    .lh-list th .ui-table-cell-label {
+        min-width: 20%;
+    }
+
+@media ( min-width: 47.5em ) {
+    /* Show the table header rows */
+
+	.lh-list tbody th,
+    .lh-list tbody td,
+    .lh-list thead td,
+    .lh-list thead th 
+	{
+        display: table-cell;
+        margin: 0;
+    }
+	
+	h1
+	{
+	font-size: 4.0em;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	line-height:150%;
+	color: #262626;
+	}
+		
+    /* Hide the labels in each cell */
+    .lh-list td .ui-table-cell-label,
+    .lh-list th .ui-table-cell-label {
+        display: none;
+    }
+	/*Increase the font size for the navigation links*/
+	/*
+	li.navbar
+	{
+	font-size: 1.5em;
+	background-color: #630;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	margin-left:0.4em;
+	margin-right:0.4em;
+	margin-top:0.4em;
+	margin-bottom:0.4em;
+	border: 2px;
+	border-radius:1.0em;
+	border-style: solid;
+	border-color: black;
+	display: inline-flex;
+	font-weight:bold;
+	font-size: 1.5em
+	}}
+	*/
+	@media (min-width:65em)
+	{
+	.lh-list thead th,
+.lh-list tbody th .ui-table-cell-label,
+.lh-list tbody td .ui-table-cell-label {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #262626;
+    font-weight: bold;}
+	}
+	
