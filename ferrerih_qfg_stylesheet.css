@@ -113,13 +113,13 @@ div
 @font-face
 {
     font-family: myFirstFont;
-	src: url("http://ils.unc.edu/~ferrerih/web-dev-project/SFPixelate.ttf");
+	src: url("SFPixelate.ttf");
 }
 @font-face 
 {
     font-family: myFirstFont;
     font-weight: bold;
-    src: url("http://ils.unc.edu/~ferrerih/web-dev-project/SFPixelate-Bold.ttf");
+    src: url("SFPixelate-Bold.ttf");
 }
 .center
 {
@@ -225,18 +225,18 @@ section
 .stone1
 {
 
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-border.png");
+	background-image: url("stone-panel-no-border.png");
     background-size: contain;
 	background-color: transparent;
 	border: 40px solid transparent;
-	border-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/border-image6.png") 34% round;
+	border-image: url("border-image6.png") 34% round;
 }
 ul	
 {
   list-style-type: disc !important;
   list-style: disc !important;
   list-style-position:inside !important;
-  list-style-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/li-red-bullet-smaller.png") !important;
+  list-style-image: url("li-red-bullet-smaller.png") !important;
   padding: 15px;
   background-color: #a6a6a6;
 }
@@ -287,7 +287,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0em 0.4em;
 }
@@ -302,7 +302,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0em 0.4em;
 }
@@ -330,7 +330,7 @@ footer
 	height:151px;
 	font-size: 1em;
 	font-style: italic;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+	background-image: url("stone-panel-no-text1.png");
     background-size: contain;
 	background-color: transparent;
 	padding: 0.8em 0.5em 0.9em 0.5em;
@@ -355,7 +355,7 @@ h1
 	left:15%;
 	height:48px;
 	width:278px;
-    background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+    background-image: url("qfg4-li-b-top2-smaller.jpg");
     background-size: contain;
     color: black;
     text-align:center;
@@ -379,7 +379,7 @@ h1
 }
 li.othernavbar
 {
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-image: url("qfg4-li3.jpg");
 background-size: contain;
 font-size: 1.5em;
 background-color: transparent; /*or #a6a6a6*/
@@ -451,7 +451,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0em 0.6em;
 }
@@ -466,7 +466,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0em 0.6em;
 }
@@ -490,7 +490,7 @@ footer
 	height:167px;
 	font-size: 1em;
 	font-style: italic;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+	background-image: url("stone-panel-no-text1.png");
     background-size: contain;
 	background-color: transparent;
 	padding: 0.5em 0.5em 0.9em 0.5em;
@@ -538,7 +538,7 @@ li.normal
 }
 li.othernavbar
 {
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-image: url("qfg4-li3.jpg");
 background-size: contain;
 font-size: 1.5em;
 background-color: transparent; /*or #a6a6a6*/
@@ -615,7 +615,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -630,7 +630,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -660,7 +660,7 @@ footer
 	height:176px;
 	font-size: 1em;
 	font-style: italic;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+	background-image: url("stone-panel-no-text1.png");
     background-size: contain;
 	background-color: transparent;
 	padding: 0.85em 0.5em 0.9em 0.5em;
@@ -707,7 +707,7 @@ li.normal
 }
 li.othernavbar
 {
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-image: url("qfg4-li3.jpg");
 background-size: contain;
 font-size: 1.5em;
 background-color: transparent; /*or #a6a6a6*/
@@ -783,7 +783,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -798,7 +798,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -829,7 +829,7 @@ footer
 	height:187px;
 	font-size: 1em;
 	font-style: italic;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+	background-image: url("stone-panel-no-text1.png");
     background-size: contain;
 	background-color: transparent;
 	padding: 0.5em 0.7em 0.7em 0.7em;
@@ -879,7 +879,7 @@ text-align: center;
 }
 li.othernavbar
 {
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-image: url("qfg4-li3.jpg");
 background-size: contain;
 font-size: 2em;
 background-color: transparent; /*or #a6a6a6*/
@@ -970,7 +970,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -985,7 +985,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0.2em 0.8em;
 }
@@ -1002,7 +1002,7 @@ footer
 	height:215px;
 	font-size: 1em;
 	font-style: italic;
-	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+	background-image: url("stone-panel-no-text1.png");
     background-size: contain;
 	background-color: transparent;
 	padding: 0.5em 0.5em 0.9em 0.5em;
@@ -1024,7 +1024,7 @@ h1
     font-size: 6.0em; 
     color: black;
     text-align:center;
-    background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+    background-image: url("qfg4-li-b-top2-smaller.jpg");
 	background-size:contain;
     width:50%;
     margin:auto;
@@ -1053,7 +1053,7 @@ h1
 }
 li.othernavbar
 {
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-image: url("qfg4-li3.jpg");
 background-size: contain;
 font-size: 2em;
 background-color: transparent; /*or #a6a6a6*/
@@ -1125,7 +1125,7 @@ h1
 font-size: 6.0em; 
 color: black;
 text-align:center;
-background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+background-image: url("qfg4-li-b-top2-smaller.jpg");
 background-size:contain;
 width:50%;
 margin:auto;
