@@ -55,11 +55,11 @@ echo <<<_END
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<!--Bootstrap-->
-		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<!--my stylesheet-->
-		<link rel="stylesheet" type="text/css" href="https://ils.unc.edu/~ferrerih/lect2/ferrerih_p2_stylesheet.css">		
+		<link rel="stylesheet" type="text/css" href="ferrerih_p2_stylesheet.css">		
 	</head>
 	<body>
 	<div class="container">
@@ -128,12 +128,12 @@ if ($result)
 		<div>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">
 			<img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
 			</a>
 		</div>
 		<br />
-		<div>Last updated on 2/23/2016.</div>
+		<div>Last updated on 3/9/2016.</div>
 		</footer>
 		<div>
 		</body>
@@ -166,12 +166,12 @@ _END;
 			<div>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer">
 				<img style="border:0;width:88px;height:31px"
-				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				src="https://jigsaw.w3.org/css-validator/images/vcss"
 				alt="Valid CSS!" />
 				</a>
 			</div>
 			<br />
-			<div>Last updated on 2/23/2016.</div>
+			<div>Last updated on 3/9/2016.</div>
 		</footer>
 		</div>
 		</body>
@@ -207,12 +207,12 @@ _END;
 			<div>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer">
 				<img style="border:0;width:88px;height:31px"
-				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				src="https://jigsaw.w3.org/css-validator/images/vcss"
 				alt="Valid CSS!" />
 				</a>
 			</div>
 			<br />
-			<div>Last updated on 2/23/2016.</div>
+			<div>Last updated on 3/9/2016.</div>
 		    </footer>
         </div>
         </body>

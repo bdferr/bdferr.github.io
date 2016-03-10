@@ -1,5 +1,5 @@
 <?php
-// this should be accessible at http://ils.unc.edu/~ferrerih/lect2/ferrerih_p4_results.php?searchtext=people
+// this may still be accessible at http://ils.unc.edu/~ferrerih/lect2/ferrerih_p4_results.php?searchtext=people
 $sqlquery = "";
 $videoresult = "";
 $imgsrc = "";
@@ -18,24 +18,18 @@ echo <<<_END
 	</title>
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<meta name="author" content="Brendan Ferreri-Hanberry">
-    <meta name="description" content="Last modified 3/4/2016"> 
+    <meta name="description" content="Last modified 3/9/2016"> 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
-	<!--Popovers and tooltips-->
-	<!--
-	<script src=http://maxcdn.bootstrapcdn.com/bootstrap/js/bootstrap-tooltip.js" type="text/javascript"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/js/bootstrap-popover.js" type="text/javascript"></script>-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<!--my stylesheet-->
 	<link rel="stylesheet" type="text/css" href="ferrerih_p4_stylesheet.css">
 _END;
 
 echo <<<_END
-<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-</script>
 <script>
 var fieldtext = "";
 var suggestion = "";
@@ -173,22 +167,21 @@ echo <<<_END
 		<div>
 			<ul>
 				<li class="navbar"><address><a href="mailto:skepticism9@gmail.com">Contact Me</a></address></li>
-				<li class="navbar"><a href="http://ils.unc.edu/~ferrerih/web-dev-project/main-page-2.html">Main Site</a></li>
+				<li class="navbar"><a href="main-page-2.html">Main Site</a></li>
 			</ul>
 		</div>
 		<br />
 		<div>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">
 				<img style="border:0;width:88px;height:31px"
-					src="http://jigsaw.w3.org/css-validator/images/vcss"
+					src="https://jigsaw.w3.org/css-validator/images/vcss"
 					alt="Valid CSS!" />
 			</a>
 		</div>
 		<br />
-		<div>Last updated on 3/4/2016.</div>
+		<div>Last updated on 3/9/2016.</div>
 	</footer>
 </body>
 </html>
 _END;
-
 ?>
