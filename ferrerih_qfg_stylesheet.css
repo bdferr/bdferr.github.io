@@ -1,0 +1,1148 @@
+/*last updated 2/22/2016*/
+
+#eye-icon
+{
+max-height: 50px;
+max-width: 50px;
+}
+#hand-icon
+{
+	max-height:71px;
+	max-width:80px;
+}
+
+#mouth-icon
+{
+ max-height:64px;
+ max-width: 66px;
+}
+
+#red-bullet
+{
+	max-height: 15px;
+	max-width: 17px;
+}
+
+#stone-panel1
+{
+max-height:450px;
+max-width:730px;
+}
+#stone-panel2
+{
+max-height:450px;
+max-width:730px;
+}
+#sword-icon
+{
+	max-height:62px;
+	max-width:70px;
+}
+
+
+
+a:link
+{
+	display:inline;
+	color: #333; /*alternatively #604E3D; #006E00; darkgreen*/
+	text-decoration:none;
+	font-weight:normal;
+	padding-top:0em !important;
+}
+a:hover
+{
+	display:inline;
+    color: #b30000 !important; /*previously silver, #000099;*/
+    text-decoration:none;
+	font-weight:bold;
+}
+a:visited
+{
+	display:inline;
+	color: #333; /*alternatively #604E3D;*/
+	text-decoration:none;
+	font-weight:normal;
+}
+li.othernavbar a:hover, li.footernavbar a:hover
+{
+    color: #b30000; /*previously #000099;*/
+	background-color: transparent;
+    text-decoration:none;
+}
+address
+{
+	display:inline-flex;
+	line-height:1;
+}
+body 
+{
+  font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+  font-size: 100%;
+  margin:auto;
+  width: 100%;
+  height:100%;
+  overflow:auto;
+  font-weight:normal;
+  background: #a6a6a6;
+  border: none;
+  padding: 0em;
+  }
+
+.carousel-indicators li
+{
+	border-color: #b30000 !important;
+}
+
+.carousel-indicators .active
+{
+	background-color: #b30000 !important;
+}
+div
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size:100%;
+	color:#333;
+}
+.footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont;
+	line-height: 85%;
+	text-align:center;
+}
+
+@font-face
+{
+    font-family: myFirstFont;
+	src: url("http://ils.unc.edu/~ferrerih/web-dev-project/SFPixelate.ttf");
+}
+@font-face 
+{
+    font-family: myFirstFont;
+    font-weight: bold;
+    src: url("http://ils.unc.edu/~ferrerih/web-dev-project/SFPixelate-Bold.ttf");
+}
+.center
+{
+    font-family: "Pixelar Regular W01 Regular", myFirstFont !important;
+	width:90%;
+	margin:0em auto;
+	font-size:2.5em;
+}
+
+.dropdown
+{
+	max-width:180px;
+	margin:auto;
+	font-family: "Pixelar Regular W01 Regular" !important;
+}
+.dropdown-menu
+{
+    position: absolute;
+	top:100%;
+	left:0%;
+    z-index: 10;
+
+    min-width: 10em;
+    padding: 0;
+    margin: auto;
+	background-color:#a6a6a6;
+    font-size: 2em;
+    text-align: left;
+	list-style-type: disc;
+	list-style: disc;
+	list-style-position:inside !important;
+}
+ul.dropdown-menu a:link
+{
+	color: #333; 
+	/*alternatively #604E3D; #006E00; darkgreen*/
+	text-decoration:none;
+	background-color:transparent;
+	font-weight:normal;
+}
+ul.dropdown-menu a:hover
+{
+    color: #b30000 !important; /*previously #000099;*/
+	text-decoration:none;
+	background-color:transparent;
+	font-weight:bold;
+}
+ul.dropdown-menu a:visited
+{
+	color: #333; /*alternatively #604E3D;*/
+	text-decoration:none;
+	font-weight:normal;
+}
+
+header
+{
+	text-align: center;
+	color: #000;
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-weight: normal;
+	margin-left:0.938em;
+	margin-right:0.938em;
+	background: transparent;
+}
+
+h2
+{
+  font-size:2.0em;
+  font-weight:bold;
+  font-style:normal;
+}
+hr
+{
+   border: 0px;
+   margin-top: 0.625em;
+   margin-bottom: 0.625em;
+   width: 100%;
+   color: #000;
+   background-color: #000;
+   height: 0.125em;
+}
+html
+{
+	height:100% !important;
+}
+img
+{
+display: block;
+margin: auto; 
+text-align: center;
+}
+
+
+section 
+{
+  background-color: transparent; /*or #a6a6a6*/
+  margin:auto;
+  padding: 0em;
+  width: 100%;
+  line-height:100%;
+  color:black;
+}
+.stone1
+{
+
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-border.png");
+    background-size: contain;
+	background-color: transparent;
+	border: 40px solid transparent;
+	border-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/border-image6.png") 34% round;
+}
+ul	
+{
+  list-style-type: disc !important;
+  list-style: disc !important;
+  list-style-position:inside !important;
+  list-style-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/li-red-bullet-smaller.png") !important;
+  padding: 15px;
+  background-color: #a6a6a6;
+}
+/*responsive elements*/
+/*images sized at 40%*/
+#actions-menu
+{
+max-height:126px;
+max-width:170px;
+}
+#general-store-menu
+{
+max-height:120px;
+max-width:192px;
+}
+#intro-menu
+{
+	height:136px;
+	width:191px;
+}
+#inventory
+{
+max-height:115px;
+max-width:200px;
+}
+#magic-spells
+{
+max-height:115px;
+max-width:200px;
+}
+#settings-menu
+{
+max-height:126px;
+max-width:188px;
+}
+#text-screenshot1
+{ 
+max-height: 135px;
+max-width: 225px;
+}
+button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+    background-size: contain;
+	padding:0em 0.4em;
+}
+.btn.blur,
+.btn.active, .btn-primary.active.blur, 
+.btn-primary:active.blur, 
+.open>.dropdown-toggle.btn-primary.blur, 
+.btn-primary.blur
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-size: contain;
+	padding:0em 0.4em;
+}
+.container
+{
+margin:0;
+padding:0 0 80px 0;
+width:100%;
+height:auto;
+font-size: 100%;
+background-image: url("drcranium-lab2.jpg");
+background-position: 40% 0%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+}
+
+#feet-icon
+{
+display:none;
+}
+footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important;
+	width:258px;
+	height:151px;
+	font-size: 1em;
+	font-style: italic;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+    background-size: contain;
+	background-color: transparent;
+	padding: 0.8em 0.5em 0.9em 0.5em;
+	margin: 0.5em auto;
+	overflow:auto;
+}
+#game-toolbar2
+{
+max-height:35px;
+max-width:354px;
+position: fixed;
+top: 0;
+left: 8%;
+z-index:16;
+}
+h1
+{
+	font-size:3.5em;
+	padding:0.2em;
+	position:absolute;
+	top:25px;
+	left:15%;
+	height:48px;
+	width:278px;
+    background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+    background-size: contain;
+    color: black;
+    text-align:center;
+    margin:auto;
+}
+
+#li-bottom
+{
+	background-image: url("qfg4-li-b-bottom-smallest2.png");
+	background-size:contain;
+	background-color: transparent;
+	line-height:80% !important;
+	padding: 0em 0.8em 0.5em 0.5em !important;
+}
+#li-top
+{
+	background-image: url("qfg4-li-b-top2-smallest.png");
+	background-size:contain;
+	padding:0.5em 0.5em 0.5em 0.5em !important;
+	height:60px;
+}
+li.othernavbar
+{
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-size: contain;
+font-size: 1.5em;
+background-color: transparent; /*or #a6a6a6*/
+padding:0em 0.5em;
+margin:0;
+width:210px;
+display: block;
+font-style:normal;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.offset
+{
+	position:relative;
+	top: 72px;
+}
+@media (min-width: 30em) and (max-width:40em)
+{
+/*images sized at 40%*/
+#actions-menu
+{
+max-height:126px;
+max-width:170px;
+}
+#general-store-menu
+{
+max-height:120px;
+max-width:192px;
+}
+#inventory
+{
+max-height:115px;
+max-width:200px;
+}
+#intro-menu
+{
+	height:136px;
+	width:191px;
+}
+#magic-spells
+{
+max-height:115px;
+max-width:200px;
+}
+#settings-menu
+{
+max-height:126px;
+max-width:188px;
+}
+#text-screenshot1
+{ 
+max-height: 135px;
+max-width: 225px;
+}
+.container
+{
+background-image: url("drcranium-lab2.jpg");
+background-position: 40% 0%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+padding:0 0 120px 0;
+}
+button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+    background-size: contain;
+	padding:0em 0.6em;
+}
+.btn.blur,
+.btn.active, .btn-primary.active.blur, 
+.btn-primary:active.blur, 
+.open>.dropdown-toggle.btn-primary.blur, 
+.btn-primary.blur
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-size: contain;
+	padding:0em 0.6em;
+}
+.center
+{
+    font-family: "Pixelar Regular W01 Regular", myFirstFont !important;
+	width:80%;
+	margin:0em auto;
+	font-size:3em;
+}
+#feet-icon
+{
+display:block;
+max-height: 28px;
+max-width: 23px;
+}
+footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important;
+	width:287px;
+	height:167px;
+	font-size: 1em;
+	font-style: italic;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+    background-size: contain;
+	background-color: transparent;
+	padding: 0.5em 0.5em 0.9em 0.5em;
+	margin: 0.5em auto;
+	overflow:auto;
+}
+
+#game-toolbar2
+{
+max-height:35px;
+max-width:354px;
+position: fixed;
+top: 0;
+left: 16%;
+z-index:16;
+}
+h1
+{
+	font-size:3.5em;
+	padding:0.5em;
+	position:absolute;
+	top:35px;
+	left:10%;
+	height:72px;
+	width:422px;
+}
+#li-bottom
+{
+	background-image: url("qfg4-li-b-bottom-smallest2.png");
+	background-size:contain;
+	background-color: transparent;
+	line-height:80% !important;
+	padding: 0em 0.5em 0.7em 0.5em !important;
+}
+#li-top
+{
+	background-image: url("qfg4-li-b-top2-smallest.png");
+	background-size:contain;
+	padding:0.5em 0.5em 0.5em 0.5em !important;
+	height:65px;
+}
+li.normal
+{
+	padding: 2px 15px 3px 15px!important;
+}
+li.othernavbar
+{
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-size: contain;
+font-size: 1.5em;
+background-color: transparent; /*or #a6a6a6*/
+padding:0em 0.5em;
+margin:0;
+width:230px;
+display: block;
+font-style:normal;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.offset
+{
+	position:relative;
+	top: 106px;
+}
+section
+{
+  background-color: transparent; /*or #a6a6a6*/
+  margin:auto;
+  padding: 0.3em;
+  width: 100%;
+  height:80%;
+  line-height:100%;
+  color:black;
+}
+
+}
+
+@media (min-width:40em) and (max-width:55em)
+{
+/*images sized at 50%*/
+#actions-menu
+{
+max-height:158px;
+max-width:213px;
+}
+#general-store-menu
+{
+max-height:150px;
+max-width:240px;
+}
+#intro-menu
+{
+	height:170px;
+	width:239px;
+}
+#inventory
+{
+max-height:144px;
+max-width:250px;
+}
+#magic-spells
+{
+max-height:144px;
+max-width:250px;
+}
+#settings-menu
+{
+max-height:157px;
+max-width:235px;
+}
+#text-screenshot1
+{ 
+max-height: 169px;
+max-width: 282px;
+}
+button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3.5em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+    background-size: contain;
+	padding:0.2em 0.8em;
+}
+.btn.blur,
+.btn.active, .btn-primary.active.blur, 
+.btn-primary:active.blur, 
+.open>.dropdown-toggle.btn-primary.blur, 
+.btn-primary.blur
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 3.5em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-size: contain;
+	padding:0.2em 0.8em;
+}
+.center
+{
+	width:67%;
+	font-size:3em;
+}
+.container
+{
+background-image: url("drcranium-lab2.jpg");
+background-position: 40% 0%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+padding:0 0 150px 0;
+}
+#feet-icon
+{
+max-height: 45px;
+max-width: 34px;
+display:block;
+}
+footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important;
+	width:298px;
+	height:176px;
+	font-size: 1em;
+	font-style: italic;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+    background-size: contain;
+	background-color: transparent;
+	padding: 0.85em 0.5em 0.9em 0.5em;
+	margin: 0.5em auto;
+	overflow:auto;
+}
+#game-toolbar2
+{
+max-height:50px;
+max-width:506px;
+position: fixed;
+top: 0;
+left: 16%;
+z-index:16;
+}
+h1
+{
+	font-size:4.0em;
+	padding:0.8em;
+	position:absolute;
+	top:50px;
+	left:13%;
+	height:97px;
+	width:566px;
+}
+#li-bottom
+{
+	background-image: url("qfg4-li-b-bottom-smallest2.png");
+	background-size:contain;
+	background-color: transparent;
+	line-height:80% !important;
+	padding: 0em 0.5em 0.7em 0.5em !important;
+}
+#li-top
+{
+	background-image: url("qfg4-li-b-top2-smallest.png");
+	background-size:contain;
+	padding:0.5em 0.5em 0.5em 0.5em !important;
+	height:65px;
+}
+li.normal
+{
+	padding: 2px 15px 3px 15px!important;
+}
+li.othernavbar
+{
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-size: contain;
+font-size: 1.5em;
+background-color: transparent; /*or #a6a6a6*/
+padding:0em 0.5em;
+margin:0;
+width:230px;
+display: block;
+font-style:normal;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.offset
+{
+	position:relative;
+	top: 147px;
+}
+section
+{
+  background-color: transparent; /*or #a6a6a6*/
+  margin:auto;
+  padding: 0.6em;
+  width: 100%;
+  height:80%;
+  line-height:100%;
+  color:black;
+}
+}
+
+@media (min-width:55em) and (max-width:70em)
+{
+/*images sized at 75%*/
+#actions-menu
+{
+max-height:237px;
+max-width:319px;
+}
+#general-store-menu
+{
+max-height:225px;
+max-width:360px;
+}
+#intro-menu
+{
+	height:254px;
+	width:358px;
+}
+#inventory
+{
+max-height:215px;
+max-width:375px;
+}
+#magic-spells
+{
+max-height:215px;
+max-width:375px;
+}
+#settings-menu
+{
+max-height:237px;
+max-width:353px;
+}
+#text-screenshot1
+{ 
+max-height: 256px;
+max-width: 422px;
+}
+button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 4em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+    background-size: contain;
+	padding:0.2em 0.8em;
+}
+.btn.blur,
+.btn.active, .btn-primary.active.blur, 
+.btn-primary:active.blur, 
+.open>.dropdown-toggle.btn-primary.blur, 
+.btn-primary.blur
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 4em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-size: contain;
+	padding:0.2em 0.8em;
+}
+.center
+{
+	width:55%;
+	margin:0em auto;
+	font-size:3.5em;
+}
+.container
+{
+background-image: url("drcranium.jpg"), url("drcranium-lab2.jpg");
+background-position: 0% 0%, 40% 0%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+padding:0 0 215px 0;
+}
+#feet-icon
+{
+max-height: 55px;
+max-width: 47px;
+display:block;
+}
+footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important;
+	width:320px;
+	height:187px;
+	font-size: 1em;
+	font-style: italic;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+    background-size: contain;
+	background-color: transparent;
+	padding: 0.5em 0.7em 0.7em 0.7em;
+	margin: 0.5em auto;
+	overflow:auto;
+}
+#game-toolbar2
+{
+max-height:75px;
+max-width:759px;
+position: fixed;
+top: 0;
+left: 12%;
+z-index:16;
+}
+h1
+{
+	font-size:5.0em;
+	padding:0.8em;
+	position:absolute;
+	top:75px;
+	left:12%;
+	height:131px;
+	width:768px;
+}
+img
+{
+display: block; 
+margin: auto; 
+text-align: center; 
+}
+
+#li-bottom
+{
+	background-image: url("qfg4-li-b-bottom-smallest2.png");
+	background-size:contain;
+	background-color: transparent;
+	line-height:80% !important;
+	padding: 0em 0.5em 0.5em 0.5em !important;
+}
+#li-top
+{
+	background-image: url("qfg4-li-b-top2-smallest.png");
+	background-size:contain;
+	padding:0.4em 0.5em 0.7em 0.5em !important;
+	height:79px;
+}
+li.othernavbar
+{
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-size: contain;
+font-size: 2em;
+background-color: transparent; /*or #a6a6a6*/
+padding:0em 0.5em;
+margin:0;
+width:280px;
+display: block;
+font-style:normal;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.offset
+{
+	position:relative;
+	top: 207px;
+}
+section
+{
+  background-color: transparent; /*or #a6a6a6*/
+  margin:auto;
+  padding: 0.8em;
+  width: 100%;
+  height:80%;
+  line-height:100%;
+  color:black;
+}
+
+}
+
+@media (min-width:70em)
+{
+/*images sized at 85%*/
+#actions-menu
+{
+max-height:269px;
+max-width:361px;
+}
+#general-store-menu
+{
+max-height:255px;
+max-width:408px;
+}
+#intro-menu
+{
+	height:288px;
+	width:405px;
+}
+#inventory
+{
+max-height:244px;
+max-width:425px;
+}
+#magic-spells
+{
+max-height:244px;
+max-width:425px;
+}
+#settings-menu
+{
+max-height:268px;
+max-width:400px;
+}
+#text-screenshot1
+{ 
+max-height: 287px;
+max-width: 479px;
+}
+.center
+{
+	width:50%;
+	margin:0em auto;
+	font-size:4em;
+}
+.container
+{
+background-image: url("drcranium.jpg"), url("drcranium-lab2.jpg");
+background-position: 0% 0%, 40% 0%;
+background-repeat: no-repeat;
+background-attachment:fixed;
+padding:0 0 240px 0;
+}
+button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 4em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+    background-size: contain;
+	padding:0.2em 0.8em;
+}
+.btn.blur,
+.btn.active, .btn-primary.active.blur, 
+.btn-primary:active.blur, 
+.open>.dropdown-toggle.btn-primary.blur, 
+.btn-primary.blur
+{
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 4em;
+	color:black !important;
+	border:none !important;
+	border-color:transparent !important;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-button.jpg") !important;
+	background-size: contain;
+	padding:0.2em 0.8em;
+}
+#feet-icon
+{
+max-height: 55px;
+max-width: 47px;
+display:block;
+}
+footer
+{
+	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important;
+	width:368px;
+	height:215px;
+	font-size: 1em;
+	font-style: italic;
+	background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/stone-panel-no-text1.png");
+    background-size: contain;
+	background-color: transparent;
+	padding: 0.5em 0.5em 0.9em 0.5em;
+	margin: 0.5em auto;
+	overflow:auto;
+}
+
+#game-toolbar2
+{
+max-height:100px;
+max-width:1012px;
+position: fixed;
+top: 0;
+left: 12%;
+z-index:16;
+}
+h1
+{
+    font-size: 6.0em; 
+    color: black;
+    text-align:center;
+    background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+	background-size:contain;
+    width:50%;
+    margin:auto;
+    padding:1em;
+	position:absolute;
+	top:100px;
+    left:20%;
+	height:131px;
+	width:768px;
+}
+
+#li-bottom
+{
+	background-image: url("qfg4-li-b-bottom-smallest2.png");
+	background-size:contain;
+	background-color: transparent;
+	line-height:80% !important;
+	padding: 0em 0.5em 0.5em 0.5em !important;
+}
+#li-top
+{
+	background-image: url("qfg4-li-b-top2-smallest.png");
+	background-size:contain;
+	padding:0.4em 0.5em 0.7em 0.5em !important;
+	height:79px;
+}
+li.othernavbar
+{
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li3.jpg");
+background-size: contain;
+font-size: 2em;
+background-color: transparent; /*or #a6a6a6*/
+padding:0em 0.5em;
+margin:0;
+width:280px;
+display: block;
+font-style:normal;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.offset
+{
+	position:relative;
+	top: 232px;
+}
+section
+{
+  background-color: transparent; /*or #a6a6a6*/
+  margin:auto;
+  padding: 1em;
+  width: 100%;
+  height:80%;
+  line-height:100%;
+  color:black;
+}
+
+}
+@media (min-width:85em)
+{
+/*images at full size*/
+#actions-menu
+{
+max-height:316px;
+max-width:425px;
+}
+#general-store-menu
+{
+max-height:300px;
+max-width:480px;
+}
+#intro-menu
+{
+	height:339px;
+	width:477px;
+}
+#inventory
+{
+max-height:287px;
+max-width:500px;
+}
+#magic-spells
+{
+max-height:287px;
+max-width:500px;
+}
+
+#settings-menu
+{
+max-height:315px;
+max-width:470px;
+}
+#text-screenshot1
+{ 
+max-height: 338px;
+max-width: 563px;
+}
+h1
+{
+font-size: 6.0em; 
+color: black;
+text-align:center;
+background-image: url("http://ils.unc.edu/~ferrerih/web-dev-project/qfg4-li-b-top2-smaller.jpg");
+background-size:contain;
+width:50%;
+margin:auto;
+padding:1em;
+position:absolute;
+top:100px;
+left:25%;
+height:131px;
+width:768px;
+}
+#game-toolbar2
+{
+max-height:100px;
+max-width:1012px;
+position: fixed;
+top: 0;
+left: 18%;
+z-index:16;
+}
+}
