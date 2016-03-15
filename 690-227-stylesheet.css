@@ -334,7 +334,14 @@ text-align: center;
 height:16em;
 width:30em;
 }
-
+img.profile-pic
+{ 
+display: block; 
+margin: auto; 
+text-align: center;
+height: 16em;
+width: 22em;
+}
 li.navbar
 {
 font-size: 1.5em;
@@ -467,6 +474,14 @@ margin: auto;
 text-align: center;
 height: 21.6em;
 width: 40.625em;
+}
+img.profile-pic
+{ 
+display: block; 
+margin: auto; 
+text-align: center;
+height: 21.6em;
+width: 32em;
 }
 li.navbar
 {
