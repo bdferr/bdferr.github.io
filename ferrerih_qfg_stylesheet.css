@@ -227,8 +227,8 @@ section
 	background-image: url("stone-panel-no-border-best.png");
     background-size: contain;
 	background-color: transparent;
-	border: 40px solid transparent;
-	border-image: url("border-image6.png") 34% round;
+	border: 30px solid transparent;
+	border-image: url("border-image6.png") 30% round;
 }
 ul	
 {
