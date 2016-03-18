@@ -1,4 +1,4 @@
-/*last updated 2/22/2016*/
+/*last updated 3/18/2016*/
 
 #eye-icon
 {
@@ -38,7 +38,6 @@ max-width:730px;
 	max-height:62px;
 	max-width:70px;
 }
-
 
 
 a:link
@@ -225,7 +224,7 @@ section
 .stone1
 {
 
-	background-image: url("stone-panel-no-border.png");
+	background-image: url("stone-panel-no-border-best.png");
     background-size: contain;
 	background-color: transparent;
 	border: 40px solid transparent;
