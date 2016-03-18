@@ -140,11 +140,10 @@ div
 	top:100%;
 	left:0%;
     z-index: 10;
-
     min-width: 10em;
     padding: 0;
     margin: auto;
-	background-color:#a6a6a6;
+	background-color:transparent;
     font-size: 2em;
     text-align: left;
 	list-style-type: disc;
@@ -228,7 +227,7 @@ section
     background-size: contain;
 	background-color: transparent;
 	border: 40px solid transparent;
-	border-image: url("border-image6.png") 27% round;
+	border-image: url("border-image6.png") 28.5% round;
 }
 ul	
 {
