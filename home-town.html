@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="690-227-stylesheet.css">
     <style type="text/css">
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeA2BQSNITyOING0Rwsfq6-Mcdm0dm_90"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBeA2BQSNITyOING0Rwsfq6-Mcdm0dm_90"></script>
     <script>
 		var map;
 		var myloc;
@@ -59,10 +59,8 @@
 			zoomControlOptions: {
 			style: google.maps.ZoomControlStyle.SMALL
 		  }
-
-		};
-		  
-		  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+		}
+        var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 		var map = new google.maps.Map(document.getElementById("map-canvas"),
 			  mapOptions);
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
@@ -78,11 +76,10 @@
 			  content: contentString
 			  });
 			google.maps.event.addListener(marker, 'click', function() {
-			infowindow.open(map, marker)});
+			infowindow.open(map, marker);});
 		};
     </script>
 </head>
-  
 <body onload="initialize()">
 <script>
 	function myFunction() {
@@ -104,7 +101,7 @@
 		</ul>
 	</nav>
 	<hr>
-	<canvas id="map-canvas"></div>
+	<canvas id="map-canvas"></canvas>
 	<hr>
 </header>
 <br />
