@@ -39,7 +39,7 @@
 			}
 		  ];
 		  var mapOptions = {
-			zoom: 13,
+			zoom: 16,
 			center: new google.maps.LatLng(38.0400874,-78.4849739),
 			  panControl: false,
 			zoomControl: true,
@@ -59,7 +59,7 @@
 			zoomControlOptions: {
 			style: google.maps.ZoomControlStyle.SMALL
 		  }
-		}
+		};
         var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
 		var map = new google.maps.Map(document.getElementById("map-canvas"),
 			  mapOptions);
@@ -70,7 +70,7 @@
 		var marker = new google.maps.Marker({
 			  position: millersloc,
 			  map: map,
-			  title: "My first marker"});
+			  title: "Downtown Mall"});
 			var contentString = "<div>This is the Downtown Mall, <br />which includes Miller's, a major venue <br />for jazz music in Charlottesville.</div>";
 			var infowindow = new google.maps.InfoWindow({
 			  content: contentString
@@ -107,7 +107,9 @@
 <br />
 <br />
 <section class="center">
-	<p id="addressing-user">	<button onclick="myFunction()">Click here first!</button></p>
+	<p id="addressing-user">	
+	    <button onclick="myFunction()">Introduce yourself</button>
+	</p>
 	<p>This is Charlottesville, Virginia, the town in which I was born and have spent most of my life outside of college.
 	Major attractions include the <a href="http://www.cvillepedia.org/mediawiki/index.php/Downtown_Mall">Downtown Mall</a>, a bricked-over pedestrian area which dates back to the 1970s.
 	This is a typical feature of cities in Germany, where such areas are called Fu&szlig;g&auml;ngerzonen ("pedestrian zones"), but is unusual in the United States.
