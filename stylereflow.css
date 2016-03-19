@@ -1,4 +1,4 @@
-/*Last updated 1/25/2016*/
+/*Last updated 3/18/2016*/
 
 a
 {
@@ -196,7 +196,20 @@ section.center
 	max-width:80%;
 	margin:auto;
 	}
-	
+@media (max-width: 30em)
+{
+figcaption
+{
+	display: none;
+}
+}
+@media (min-width:30em)
+{
+figcaption
+{
+	display:block;
+}
+}
 @media ( min-width: 47.5em ) 
 {
     /* Show the table header rows */
