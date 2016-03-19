@@ -223,7 +223,7 @@ figcaption
     padding:1.2em;
 }
 }
-	table
+	.table
 	{
 		padding-left:1.2em;
 		padding-right:1.2em;
@@ -261,7 +261,7 @@ figcaption
 	margin:auto;
 	padding: 1.5em;
 	}
-	table
+	.table
 	{
 		padding-left:2em;
 		padding-right:2em;
