@@ -63,7 +63,7 @@
 		};
 		  
 		  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-		var map = new google.maps.Map(document.getElementById("map-canvas"),
+		var map = new google.maps.Map(document.getElementsByName("canvas")[0],
 			  mapOptions);
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 		  
@@ -105,7 +105,7 @@
 		</ul>
 	</nav>
 	<hr>
-	<div class = "map-canvas" id="map-canvas"></div>
+	<canvas></div>
 	<hr>
 </header>
 <br />

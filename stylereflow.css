@@ -1,4 +1,4 @@
-/*Last updated 3/18/2016*/
+/*Last updated 3/19/2016*/
 
 a
 {
@@ -110,11 +110,6 @@ section  {
   width: 80%;
 }
 
-section.center
-{
-	max-width:60%;
-	margin:auto;
-}
 
 /*Here are the rules specific to table design:*/
 /*Add a bit of extra left padding for the state name */
@@ -191,7 +186,7 @@ section.center
 		margin: -.4em 1em -.4em 0.4em;
     }
 
-	section.center
+	.center
 	{
 	max-width:80%;
 	margin:auto;
@@ -210,7 +205,6 @@ figcaption
 {
 	font-size: 0.75em;
 }
-
 }
 @media (min-width:30em)
 {
@@ -220,13 +214,13 @@ figcaption
 }
 .center
 {
-    padding:1.2em;
+    padding:1.5em;
 }
 }
 	.table
 	{
-		padding-left:1.2em;
-		padding-right:1.2em;
+		padding-left:1.5em;
+		padding-right:1.5em;
 	}
 @media ( min-width: 47.5em ) 
 {
@@ -255,11 +249,11 @@ figcaption
 	{
 	font-size: 1.5em
 	}
-	section.center
+	.center
 	{
 	max-width:60%;
 	margin:auto;
-	padding: 1.5em;
+	padding: 2em;
 	}
 	.table
 	{
@@ -279,11 +273,11 @@ figcaption
     color: black;
     font-weight: bold;
 	}
-	section.center
+	.center
 {
 	max-width:50%;
 	margin:auto;
-	padding: 2em;
+	padding: 2.5em;
 }
 	h1
 	{font-size: 4.0em}
