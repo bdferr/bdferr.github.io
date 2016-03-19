@@ -4,9 +4,9 @@
 <head>
     <title>Home Town</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 	<meta name="author" content="Brendan Ferreri-Hanberry">
-    <meta name="description" content="Last modified 3/14/2016">  
+    <meta name="description" content="Last modified 3/19/2016">  
     <link rel="stylesheet" type="text/css" href="690-227-stylesheet.css">
     <style type="text/css">
     </style>
@@ -63,7 +63,7 @@
 		};
 		  
 		  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-		var map = new google.maps.Map(document.getElementById("map-canvas"),
+		var map = new google.maps.Map(document.getElementsByName("canvas")[0],
 			  mapOptions);
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 		  
@@ -82,15 +82,14 @@
 		};
     </script>
 </head>
-
-   
-  <body onload="initialize()">
+  
+<body onload="initialize()">
 <script>
 	function myFunction() {
 		var person = prompt("Please enter your name.", "your name goes here");
 			if (person != null) {
 			document.getElementById("addressing-user").innerHTML =
-			"Hello, " + person + "! Behold the power of Javascript.";
+			"Hello, " + person + "! Welcome to my home town page.";
 		}
 	}
 </script>
@@ -105,16 +104,16 @@
 		</ul>
 	</nav>
 	<hr>
-	<div class = "map-canvas" id="map-canvas"></div>
+	<canvas></div>
 	<hr>
 </header>
 <br />
 <br />
 <section class="center">
 	<p id="addressing-user">	<button onclick="myFunction()">Click here first!</button></p>
-	<p>This is Charlottesville, Virginia, the town in which I was born and have spent most of my life.
+	<p>This is Charlottesville, Virginia, the town in which I was born and have spent most of my life outside of college.
 	Major attractions include the <a href="http://www.cvillepedia.org/mediawiki/index.php/Downtown_Mall">Downtown Mall</a>, a bricked-over pedestrian area which dates back to the 1970s.
-	This is a typical feature of cities in Germany, where such areas are called Fußgängerzonen ("pedestrian zones"), but is unusual in the United States.
+	This is a typical feature of cities in Germany, where such areas are called Fu&szlig;g&amul;ngerzonen ("pedestrian zones"), but is unusual in the United States.
 	Charlottesville is the home of the University of Virginia, one of the <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges/uva-6968">highest-rated colleges</a> in the US, 
 	whose notable students have included the great American horror writer <a href="http://news.virginia.edu/content/university-virginia-spirit-poe-resides-evermore">Edgar Allan Poe</a>.
 	The well-known <a href="http://www.theatlantic.com/entertainment/archive/2014/09/the-dave-matthew-band-true-originals-under-the-table-and-dreaming-at-20/380806/">Dave Matthews Band</a> was also formed in this town, 
@@ -142,11 +141,11 @@
 	<div>
 		<a href="http://jigsaw.w3.org/css-validator">
 			<img style="border:0;width:88px;height:31px"
-				src="http://jigsaw.w3.org/css-validator/images/vcss"
+				src="https://jigsaw.w3.org/css-validator/images/vcss"
 				alt="Valid CSS!" />
 		</a>
 	</div>
-	<div>Last updated on 3/14/2016.</div>
+	<div>Last updated on 3/19/2016.</div>
 	</section>
 </footer>
 </body>

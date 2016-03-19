@@ -44,7 +44,7 @@ margin: 0em 10px 0em 20px;
 display: inline-flex;
 }
 
-div.map-canvas
+canvas
 {
 	height: 12.5em;
 	width: 18.75em;
@@ -288,7 +288,7 @@ div.third
     float: left;
 	margin:0em;
 }
-div.map-canvas
+canvas
   {
 	height: 25em;
 	width: 37.5em;
@@ -415,7 +415,7 @@ div.left
 	margin-right:0em;
 	margin-left: 1.0em;
 }
-div.map-canvas
+canvas
 {
     height: 25em;
 	width: 37.5em;
