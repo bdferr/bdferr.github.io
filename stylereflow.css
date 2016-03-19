@@ -208,7 +208,7 @@ section.center
 {
 figcaption
 {
-	display: none;
+	font-size: 0.75em;
 }
 
 }
@@ -216,7 +216,7 @@ figcaption
 {
 figcaption
 {
-	display:block;
+	font-size: 1em;
 }
 .center
 {
