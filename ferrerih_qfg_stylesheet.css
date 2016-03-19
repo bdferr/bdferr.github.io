@@ -222,9 +222,8 @@ section
 }
 .stone1
 {
-
 	background-image: url("stone-panel-no-border-best.png");
-    background-size: contain;
+    background-size: initial;
 	background-color: transparent;
 	border: 40px solid transparent;
 	border-image: url("border-image8.png") 27.5% round;
