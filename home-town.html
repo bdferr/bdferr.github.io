@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="690-227-stylesheet.css">
     <style type="text/css">
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeA2BQSNITyOING0Rwsfq6-Mcdm0dm_90&callback=initialize"></script>
     <script>
 		var map;
 		var myloc;
@@ -63,7 +63,7 @@
 		};
 		  
 		  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-		var map = new google.maps.Map(document.getElementsByName("canvas")[0],
+		var map = new google.maps.Map(document.getElementById("map-canvas"),
 			  mapOptions);
 		  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 		  
@@ -104,7 +104,7 @@
 		</ul>
 	</nav>
 	<hr>
-	<canvas></div>
+	<canvas id="map-canvas"></div>
 	<hr>
 </header>
 <br />
