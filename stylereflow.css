@@ -218,9 +218,19 @@ figcaption
 {
 	display:block;
 }
+.center
+{
+    padding:1.2em;
 }
+}
+	table
+	{
+		padding-left:1.2em;
+		padding-right:1.2em;
+	}
 @media ( min-width: 47.5em ) 
 {
+
     /* Show the table header rows */
 	.lh-list tbody th,
     .lh-list tbody td,
@@ -249,10 +259,17 @@ figcaption
 	{
 	max-width:60%;
 	margin:auto;
+	padding: 1.5em;
+	}
+	table
+	{
+		padding-left:2em;
+		padding-right:2em;
 	}
 }
 @media (min-width:65em)
 {
+
 .lh-list thead th,
 .lh-list tbody th .ui-table-cell-label,
 .lh-list tbody td .ui-table-cell-label 
@@ -266,6 +283,7 @@ figcaption
 {
 	max-width:50%;
 	margin:auto;
+	padding: 2em;
 }
 	h1
 	{font-size: 4.0em}
