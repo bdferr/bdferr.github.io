@@ -240,7 +240,7 @@ ul
 	height: 18.75em;
 	width: 28.125em;
 }
-section.center
+section.center, div.summary, div.flex
 {
 	font-size: 100%;
 	padding: 1.5em;
