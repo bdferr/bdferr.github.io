@@ -213,7 +213,6 @@ section.center
 	margin:auto;
 }
 section.wide
-
 {
 	width:80%;
 	margin:auto;
@@ -240,7 +239,7 @@ ul
 	height: 18.75em;
 	width: 28.125em;
 }
-section.center, div.summary, div.flex
+section.center, div.summary, section.flex
 {
 	font-size: 100%;
 	padding: 1.5em;
