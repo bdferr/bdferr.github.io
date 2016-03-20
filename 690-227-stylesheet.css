@@ -78,11 +78,10 @@ padding: 0em;
 .flex
 {
 	font-size: 85%;
-	margin-left:0.938em;
-	margin-right:0.938em;
 	border: solid 0.125em black;
 	border-radius: 1.0em;
-	margin: 1em 2.5em;
+	margin: 1em;
+	width:80%;
 	padding: 1.0em;
 	display:flex;
 	flex-direction:column;
@@ -244,6 +243,7 @@ section.center, div.summary, section.flex
 	font-size: 100%;
 	padding: 1.5em;
 	width:60%;
+	margin: auto;
 }
 }
 @media (min-width:50em)
@@ -308,8 +308,7 @@ div.third
 .flex
 {
 	font-size: 115%;
-	margin-left: 1.563em;
-	margin-right: 1.563em;
+	margin: auto;
 	border: solid 0.125em black;
 	border-radius: 1.0em;
 	margin:1em 2.5em;
