@@ -234,6 +234,14 @@ ul
 }	
 
 /*Here is the first media query*/
+@media (min-width:30em)
+{
+#map-canvas
+{
+	height: 18.75em;
+	width: 28.125em;
+
+}
 
 @media (min-width:50em)
 {
@@ -292,11 +300,7 @@ div.third
   {
 	height: 25em;
 	width: 37.5em;
-	margin:auto;
-	border:0.125em;
-	border: 0.125em;
-	border-style: solid;
-	border-color: black;
+
 }
 .flex
 {
@@ -419,11 +423,7 @@ div.left
 {
     height: 25em;
 	width: 37.5em;
-	margin:auto;
-	border:0.125em;
-	border: 0.125em;
-	border-style: solid;
-	border-color: black;
+
 }
 div.summary
 {
