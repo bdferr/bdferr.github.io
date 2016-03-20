@@ -231,7 +231,7 @@ ul
 }	
 
 /*Here is the first media query*/
-@media (min-width:30em)
+@media (min-width:30em) and (max-width:50em)
 {
 #map-canvas
 {
@@ -299,11 +299,18 @@ div.third
     float: left;
 	margin:0em;
 }
+
+section.center
+{
+	font-size: 115%;
+	padding: 1.5em;
+	width:60%;
+	margin: auto;
+}
 #map-canvas
   {
 	height: 25em;
 	width: 37.5em;
-
 }
 .flex
 {
@@ -316,6 +323,7 @@ div.third
 	padding-right:2.0em;
 	display:flex;
 	flex-direction:column;
+	width:60%;
 }
 h1
 {	text-align: center;
@@ -368,7 +376,7 @@ div.summary
 	max-width:60%;
     border: solid 0.125em black;
     border-radius: 1.0em;
-    padding: 1.0em;
+    padding: 1.5em;
 	background-color: #630;
     display:block;
 }
@@ -398,6 +406,12 @@ body
 	line-height:200%;
 	display:inline;
 	flex-direction:column;
+}
+section.center
+{
+	width:40%;
+	font-size:120%;
+	margin:auto;
 }
 div.hideable
 {
