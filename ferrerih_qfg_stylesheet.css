@@ -1,4 +1,4 @@
-/*last updated 3/18/2016*/
+/*last updated 3/27/2016*/
 
 #eye-icon
 {
@@ -38,7 +38,6 @@ max-width:730px;
 	max-height:62px;
 	max-width:70px;
 }
-
 
 a:link
 {
@@ -105,6 +104,7 @@ div
 .footer-note
 {
 	font-family: "Pixelar Regular W01 Regular", myFirstFont;
+	font-size: 75%;
 	line-height: 85%;
 	text-align:center;
 }
@@ -249,6 +249,11 @@ max-width:170px;
 max-height:120px;
 max-width:192px;
 }
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:128px;
+width:205px;
+}
 #intro-menu
 {
 	height:136px;
@@ -274,6 +279,7 @@ max-width:188px;
 max-height: 135px;
 max-width: 225px;
 }
+
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
 .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
 .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
@@ -394,7 +400,7 @@ font-style:normal;
 }
 @media (min-width: 30em) and (max-width:40em)
 {
-/*images sized at 40%*/
+/*carousel images sized at 40%*/
 #actions-menu
 {
 max-height:126px;
@@ -404,6 +410,11 @@ max-width:170px;
 {
 max-height:120px;
 max-width:192px;
+}
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:128px;
+width:205px;
 }
 #inventory
 {
@@ -566,7 +577,7 @@ section
 
 @media (min-width:40em) and (max-width:55em)
 {
-/*images sized at 50%*/
+/*carousel images sized at 50%*/
 #actions-menu
 {
 max-height:158px;
@@ -576,6 +587,11 @@ max-width:213px;
 {
 max-height:150px;
 max-width:240px;
+}
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:160px;
+width:256px;
 }
 #intro-menu
 {
@@ -734,7 +750,7 @@ section
 
 @media (min-width:55em) and (max-width:70em)
 {
-/*images sized at 75%*/
+/*carousel images sized at 75%*/
 #actions-menu
 {
 max-height:237px;
@@ -744,6 +760,11 @@ max-width:319px;
 {
 max-height:225px;
 max-width:360px;
+}
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:240px;
+width:384px;
 }
 #intro-menu
 {
@@ -907,7 +928,7 @@ section
 
 @media (min-width:70em)
 {
-/*images sized at 85%*/
+/*carousel images sized at 85%*/
 #actions-menu
 {
 max-height:269px;
@@ -917,6 +938,11 @@ max-width:361px;
 {
 max-height:255px;
 max-width:408px;
+}
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:272px;
+width:435px;
 }
 #intro-menu
 {
@@ -1080,7 +1106,7 @@ section
 }
 @media (min-width:85em)
 {
-/*images at full size*/
+/*carousel images at "full" size*/
 #actions-menu
 {
 max-height:316px;
@@ -1091,10 +1117,15 @@ max-width:425px;
 max-height:300px;
 max-width:480px;
 }
+#hatted-skull, #swamp-toolbar, #wraith-battle
+{
+height:320px;
+width:512px;
+}
 #intro-menu
 {
-	height:339px;
-	width:477px;
+height:339px;
+width:477px;
 }
 #inventory
 {
@@ -1106,7 +1137,6 @@ max-width:500px;
 max-height:287px;
 max-width:500px;
 }
-
 #settings-menu
 {
 max-height:315px;
@@ -1117,6 +1147,7 @@ max-width:470px;
 max-height: 338px;
 max-width: 563px;
 }
+
 h1
 {
 font-size: 6.0em; 
