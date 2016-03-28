@@ -316,7 +316,7 @@ padding:0 0 80px 0;
 width:100%;
 height:auto;
 font-size: 100%;
-background-image: url("drcranium-lab2.jpg");
+background-image: url("cranium-lab-empty.jpg");
 background-position: 40% 0%;
 background-repeat: no-repeat;
 background-attachment:fixed;
@@ -443,7 +443,7 @@ max-width: 225px;
 }
 .container
 {
-background-image: url("drcranium-lab2.jpg");
+background-image: url("cranium-lab-empty.jpg");
 background-position: 40% 0%;
 background-repeat: no-repeat;
 background-attachment:fixed;
@@ -654,7 +654,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .container
 {
-background-image: url("drcranium-lab2.jpg");
+background-image: url("cranium-lab-empty.jpg");
 background-position: 40% 0%;
 background-repeat: no-repeat;
 background-attachment:fixed;
@@ -828,7 +828,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .container
 {
-background-image: url("drcranium.jpg"), url("drcranium-lab2.jpg");
+background-image: url("drcranium.jpg"), url("cranium-lab-empty.jpg");
 background-position: 0% 0%, 40% 0%;
 background-repeat: no-repeat;
 background-attachment:fixed;
@@ -977,7 +977,7 @@ max-width: 479px;
 }
 .container
 {
-background-image: url("drcranium.jpg"), url("drcranium-lab2.jpg");
+background-image: url("drcranium.jpg"), url("cranium-lab-empty.jpg");
 background-position: 0% 0%, 40% 0%;
 background-repeat: no-repeat;
 background-attachment:fixed;
