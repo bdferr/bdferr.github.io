@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!--This may still be accessible at http://ils.unc.edu/~ferrerih/web-dev-project/quest-for-glory.html-->
+<!--An older version may still be accessible at http://ils.unc.edu/~ferrerih/web-dev-project/quest-for-glory.html-->
 <!--Token referring to stylesheet: c5e1d8d8-a768-48f7-8391-841257898ec5-->
 <html>
 <head>
 	<title>
 	Quest for Glory
 	</title>
-	<meta name="description" content="Last modified 3/19/2015">
+	<meta name="description" content="Last modified 3/27/2015">
 	<meta name="author" content="Brendan Ferreri-Hanberry">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<!-- jQuery library -->
@@ -22,7 +22,7 @@
 	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
 </head>
 <body>
-	<div class="container">
+	<div class="container" id="container">
 		<header>
 		<img src="qfg4-toolbar1.jpg" id="game-toolbar2" alt="game toolbar">
 		<h1>Quest for Glory IV</h1>
@@ -48,7 +48,11 @@
 			Quest for Glory IV takes place in the fictional land of Mordavia, based on Russia or Eastern Europe judging from the characters' names, accents,
 			and the elements of folk mythology incorporated into the story.
 			The game is notable not only for its gameplay, which follows the basic model of all previous games in the series,
-			but for its excellent music and its visual aesthetic.
+			but for its excellent <a href="#music">music</a> and its visual aesthetic. 
+			Some consider the title one of the <a href="http://www.pcgamer.com/the-25-best-adventure-games/">best</a> 
+			<a href="http://www.adventuregamers.com/articles/view/18643/page17">adventure games</a> of all time.
+			The man you might see to your left depending on your screen width is Dr. Cranium, a helpful scientist character from the game,
+			while the background image is the inside of his lab.
 			<br />
 			<br />
 			My main purpose here is to follow up 
@@ -74,7 +78,8 @@
 			Another apparently unfinished effort at a QfG-inspired game, this one
 			entitled Hero 6, can be found <a href="http://www.questformoreglory.com/forums/index.php?showtopic=3365">here</a>.
 			<br />
-			<h2 id="icons">Icons</h2>
+			<div class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
+		    <h2 id="icons">Icons</h2>
 			Here are some icons from the game, plus a bullet image I may be able to implement in the dropdown menu.
 			These are used to interact with the environment in different ways; for example, the mouth icon is used to speak with someone, 
 			while the feet icon	in the menu above is used to walk somewhere.
@@ -84,6 +89,7 @@
 			<img src="eye-icon-center.png" id="eye-icon" alt="eye icon">
 			<img src="mouth-icon4.png" id="mouth-icon" alt="mouth icon">
 			<img src="li-red-bullet-smaller.png" id="red-bullet" alt="red bullet">
+			<div class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
 			<h2 id="images">Game Images</h2>
 			Here are some further relevant images from the game, to give a sense of what this page is attempting to emulate.
 			Many background images from the game can be found <a href="http://www.spriters-resource.com/pc_computer/questforglory4/sheet/53053/">here</a>.
@@ -96,6 +102,10 @@
 				<li data-target="#qfgCarousel" data-slide-to="3"></li>
 				<li data-target="#qfgCarousel" data-slide-to="4"></li>
 				<li data-target="#qfgCarousel" data-slide-to="5"></li>
+				<li data-target="#qfgCarousel" data-slide-to="6"></li>
+				<li data-target="#qfgCarousel" data-slide-to="7"></li>
+				<li data-target="#qfgCarousel" data-slide-to="8"></li>
+				<li data-target="#qfgCarousel" data-slide-to="9"></li>
 		    </ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -116,6 +126,18 @@
 				<div class="item">
 				<img src="qfg4-intro-menu2.png" id="intro-menu" alt="QFG4 intro menu">
 				</div>
+				<div class="item">
+				<img src="wraith-battle4.png" id="wraith-battle" alt="paladin wraith battle">
+				</div>
+				<div class="item">
+				<img src="skull-hat.png" id="hatted-skull" alt="hatted skull">
+				</div>
+				<div class="item">
+				<img src="qfg4-swamp-hideable-toolbar.gif" id="swamp-toolbar" alt="toolbar in swamp">
+				</div>
+				<div class="item">
+				<img src="cranium-lab2.png" id="cranium-in-lab" alt="Dr. Cranium with his monster">
+				</div>
 			</div>
 				<a class="left carousel-control" href="#qfgCarousel" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -126,23 +148,17 @@
 				<span class="sr-only">Next</span>
 			    </a>
 			</div>
+			<div class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
 			<h2 id="music">Music</h2>
-			According to the composer, <a href="http://www.aubreyhodges.com/">Aubrey Hodges</a>, this game's soundtrack is not yet available in sheet music form. It is however available
-			on <a href="https://www.youtube.com/watch?v=Czh4n_ARKi8">YouTube</a> and an updated version including live instruments and 42 new arrangements
+			The music for this game has been described as "gothic, folk and rock." According to the composer, <a href="http://www.aubreyhodges.com/">Aubrey Hodges</a>, it is not yet available in sheet music form. 
+			The original soundtrack is however freely available from <a href="http://www.sierramusiccentral.com/index.php?page=24">Sierra Music Central</a> or
+			on <a href="https://www.youtube.com/watch?v=Czh4n_ARKi8">YouTube</a>, while an updated version including live instruments and 42 new arrangements
 			can be purchased from the composer's Bandcamp <a href="https://aubreyhodges.bandcamp.com/album/quest-for-glory-shadows-of-darkness-official-soundtrack">page</a>.
 			</section>
 			<footer>
 			<br />
-			<div>
-				<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img style="border:0;width:88px;height:31px"
-				src="https://jigsaw.w3.org/css-validator/images/vcss"
-				alt="Valid CSS!" />
-				</a>
-			</div>
-			<div class="footer-note">Last updated on 3/19/2016.</div>
+			<div class="smaller-note">&copy; 2016 Brendan Ferreri-Hanberry <br /> <a href="mailto:skepticism9@gmail.com">Contact me</a> | <a href="#container">Back to top &uarr;</a></div>
 		    </footer>
-
 		</div>
 	</div>
 </body>
