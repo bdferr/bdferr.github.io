@@ -1,4 +1,4 @@
-/*last updated 3/27/2016*/
+/*last updated 3/28/2016*/
 
 #eye-icon
 {
@@ -364,7 +364,12 @@ h1
     text-align:center;
     margin:auto;
 }
-
+iframe
+{ 
+width: 224px;
+height: 126px;
+border:none;
+}
 #li-bottom
 {
 	background-image: url("qfg4-li-b-bottom-smallest2.png");
@@ -524,6 +529,12 @@ h1
 	left:10%;
 	height:72px;
 	width:422px;
+}
+iframe
+{ 
+width: 224px;
+height: 126px;
+border:none;
 }
 #li-bottom
 {
@@ -699,6 +710,12 @@ h1
 	height:97px;
 	width:566px;
 }
+iframe
+{ 
+width: 280px;
+height: 157px;
+border:none;
+}
 #li-bottom
 {
 	background-image: url("qfg4-li-b-bottom-smallest2.png");
@@ -872,6 +889,12 @@ h1
 	left:12%;
 	height:131px;
 	width:768px;
+}
+iframe
+{ 
+width: 420px;
+height: 236px;
+border:none;
 }
 img
 {
@@ -1058,7 +1081,12 @@ h1
 	height:131px;
 	width:768px;
 }
-
+iframe
+{ 
+width: 476px;
+height: 268px;
+border:none;
+}
 #li-bottom
 {
 	background-image: url("qfg4-li-b-bottom-smallest2.png");
@@ -1148,6 +1176,15 @@ max-height: 338px;
 max-width: 563px;
 }
 
+#game-toolbar2
+{
+max-height:100px;
+max-width:1012px;
+position: fixed;
+top: 0;
+left: 15%;
+z-index:16;
+}
 h1
 {
 font-size: 6.0em; 
@@ -1164,13 +1201,10 @@ left:22%;
 height:131px;
 width:768px;
 }
-#game-toolbar2
-{
-max-height:100px;
-max-width:1012px;
-position: fixed;
-top: 0;
-left: 15%;
-z-index:16;
+iframe
+{ 
+width: 560px;
+height: 315px;
+border:none;
 }
 }
