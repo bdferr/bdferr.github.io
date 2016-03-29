@@ -369,6 +369,8 @@ iframe
 width: 224px;
 height: 126px;
 border:none;
+margin:auto;
+display:block;
 }
 #li-bottom
 {
@@ -532,9 +534,11 @@ h1
 }
 iframe
 { 
-width: 224px;
-height: 126px;
+width: 280px;
+height: 157px;
 border:none;
+margin:auto;
+display:block;
 }
 #li-bottom
 {
@@ -715,6 +719,8 @@ iframe
 width: 280px;
 height: 157px;
 border:none;
+margin:auto;
+display:block;
 }
 #li-bottom
 {
@@ -892,9 +898,11 @@ h1
 }
 iframe
 { 
-width: 420px;
-height: 236px;
+width: 364px;
+height: 205px;
 border:none;
+margin:auto;
+display:block;
 }
 img
 {
@@ -1083,9 +1091,11 @@ h1
 }
 iframe
 { 
-width: 476px;
-height: 268px;
+width: 420px;
+height: 236px;
 border:none;
+margin:auto;
+display:block;
 }
 #li-bottom
 {
@@ -1206,5 +1216,7 @@ iframe
 width: 560px;
 height: 315px;
 border:none;
+margin:auto;
+display:block;
 }
 }
