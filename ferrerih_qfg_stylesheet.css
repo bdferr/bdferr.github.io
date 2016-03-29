@@ -210,7 +210,6 @@ margin: auto;
 text-align: center;
 }
 
-
 section 
 {
   background-color: transparent; /*or #a6a6a6*/
@@ -287,6 +286,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3em;
+    z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -302,6 +302,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3em;
+    z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -463,6 +464,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3em;
+    z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -478,6 +480,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3em;
+    z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -640,6 +643,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3.5em;
+	z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -655,6 +659,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 3.5em;
+    z-index: 10;
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -821,6 +826,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 4em;
+    z-index: 10;	
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -836,6 +842,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 4em;
+    z-index: 10;	
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -1021,6 +1028,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 4em;
+    z-index: 10;	
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
@@ -1036,6 +1044,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 4em;
+    z-index: 10;	
 	color:black !important;
 	border:none !important;
 	border-color:transparent !important;
