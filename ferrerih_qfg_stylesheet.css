@@ -843,6 +843,10 @@ max-width:353px;
 max-height: 256px;
 max-width: 422px;
 }
+.affix
+{
+	display:block;
+}
 button.affix
 {
 	display:block;
@@ -1043,6 +1047,10 @@ max-width:400px;
 max-height: 287px;
 max-width: 479px;
 }
+.affix
+{
+	display:block;
+}
 button.affix
 {
 	display:block;
@@ -1084,11 +1092,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     background-size: contain;
 	padding:0.1em 0.8em;
 }
-button.affix
-{
-	display:block;
-	left:77%;
-}
+
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
@@ -1248,6 +1252,10 @@ max-height: 338px;
 max-width: 563px;
 }
 
+.affix
+{
+	display:block;
+}
 button.affix
 {
 	display:block;
