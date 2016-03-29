@@ -340,7 +340,7 @@ footer
 	margin: 0.5em auto;
 	overflow:auto;
 }
-#game-toolbar2
+#game-toolbar
 {
 max-height:35px;
 max-width:354px;
@@ -513,7 +513,7 @@ footer
 	overflow:auto;
 }
 
-#game-toolbar2
+#game-toolbar
 {
 max-height:35px;
 max-width:354px;
@@ -695,7 +695,7 @@ footer
 	margin: 0.5em auto;
 	overflow:auto;
 }
-#game-toolbar2
+#game-toolbar
 {
 max-height:50px;
 max-width:506px;
@@ -877,7 +877,7 @@ footer
 	margin: 0.5em auto;
 	overflow:auto;
 }
-#game-toolbar2
+#game-toolbar
 {
 max-height:75px;
 max-width:759px;
@@ -1064,7 +1064,7 @@ footer
 	overflow:auto;
 }
 
-#game-toolbar2
+#game-toolbar
 {
 max-height:100px;
 max-width:1012px;
@@ -1186,7 +1186,7 @@ max-height: 338px;
 max-width: 563px;
 }
 
-#game-toolbar2
+#game-toolbar
 {
 max-height:100px;
 max-width:1012px;

@@ -20,12 +20,25 @@
 	<!--a pixelated font from fonts.com-->
 	<script type="text/javascript" src="https://fast.fonts.net/jsapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
+	<script>
+	$(document).ready(function()
+	{
+		$("#main-title").mouseover(function()
+		{
+			$("#game-toolbar").slideDown("slow");
+		});
+		$("#main-title").mouseout(function()
+		{
+			$("#game-toolbar").slideUp("slow");
+		});
+	});
+	</script>
 </head>
 <body>
 	<div class="container" id="container">
 		<header>
-		<img src="qfg4-toolbar1.jpg" id="game-toolbar2" alt="game toolbar">
-		<h1>Quest for Glory IV</h1>
+		<img src="qfg4-toolbar1.jpg" id="game-toolbar" alt="game toolbar">
+		<h1 id="main-title">Quest for Glory IV</h1>
 			<div class="dropdown offset">
 				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">Where to? 
 					<img id="feet-icon" src="feet-icon.png" alt="feet icon">
