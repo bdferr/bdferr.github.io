@@ -851,13 +851,11 @@ max-width: 422px;
 }
 button.affix
 {
-	display:block;
 	left:74%;
 }
 ul.affix
 {
 	position:fixed;
-	display:block;
 	left:74%;
 	top:115px;
 }
@@ -1055,13 +1053,11 @@ max-width: 479px;
 }
 button.affix
 {
-	display:block;
 	left:77%;
 }
 ul.affix
 {
 	position:fixed;
-	display:block;
 	left:77%;
 	top:115px;
 }
@@ -1260,13 +1256,11 @@ max-width: 563px;
 }
 button.affix
 {
-	display:block;
 	left:77%;
 }
 ul.affix
 {
 	position:fixed;
-	display:block;
 	left:77%;
 	top:115px;
 }
