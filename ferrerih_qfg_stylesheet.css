@@ -62,10 +62,7 @@ a:visited
 	text-decoration:none;
 	font-weight:normal;
 }
-.affix
-{
-	margin:auto !important;
-}
+
 li.othernavbar a:hover, li.footernavbar a:hover
 {
     color: #b30000; /*previously #000099;*/
@@ -154,10 +151,17 @@ div
 	background-color:transparent;
     font-size: 2em;
     text-align: left;
-	list-style-type: disc;
-	list-style: disc;
+	list-style-type: disc !important;
+	list-style: !important;
 	list-style-position:inside !important;
 }
+
+ul.affix
+{
+position: fixed;
+
+}
+
 ul.dropdown-menu a:link
 {
 	color: #333; 
@@ -287,6 +291,10 @@ max-height: 135px;
 max-width: 225px;
 }
 
+.affix
+{
+	display:none;
+}
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
 .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
 .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
@@ -456,6 +464,10 @@ max-width:188px;
 { 
 max-height: 135px;
 max-width: 225px;
+}
+.affix
+{
+	display:none;
 }
 .container
 {
@@ -644,6 +656,10 @@ max-width:235px;
 max-height: 169px;
 max-width: 282px;
 }
+.affix
+{
+	display:none;
+}
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
 .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
 .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
@@ -826,6 +842,18 @@ max-width:353px;
 { 
 max-height: 256px;
 max-width: 422px;
+}
+button.affix
+{
+	display:block;
+	left:74%;
+}
+ul.affix
+{
+	position:fixed;
+	display:block;
+	left:74%;
+	top:93px;
 }
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
 .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
@@ -1015,6 +1043,18 @@ max-width:400px;
 max-height: 287px;
 max-width: 479px;
 }
+button.affix
+{
+	display:block;
+	left:77%;
+}
+ul.affix
+{
+	position:fixed;
+	display:block;
+	left:77%;
+	top:115px;
+}
 .center
 {
 	width:50%;
@@ -1043,6 +1083,11 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.1em 0.8em;
+}
+button.affix
+{
+	display:block;
+	left:77%;
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
@@ -1203,6 +1248,18 @@ max-height: 338px;
 max-width: 563px;
 }
 
+button.affix
+{
+	display:block;
+	left:77%;
+}
+ul.affix
+{
+	position:fixed;
+	display:block;
+	left:77%;
+	top:115px;
+}
 #game-toolbar
 {
 max-height:100px;
