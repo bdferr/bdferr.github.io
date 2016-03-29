@@ -156,12 +156,6 @@ div
 	list-style-position:inside !important;
 }
 
-ul.affix
-{
-position: fixed;
-
-}
-
 ul.dropdown-menu a:link
 {
 	color: #333; 
@@ -309,6 +303,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0em 0.4em;
+	display:block;
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
@@ -325,6 +320,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0em 0.4em;
+	display:block;
 }
 .container
 {
@@ -491,6 +487,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.1em 0.6em;
+	display:block;
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
@@ -507,6 +504,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0.1em 0.6em;
+	display:block;
 }
 .center
 {
@@ -674,6 +672,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
     background-size: contain;
 	padding:0.1em 0.8em;
+	display:block;
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
@@ -690,6 +689,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important;
 	background-size: contain;
 	padding:0.1em 0.8em;
+	display:block;
 }
 .center
 {
@@ -857,7 +857,7 @@ ul.affix
 	position:fixed;
 	display:block;
 	left:74%;
-	top:93px;
+	top:115px;
 }
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
 .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
