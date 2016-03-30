@@ -242,7 +242,7 @@ ul
   padding: 15px;
   background-color: #a6a6a6;
 }
-/*responsive elements*/
+/*begin responsive elements*/
 /*images sized at 40%*/
 #actions-menu
 {
@@ -367,8 +367,8 @@ h1
 	font-size:3.5em;
 	padding:0.2em;
 	position:absolute;
-	top:25px;
-	left:15%;
+	top:35px;
+	left:5%;
 	height:48px;
 	width:278px;
     background-image: url("qfg4-li-b-top2-smaller.jpg");
@@ -416,7 +416,7 @@ font-style:normal;
 .offset
 {
 	position:relative;
-	top: 72px;
+	top: 82px;
 }
 @media (min-width: 30em) and (max-width:40em)
 {
@@ -1273,7 +1273,7 @@ max-height:100px;
 max-width:1012px;
 position: fixed;
 top: 0;
-left: 15%;
+left: 18%;
 z-index:16;
 }
 h1
@@ -1288,7 +1288,7 @@ margin:auto;
 padding:1em;
 position:absolute;
 top:100px;
-left:22%;
+left:25%;
 height:131px;
 width:768px;
 }
