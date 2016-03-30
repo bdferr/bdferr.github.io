@@ -851,6 +851,7 @@ max-width: 422px;
 }
 button.affix
 {
+	top:0%;
 	left:74%;
 }
 ul.affix
@@ -1053,6 +1054,7 @@ max-width: 479px;
 }
 button.affix
 {
+	top:0%;
 	left:77%;
 }
 ul.affix
@@ -1257,6 +1259,7 @@ max-width: 563px;
 button.affix
 {
 	left:77%;
+	top:0%;
 }
 ul.affix
 {
