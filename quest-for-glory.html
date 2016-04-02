@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <!--An older version may still be accessible at http://ils.unc.edu/~ferrerih/web-dev-project/quest-for-glory.html-->
 <!--Token referring to stylesheet: c5e1d8d8-a768-48f7-8391-841257898ec5-->
-<html>
+<html lang="en-US">
 <head>
 	<title>
-	Quest for Glory
+	Quest for Glory IV
 	</title>
-	<meta name="description" content="Last modified 3/29/2015">
-	<meta name="author" content="Brendan Ferreri-Hanberry">
-	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<meta charset="utf-8">
+	<meta name="description" content="Last modified 4/1/2015" />
+	<meta name="author" content="Brendan Ferreri-Hanberry" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<!--[if lt IE 9]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 	<!--my stylesheet-->
-	<link rel="stylesheet" type="text/css" href="ferrerih_qfg_stylesheet.css">
+	<link rel="stylesheet" href="ferrerih_qfg_stylesheet.css" />
 	<!--a pixelated font from fonts.com-->
-	<script type="text/javascript" src="https://fast.fonts.net/jsapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.js"></script>
-	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
+	<script src="https://fast.fonts.net/jsapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.js"></script>
+	<link rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
 	<script>
 	$(document).ready(function()
 	{
@@ -32,18 +36,22 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
+		affixed-top.bs.affix(function()
+		{
+			$(".dropdown-toggle").show();
+		});
 	});
 	</script>
 </head>
 <body>
 	<div class="container" id="container">
 		<header>
-		<img src="qfg4-toolbar1.jpg" id="game-toolbar" alt="game toolbar">
+		<img src="qfg4-toolbar1.jpg" id="game-toolbar" alt="game toolbar" />
 		<h1 id="main-title">Quest for Glory IV</h1>
 			<div class="dropdown offset">
 				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
-					<img id="feet-icon" src="feet-icon.png" alt="feet icon">
+					<img id="feet-icon" src="feet-icon.png" alt="feet icon" />
 				</button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" data-spy="affix" data-offset-top="231">
 					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
@@ -91,7 +99,7 @@
 			<br />
 			A "role-playing adventure game" entitled <a href="http://hero-u.com/about/">Hero U</a> is currently under development by Sierra designers Corey and Lori Cole,
 			who were responsible for the <em>Quest for Glory</em> series and contributed to various other Sierra games such as <em>King's Quest V</em>.
-			Another apparently unfinished effort at a QfG-inspired game, this one
+			Another apparently unfinished effort at a <abbr title="Quest for Glory">QfG</abbr>-inspired game, this one
 			entitled <em>Hero 6</em>, can be found <a href="http://www.questformoreglory.com/forums/index.php?showtopic=3365">here</a>.
 			<br />
 			<div class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
@@ -125,34 +133,34 @@
 		    </ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-				<img src="qfg4-settings-menu1.png" id="settings-menu" alt="settings menu">
+				<img src="qfg4-settings-menu1.png" id="settings-menu" alt="settings menu" />
 				</div>
 				<div class="item">
-				<img src="actions-menu.png" id="actions-menu" alt="rope actions menu">
+				<img src="actions-menu.png" id="actions-menu" alt="rope actions menu" />
 				</div>
 				<div class="item">
-				<img src="qfg4-menu2.png" id="general-store-menu" alt="general store purchase menu">
+				<img src="qfg4-menu2.png" id="general-store-menu" alt="general store purchase menu" />
 				</div>
 				<div class="item">
-				<img src="qfg4-magic-spells.png" id="magic-spells" alt="magic spells">
+				<img src="qfg4-magic-spells.png" id="magic-spells" alt="magic spells" />
 				</div>
 				<div class="item">
-				<img src="qfg4-text-panel-1.png" id="text-screenshot1" alt="QFG4 text screenshot">
+				<img src="qfg4-text-panel-1.png" id="text-screenshot1" alt="Piotyr text screenshot" />
 				</div>
 				<div class="item">
-				<img src="qfg4-intro-menu2.png" id="intro-menu" alt="QFG4 intro menu">
+				<img src="qfg4-intro-menu2.png" id="intro-menu" alt="intro menu" />
 				</div>
 				<div class="item">
-				<img src="wraith-battle4.png" id="wraith-battle" alt="paladin wraith battle">
+				<img src="wraith-battle4.png" id="wraith-battle" alt="paladin wraith battle" />
 				</div>
 				<div class="item">
-				<img src="skull-hat.png" id="hatted-skull" alt="hatted skull">
+				<img src="skull-hat.png" id="hatted-skull" alt="hatted skull" />
 				</div>
 				<div class="item">
-				<img src="qfg4-swamp-hideable-toolbar.gif" id="swamp-toolbar" alt="toolbar in swamp">
+				<img src="qfg4-swamp-hideable-toolbar.gif" id="swamp-toolbar" alt="toolbar in swamp" />
 				</div>
 				<div class="item">
-				<img src="cranium-lab2.png" id="cranium-in-lab" alt="Dr. Cranium with his monster">
+				<img src="cranium-lab2.png" id="cranium-in-lab" alt="Dr. Cranium with monster" />
 				</div>
 			</div>
 				<a class="left carousel-control" href="#qfgCarousel" role="button" data-slide="prev">
