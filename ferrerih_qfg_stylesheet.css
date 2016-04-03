@@ -277,7 +277,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }
 .affix {
-	display: none; 
+	visibility: hidden; 
 }
 .container {
 	margin: 0; 
@@ -442,7 +442,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }
 .affix {
-	display: none; 
+	visibility: hidden; 
 }
 .center {
     font-family: "Pixelar Regular W01 Regular", myFirstFont !important; 
@@ -606,7 +606,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }
 .affix {
-	display: none; 
+	visibility:hidden; 
 }
 .center {
 	width: 67%; 
