@@ -53,7 +53,7 @@ a:visited {
 	font-weight: normal; 
 }
 
-li.othernavbar a: hover, li.footernavbar a: hover {
+li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;  /*previously #000099; */
 	background-color: transparent; 
     text-decoration: none; 
