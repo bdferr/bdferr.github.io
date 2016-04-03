@@ -1,4 +1,4 @@
-/*last updated 4/1/2016*/
+/*last updated 4/2/2016*/
 
 #eye-icon {
 	max-height: 50px; 
@@ -218,7 +218,7 @@ ul {
 	max-height: 120px; 
 	max-width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 128px; 
 	width: 205px; 
 }
@@ -374,7 +374,7 @@ li.othernavbar {
 	max-height: 120px; 
 	max-width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 128px; 
 	width: 205px; 
 }
@@ -543,7 +543,7 @@ section {
 	max-height: 150px; 
 	max-width: 240px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 160px; 
 	width: 256px; 
 }
@@ -709,7 +709,7 @@ section {
 	max-height: 225px; 
 	max-width: 360px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 240px; 
 	width: 384px; 
 }
@@ -885,7 +885,7 @@ section {
 	max-height: 255px; 
 	max-width: 408px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 272px; 
 	width: 435px; 
 }
@@ -1060,7 +1060,7 @@ section {
 	max-height: 300px; 
 	max-width: 480px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
 	height: 320px; 
 	width: 512px; 
 }
