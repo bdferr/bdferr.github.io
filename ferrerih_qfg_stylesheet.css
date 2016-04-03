@@ -244,8 +244,8 @@ ul {
 }
 
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary: active.focus, 
-.btn-primary:active:focus, .btn-primary: active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
 .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
