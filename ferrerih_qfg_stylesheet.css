@@ -740,7 +740,8 @@ section {
 	max-width: 422px; 
 }
 .affix {
-	display: block; 
+	display: block;
+	visibility:visible;
 }
 button.affix {
 	top: 0%; 
@@ -919,6 +920,7 @@ section {
 }
 .affix {
 	display: block; 
+	visibility: visible; 
 }
 button.affix {
 	top: 0%; 
@@ -1097,6 +1099,7 @@ section {
 
 .affix {
 	display: block; 
+	visibility: visible;
 }
 button.affix {
 	left: 77%; 
