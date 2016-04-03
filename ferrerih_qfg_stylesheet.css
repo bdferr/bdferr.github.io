@@ -32,21 +32,21 @@
 	max-width: 70px; 
 }
 
-a: link {
+a:link {
 	display: inline; 
 	color: #333;  /*alternatively #604E3D;  #006E00;  darkgreen*/
 	text-decoration: none; 
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
-a: hover {
+a:hover {
 	display: inline; 
     color: #b30000 !important;  /*previously silver, #000099; */
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("hand-icon.png") !important, pointer; 
 }
-a: visited {
+a:visited {
 	display: inline; 
 	color: #333;  /*alternatively #604E3D; */
 	text-decoration: none; 
@@ -244,9 +244,9 @@ ul {
 }
 
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active: focus, .btn-primary.active: hover, .btn-primary: active.focus, 
-.btn-primary: active: focus, .btn-primary: active: hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary: focus, .open>.dropdown-toggle.btn-primary: hover, .btn-primary: hover {
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary: active.focus, 
+.btn-primary:active:focus, .btn-primary: active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
@@ -260,7 +260,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
-.btn-primary: active.blur, 
+.btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
 .btn-primary.blur {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -407,9 +407,9 @@ li.othernavbar {
 	padding: 0 0 120px 0; 
 }
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active: focus, .btn-primary.active: hover, .btn-primary: active.focus, 
-.btn-primary: active: focus, .btn-primary: active: hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary: focus, .open>.dropdown-toggle.btn-primary: hover, .btn-primary: hover {
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
@@ -423,7 +423,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
-.btn-primary: active.blur, 
+.btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
 .btn-primary.blur {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -569,9 +569,9 @@ section {
 }
 
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active: focus, .btn-primary.active: hover, .btn-primary: active.focus, 
-.btn-primary: active: focus, .btn-primary: active: hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary: focus, .open>.dropdown-toggle.btn-primary: hover, .btn-primary: hover {
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
 	z-index: 10 !important; 
@@ -585,7 +585,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
-.btn-primary: active.blur, 
+.btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
 .btn-primary.blur {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -746,9 +746,9 @@ ul.affix {
 	top: 115px; 
 }
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active: focus, .btn-primary.active: hover, .btn-primary: active.focus, 
-.btn-primary: active: focus, .btn-primary: active: hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary: focus, .open>.dropdown-toggle.btn-primary: hover, .btn-primary: hover {
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
@@ -761,7 +761,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
-.btn-primary: active.blur, 
+.btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
 .btn-primary.blur {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -934,9 +934,9 @@ ul.affix {
 	padding: 0 0 240px 0; 
 }
 button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active: focus, .btn-primary.active: hover, .btn-primary: active.focus, 
-.btn-primary: active: focus, .btn-primary: active: hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary: focus, .open>.dropdown-toggle.btn-primary: hover, .btn-primary: hover {
+.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
+.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
@@ -949,7 +949,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 }
 .btn.blur,
 .btn.active, .btn-primary.active.blur, 
-.btn-primary: active.blur, 
+.btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
 .btn-primary.blur {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
