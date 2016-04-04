@@ -167,11 +167,15 @@ header {
 	margin-right: 0.938em; 
 	background: transparent; 
 }
-
 h2 {
 	font-size: 2.0em; 
 	font-weight: bold; 
 	font-style: normal; 
+}
+h3 {
+	font-size:1.5em;
+	font-weight: bold; 
+	font-style: normal;
 }
 hr {
     border: 0px; 
