@@ -8,17 +8,14 @@
 	max-height: 71px; 
 	max-width: 80px; 
 }
-
 #mouth-icon {
 	max-height: 64px; 
 	max-width: 66px; 
 }
-
 #red-bullet {
 	max-height: 15px; 
 	max-width: 17px; 
 }
-
 #stone-panel1 {
 	max-height: 450px; 
 	max-width: 730px; 
@@ -74,7 +71,9 @@ body {
 	border: none; 
 	padding: 0em; 
 }
-
+img {
+	border: none; 
+}
 .carousel-indicators {
 	z-index: 9 !important; 
 }
@@ -978,6 +977,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	max-height: 55px; 
 	max-width: 47px; 
 	display: block; 
+	border: none; 
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
