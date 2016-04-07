@@ -1,4 +1,11 @@
-/*last updated 4/2/2016*/
+/*last updated 4/4/2016*/
+
+/*I added this according to W3Schools' recommendation;
+these elements should already be displayed as blocks 
+but this is to deal with possible problems in older browsers*/
+header,footer, article, section {
+    display: block; 
+}
 
 #eye-icon {
 	max-height: 50px; 
@@ -160,11 +167,15 @@ header {
 	margin-right: 0.938em; 
 	background: transparent; 
 }
-
 h2 {
 	font-size: 2.0em; 
 	font-weight: bold; 
 	font-style: normal; 
+}
+h3 {
+	font-size:1.5em;
+	font-weight: bold; 
+	font-style: normal;
 }
 hr {
     border: 0px; 
@@ -184,7 +195,7 @@ img {
 	text-align: center; 
 }
 
-section {
+article {
     background-color: transparent;  /*or #a6a6a6*/
 	margin: auto; 
 	padding: 0em; 
@@ -524,7 +535,7 @@ li.othernavbar {
 	position: relative; 
 	top: 106px; 
 }
-section {
+article {
     background-color: transparent;  /*or #a6a6a6*/
 	margin: auto; 
 	padding: 0.3em; 
@@ -692,7 +703,7 @@ li.othernavbar {
 	position: relative; 
 	top: 147px; 
 }
-section {
+article {
 	background-color: transparent;  /*or #a6a6a6*/
 	margin: auto; 
 	padding: 0.6em; 
@@ -871,7 +882,7 @@ li.othernavbar {
 	position: relative; 
 	top: 207px; 
 }
-section {
+article {
 	background-color: transparent;  /*or #a6a6a6*/
 	margin: auto; 
 	padding: 0.8em; 
@@ -1051,7 +1062,7 @@ li.othernavbar {
 	position: relative; 
 	top: 232px; 
 }
-section {
+article {
 	background-color: transparent;  /*or #a6a6a6*/
 	margin: auto; 
 	padding: 1em; 
