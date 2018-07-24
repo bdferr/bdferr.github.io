@@ -1,4 +1,4 @@
-/*last updated 4/4/2016*/
+/*last updated 7/23/2018*/
 
 /*I added this according to W3Schools' recommendation;
 these elements should already be displayed as blocks 
@@ -91,28 +91,19 @@ img {
 	background-color: #b30000 !important; 
 }
 div {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 100%; 
 	color: #333; 
 }
 .smaller-note {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
 	font-size: 75%; 
 	line-height: 85%; 
 	text-align: center; 
 }
 
-@font-face {
-    font-family: myFirstFont; 
-	src: url("SFPixelate.ttf"); 
-}
-@font-face {
-    font-family: myFirstFont; 
-    font-weight: bold; 
-    src: url("SFPixelate-Bold.ttf"); 
-}
 .center {
-    font-family: "Pixelar Regular W01 Regular", myFirstFont !important; 
+    font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 90%; 
 	margin: 0em auto; 
 	font-size: 2.5em; 
@@ -121,7 +112,7 @@ div {
 .dropdown {
 	max-width: 180px; 
 	margin: auto; 
-	font-family: "Pixelar Regular W01 Regular" !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 }
 .dropdown-menu {
     position: absolute; 
@@ -305,7 +296,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     display: none; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 258px; 
 	height: 151px; 
 	font-size: 1em; 
@@ -455,7 +446,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	visibility: hidden; 
 }
 .center {
-    font-family: "Pixelar Regular W01 Regular", myFirstFont !important; 
+    font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 80%; 
 	margin: 0em auto; 
 	font-size: 3em; 
@@ -466,7 +457,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	max-width: 23px; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 287px; 
 	height: 167px; 
 	font-size: 1em; 
@@ -635,7 +626,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 298px; 
 	height: 176px; 
 	font-size: 1em; 
@@ -811,7 +802,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 320px; 
 	height: 187px; 
 	font-size: 1em; 
@@ -991,7 +982,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	border: none; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", myFirstFont, Sylfaen, "Times New Roman", serif !important; 
+	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 368px; 
 	height: 215px; 
 	font-size: 1em; 
