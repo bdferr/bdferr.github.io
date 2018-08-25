@@ -59,7 +59,7 @@ a:visited {
 
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;  /*previously #000099; */
-	background-color: transparent; 
+	background-color: transparent !important; 
     text-decoration: none; 
 }
 address {
@@ -122,19 +122,22 @@ div {
     min-width: 10em; 
     padding: 0; 
     margin: auto; 
-	background-color: transparent; 
+	background-color: transparent !important; 
     font-size: 2em; 
     text-align: left; 
 	list-style-type: disc !important; 
-	list-style: !important; 
 	list-style-position: inside !important; 
 }
-
-ul.dropdown-menu a: link {
+.dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+	ul.dropdown-menu a: link {
 	color: #333;  
 	/*alternatively #604E3D;  #006E00;  darkgreen*/
 	text-decoration: none; 
-	background-color: transparent; 
+	background-color: transparent !important; 
 	font-weight: normal; 
 }
 ul.dropdown-menu a: hover {
@@ -360,7 +363,7 @@ li.othernavbar {
 	width: 210px; 
 	display: block; 
 	font-style: normal; 
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
 	position: relative; 
@@ -520,7 +523,7 @@ li.othernavbar {
 	width: 230px; 
 	display: block; 
 	font-style: normal; 
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
 	position: relative; 
@@ -688,7 +691,7 @@ li.othernavbar {
 	width: 230px; 
 	display: block; 
 	font-style: normal; 
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
 	position: relative; 
@@ -867,7 +870,7 @@ li.othernavbar {
 	width: 280px; 
 	display: block; 
 	font-style: normal; 
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
 	position: relative; 
@@ -1047,7 +1050,7 @@ li.othernavbar {
 	width: 280px; 
 	display: block; 
 	font-style: normal; 
-	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
 	position: relative; 
