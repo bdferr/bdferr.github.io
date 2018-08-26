@@ -133,20 +133,20 @@ div {
     text-decoration: none;
     background-color: transparent !important;
 }
-	ul.dropdown-menu a: link {
+ul.dropdown-menu a:link {
 	color: #333;  
 	/*alternatively #604E3D;  #006E00;  darkgreen*/
 	text-decoration: none; 
 	background-color: transparent !important; 
 	font-weight: normal; 
 }
-ul.dropdown-menu a: hover {
+ul.dropdown-menu a:hover {
     color: #b30000 !important;  /*previously #000099; */
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
 }
-ul.dropdown-menu a: visited {
+ul.dropdown-menu a:visited {
 	color: #333;  /*alternatively #604E3D; */
 	text-decoration: none; 
 	font-weight: normal; 

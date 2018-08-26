@@ -6,12 +6,13 @@
 	Quest for Glory IV
 	</title>
 	<meta charset="utf-8">
-	<meta name="description" content="Last modified 8/24/2018" />
+	<meta name="description" content="Last modified 8/25/2018" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	<!--a pixelated font from fonts.com-->
 	<script src="https://fast.fonts.net/jsapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.js"></script>
 	<link rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
 	<!-- jQuery library -->
@@ -24,7 +25,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<!--my stylesheet-->
 	<link rel="stylesheet" href="ferrerih_qfg_stylesheet.css" />
-	<!--a pixelated font from fonts.com-->
+
 	
 	<script>
 	$(document).ready(function()
@@ -46,12 +47,12 @@
 		<header>
 		<img src="qfg4-toolbar1.jpg" id="game-toolbar" alt="game toolbar" />
 		<h1 id="main-title">Quest for Glory IV</h1>
-			<div class="dropdown offset">
+			<div class="dropdown offset" data-spy="affix" data-offset-top="231">
 				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
 					<img id="feet-icon" src="feet-icon.png" alt="feet icon" />
 				</button>
-				<ul style="list-style-type:disc" class="dropdown-menu" role="menu" aria-labelledby="menu1" data-spy="affix" data-offset-top="231">
+				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1" data-spy="affix" data-offset-top="231">
 					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
 					<li class="othernavbar normal"><a href="#images">Game Images</a></li>
 					<li class="othernavbar normal"><a href="#icons">Icons</a></li>
