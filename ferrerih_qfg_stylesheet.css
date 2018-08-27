@@ -57,7 +57,7 @@ a:visited {
 	font-weight: normal; 
 }
 .btn:hover {
-	cursor: url("hand-icon2.png"), pointer !important; 
+	cursor: url("feet-icon-small.png"), pointer !important; 
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
