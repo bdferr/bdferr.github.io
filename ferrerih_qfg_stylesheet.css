@@ -56,6 +56,9 @@ a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
+.btn:hover {
+	cursor: url("hand-icon.png"), pointer !important; 
+}
 
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;  /*previously #000099; */
