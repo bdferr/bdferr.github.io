@@ -38,7 +38,7 @@ header,footer, article, section {
 
 a:link {
 	display: inline; 
-	color: #333;  /*alternatively #604E3D;  #006E00;  darkgreen*/
+	color: #4d4d4d;  /*alternatively #5a5a5a (grey), #604E3D;  #006E00;  darkgreen*/
 	text-decoration: none; 
 	font-weight: normal; 
 	padding-top: 0em !important; 
@@ -48,11 +48,11 @@ a:hover {
     color: #b30000 !important;  /*previously silver, #000099; */
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("hand-icon.png") !important, pointer; 
+	cursor: url("hand-icon.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
-	color: #333;  /*alternatively #604E3D; */
+	color: #4d4d4d;  /*alternatively #604E3D; */
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -151,7 +151,14 @@ ul.dropdown-menu a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
-
+.toolbar-showing {
+	overflow-y: hidden;
+	transition-property: all;
+	transition-duration: 1s;
+}
+.toolbar-hidden {	
+	max-height: 0px !important;
+}
 header {
 	text-align: center; 
 	color: #000; 
