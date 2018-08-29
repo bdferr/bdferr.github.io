@@ -81,9 +81,7 @@ body {
 	border: none; 
 	padding: 0em; 
 }
-img {
-	border: none; 
-}
+
 .carousel-indicators {
 	z-index: 9 !important; 
 }
@@ -137,8 +135,7 @@ div {
     background-color: transparent !important;
 }
 ul.dropdown-menu a:link {
-	color: #333;  
-	/*alternatively #604E3D;  #006E00;  darkgreen*/
+	color: #333; /*alternatively #604E3D;  #006E00;  darkgreen*/
 	text-decoration: none; 
 	background-color: transparent !important; 
 	font-weight: normal; 
@@ -194,6 +191,7 @@ html {
 	height: 100% !important; 
 }
 img {
+	border: none;
 	display: block; 
 	margin: auto;  
 	text-align: center; 
@@ -323,7 +321,7 @@ footer {
 }
 #game-toolbar {
 	max-height: 35px; 
-	max-width: 354px; 
+	width: 354px; 
 	position: fixed; 
 	top: 0; 
 	left: 8%; 
@@ -485,7 +483,7 @@ footer {
 
 #game-toolbar {
 	max-height: 35px; 
-	max-width: 354px; 
+	width: 354px; 
 	position: fixed; 
 	top: 0; 
 	left: 16%; 
@@ -653,7 +651,7 @@ footer {
 }
 #game-toolbar {
 	max-height: 50px; 
-	max-width: 506px; 
+	width: 506px; 
 	position: fixed; 
 	top: 0; 
 	left: 16%; 
@@ -829,7 +827,7 @@ footer {
 }
 #game-toolbar {
 	max-height: 75px; 
-	max-width: 759px; 
+	width: 759px; 
 	position: fixed; 
 	top: 0; 
 	left: 12%; 
@@ -850,11 +848,6 @@ iframe {
 	border: none; 
 	margin: auto; 
 	display: block; 
-}
-img {
-	display: block;  
-	margin: auto;  
-	text-align: center;  
 }
 
 #li-bottom {
@@ -924,7 +917,7 @@ article {
 	max-height: 244px; 
 	max-width: 425px; 
 }
-	#settings-menu {
+#settings-menu {
 	max-height: 268px; 
 	max-width: 400px; 
 }
@@ -1009,7 +1002,7 @@ footer {
 }
 #game-toolbar {
 	max-height: 100px; 
-	max-width: 1012px; 
+	width: 1012px; 
 	position: fixed; 
 	top: 0; 
 	left: 12%; 
@@ -1127,9 +1120,9 @@ ul.affix {
 }
 #game-toolbar {
 	max-height: 100px; 
-	max-width: 1012px; 
-	position: fixed; 
-	top: 0; 
+	width: 1012px; 
+ 	position: fixed; 
+    top: 0; 
 	left: 18%; 
 	z-index: 16; 
 }
