@@ -126,8 +126,6 @@ div {
 	background-color: transparent !important; 
     font-size: 2em; 
     text-align: left; 
-	list-style-type: disc !important; 
-	list-style-position: inside !important; 
 }
 .dropdown-menu>li>a:focus {
     color: #262626;
@@ -213,9 +211,6 @@ article {
 	border-image: url("border-image8.png") 27.5% round; 
 }
 ul {
-	list-style-type: disc !important; 
-	list-style: disc !important; 
-	list-style-position: inside !important; 
 	list-style-image: url("li-red-bullet-smaller.png") !important; 
 	padding: 15px; 
 	background-color: #a6a6a6; 
@@ -271,7 +266,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0em 0.4em; 
 	display: block; 
 }
-.btn.blur,
+/*.btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
@@ -287,7 +282,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-size: contain; 
 	padding: 0em 0.4em; 
 	display: block; 
-}
+}*/
 .affix {
 	visibility: hidden; 
 }
@@ -436,7 +431,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0.1em 0.6em; 
 	display: block; 
 }
-.btn.blur,
+/*.btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
@@ -452,7 +447,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-size: contain; 
 	padding: 0.1em 0.6em; 
 	display: block; 
-}
+}*/
 .affix {
 	visibility: hidden; 
 }
@@ -600,7 +595,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0.1em 0.8em; 
 	display: block; 
 }
-.btn.blur,
+/*.btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
@@ -616,7 +611,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
-}
+}*/
 .affix {
 	visibility:hidden; 
 }
@@ -752,7 +747,6 @@ article {
 	max-width: 422px; 
 }
 .affix {
-	display: block;
 	visibility:visible;
 }
 button.affix {
@@ -779,7 +773,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-.btn.blur,
+/*.btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
@@ -794,7 +788,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important; 
 	background-size: contain; 
 	padding: 0.1em 0.8em; 
-}
+}*/
 .center {
 	width: 55%; 
 	margin: 0em auto; 
@@ -926,7 +920,6 @@ article {
 	max-width: 479px; 
 }
 .affix {
-	display: block; 
 	visibility: visible; 
 }
 button.affix {
@@ -965,7 +958,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-.btn.blur,
+/*.btn.blur,
 .btn.active, .btn-primary.active.blur, 
 .btn-primary:active.blur, 
 .open>.dropdown-toggle.btn-primary.blur, 
@@ -980,7 +973,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	background-image: url("qfg4-button.jpg") !important; 
 	background-size: contain; 
 	padding: 0.1em 0.8em; 
-}
+}*/
 #feet-icon {
 	max-height: 55px; 
 	max-width: 47px; 
@@ -1105,19 +1098,7 @@ article {
 	max-width: 563px; 
 }
 
-.affix {
-	display: block; 
-	visibility: visible;
-}
-button.affix {
-	left: 77%; 
-	top: 0%; 
-}
-ul.affix {
-	position: fixed; 
-	left: 77%; 
-	top: 115px; 
-}
+
 #game-toolbar {
 	max-height: 100px; 
 	width: 1012px; 
