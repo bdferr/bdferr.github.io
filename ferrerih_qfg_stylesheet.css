@@ -43,12 +43,19 @@ a:link {
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
-a:hover {
+li a:hover {
 	display: inline; 
     color: #b30000 !important;  /*previously silver, #000099; */
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("hand-icon2.png"), pointer !important; 
+}
+section a:hover {
+	display: inline; 
+    color: #b30000 !important;  /*previously silver, #000099; */
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("feet-icon-small.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
