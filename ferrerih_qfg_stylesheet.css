@@ -1,4 +1,4 @@
-/*last updated 7/23/2018*/
+/*last updated 8/31/2018*/
 
 /*I added this according to W3Schools' recommendation;
 these elements should already be displayed as blocks 
@@ -56,8 +56,11 @@ a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
+abbr{
+	cursor: url("QfG_icons/QG4Question.png"), help !important;
+}
 .btn:hover {
-	cursor: url("feet-icon-small.png"), pointer !important; 
+	cursor: url("QfG_icons/QG4Look2.png"), pointer !important; 
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
