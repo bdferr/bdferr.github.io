@@ -221,7 +221,6 @@ article {
 	border-image: url("border-image8.png") 27.5% round; 
 }
 ul {
-	list-style-image: url("li-red-bullet-smaller.png") !important; 
 	padding: 15px; 
 	background-color: #a6a6a6; 
 }
