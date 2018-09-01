@@ -47,14 +47,14 @@ li a:hover {
     color: #b30000 !important;  /*previously silver, #000099; */
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("hand-icon2.png"), pointer !important; 
+	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
 }
 section a:hover, footer a:hover {
 	display: inline; 
     color: #b30000 !important;  /*previously silver, #000099; */
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("feet-icon-small.png"), pointer !important; 
+	cursor: url("QfG_icons/feet-icon-small.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
@@ -66,7 +66,7 @@ abbr{
 	cursor: url("QfG_icons/QG4Question.png"), help !important;
 }
 .btn:hover {
-	cursor: url("eye-icon-center.png"), pointer !important; 
+	cursor: url("QfG_icons/eye-icon-center.png"), pointer !important; 
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
@@ -89,7 +89,7 @@ body {
 	background: #a6a6a6; 
 	border: none; 
 	padding: 0em;
-	cursor: url("sword-icon2.png"), default !important;
+	cursor: url("QfG_icons/sword-icon2.png"), default !important;
 }
 
 .carousel-indicators {
