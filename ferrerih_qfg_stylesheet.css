@@ -89,6 +89,7 @@ body {
 	background: #a6a6a6; 
 	border: none; 
 	padding: 0em;
+	cursor: url("sword-icon2.png"), default !important;
 }
 
 .carousel-indicators {
