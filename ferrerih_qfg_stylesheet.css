@@ -66,7 +66,7 @@ abbr{
 	cursor: url("QfG_icons/QG4Question.png"), help !important;
 }
 .btn:hover {
-	cursor: url("QfG_icons/QG4Look2.png"), pointer !important; 
+	cursor: url("eye-icon-center.png"), pointer !important; 
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
