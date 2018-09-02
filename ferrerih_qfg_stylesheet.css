@@ -1,4 +1,4 @@
-/*last updated 8/31/2018*/
+/*last updated 9/1/2018*/
 
 /*I added this according to W3Schools' recommendation;
 these elements should already be displayed as blocks 
@@ -159,14 +159,7 @@ ul.dropdown-menu a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
-.toolbar-showing {
-	overflow-y: hidden;
-	transition-property: all;
-	transition-duration: 1s;
-}
-.toolbar-hidden {	
-	max-height: 0px !important;
-}
+
 header {
 	text-align: center; 
 	color: #000; 
