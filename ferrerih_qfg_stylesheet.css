@@ -442,7 +442,7 @@ ul.affix {
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
-	width: 287px; 
+	width: 286px; 
 	height: 167px; 
 	font-size: 1em; 
 	font-style: italic; 
@@ -601,7 +601,7 @@ ul.affix {
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 298px; 
-	height: 176px; 
+	height: 174px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("stone-panel-no-text1.png"); 
@@ -756,8 +756,8 @@ button, .btn {
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
-	width: 320px; 
-	height: 187px; 
+	width: 319.7px; 
+	height: 186.7px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("stone-panel-no-text1.png"); 
@@ -911,7 +911,7 @@ button, .btn {
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
-	width: 368px; 
+	width: 368.7px; 
 	height: 215px; 
 	font-size: 1em; 
 	font-style: italic; 
