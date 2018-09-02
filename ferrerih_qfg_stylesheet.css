@@ -262,7 +262,7 @@ button, .btn {
 	background-color: transparent !important; 
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
-	padding: 0em 0.4em; 
+	padding: 0.1em 0.8em; 
 	display: block; 
 }
 .affix {
@@ -275,7 +275,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 20%; 
-	top: 40px; 
+	top: 45px; 
 }
 .container {
 	margin: 0; 
@@ -416,7 +416,7 @@ button, .btn {
 	background-color: transparent !important; 
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
-	padding: 0.1em 0.6em; 
+	padding: 0.1em 0.8em; 
 	display: block; 
 }
 .affix {
@@ -429,7 +429,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 35%; 
-	top: 40px; 
+	top: 45px; 
 }
 .center {
     font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
