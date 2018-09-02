@@ -469,7 +469,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 35%; 
-	top: 70px; 
+	top: 40px; 
 }
 .center {
     font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
@@ -478,9 +478,7 @@ ul.affix {
 	font-size: 3em; 
 }
 #feet-icon {
-	display: block; 
-	max-height: 28px; 
-	max-width: 23px; 
+	display: none;
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
