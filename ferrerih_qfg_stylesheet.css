@@ -1,4 +1,4 @@
-/*last updated 8/31/2018*/
+/*last updated 9/1/2018*/
 
 /*I added this according to W3Schools' recommendation;
 these elements should already be displayed as blocks 
@@ -159,14 +159,7 @@ ul.dropdown-menu a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
-.toolbar-showing {
-	overflow-y: hidden;
-	transition-property: all;
-	transition-duration: 1s;
-}
-.toolbar-hidden {	
-	max-height: 0px !important;
-}
+
 header {
 	text-align: center; 
 	color: #000; 
@@ -293,7 +286,16 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }*/
 .affix {
-	visibility: hidden; 
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 20%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 20%; 
+	top: 40px; 
 }
 .container {
 	margin: 0; 
@@ -458,7 +460,16 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }*/
 .affix {
-	visibility: hidden; 
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 35%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 35%; 
+	top: 40px; 
 }
 .center {
     font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
@@ -467,9 +478,7 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	font-size: 3em; 
 }
 #feet-icon {
-	display: block; 
-	max-height: 28px; 
-	max-width: 23px; 
+	display: none;
 }
 footer {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
@@ -622,7 +631,16 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	display: block; 
 }*/
 .affix {
-	visibility:hidden; 
+	visibility:visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 76%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 76%; 
+	top: 92px; 
 }
 .center {
 	width: 67%; 
