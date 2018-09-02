@@ -252,10 +252,7 @@ ul {
 	max-width: 225px; 
 }
 
-button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
+button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
@@ -268,23 +265,6 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0em 0.4em; 
 	display: block; 
 }
-/*.btn.blur,
-.btn.active, .btn-primary.active.blur, 
-.btn-primary:active.blur, 
-.open>.dropdown-toggle.btn-primary.blur, 
-.btn-primary.blur {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 3em; 
-    z-index: 10 !important; 
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg4-button.jpg") !important; 
-	background-size: contain; 
-	padding: 0em 0.4em; 
-	display: block; 
-}*/
 .affix {
 	visibility: visible; 
 }
@@ -426,10 +406,7 @@ li.othernavbar {
 	background-attachment: fixed; 
 	padding: 0 0 120px 0; 
 }
-button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
+button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
@@ -442,23 +419,6 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0.1em 0.6em; 
 	display: block; 
 }
-/*.btn.blur,
-.btn.active, .btn-primary.active.blur, 
-.btn-primary:active.blur, 
-.open>.dropdown-toggle.btn-primary.blur, 
-.btn-primary.blur {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 3em; 
-    z-index: 10 !important; 
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg4-button.jpg") !important; 
-	background-size: contain; 
-	padding: 0.1em 0.6em; 
-	display: block; 
-}*/
 .affix {
 	visibility: visible; 
 }
@@ -597,10 +557,7 @@ article {
 	max-width: 282px; 
 }
 
-button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
+button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
 	z-index: 10 !important; 
@@ -613,23 +570,6 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
 	padding: 0.1em 0.8em; 
 	display: block; 
 }
-/*.btn.blur,
-.btn.active, .btn-primary.active.blur, 
-.btn-primary:active.blur, 
-.open>.dropdown-toggle.btn-primary.blur, 
-.btn-primary.blur {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 3.5em; 
-    z-index: 10 !important; 
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg4-button.jpg") !important; 
-	background-size: contain; 
-	padding: 0.1em 0.8em; 
-	display: block; 
-}*/
 .affix {
 	visibility:visible; 
 }
@@ -785,10 +725,7 @@ ul.affix {
 	left: 74%; 
 	top: 115px; 
 }
-button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
+button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
@@ -800,22 +737,6 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-/*.btn.blur,
-.btn.active, .btn-primary.active.blur, 
-.btn-primary:active.blur, 
-.open>.dropdown-toggle.btn-primary.blur, 
-.btn-primary.blur {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 4em; 
-    z-index: 10 !important; 	
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg4-button.jpg") !important; 
-	background-size: contain; 
-	padding: 0.1em 0.8em; 
-}*/
 .center {
 	width: 55%; 
 	margin: 0em auto; 
@@ -970,10 +891,7 @@ ul.affix {
 	background-attachment: fixed; 
 	padding: 0 0 240px 0; 
 }
-button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.focus, 
-.btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, 
-.btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, 
-.open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:hover {
+button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
@@ -985,22 +903,6 @@ button, .btn, .btn-primary, .btn-primary.active, .btn.active.btn-primary.active.
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-/*.btn.blur,
-.btn.active, .btn-primary.active.blur, 
-.btn-primary:active.blur, 
-.open>.dropdown-toggle.btn-primary.blur, 
-.btn-primary.blur {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 4em; 
-    z-index: 10 !important; 	
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg4-button.jpg") !important; 
-	background-size: contain; 
-	padding: 0.1em 0.8em; 
-}*/
 #feet-icon {
 	max-height: 55px; 
 	max-width: 47px; 
