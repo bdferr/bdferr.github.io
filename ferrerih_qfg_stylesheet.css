@@ -279,7 +279,8 @@ button, .btn {
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
-	display: block; 
+	display: block;
+	margin: auto;
 }
 .affix {
 	visibility: visible; 
@@ -739,7 +740,8 @@ button, .btn {
 	background-color: transparent !important; 
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
-	padding: 0.1em 0.8em; 
+	padding: 0.1em 0.8em;
+
 }
 .center {
 	width: 55%; 
