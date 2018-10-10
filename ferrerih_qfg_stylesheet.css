@@ -279,14 +279,15 @@ button, .btn {
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
-	display: block; 
+	display: block;
+	margin: auto;
 }
 .affix {
 	visibility: visible; 
 }
 button.affix {
 	top: 0%; 
-	left: 20%; 
+	left: 27%; 
 }
 ul.affix {
 	position: fixed; 
@@ -322,7 +323,7 @@ footer {
 	width: 354px; 
 	position: fixed; 
 	top: 0; 
-	left: 8%; 
+	left: 3%; 
 	z-index: 16; 
 }
 h1 {
@@ -330,7 +331,7 @@ h1 {
 	padding: 0.2em; 
 	position: absolute; 
 	top: 35px; 
-	left: 5%; 
+	left: 12%; 
 	height: 48px; 
 	width: 278px; 
     background-image: url("qfg4-li-b-top2-smaller.jpg"); 
@@ -739,7 +740,8 @@ button, .btn {
 	background-color: transparent !important; 
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
-	padding: 0.1em 0.8em; 
+	padding: 0.1em 0.8em;
+
 }
 .center {
 	width: 55%; 
@@ -780,7 +782,7 @@ h1 {
 	padding: 0.8em; 
 	position: absolute; 
 	top: 75px; 
-	left: 12%; 
+	left: 13%; 
 	height: 131px; 
 	width: 768px; 
 }
