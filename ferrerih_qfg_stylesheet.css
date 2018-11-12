@@ -92,6 +92,22 @@ body {
 	cursor: url("QfG_icons/sword-icon2.png"), default !important;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("cranium-lab-empty.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .carousel-indicators {
 	z-index: 9 !important; 
 }
@@ -263,14 +279,15 @@ button, .btn {
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
-	display: block; 
+	display: block;
+	margin: auto;
 }
 .affix {
 	visibility: visible; 
 }
 button.affix {
 	top: 0%; 
-	left: 20%; 
+	left: 27%; 
 }
 ul.affix {
 	position: fixed; 
@@ -283,10 +300,6 @@ ul.affix {
 	width: 100%; 
 	height: auto; 
 	font-size: 100%; 
-	background-image: url("cranium-lab-empty.jpg"); 
-	background-position: 40% 0%; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
 }
 
 #feet-icon {
@@ -310,7 +323,7 @@ footer {
 	width: 354px; 
 	position: fixed; 
 	top: 0; 
-	left: 8%; 
+	left: 3%; 
 	z-index: 16; 
 }
 h1 {
@@ -318,7 +331,7 @@ h1 {
 	padding: 0.2em; 
 	position: absolute; 
 	top: 35px; 
-	left: 5%; 
+	left: 12%; 
 	height: 48px; 
 	width: 278px; 
     background-image: url("qfg4-li-b-top2-smaller.jpg"); 
@@ -400,10 +413,6 @@ li.othernavbar {
 }
 
 .container {
-	background-image: url("cranium-lab-empty.jpg"); 
-	background-position: 40% 0%; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
 	padding: 0 0 120px 0; 
 }
 button, .btn {
@@ -587,10 +596,6 @@ ul.affix {
 	font-size: 3em; 
 }
 .container {
-	background-image: url("cranium-lab-empty.jpg"); 
-	background-position: 40% 0%; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
 	padding: 0 0 150px 0; 
 }
 #feet-icon {
@@ -735,7 +740,8 @@ button, .btn {
 	background-color: transparent !important; 
 	background-image: url("qfg4-button.jpg") !important; 
     background-size: contain; 
-	padding: 0.1em 0.8em; 
+	padding: 0.1em 0.8em;
+
 }
 .center {
 	width: 55%; 
@@ -743,10 +749,6 @@ button, .btn {
 	font-size: 3.5em; 
 }
 .container {
-	background-image: url("drcranium.jpg"), url("cranium-lab-empty.jpg"); 
-	background-position: 0% 0%, 40% 0%; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
 	padding: 0 0 215px 0; 
 }
 #feet-icon {
@@ -780,7 +782,7 @@ h1 {
 	padding: 0.8em; 
 	position: absolute; 
 	top: 75px; 
-	left: 12%; 
+	left: 13%; 
 	height: 131px; 
 	width: 768px; 
 }
@@ -885,11 +887,11 @@ ul.affix {
 	font-size: 4em; 
 }
 .container {
-	background-image: url("drcranium.jpg"), url("cranium-lab-empty.jpg"); 
-	background-position: 0% 0%, 40% 0%; 
+	padding: 0 0 240px 0;
+	background-image: url("drcranium.jpg"); 
+	background-position: 0% 0%; 
 	background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	padding: 0 0 240px 0; 
+	background-attachment: fixed;
 }
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
