@@ -183,6 +183,10 @@ section {
 	margin:auto;
 }
 
+.bottom-heading {
+	display:none !important;
+}
+	
 figure {
 	margin:0px !important;
 	-webkit-margin-before: 0em !important;
@@ -223,7 +227,9 @@ figure {
         display: table-cell;
         margin: 0;
     }
-	
+	.bottom-heading{
+		display:table-cell !important;
+	}
 	h1 {
 		font-size: 3.0em
 	}
