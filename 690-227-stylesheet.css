@@ -1,4 +1,4 @@
-/*Last updated 1/5/2020*/
+/*Last updated 1/6/2020*/
 a
 {
     display:inline;
@@ -16,15 +16,15 @@ a:visited
 	color: #630;/*alternatively #604E3D;*/
 }
 
-li a{
+.navbar a{
 	color: silver;
 }
-li a:hover
+.navbar a:hover
 {
     color: gray; /*previously #000099;*/
     text-decoration:underline;
 }
-li a:visited
+.navbar a:visited
 {
 	color: gray;/*alternatively #604E3D;*/
 } 
@@ -114,7 +114,7 @@ footer
 h1
 {	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
     border: 0.125em;
     border-radius:1.0em;
     border-style: outset;
@@ -207,7 +207,7 @@ div.summary
 	padding: 1.0em;
 	margin:auto;
 	max-width:75%;
-	background-color: #e6ac00;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     border: outset 0.25em #630;
     border-radius: 1.0em;
 	display:block;
@@ -220,7 +220,7 @@ section
 	border-radius: 1.0em;
 	padding: 1.0em;
 	display:block;
-	background-color: #e6ac00; /*#630;*/
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
 section.center
 {
@@ -341,7 +341,7 @@ section.center
 h1
 {	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
     border: 0.125em;
     border-radius:1.0em;
     border-style: outset;
@@ -395,7 +395,7 @@ div.summary
     border: outset 0.125em black;
     border-radius: 1.0em;
     padding: 1.5em;
-	background-color: #e6ac00;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 }
 section
@@ -464,7 +464,7 @@ div.summary
     border: outset 0.125em black;
     border-radius: 1.0em;
     padding: 1.0em;
-	background-color: #e6ac00;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 	}
 div.third
@@ -487,7 +487,7 @@ h1
  {
 	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
     border: 0.125em;
     border-radius:1.0em;
     border-style: outset;
@@ -539,7 +539,7 @@ div.summary
 	margin:auto;
 	max-width:50%;
     padding: 1.0em;
-	background-color: #e6ac00;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 }
 section
@@ -550,6 +550,7 @@ section
 	margin: 1em 2em;
 	padding-left:2.0em;
 	padding-right:2.0em;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
 	section.wide
 {
