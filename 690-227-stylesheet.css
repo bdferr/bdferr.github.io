@@ -1,34 +1,22 @@
-/*Last updated 1/5/2020*/
+/*Last updated 3/19/2016*/
 a
 {
     display:inline;
 	text-decoration:none;
-	color: #000099; /*alternatively #262626; #848282; */
+}
+a:link{
+	color: #848282 /*alternatively #262626; #006E00;*/
 }
 
 a:hover
 {
-    color: #630; /*previously #000099;*/
+    color: silver; /*previously #000099;*/
     text-decoration:underline;
 }
 a:visited
 {
-	color: #630;/*alternatively #604E3D;*/
-}
-
-li a{
-	color: silver;
-}
-li a:hover
-{
-    color: gray; /*previously #000099;*/
-    text-decoration:underline;
-}
-li a:visited
-{
-	color: gray;/*alternatively #604E3D;*/
+	color: silver;/*alternatively #604E3D;*/
 } 
- 
 body
 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -90,7 +78,7 @@ padding: 0em;
 .flex
 {
 	font-size: 85%;
-	border: outset 0.25em #630;
+	border: solid 0.125em black;
 	border-radius: 1.0em;
 	width:80%;
 	padding: 1.0em;
@@ -114,12 +102,7 @@ footer
 h1
 {	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
-    border: 0.125em;
-    border-radius:1.0em;
-    border-style: outset;
-    border-color: #630;
-	font-family: "Trebuchet", "Times New Roman", sans-serif;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
 	font-size: 2em;
 	line-height:150%;
 	width: 70%;
@@ -190,8 +173,8 @@ padding: 0.2em 1.2em;
 margin: 0.4em;
 border: 0.125em;
 border-radius:1.0em;
-border-style: outset;
-border-color: #630;
+border-style: solid;
+border-color: black;
 display: inline-flex;
 }
 nav
@@ -207,8 +190,8 @@ div.summary
 	padding: 1.0em;
 	margin:auto;
 	max-width:75%;
-	background-color: #e6ac00;
-    border: outset 0.25em #630;
+	background-color: #630;
+    border: solid 0.125em black;
     border-radius: 1.0em;
 	display:block;
 }
@@ -216,11 +199,11 @@ section
 {
 	font-size: 85%;
 	margin: 1em 0.938em;
-	border: outset 0.25em #630;
+	border: solid 0.125em black;
 	border-radius: 1.0em;
 	padding: 1.0em;
 	display:block;
-	background-color: #e6ac00; /*#630;*/
+	background-color: #630;
 }
 section.center
 {
@@ -330,7 +313,7 @@ section.center
 {
 	font-size: 115%;
 	margin: auto;
-	border: outset 0.25em #630;
+	border: solid 0.125em black;
 	border-radius: 1.0em;
 	padding-left:2.0em;
 	padding-right:2.0em;
@@ -341,12 +324,7 @@ section.center
 h1
 {	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
-    border: 0.125em;
-    border-radius:1.0em;
-    border-style: outset;
-    border-color: #630;
-	font-family: "Trebuchet", "Times New Roman", sans-serif;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
 	font-size: 3em;
 	font-style: normal;
 	font-variant: normal;
@@ -382,7 +360,7 @@ padding: 0.4em 1em;
 margin: 0.4em;
 border: 0.125em;
 border-radius: 1.0em;
-border-style: outset;
+border-style: solid;
 border-color: black;
 display: inline-flex;
 }
@@ -392,16 +370,16 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:60%;
-    border: outset 0.125em black;
+    border: solid 0.125em black;
     border-radius: 1.0em;
     padding: 1.5em;
-	background-color: #e6ac00;
+	background-color: #630;
     display:block;
 }
 section
 	{
 	font-size: 115%;
-	border: outset 0.25em #630;
+	border: solid 0.125em black;
 	border-radius: 1.0em;
 	margin: 1em 1.5em;
 	padding-left:2.0em;
@@ -461,10 +439,10 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:55%;
-    border: outset 0.125em black;
+    border: solid 0.125em black;
     border-radius: 1.0em;
     padding: 1.0em;
-	background-color: #e6ac00;
+	background-color: #630;
     display:block;
 	}
 div.third
@@ -474,7 +452,7 @@ div.third
 }
 .flex
 {
-    border: outset 0.25em #630;
+    border: solid 0.125em black;
     border-radius: 1.0em;
 	font-size: 130%;
 	padding-left:2.0em;
@@ -487,12 +465,7 @@ h1
  {
 	text-align: center;
 	color: black;
-	background: repeating-radial-gradient(#532900 10%, #630 20%);
-    border: 0.125em;
-    border-radius:1.0em;
-    border-style: outset;
-    border-color: #630;
-	font-family: "Trebuchet", "Times New Roman", sans-serif;
+	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
 	font-size: 4em;
 	font-variant: normal;
 	font-weight: normal;
@@ -526,25 +499,25 @@ padding: 0.625em 1.5em;
 margin:0.4em;
 border: 0.125em;
 border-radius:1.0em;
-border-style: outset;
-border-color: #630;
+border-style: solid;
+border-color: black;
 display: inline-flex;
 }
 
 div.summary
 {
-    border: outset 0.25em #630;
+    border: solid 0.125em black;
     border-radius: 1.0em;
 	font-size: 130%;
 	margin:auto;
 	max-width:50%;
     padding: 1.0em;
-	background-color: #e6ac00;
+	background-color: #630;
     display:block;
 }
 section
 {
-    border: outset 0.25em #630;
+    border: solid 0.125em black;
     border-radius: 1.0em;
 	font-size: 130%;
 	margin: 1em 2em;
