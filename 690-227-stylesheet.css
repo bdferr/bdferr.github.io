@@ -1,22 +1,34 @@
-/*Last updated 3/19/2016*/
+/*Last updated 1/6/2020*/
 a
 {
     display:inline;
 	text-decoration:none;
-}
-a:link{
-	color: #848282 /*alternatively #262626; #006E00;*/
+	color: #000099; /*alternatively #262626; #848282; */
 }
 
 a:hover
 {
-    color: silver; /*previously #000099;*/
+    color: #630; /*previously #000099;*/
     text-decoration:underline;
 }
 a:visited
 {
-	color: silver;/*alternatively #604E3D;*/
+	color: #630;/*alternatively #604E3D;*/
+}
+
+.navbar a{
+	color: silver;
+}
+.navbar a:hover
+{
+    color: gray; /*previously #000099;*/
+    text-decoration:underline;
+}
+.navbar a:visited
+{
+	color: gray;/*alternatively #604E3D;*/
 } 
+ 
 body
 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +90,7 @@ padding: 0em;
 .flex
 {
 	font-size: 85%;
-	border: solid 0.125em black;
+	border: outset 0.25em #630;
 	border-radius: 1.0em;
 	width:80%;
 	padding: 1.0em;
@@ -102,7 +114,12 @@ footer
 h1
 {	text-align: center;
 	color: black;
-	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
+    border: 0.125em;
+    border-radius:1.0em;
+    border-style: outset;
+    border-color: #630;
+	font-family: "Trebuchet", "Times New Roman", sans-serif;
 	font-size: 2em;
 	line-height:150%;
 	width: 70%;
@@ -173,8 +190,8 @@ padding: 0.2em 1.2em;
 margin: 0.4em;
 border: 0.125em;
 border-radius:1.0em;
-border-style: solid;
-border-color: black;
+border-style: outset;
+border-color: #630;
 display: inline-flex;
 }
 nav
@@ -190,8 +207,8 @@ div.summary
 	padding: 1.0em;
 	margin:auto;
 	max-width:75%;
-	background-color: #630;
-    border: solid 0.125em black;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
+    border: outset 0.25em #630;
     border-radius: 1.0em;
 	display:block;
 }
@@ -199,11 +216,11 @@ section
 {
 	font-size: 85%;
 	margin: 1em 0.938em;
-	border: solid 0.125em black;
+	border: outset 0.25em #630;
 	border-radius: 1.0em;
 	padding: 1.0em;
 	display:block;
-	background-color: #630;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
 section.center
 {
@@ -313,7 +330,7 @@ section.center
 {
 	font-size: 115%;
 	margin: auto;
-	border: solid 0.125em black;
+	border: outset 0.25em #630;
 	border-radius: 1.0em;
 	padding-left:2.0em;
 	padding-right:2.0em;
@@ -324,7 +341,12 @@ section.center
 h1
 {	text-align: center;
 	color: black;
-	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
+    border: 0.125em;
+    border-radius:1.0em;
+    border-style: outset;
+    border-color: #630;
+	font-family: "Trebuchet", "Times New Roman", sans-serif;
 	font-size: 3em;
 	font-style: normal;
 	font-variant: normal;
@@ -360,7 +382,7 @@ padding: 0.4em 1em;
 margin: 0.4em;
 border: 0.125em;
 border-radius: 1.0em;
-border-style: solid;
+border-style: outset;
 border-color: black;
 display: inline-flex;
 }
@@ -370,16 +392,16 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:60%;
-    border: solid 0.125em black;
+    border: outset 0.125em black;
     border-radius: 1.0em;
     padding: 1.5em;
-	background-color: #630;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 }
 section
 	{
 	font-size: 115%;
-	border: solid 0.125em black;
+	border: outset 0.25em #630;
 	border-radius: 1.0em;
 	margin: 1em 1.5em;
 	padding-left:2.0em;
@@ -439,10 +461,10 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:55%;
-    border: solid 0.125em black;
+    border: outset 0.125em black;
     border-radius: 1.0em;
     padding: 1.0em;
-	background-color: #630;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 	}
 div.third
@@ -452,7 +474,7 @@ div.third
 }
 .flex
 {
-    border: solid 0.125em black;
+    border: outset 0.25em #630;
     border-radius: 1.0em;
 	font-size: 130%;
 	padding-left:2.0em;
@@ -465,7 +487,12 @@ h1
  {
 	text-align: center;
 	color: black;
-	font-family: "Century Gothic", "Times New Roman", "Trebuchet", sans-serif;
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
+    border: 0.125em;
+    border-radius:1.0em;
+    border-style: outset;
+    border-color: #630;
+	font-family: "Trebuchet", "Times New Roman", sans-serif;
 	font-size: 4em;
 	font-variant: normal;
 	font-weight: normal;
@@ -499,30 +526,31 @@ padding: 0.625em 1.5em;
 margin:0.4em;
 border: 0.125em;
 border-radius:1.0em;
-border-style: solid;
-border-color: black;
+border-style: outset;
+border-color: #630;
 display: inline-flex;
 }
 
 div.summary
 {
-    border: solid 0.125em black;
+    border: outset 0.25em #630;
     border-radius: 1.0em;
 	font-size: 130%;
 	margin:auto;
 	max-width:50%;
     padding: 1.0em;
-	background-color: #630;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
     display:block;
 }
 section
 {
-    border: solid 0.125em black;
+    border: outset 0.25em #630;
     border-radius: 1.0em;
 	font-size: 130%;
 	margin: 1em 2em;
 	padding-left:2.0em;
 	padding-right:2.0em;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
 	section.wide
 {
