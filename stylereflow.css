@@ -57,6 +57,14 @@ h1 {
 	font-size: 2em;
 	line-height:150%;
 	font-weight:normal;
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
+    border: 0.125em;
+    border-radius:1.0em;
+    border-style: outset;
+    border-color: #630;
+	width: 80%;
+	padding: .2em;
+	margin: .8em auto;
 }
 
 img {
