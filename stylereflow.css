@@ -1,20 +1,20 @@
-/*Last updated 11/25/2018*/
+/*Last updated 1/18/2020*/
 
 a {
     display:inline;
 	text-decoration:none;
 }
 a:link {
-	color: #848282; /*alternatively #006E00;*/
+	color: #000099; /*alternatively #006E00;*/
 }
 
 a:hover {
-    color: silver; /*previously #000099;*/
+    color: #630; /*previously #000099;*/
     text-decoration:underline;
 }
 
 a:visited {
-	color: silver;/*alternatively #604E3D;*/
+	color: #630;/*alternatively #604E3D;*/
 } 
 
 body {
@@ -30,7 +30,7 @@ footer {
 	color: #000000;
 	font-size: 100%;
 	font-style: italic;
-	background-color: #630;
+	background: transparent;
 	padding-left: 2.0em;
 	padding-right: 2.0em;
 	padding-top:1.0em;
@@ -57,6 +57,14 @@ h1 {
 	font-size: 2em;
 	line-height:150%;
 	font-weight:normal;
+	background: radial-gradient(#ffcc33 50%,  #e6ac00 85%);
+    border: 0.125em;
+    border-radius:1.0em;
+    border-style: outset;
+    border-color: #630;
+	width: 80%;
+	padding: .2em;
+	margin: .8em auto;
 }
 
 img {
@@ -103,6 +111,7 @@ section {
 	margin-right:auto;
 	padding: 0.750em;
 	width: 65%;
+	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
 
 /*Here are the rules specific to table design:*/
@@ -113,7 +122,7 @@ section {
 
 .lh-list tbody th {
     font-size: 1.2em;
-    background-color: #630;
+    background: transparent;
     color: black;
     text-align: center;
 }
@@ -148,7 +157,7 @@ section {
 	line-height: 110%;
 	padding: .3em .3em;
 	color: black;
-	background-color: #630;
+	background: transparent;
 }
 
 /*  Hide labels for name */
@@ -277,5 +286,4 @@ figure {
 		font-size: 4.0em
 	}
 }
-	
 	
