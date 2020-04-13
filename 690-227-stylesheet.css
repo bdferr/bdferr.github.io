@@ -222,7 +222,7 @@ section
 	display:block;
 	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
 }
-section.center
+section.center, div.center
 {
 	width:80%;
 	margin:auto;
@@ -254,7 +254,7 @@ ul
 	height: 18.75em;
 	width: 28.125em;
 }
-section.center, div.summary, section.flex
+section.center, div.summary, section.flex, div.center
 {
 	font-size: 100%;
 	padding: 1.5em;
@@ -314,7 +314,7 @@ div.third
 	margin:0em;
 }
 
-section.center
+section.center, div.center
 {
 	font-size: 115%;
 	padding: 1.5em;
