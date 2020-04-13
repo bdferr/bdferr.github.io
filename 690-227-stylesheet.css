@@ -1,4 +1,4 @@
-/*Last updated 1/6/2020*/
+/*Last updated 4/13/2020*/
 a
 {
     display:inline;
@@ -383,7 +383,7 @@ margin: 0.4em;
 border: 0.125em;
 border-radius: 1.0em;
 border-style: outset;
-border-color: black;
+border-color: #630;
 display: inline-flex;
 }
 
@@ -392,7 +392,7 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:60%;
-    border: outset 0.125em black;
+    border: outset 0.25em #630;
     border-radius: 1.0em;
     padding: 1.5em;
 	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
@@ -461,7 +461,7 @@ div.summary
 	font-size: 115%;
 	margin: auto;
 	max-width:55%;
-    border: outset 0.125em black;
+    border: outset 0.125em #630;
     border-radius: 1.0em;
     padding: 1.0em;
 	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
