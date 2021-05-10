@@ -101,7 +101,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("cranium-lab4-altered3.png") no-repeat center center;
+  background: url("cranium-lab4-altered3.webp") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -223,11 +223,11 @@ article {
 	color: black; 
 }
 .stone1 {
-	background-image: url("stone-panel-no-border-best.png"); 
+	background-image: url("stone-panel-no-border-best.webp"); 
     background-size: initial; 
 	background-color: transparent; 
 	border: 40px solid transparent; 
-	border-image: url("border-image8.png") 27.5% round; 
+	border-image: url("border-image8.webp") 27.5% round; 
 }
 ul {
 	padding: 15px; 
