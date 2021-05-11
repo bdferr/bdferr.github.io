@@ -263,10 +263,6 @@ ul {
 	max-height: 126px; 
 	max-width: 188px; 
 }
-#text-screenshot1 { 
-	max-height: 135px; 
-	max-width: 225px; 
-}
 
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -406,10 +402,6 @@ li.othernavbar {
 #settings-menu {
 	max-height: 126px; 
 	max-width: 188px; 
-}
-#text-screenshot1 { 
-	max-height: 135px; 
-	max-width: 225px; 
 }
 
 .container {
@@ -561,10 +553,6 @@ article {
 	max-height: 157px; 
 	max-width: 235px; 
 }
-#text-screenshot1 { 
-	max-height: 169px; 
-	max-width: 282px; 
-}
 
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -714,10 +702,7 @@ article {
 	max-height: 237px; 
 	max-width: 353px; 
 }
-#text-screenshot1 { 
-	max-height: 256px; 
-	max-width: 422px; 
-}
+
 .affix {
 	visibility:visible;
 }
@@ -865,10 +850,7 @@ article {
 	max-height: 268px; 
 	max-width: 400px; 
 }
-#text-screenshot1 { 
-	max-height: 287px; 
-	max-width: 479px; 
-}
+
 .affix {
 	visibility: visible; 
 }
@@ -1024,12 +1006,6 @@ article {
 	max-height: 315px; 
 	max-width: 470px; 
 }
-#text-screenshot1 { 
-	max-height: 338px; 
-	max-width: 563px; 
-}
-
-
 #game-toolbar {
 	max-height: 100px; 
 	width: 1012px; 
