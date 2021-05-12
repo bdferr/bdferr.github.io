@@ -1,7 +1,6 @@
-/*last updated 5/10/2021*/
+/*last updated 5/11/2021*/
 
-/*I added this according to W3Schools' recommendation;
-these elements should already be displayed as blocks 
+/*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
 header,footer, article, section {
     display: block; 
@@ -248,8 +247,8 @@ ul {
 	width: 205px; 
 }
 #intro-menu {
-	height: 136px; 
-	width: 191px; 
+	height: 128px; 
+	width: 180px; 
 }
 #inventory {
 	max-height: 115px; 
@@ -387,13 +386,13 @@ li.othernavbar {
 	height: 128px; 
 	width: 205px; 
 }
+#intro-menu {
+	height: 128px; 
+	width: 180px; 
+}
 #inventory {
 	max-height: 115px; 
 	max-width: 200px; 
-}
-#intro-menu {
-	height: 136px; 
-	width: 191px; 
 }
 #magic-spells {
 	max-height: 115px; 
@@ -538,8 +537,8 @@ article {
 	width: 256px; 
 }
 #intro-menu {
-	height: 170px; 
-	width: 239px; 
+	height: 160px; 
+	width: 215px; 
 }
 #inventory {
 	max-height: 144px; 
@@ -687,8 +686,8 @@ article {
 	width: 384px; 
 }
 #intro-menu {
-	height: 254px; 
-	width: 358px; 
+	height: 240px; 
+	width: 338px; 
 }
 #inventory {
 	max-height: 215px; 
@@ -835,8 +834,8 @@ article {
 	width: 435px; 
 }
 #intro-menu {
-	height: 288px; 
-	width: 405px; 
+	height: 272px; 
+	width: 382px; 
 }
 #inventory {
 	max-height: 244px; 
@@ -847,8 +846,8 @@ article {
 	max-width: 425px; 
 }
 #settings-menu {
-	max-height: 268px; 
-	max-width: 400px; 
+	max-height: 272px; 
+	max-width: 406px; 
 }
 
 .affix {
@@ -991,8 +990,8 @@ article {
 	width: 512px; 
 }
 #intro-menu {
-	height: 339px; 
-	width: 477px; 
+	height: 320px; 
+	width: 449px; 
 }
 #inventory {
 	max-height: 287px; 
