@@ -102,36 +102,7 @@ a:link{
 a:visited
 {
 	color: silver;/*previously #3E3228;*/
-} 
-/*
-li.navbar
-{
-font-size: 1.2em;
-background-color: #630;
-padding-left: 1.5em;
-padding-right: 1.5em;
-padding-top: 0.4em;
-padding-bottom: 0.4em;
-margin-top:0.4em;
-margin-bottom:0.4em;
-margin-left:0.4em;
-margin-right:0.4em;
-border: 2px;
-border-radius:1.0em;
-border-style: solid;
-border-color: black;
-display: inline-flex;
-font-weight:bold;
 }
-*/
-nav
-{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-	text-align: center;
-	margin-bottom:20px;
-}	
 
 ul
  {
@@ -230,29 +201,7 @@ footer {
     .lh-list th .ui-table-cell-label {
         display: none;
     }
-	/*Increase the font size for the navigation links*/
-	/*
-	li.navbar
-	{
-	font-size: 1.5em;
-	background-color: #630;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	padding-top: 0.4em;
-	padding-bottom: 0.4em;
-	margin-left:0.4em;
-	margin-right:0.4em;
-	margin-top:0.4em;
-	margin-bottom:0.4em;
-	border: 2px;
-	border-radius:1.0em;
-	border-style: solid;
-	border-color: black;
-	display: inline-flex;
-	font-weight:bold;
-	font-size: 1.5em
-	}}
-	*/
+
 	@media (min-width:65em)
 	{
 	.lh-list thead th,
