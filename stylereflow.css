@@ -25,6 +25,14 @@ body {
 	line-height:200%;
 }
 
+figure {
+	margin:0px !important;
+	-webkit-margin-before: 0em !important;
+	-webkit-margin-after: 0em !important;
+	-webkit-margin-start: 0em !important;
+	-webkit-margin-end: 0em !important;
+}
+
 footer {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #000000;
@@ -75,9 +83,9 @@ section {
 	border-radius: 1.0em;
 	background-color: #630;
 	margin: 1.0em auto;
-	padding: 0.750em;
-	width: 65%;
+	padding: 1em;
 	background: radial-gradient(#ffcc33 25%,  #e6ac00 85%);
+	max-width: 80%;
 }
 
 /*Here are the rules specific to table design:*/
@@ -153,26 +161,18 @@ section {
 	margin: -.4em 1em -.4em 0.4em;
 }
 
-.center {
-	max-width:80%;
-	margin:auto;
+.table	{
+	padding-left:1.5em;
+	padding-right:1.5em;
 }
 
 .bottom-heading {
 	display:none !important;
 }
-	
-figure {
-	margin:0px !important;
-	-webkit-margin-before: 0em !important;
-	-webkit-margin-after: 0em !important;
-	-webkit-margin-start: 0em !important;
-	-webkit-margin-end: 0em !important;
-}
 
-.table	{
-	padding-left:1.5em;
-	padding-right:1.5em;
+.center {
+	max-width:80%;
+	margin:auto;
 }
 
 @media (max-width: 30em) {
@@ -215,9 +215,13 @@ figure {
 
 	.center
 	{
-		max-width:60%;
+		max-width:65%;
 		margin:auto;
 		padding: 2em;
+	}
+	section
+	{
+		max-width: 65%;
 	}
 	.table
 	{
@@ -241,7 +245,7 @@ figure {
 		padding: 2.5em;
 	}
 	section {
-		max-width: 65%;
+		max-width: 55%;
 	}
 	h1 {
 		font-size: 4.0em
