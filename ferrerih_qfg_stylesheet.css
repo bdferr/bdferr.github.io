@@ -1,4 +1,4 @@
-/*last updated 5/11/2021*/
+/*last updated 5/14/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -242,7 +242,7 @@ ul {
 	max-height: 120px; 
 	max-width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -382,7 +382,7 @@ li.othernavbar {
 	max-height: 120px; 
 	max-width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -532,7 +532,7 @@ article {
 	max-height: 150px; 
 	max-width: 240px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 160px; 
 	width: 256px; 
 }
@@ -681,7 +681,7 @@ article {
 	max-height: 225px; 
 	max-width: 360px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 240px; 
 	width: 384px; 
 }
@@ -829,7 +829,7 @@ article {
 	max-height: 255px; 
 	max-width: 408px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 272px; 
 	width: 435px; 
 }
@@ -985,7 +985,7 @@ article {
 	max-height: 300px; 
 	max-width: 480px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 320px; 
 	width: 512px; 
 }
