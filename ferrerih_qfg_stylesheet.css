@@ -7,20 +7,20 @@ header,footer, article, section {
 }
 
 #eye-icon {
-	max-height: 48px; 
-	max-width: 46px;
+	height: 48px;
+	width: 46px;
 }
 #hand-icon {
-	max-height: 71px; 
-	max-width: 80px; 
+	height: 61px; 
+	width: 73px; 
 }
 #mouth-icon {
-	max-height: 64px; 
-	max-width: 66px; 
+	height: 64px; 
+	width: 66px; 
 }
 #red-bullet {
-	max-height: 15px; 
-	max-width: 17px; 
+	height: 15px; 
+	width: 17px; 
 }
 #stone-panel1 {
 	max-height: 450px; 
@@ -31,8 +31,8 @@ header,footer, article, section {
 	max-width: 730px; 
 }
 #sword-icon {
-	max-height: 58px; 
-	max-width: 56px; 
+	height: 58px; 
+	width: 56px; 
 }
 
 a:link {
