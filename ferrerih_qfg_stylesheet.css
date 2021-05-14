@@ -7,20 +7,20 @@ header,footer, article, section {
 }
 
 #eye-icon {
-	max-height: 48px; 
-	max-width: 46px;
+	height: 48px;
+	width: 46px;
 }
 #hand-icon {
-	max-height: 71px; 
-	max-width: 80px; 
+	height: 61px; 
+	width: 73px; 
 }
 #mouth-icon {
-	max-height: 64px; 
-	max-width: 66px; 
+	height: 64px; 
+	width: 66px; 
 }
 #red-bullet {
-	max-height: 15px; 
-	max-width: 17px; 
+	height: 15px; 
+	width: 17px; 
 }
 #stone-panel1 {
 	max-height: 450px; 
@@ -31,8 +31,8 @@ header,footer, article, section {
 	max-width: 730px; 
 }
 #sword-icon {
-	max-height: 58px; 
-	max-width: 56px; 
+	height: 58px; 
+	width: 56px; 
 }
 
 a:link {
@@ -235,12 +235,12 @@ ul {
 /*begin responsive elements*/
 /*images sized at 40%*/
 #actions-menu {
-	max-height: 126px; 
-	max-width: 170px; 
+	height: 126px; 
+	width: 170px; 
 }
 #general-store-menu {
-	max-height: 120px; 
-	max-width: 192px; 
+	height: 120px; 
+	width: 192px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
@@ -251,13 +251,13 @@ ul {
 	width: 180px; 
 }
 #inventory {
-	max-height: 115px; 
-	max-width: 200px; 
+	height: 115px; 
+	width: 200px; 
 }
 
 #settings-menu {
-	max-height: 126px; 
-	max-width: 188px; 
+	height: 126px; 
+	width: 188px; 
 }
 #soundtrack {
 	height: 256px; 
@@ -376,12 +376,12 @@ li.othernavbar {
 {
 /*carousel images sized at 40%*/
 #actions-menu {
-	max-height: 126px; 
-	max-width: 170px; 
+	height: 126px; 
+	width: 170px; 
 }
 #general-store-menu {
-	max-height: 120px; 
-	max-width: 192px; 
+	height: 120px; 
+	width: 192px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
@@ -392,13 +392,13 @@ li.othernavbar {
 	width: 180px; 
 }
 #inventory {
-	max-height: 115px; 
-	max-width: 200px; 
+	height: 115px; 
+	width: 200px; 
 }
 
 #settings-menu {
-	max-height: 126px; 
-	max-width: 188px; 
+	height: 126px; 
+	width: 188px; 
 }
 #soundtrack {
 	height: 256px; 
@@ -527,12 +527,12 @@ article {
 {
 /*carousel images sized at 50%*/
 #actions-menu {
-	max-height: 158px; 
-	max-width: 213px; 
+	height: 158px; 
+	width: 213px; 
 }
 #general-store-menu {
-	max-height: 150px; 
-	max-width: 240px; 
+	height: 150px; 
+	width: 240px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 160px; 
@@ -543,13 +543,13 @@ article {
 	width: 215px; 
 }
 #inventory {
-	max-height: 144px; 
-	max-width: 250px; 
+	height: 144px; 
+	width: 250px; 
 }
 
 #settings-menu {
-	max-height: 157px; 
-	max-width: 235px; 
+	height: 157px; 
+	width: 235px; 
 }
 #soundtrack {
 	height: 307px; 
@@ -677,12 +677,12 @@ article {
 {
 /*carousel images sized at 75%*/
 #actions-menu {
-	max-height: 237px; 
-	max-width: 319px; 
+	height: 237px; 
+	width: 319px; 
 }
 #general-store-menu {
-	max-height: 225px; 
-	max-width: 360px; 
+	height: 225px; 
+	width: 360px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 240px; 
@@ -693,13 +693,13 @@ article {
 	width: 338px; 
 }
 #inventory {
-	max-height: 215px; 
-	max-width: 375px; 
+	height: 215px; 
+	width: 375px; 
 }
 
 #settings-menu {
-	max-height: 237px; 
-	max-width: 353px; 
+	height: 237px; 
+	width: 353px; 
 }
 #soundtrack {
 	height: 384px; 
@@ -826,12 +826,12 @@ article {
 {
 /*carousel images sized at 85%*/
 #actions-menu {
-	max-height: 269px; 
-	max-width: 361px; 
+	height: 269px; 
+	width: 361px; 
 }
 #general-store-menu {
-	max-height: 255px; 
-	max-width: 408px; 
+	height: 255px; 
+	width: 408px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 272px; 
@@ -842,13 +842,13 @@ article {
 	width: 382px; 
 }
 #inventory {
-	max-height: 244px; 
-	max-width: 425px; 
+	height: 244px; 
+	width: 425px; 
 }
 
 #settings-menu {
-	max-height: 272px; 
-	max-width: 406px; 
+	height: 272px; 
+	width: 406px; 
 }
 #soundtrack {
 	height: 435px; 
@@ -983,12 +983,12 @@ article {
 {
 /*carousel images at "full" size*/
 #actions-menu {
-	max-height: 316px; 
-	max-width: 425px; 
+	height: 316px; 
+	width: 425px; 
 }
 #general-store-menu {
-	max-height: 300px; 
-	max-width: 480px; 
+	height: 300px; 
+	width: 480px; 
 }
 #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 320px; 
@@ -999,13 +999,13 @@ article {
 	width: 449px; 
 }
 #inventory {
-	max-height: 287px; 
-	max-width: 500px; 
+	height: 287px; 
+	width: 500px; 
 }
 
 #settings-menu {
-	max-height: 315px; 
-	max-width: 470px; 
+	height: 315px; 
+	width: 470px; 
 }
 #game-toolbar {
 	max-height: 100px; 
