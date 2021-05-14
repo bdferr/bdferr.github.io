@@ -589,8 +589,8 @@ ul.affix {
 	padding: 0 0 150px 0; 
 }
 #feet-icon {
-	max-height: 45px; 
-	max-width: 34px; 
+	height: 45px; 
+	width: 34px; 
 	display: block; 
 }
 footer {
