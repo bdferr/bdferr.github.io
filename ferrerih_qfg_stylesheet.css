@@ -259,7 +259,11 @@ ul {
 	max-height: 126px; 
 	max-width: 188px; 
 }
-
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
@@ -396,7 +400,11 @@ li.othernavbar {
 	max-height: 126px; 
 	max-width: 188px; 
 }
-
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
 .container {
 	padding: 0 0 120px 0; 
 }
@@ -543,7 +551,11 @@ article {
 	max-height: 157px; 
 	max-width: 235px; 
 }
-
+#soundtrack {
+	height: 307px; 
+	width: 307px;
+	margin: 0;
+}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
@@ -689,7 +701,11 @@ article {
 	max-height: 237px; 
 	max-width: 353px; 
 }
-
+#soundtrack {
+	height: 384px; 
+	width: 384px;
+	margin: 0;
+}
 .affix {
 	visibility:visible;
 }
@@ -834,7 +850,11 @@ article {
 	max-height: 272px; 
 	max-width: 406px; 
 }
-
+#soundtrack {
+	height: 435px; 
+	width: 435px;
+	margin: 0;
+}
 .affix {
 	visibility: visible; 
 }
@@ -994,6 +1014,11 @@ article {
     top: 0; 
 	left: 18%; 
 	z-index: 16; 
+}
+#soundtrack {
+	height: 512px; 
+	width: 512px;
+	margin: 0;
 }
 h1 {
 	font-size: 6.0em;  
