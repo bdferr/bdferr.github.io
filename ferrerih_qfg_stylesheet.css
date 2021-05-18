@@ -1,4 +1,4 @@
-/*last updated 5/14/2021*/
+/*last updated 5/18/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -466,7 +466,7 @@ footer {
 }
 h1 {
 	font-size: 3.5em; 
-	padding: 0.5em; 
+	padding: 0.7em; 
 	position: absolute; 
 	top: 35px; 
 	left: 10%; 
@@ -615,8 +615,8 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 4.0em; 
-	padding: 0.8em; 
+	font-size: 4.5em; 
+	padding: 0.7em; 
 	position: absolute; 
 	top: 50px; 
 	left: 13%; 
@@ -766,8 +766,8 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 5.0em; 
-	padding: 1em; 
+	font-size: 5.5em; 
+	padding: 0.85em; 
 	position: absolute; 
 	top: 75px; 
 	left: 13%; 
