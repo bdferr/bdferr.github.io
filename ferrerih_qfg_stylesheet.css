@@ -1,4 +1,4 @@
-/*last updated 5/18/2021*/
+/*last updated 5/23/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -37,27 +37,27 @@ header,footer, article, section {
 
 a:link {
 	display: inline; 
-	color: #4d4d4d;  /*alternatively #5a5a5a (grey), #604E3D;  #006E00;  darkgreen*/
+	color: #4d4d4d;
 	text-decoration: none; 
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
 li a:hover {
-    color: #b30000 !important;  /*previously silver, #000099; */
+    color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
 }
 section a:hover, footer a:hover {
 	display: inline; 
-    color: #b30000 !important;  /*previously silver, #000099; */
+    color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/feet-icon-small.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
-	color: #4d4d4d;  /*alternatively #604E3D; */
+	color: #4d4d4d;
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -69,7 +69,7 @@ abbr{
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
-    color: #b30000;  /*previously #000099; */
+    color: #b30000;
 	background-color: transparent !important; 
     text-decoration: none; 
 }
@@ -158,19 +158,19 @@ div {
     background-color: transparent !important;
 }
 ul.dropdown-menu a:link {
-	color: #333; /*alternatively #604E3D;  #006E00;  darkgreen*/
+	color: #333;
 	text-decoration: none; 
 	background-color: transparent !important; 
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: #b30000 !important;  /*previously #000099; */
+    color: #b30000 !important;
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
 }
 ul.dropdown-menu a:visited {
-	color: #333;  /*alternatively #604E3D; */
+	color: #333;
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -214,7 +214,7 @@ img {
 }
 
 article {
-    background-color: transparent;  /*or #a6a6a6*/
+    background-color: transparent;
 	margin: auto; 
 	padding: 0em; 
 	width: 100%; 
@@ -360,7 +360,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 210px; 
@@ -500,7 +500,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 230px; 
@@ -513,7 +513,7 @@ li.othernavbar {
 	top: 106px; 
 }
 article {
-    background-color: transparent;  /*or #a6a6a6*/
+    background-color: transparent;
 	margin: auto; 
 	padding: 0.3em; 
 	width: 100%; 
@@ -650,7 +650,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 230px; 
@@ -663,7 +663,7 @@ li.othernavbar {
 	top: 147px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 0.6em; 
 	width: 100%; 
@@ -799,7 +799,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 2em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 280px; 
@@ -812,7 +812,7 @@ li.othernavbar {
 	top: 207px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 0.8em; 
 	width: 100%; 
@@ -957,7 +957,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 2em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 280px; 
@@ -970,7 +970,7 @@ li.othernavbar {
 	top: 232px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 1em; 
 	width: 100%; 
