@@ -329,9 +329,9 @@ h1 {
 	top: 35px; 
 	left: 12%; 
 	height: 48px; 
-	width: 278px; 
+	width: 278px;
     background-image: url("qfg4-li-b-top2-smaller.webp"); 
-    background-size: contain; 
+  	background-size: contain;
     color: black; 
     text-align: center; 
     margin: auto; 
@@ -465,13 +465,17 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 3.5em; 
-	padding: 0.7em; 
-	position: absolute; 
-	top: 35px; 
-	left: 10%; 
-	height: 72px; 
-	width: 422px; 
+	font-size: 3.5em;
+	padding: 0em;
+	position: absolute;
+	background-image: url("stone-panel-no-border-best.webp");
+    background-size: contain;
+    border: 15px solid transparent;
+    border-image: url(border-image9.webp) 25% round;
+	top: 35px;
+	left: 20%;
+	height: 72px;
+	width: 62%;
 }
 iframe { 
 	width: 280px; 
@@ -616,12 +620,16 @@ footer {
 }
 h1 {
 	font-size: 4.5em; 
-	padding: 0.7em; 
+	padding: 0em; 
 	position: absolute; 
+	background-image: url("stone-panel-no-border-best.webp");
+    background-size: auto;
+    border: 25px solid transparent;
+    border-image: url(border-image9.webp) 25% round;
 	top: 50px; 
-	left: 13%; 
+	left: 22%; 
 	height: 97px; 
-	width: 566px; 
+	width: 57%; 
 }
 iframe { 
 	width: 280px; 
@@ -767,12 +775,16 @@ footer {
 }
 h1 {
 	font-size: 5.5em; 
-	padding: 0.85em; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+    width: 51%; 
+	padding: 0.2em; 
 	position: absolute; 
 	top: 75px; 
-	left: 13%; 
+	left: 25%; 
 	height: 131px; 
-	width: 768px; 
 }
 iframe { 
 	width: 364px; 
@@ -922,16 +934,17 @@ h1 {
     font-size: 6.0em;  
     color: black; 
     text-align: center; 
-    background-image: url("qfg4-li-b-top2-smaller.webp"); 
-	background-size: contain; 
-    width: 50%; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+    width: 45%; 
     margin: auto; 
-    padding: 0.7em; 
+    padding: 0em; 
 	position: absolute; 
 	top: 100px; 
-    left: 20%; 
-	height: 131px; 
-	width: 768px; 
+    left: 26%; 
+	height: 131px;
 }
 iframe { 
 	width: 420px; 
@@ -1021,19 +1034,20 @@ article {
 	margin: 0;
 }
 h1 {
-	font-size: 6.0em;  
+	font-size: 7.0em;  
 	color: black; 
 	text-align: center; 
-	background-image: url("qfg4-li-b-top2-smaller.webp"); 
-	background-size: contain; 
-	width: 50%; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+	width: 40%; 
 	margin: auto; 
-	padding: 0.7em; 
+	padding: 0em; 
 	position: absolute; 
 	top: 100px; 
-	left: 25%; 
+	left: 30%; 
 	height: 131px; 
-	width: 768px; 
 }
 iframe { 
 	width: 560px; 
