@@ -1,4 +1,4 @@
-/*last updated 5/23/2021*/
+/*last updated 5/25/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -108,7 +108,9 @@ body:before {
 }
 
 .carousel-indicators {
-	z-index: 9 !important; 
+	bottom: -50px;
+	left: 42%;
+	width: 73%;
 }
 .carousel-indicators li {
 	border-color: #b30000 !important; 
@@ -405,6 +407,9 @@ li.othernavbar {
 	width: 256px;
 	margin: auto;
 }
+.carousel-indicators {
+	bottom: -60px;
+}
 .container {
 	padding: 0 0 120px 0; 
 }
@@ -585,6 +590,9 @@ ul.affix {
 	left: 76%; 
 	top: 92px; 
 }
+.carousel-indicators {
+	bottom: -60px;
+}
 .center {
 	width: 67%; 
 	font-size: 3em; 
@@ -739,6 +747,9 @@ button, .btn {
 	padding: 0.1em 0.8em;
 
 }
+.carousel-indicators {
+	bottom: 0px;
+}
 .center {
 	width: 55%; 
 	margin: 0em auto; 
@@ -878,6 +889,9 @@ ul.affix {
 	position: fixed; 
 	left: 77%; 
 	top: 115px; 
+}
+.carousel-indicators {
+	bottom: 0px;
 }
 .center {
 	width: 50%; 
