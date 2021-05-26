@@ -114,6 +114,7 @@ body:before {
 }
 .carousel-indicators li {
 	border-color: #b30000 !important; 
+	cursor: url("QfG_icons/sword-icon2.png"), pointer !important;
 }
 .carousel-indicators .active {
 	background-color: #b30000 !important; 
