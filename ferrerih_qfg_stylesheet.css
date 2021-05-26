@@ -67,6 +67,9 @@ abbr{
 .btn:hover {
 	cursor: url("QfG_icons/eye-icon-center.png"), pointer !important; 
 }
+.carousel-control:hover {
+	cursor: url("QfG_icons/hand-icon2.png"), pointer !important;
+}
 
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;
