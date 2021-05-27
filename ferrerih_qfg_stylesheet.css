@@ -1,4 +1,4 @@
-/*last updated 5/11/2021*/
+/*last updated 5/25/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -7,20 +7,20 @@ header,footer, article, section {
 }
 
 #eye-icon {
-	max-height: 48px; 
-	max-width: 46px;
+	height: 48px;
+	width: 46px;
 }
 #hand-icon {
-	max-height: 71px; 
-	max-width: 80px; 
+	height: 61px; 
+	width: 73px; 
 }
 #mouth-icon {
-	max-height: 64px; 
-	max-width: 66px; 
+	height: 64px; 
+	width: 66px; 
 }
 #red-bullet {
-	max-height: 15px; 
-	max-width: 17px; 
+	height: 15px; 
+	width: 17px; 
 }
 #stone-panel1 {
 	max-height: 450px; 
@@ -31,33 +31,33 @@ header,footer, article, section {
 	max-width: 730px; 
 }
 #sword-icon {
-	max-height: 58px; 
-	max-width: 56px; 
+	height: 58px; 
+	width: 56px; 
 }
 
 a:link {
 	display: inline; 
-	color: #4d4d4d;  /*alternatively #5a5a5a (grey), #604E3D;  #006E00;  darkgreen*/
+	color: #4d4d4d;
 	text-decoration: none; 
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
 li a:hover {
-    color: #b30000 !important;  /*previously silver, #000099; */
+    color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
 }
 section a:hover, footer a:hover {
 	display: inline; 
-    color: #b30000 !important;  /*previously silver, #000099; */
+    color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/feet-icon-small.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
-	color: #4d4d4d;  /*alternatively #604E3D; */
+	color: #4d4d4d;
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -67,9 +67,12 @@ abbr{
 .btn:hover {
 	cursor: url("QfG_icons/eye-icon-center.png"), pointer !important; 
 }
+.carousel-control:hover {
+	cursor: url("QfG_icons/hand-icon2.png"), pointer !important;
+}
 
 li.othernavbar a:hover, li.footernavbar a:hover {
-    color: #b30000;  /*previously #000099; */
+    color: #b30000;
 	background-color: transparent !important; 
     text-decoration: none; 
 }
@@ -108,10 +111,13 @@ body:before {
 }
 
 .carousel-indicators {
-	z-index: 9 !important; 
+	bottom: -50px;
+	left: 42%;
+	width: 73%;
 }
 .carousel-indicators li {
 	border-color: #b30000 !important; 
+	cursor: url("QfG_icons/sword-icon2.png"), pointer !important;
 }
 .carousel-indicators .active {
 	background-color: #b30000 !important; 
@@ -158,19 +164,19 @@ div {
     background-color: transparent !important;
 }
 ul.dropdown-menu a:link {
-	color: #333; /*alternatively #604E3D;  #006E00;  darkgreen*/
+	color: #333;
 	text-decoration: none; 
 	background-color: transparent !important; 
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: #b30000 !important;  /*previously #000099; */
+    color: #b30000 !important;
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
 }
 ul.dropdown-menu a:visited {
-	color: #333;  /*alternatively #604E3D; */
+	color: #333;
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -214,7 +220,7 @@ img {
 }
 
 article {
-    background-color: transparent;  /*or #a6a6a6*/
+    background-color: transparent;
 	margin: auto; 
 	padding: 0em; 
 	width: 100%; 
@@ -226,7 +232,7 @@ article {
     background-size: initial; 
 	background-color: transparent; 
 	border: 40px solid transparent; 
-	border-image: url("border-image8.webp") 27.5% round; 
+	border-image: url("border-image9.webp") 27.5% round; 
 }
 ul {
 	padding: 15px; 
@@ -235,14 +241,14 @@ ul {
 /*begin responsive elements*/
 /*images sized at 40%*/
 #actions-menu {
-	max-height: 126px; 
-	max-width: 170px; 
+	height: 95px; 
+	width: 139px; 
 }
 #general-store-menu {
-	max-height: 120px; 
-	max-width: 192px; 
+	height: 120px; 
+	width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -251,18 +257,19 @@ ul {
 	width: 180px; 
 }
 #inventory {
-	max-height: 115px; 
-	max-width: 200px; 
-}
-#magic-spells {
-	max-height: 115px; 
-	max-width: 200px; 
-}
-#settings-menu {
-	max-height: 126px; 
-	max-width: 188px; 
+	height: 115px; 
+	width: 200px; 
 }
 
+#settings-menu {
+	height: 126px; 
+	width: 188px; 
+}
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
@@ -328,9 +335,9 @@ h1 {
 	top: 35px; 
 	left: 12%; 
 	height: 48px; 
-	width: 278px; 
+	width: 278px;
     background-image: url("qfg4-li-b-top2-smaller.webp"); 
-    background-size: contain; 
+  	background-size: contain;
     color: black; 
     text-align: center; 
     margin: auto; 
@@ -359,7 +366,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 210px; 
@@ -375,14 +382,14 @@ li.othernavbar {
 {
 /*carousel images sized at 40%*/
 #actions-menu {
-	max-height: 126px; 
-	max-width: 170px; 
+	height: 95px; 
+	width: 139px; 
 }
 #general-store-menu {
-	max-height: 120px; 
-	max-width: 192px; 
+	height: 120px; 
+	width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -391,18 +398,22 @@ li.othernavbar {
 	width: 180px; 
 }
 #inventory {
-	max-height: 115px; 
-	max-width: 200px; 
-}
-#magic-spells {
-	max-height: 115px; 
-	max-width: 200px; 
-}
-#settings-menu {
-	max-height: 126px; 
-	max-width: 188px; 
+	height: 115px; 
+	width: 200px; 
 }
 
+#settings-menu {
+	height: 126px; 
+	width: 188px; 
+}
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
+.carousel-indicators {
+	bottom: -60px;
+}
 .container {
 	padding: 0 0 120px 0; 
 }
@@ -463,13 +474,17 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 3.5em; 
-	padding: 0.5em; 
-	position: absolute; 
-	top: 35px; 
-	left: 10%; 
-	height: 72px; 
-	width: 422px; 
+	font-size: 3.5em;
+	padding: 0em;
+	position: absolute;
+	background-image: url("stone-panel-no-border-best.webp");
+    background-size: contain;
+    border: 15px solid transparent;
+    border-image: url(border-image9.webp) 25% round;
+	top: 35px;
+	left: 20%;
+	height: 72px;
+	width: 62%;
 }
 iframe { 
 	width: 280px; 
@@ -498,7 +513,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 230px; 
@@ -511,7 +526,7 @@ li.othernavbar {
 	top: 106px; 
 }
 article {
-    background-color: transparent;  /*or #a6a6a6*/
+    background-color: transparent;
 	margin: auto; 
 	padding: 0.3em; 
 	width: 100%; 
@@ -525,14 +540,14 @@ article {
 {
 /*carousel images sized at 50%*/
 #actions-menu {
-	max-height: 158px; 
-	max-width: 213px; 
+	height: 119px; 
+	width: 174px; 
 }
 #general-store-menu {
-	max-height: 150px; 
-	max-width: 240px; 
+	height: 150px; 
+	width: 240px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 160px; 
 	width: 256px; 
 }
@@ -541,18 +556,19 @@ article {
 	width: 215px; 
 }
 #inventory {
-	max-height: 144px; 
-	max-width: 250px; 
-}
-#magic-spells {
-	max-height: 144px; 
-	max-width: 250px; 
-}
-#settings-menu {
-	max-height: 157px; 
-	max-width: 235px; 
+	height: 144px; 
+	width: 250px; 
 }
 
+#settings-menu {
+	height: 157px; 
+	width: 235px; 
+}
+#soundtrack {
+	height: 307px; 
+	width: 307px;
+	margin: 0;
+}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
@@ -578,6 +594,9 @@ ul.affix {
 	left: 76%; 
 	top: 92px; 
 }
+.carousel-indicators {
+	bottom: -60px;
+}
 .center {
 	width: 67%; 
 	font-size: 3em; 
@@ -586,8 +605,8 @@ ul.affix {
 	padding: 0 0 150px 0; 
 }
 #feet-icon {
-	max-height: 45px; 
-	max-width: 34px; 
+	height: 45px; 
+	width: 34px; 
 	display: block; 
 }
 footer {
@@ -612,13 +631,17 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 4.0em; 
-	padding: 0.8em; 
+	font-size: 4.5em; 
+	padding: 0em; 
 	position: absolute; 
+	background-image: url("stone-panel-no-border-best.webp");
+    background-size: auto;
+    border: 25px solid transparent;
+    border-image: url(border-image9.webp) 25% round;
 	top: 50px; 
-	left: 13%; 
+	left: 22%; 
 	height: 97px; 
-	width: 566px; 
+	width: 57%; 
 }
 iframe { 
 	width: 280px; 
@@ -647,7 +670,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 1.5em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 230px; 
@@ -660,7 +683,7 @@ li.othernavbar {
 	top: 147px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 0.6em; 
 	width: 100%; 
@@ -674,14 +697,14 @@ article {
 {
 /*carousel images sized at 75%*/
 #actions-menu {
-	max-height: 237px; 
-	max-width: 319px; 
+	height: 178px; 
+	width: 261px; 
 }
 #general-store-menu {
-	max-height: 225px; 
-	max-width: 360px; 
+	height: 225px; 
+	width: 360px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 240px; 
 	width: 384px; 
 }
@@ -690,18 +713,19 @@ article {
 	width: 338px; 
 }
 #inventory {
-	max-height: 215px; 
-	max-width: 375px; 
-}
-#magic-spells {
-	max-height: 215px; 
-	max-width: 375px; 
-}
-#settings-menu {
-	max-height: 237px; 
-	max-width: 353px; 
+	height: 215px; 
+	width: 375px; 
 }
 
+#settings-menu {
+	height: 237px; 
+	width: 353px; 
+}
+#soundtrack {
+	height: 384px; 
+	width: 384px;
+	margin: 0;
+}
 .affix {
 	visibility:visible;
 }
@@ -727,6 +751,9 @@ button, .btn {
 	padding: 0.1em 0.8em;
 
 }
+.carousel-indicators {
+	bottom: 0px;
+}
 .center {
 	width: 55%; 
 	margin: 0em auto; 
@@ -736,8 +763,8 @@ button, .btn {
 	padding: 0 0 215px 0; 
 }
 #feet-icon {
-	max-height: 55px; 
-	max-width: 47px; 
+	height: 55px; 
+	width: 47px; 
 	display: block; 
 }
 footer {
@@ -762,13 +789,17 @@ footer {
 	z-index: 16; 
 }
 h1 {
-	font-size: 5.0em; 
-	padding: 1em; 
+	font-size: 5.5em; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+    width: 51%; 
+	padding: 0.2em; 
 	position: absolute; 
 	top: 75px; 
-	left: 13%; 
+	left: 25%; 
 	height: 131px; 
-	width: 768px; 
 }
 iframe { 
 	width: 364px; 
@@ -795,7 +826,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 2em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 280px; 
@@ -808,7 +839,7 @@ li.othernavbar {
 	top: 207px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 0.8em; 
 	width: 100%; 
@@ -822,14 +853,14 @@ article {
 {
 /*carousel images sized at 85%*/
 #actions-menu {
-	max-height: 269px; 
-	max-width: 361px; 
+	height: 201px; 
+	width: 296px; 
 }
 #general-store-menu {
-	max-height: 255px; 
-	max-width: 408px; 
+	height: 255px; 
+	width: 408px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 272px; 
 	width: 435px; 
 }
@@ -838,18 +869,19 @@ article {
 	width: 382px; 
 }
 #inventory {
-	max-height: 244px; 
-	max-width: 425px; 
-}
-#magic-spells {
-	max-height: 244px; 
-	max-width: 425px; 
-}
-#settings-menu {
-	max-height: 272px; 
-	max-width: 406px; 
+	height: 244px; 
+	width: 425px; 
 }
 
+#settings-menu {
+	height: 272px; 
+	width: 406px; 
+}
+#soundtrack {
+	height: 435px; 
+	width: 435px;
+	margin: 0;
+}
 .affix {
 	visibility: visible; 
 }
@@ -861,6 +893,9 @@ ul.affix {
 	position: fixed; 
 	left: 77%; 
 	top: 115px; 
+}
+.carousel-indicators {
+	bottom: 0px;
 }
 .center {
 	width: 50%; 
@@ -887,8 +922,8 @@ button, .btn {
 	padding: 0.1em 0.8em; 
 }
 #feet-icon {
-	max-height: 55px; 
-	max-width: 47px; 
+	height: 55px; 
+	width: 47px; 
 	display: block; 
 	border: none; 
 }
@@ -917,16 +952,17 @@ h1 {
     font-size: 6.0em;  
     color: black; 
     text-align: center; 
-    background-image: url("qfg4-li-b-top2-smaller.webp"); 
-	background-size: contain; 
-    width: 50%; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+    width: 45%; 
     margin: auto; 
-    padding: 0.7em; 
+    padding: 0em; 
 	position: absolute; 
 	top: 100px; 
-    left: 20%; 
-	height: 131px; 
-	width: 768px; 
+    left: 26%; 
+	height: 131px;
 }
 iframe { 
 	width: 420px; 
@@ -952,7 +988,7 @@ li.othernavbar {
 	background-image: url("qfg4-li3.jpg"); 
 	background-size: contain; 
 	font-size: 2em; 
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 280px; 
@@ -965,7 +1001,7 @@ li.othernavbar {
 	top: 232px; 
 }
 article {
-	background-color: transparent;  /*or #a6a6a6*/
+	background-color: transparent;
 	margin: auto; 
 	padding: 1em; 
 	width: 100%; 
@@ -978,14 +1014,14 @@ article {
 {
 /*carousel images at "full" size*/
 #actions-menu {
-	max-height: 316px; 
-	max-width: 425px; 
+	height: 237px; 
+	width: 348px; 
 }
 #general-store-menu {
-	max-height: 300px; 
-	max-width: 480px; 
+	height: 300px; 
+	width: 480px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi {
+#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 320px; 
 	width: 512px; 
 }
@@ -994,16 +1030,13 @@ article {
 	width: 449px; 
 }
 #inventory {
-	max-height: 287px; 
-	max-width: 500px; 
+	height: 287px; 
+	width: 500px; 
 }
-#magic-spells {
-	max-height: 287px; 
-	max-width: 500px; 
-}
+
 #settings-menu {
-	max-height: 315px; 
-	max-width: 470px; 
+	height: 315px; 
+	width: 470px; 
 }
 #game-toolbar {
 	max-height: 100px; 
@@ -1013,20 +1046,26 @@ article {
 	left: 18%; 
 	z-index: 16; 
 }
+#soundtrack {
+	height: 512px; 
+	width: 512px;
+	margin: 0;
+}
 h1 {
-	font-size: 6.0em;  
+	font-size: 7.0em;  
 	color: black; 
 	text-align: center; 
-	background-image: url("qfg4-li-b-top2-smaller.webp"); 
-	background-size: contain; 
-	width: 50%; 
+	background-image: url("stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("border-image9.webp") 25% round;
+	width: 40%; 
 	margin: auto; 
-	padding: 0.7em; 
+	padding: 0em; 
 	position: absolute; 
 	top: 100px; 
-	left: 25%; 
+	left: 30%; 
 	height: 131px; 
-	width: 768px; 
 }
 iframe { 
 	width: 560px; 
