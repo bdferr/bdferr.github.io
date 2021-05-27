@@ -338,13 +338,7 @@ h1 {
     text-align: center; 
     margin: auto; 
 }
-iframe { 
-	width: 224px; 
-	height: 126px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
-}
+
 #li-bottom {
 	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
 	background-size: contain; 
@@ -482,13 +476,7 @@ h1 {
 	height: 72px;
 	width: 62%;
 }
-iframe { 
-	width: 280px; 
-	height: 157px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
-}
+
 #li-bottom {
 	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
 	background-size: contain; 
@@ -639,13 +627,7 @@ h1 {
 	height: 97px; 
 	width: 57%; 
 }
-iframe { 
-	width: 280px; 
-	height: 157px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
-}
+
 #li-bottom {
 	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
 	background-size: contain; 
@@ -796,13 +778,6 @@ h1 {
 	top: 75px; 
 	left: 25%; 
 	height: 131px; 
-}
-iframe { 
-	width: 364px; 
-	height: 205px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
 }
 
 #li-bottom {
@@ -960,13 +935,7 @@ h1 {
     left: 26%; 
 	height: 131px;
 }
-iframe { 
-	width: 420px; 
-	height: 236px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
-}
+
 #li-bottom {
 	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
 	background-size: contain; 
@@ -1063,11 +1032,5 @@ h1 {
 	left: 30%; 
 	height: 131px; 
 }
-iframe { 
-	width: 560px; 
-	height: 315px; 
-	border: none; 
-	margin: auto; 
-	display: block; 
-}
+
 }
