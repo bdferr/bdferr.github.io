@@ -340,20 +340,21 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-image: url("qfg3-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
+	height: 47px;
 	padding: 0em 1em 0.45em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-image: url("qfg3-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.5em !important; 
-	height: 60px; 
+	padding: 0.1em 0.5em 0.5em 0.5em !important; 
+	height: 41px; 
 }
 li.othernavbar {
-	background-image: url("qfg4-li3.jpg"); 
+	background-image: url("qfg3-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
@@ -478,23 +479,24 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-image: url("qfg3-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
+	height: 52px;
 	padding: 0em 0.5em 0.63em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-image: url("qfg3-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.5em !important; 
-	height: 65px; 
+	padding: 0.2em 0.5em 0.5em 0.5em !important; 
+	height: 45px; 
 }
 li.normal {
 	padding: 2px 15px 3px 15px!important; 
 }
 li.othernavbar {
-	background-image: url("qfg4-li3.jpg"); 
+	background-image: url("qfg3-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
@@ -629,23 +631,24 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-image: url("qfg3-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
+	height: 52px;
 	padding: 0em 0.5em 0.615em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-image: url("qfg3-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.5em !important; 
-	height: 65px; 
+	padding: 0.2em 0.5em 0.5em 0.5em !important; 
+	height: 45px; 
 }
 li.normal {
 	padding: 2px 15px 3px 15px!important; 
 }
 li.othernavbar {
-	background-image: url("qfg4-li3.jpg"); 
+	background-image: url("qfg3-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
@@ -781,20 +784,21 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-image: url("qfg3-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
+	height: 63px;
 	padding: 0em 0.5em 0.45em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-image: url("qfg3-li-top.png"); 
 	background-size: contain; 
-	padding: 0.4em 0.5em 0.7em 0.5em !important; 
-	height: 79px; 
+	padding: 0.1em 0.5em 0.7em 0.5em !important; 
+	height: 55px; 
 }
 li.othernavbar {
-	background-image: url("qfg4-li3.jpg"); 
+	background-image: url("qfg3-li.png"); 
 	background-size: contain; 
 	font-size: 2em; 
 	background-color: transparent;
@@ -937,20 +941,21 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-image: url("qfg3-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
+	height: 63px;
 	padding: 0em 0.5em 0.453em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-image: url("qfg3-li-top.png"); 
 	background-size: contain; 
-	padding: 0.4em 0.5em 0.7em 0.5em !important; 
-	height: 79px; 
+	padding: 0.1em 0.5em 0.7em 0.5em !important; 
+	height: 55px; 
 }
 li.othernavbar {
-	background-image: url("qfg4-li3.jpg"); 
+	background-image: url("qfg3-li.png"); 
 	background-size: contain; 
 	font-size: 2em; 
 	background-color: transparent;
