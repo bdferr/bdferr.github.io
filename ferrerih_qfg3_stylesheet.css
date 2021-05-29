@@ -471,7 +471,7 @@ h1 {
     background-size: contain;
     border: 15px solid transparent;
     border-image: url("qfg3-main-menu2.png") 12.5% round;
-	top: 35px;
+	top: 32px;
 	left: 20%;
 	height: 72px;
 	width: 62%;
@@ -507,7 +507,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 106px; 
+	top: 104px; 
 }
 article {
     background-color: transparent;
@@ -622,7 +622,7 @@ h1 {
     background-size: auto;
     border: 25px solid transparent;
     border-image: url("qfg3-main-menu2.png") 12.5% round;
-	top: 50px; 
+	top: 46px; 
 	left: 22%; 
 	height: 97px; 
 	width: 57%; 
@@ -658,7 +658,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 147px; 
+	top: 143px; 
 }
 article {
 	background-color: transparent;
@@ -775,7 +775,7 @@ h1 {
     width: 51%; 
 	padding: 0.2em; 
 	position: absolute; 
-	top: 75px; 
+	top: 69px; 
 	left: 25%; 
 	height: 131px; 
 }
@@ -807,7 +807,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 207px; 
+	top: 200px; 
 }
 article {
 	background-color: transparent;
@@ -931,7 +931,7 @@ h1 {
     margin: auto; 
     padding: 0em; 
 	position: absolute; 
-	top: 100px; 
+	top: 92px; 
     left: 26%; 
 	height: 131px;
 }
@@ -963,7 +963,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 232px; 
+	top: 223px; 
 }
 article {
 	background-color: transparent;
@@ -1028,7 +1028,7 @@ h1 {
 	margin: auto; 
 	padding: 0em; 
 	position: absolute; 
-	top: 100px; 
+	top: 92px; 
 	left: 30%; 
 	height: 131px; 
 }
