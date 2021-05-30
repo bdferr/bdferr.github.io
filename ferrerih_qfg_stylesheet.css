@@ -1,4 +1,4 @@
-/*last updated 5/27/2021*/
+/*last updated 5/30/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -17,14 +17,6 @@ header,footer, article, section {
 #mouth-icon {
 	height: 64px; 
 	width: 66px; 
-}
-#stone-panel1 {
-	max-height: 450px; 
-	max-width: 730px; 
-}
-#stone-panel2 {
-	max-height: 450px; 
-	max-width: 730px; 
 }
 #sword-icon {
 	height: 58px; 
