@@ -18,14 +18,7 @@ header,footer, article, section {
 	height: 29px; 
 	width: 64px; 
 }
-#stone-panel1 {
-	max-height: 450px; 
-	max-width: 730px; 
-}
-#stone-panel2 {
-	max-height: 450px; 
-	max-width: 730px; 
-}
+
 #sword-icon {
 	height: 81px; 
 	width: 82px; 
@@ -235,37 +228,7 @@ ul {
 	background-color: #a6a6a6; 
 }
 /*begin responsive elements*/
-/*images sized at 40%*/
-#actions-menu {
-	height: 95px; 
-	width: 139px; 
-}
-#general-store-menu {
-	height: 120px; 
-	width: 192px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 128px; 
-	width: 205px; 
-}
-#intro-menu {
-	height: 128px; 
-	width: 180px; 
-}
-#inventory {
-	height: 115px; 
-	width: 200px; 
-}
 
-#settings-menu {
-	height: 126px; 
-	width: 188px; 
-}
-#soundtrack {
-	height: 256px; 
-	width: 256px;
-	margin: auto;
-}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
@@ -371,37 +334,7 @@ li.othernavbar {
 }
 @media (min-width: 30em) and (max-width: 40em)
 {
-/*carousel images sized at 40%*/
-#actions-menu {
-	height: 95px; 
-	width: 139px; 
-}
-#general-store-menu {
-	height: 120px; 
-	width: 192px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 128px; 
-	width: 205px; 
-}
-#intro-menu {
-	height: 128px; 
-	width: 180px; 
-}
-#inventory {
-	height: 115px; 
-	width: 200px; 
-}
 
-#settings-menu {
-	height: 126px; 
-	width: 188px; 
-}
-#soundtrack {
-	height: 256px; 
-	width: 256px;
-	margin: auto;
-}
 .carousel-indicators {
 	bottom: -60px;
 }
@@ -524,37 +457,7 @@ article {
 
 @media (min-width: 40em) and (max-width: 55em)
 {
-/*carousel images sized at 50%*/
-#actions-menu {
-	height: 119px; 
-	width: 174px; 
-}
-#general-store-menu {
-	height: 150px; 
-	width: 240px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 160px; 
-	width: 256px; 
-}
-#intro-menu {
-	height: 160px; 
-	width: 215px; 
-}
-#inventory {
-	height: 144px; 
-	width: 250px; 
-}
 
-#settings-menu {
-	height: 157px; 
-	width: 235px; 
-}
-#soundtrack {
-	height: 307px; 
-	width: 307px;
-	margin: 0;
-}
 button, .btn {
 	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
@@ -677,36 +580,7 @@ article {
 @media (min-width: 55em) and (max-width: 70em)
 {
 /*carousel images sized at 75%*/
-#actions-menu {
-	height: 178px; 
-	width: 261px; 
-}
-#general-store-menu {
-	height: 225px; 
-	width: 360px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 240px; 
-	width: 384px; 
-}
-#intro-menu {
-	height: 240px; 
-	width: 338px; 
-}
-#inventory {
-	height: 215px; 
-	width: 375px; 
-}
 
-#settings-menu {
-	height: 237px; 
-	width: 353px; 
-}
-#soundtrack {
-	height: 384px; 
-	width: 384px;
-	margin: 0;
-}
 .affix {
 	visibility:visible;
 }
@@ -826,37 +700,7 @@ article {
 
 @media (min-width: 70em)
 {
-/*carousel images sized at 85%*/
-#actions-menu {
-	height: 201px; 
-	width: 296px; 
-}
-#general-store-menu {
-	height: 255px; 
-	width: 408px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 272px; 
-	width: 435px; 
-}
-#intro-menu {
-	height: 272px; 
-	width: 382px; 
-}
-#inventory {
-	height: 244px; 
-	width: 425px; 
-}
 
-#settings-menu {
-	height: 272px; 
-	width: 406px; 
-}
-#soundtrack {
-	height: 435px; 
-	width: 435px;
-	margin: 0;
-}
 .affix {
 	visibility: visible; 
 }
@@ -982,45 +826,7 @@ article {
 }
 @media (min-width: 85em)
 {
-/*carousel images at "full" size*/
-#actions-menu {
-	height: 237px; 
-	width: 348px; 
-}
-#general-store-menu {
-	height: 300px; 
-	width: 480px; 
-}
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 320px; 
-	width: 512px; 
-}
-#intro-menu {
-	height: 320px; 
-	width: 449px; 
-}
-#inventory {
-	height: 287px; 
-	width: 500px; 
-}
 
-#settings-menu {
-	height: 315px; 
-	width: 470px; 
-}
-#game-toolbar {
-	max-height: 100px; 
-	width: 1012px; 
- 	position: fixed; 
-    top: 0; 
-	left: 18%; 
-	z-index: 16; 
-}
-#soundtrack {
-	height: 512px; 
-	width: 512px;
-	margin: 0;
-}
 h1 {
 	font-size: 7.0em;  
 	color: black; 
