@@ -1,4 +1,4 @@
-/*last updated 5/30/2021*/
+/*last updated 5/31/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -30,25 +30,31 @@ a:link {
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
-li a:hover {
-    color: #b30000 !important;
-    text-decoration: none; 
-	font-weight: bold; 
-	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
-}
-section a:hover, footer a:hover {
-	display: inline; 
-    color: #b30000 !important;
-    text-decoration: none; 
-	font-weight: bold; 
-	cursor: url("QfG_icons/feet-icon-small.png"), pointer !important; 
-}
 a:visited {
 	display: inline; 
 	color: #4d4d4d;
 	text-decoration: none; 
 	font-weight: normal; 
 }
+li a:hover {
+    color: #b30000 !important;
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
+}
+
+section a:hover, footer a:hover {
+	display: inline; 
+    color: #b30000 !important;
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("QfG_icons/feet-icon-small.png"), pointer; 
+}
+
+#contact {
+	cursor: url("QfG_icons/mouth-icon4.png"), pointer !important; 
+}
+
 abbr{
 	cursor: url("QfG_icons/QG4Question.png"), help !important;
 }
