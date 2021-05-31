@@ -36,12 +36,16 @@ li a:hover {
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg3-hand-icon-best.png"), pointer !important; 
 }
+
 section a:hover, footer a:hover {
 	display: inline; 
     color: purple !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg3-walking-icon-best.png"), pointer !important; 
+}
+#contact {
+	cursor: url("QfG_icons/qfg3-mouth-icon-best.png"), pointer !important; 
 }
 a:visited {
 	display: inline; 
