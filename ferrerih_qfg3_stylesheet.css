@@ -1,4 +1,4 @@
-/*last updated 5/30/2021*/
+/*last updated 5/31/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -49,6 +49,9 @@ section a:hover, footer a:hover {
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg3-walking-icon-best.png"), pointer !important; 
+}
+footer a {
+	color: #331100 !important;
 }
 #contact {
 	cursor: url("QfG_icons/qfg3-mouth-icon-best.png"), pointer !important; 
@@ -130,6 +133,7 @@ div {
 	font-size: 75%; 
 	line-height: 85%; 
 	text-align: center; 
+	color: #331100; 
 }
 
 .center {
