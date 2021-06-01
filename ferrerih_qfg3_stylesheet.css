@@ -483,7 +483,8 @@ button, .btn {
 	background-image: url("qfg3-button.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
-	display: block; 
+	display: block;
+	height: 56px;
 }
 .affix {
 	visibility:visible; 
@@ -619,7 +620,7 @@ button, .btn {
 	background-image: url("qfg3-button.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em;
-
+	height:64px;
 }
 .carousel-indicators {
 	bottom: 0px;
