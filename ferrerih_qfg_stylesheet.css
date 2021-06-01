@@ -130,8 +130,9 @@ div {
 .smaller-note {
 	font-family: gloryquest, Sylfaen, "Times New Roman", serif;
 	font-size: 75%; 
-	line-height: 85%; 
-	text-align: center; 
+	line-height: 80%; 
+	text-align: center;
+	padding-top: 10px;
 }
 
 .center {
