@@ -1,4 +1,4 @@
-/*last updated 5/31/2021*/
+/*last updated 6/1/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -112,9 +112,9 @@ body:before {
 }
 
 .carousel-indicators {
-	bottom: -50px;
+	bottom: -45px;
 	left: 42%;
-	width: 73%;
+	width: 85%;
 }
 .carousel-indicators li {
 	border-color: purple !important; 
@@ -122,6 +122,9 @@ body:before {
 }
 .carousel-indicators .active {
 	background-color: purple !important; 
+}
+.carousel-inner {
+	margin-bottom: 5px;
 }
 div {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
@@ -353,6 +356,8 @@ li.othernavbar {
 
 .carousel-indicators {
 	bottom: -60px;
+	padding-bottom: 15px;
+	width: 75%;
 }
 .container {
 	padding: 0 0 120px 0; 
@@ -504,6 +509,8 @@ ul.affix {
 }
 .carousel-indicators {
 	bottom: -60px;
+	padding-bottom: 15px;
+	width: 75%;
 }
 .center {
 	width: 67%; 
@@ -628,6 +635,8 @@ button, .btn {
 }
 .carousel-indicators {
 	bottom: 0px;
+	padding-bottom: 0px;
+	width: 75%;
 }
 .center {
 	width: 55%; 
@@ -736,6 +745,8 @@ ul.affix {
 }
 .carousel-indicators {
 	bottom: 0px;
+	padding-bottom: 0px;
+	width: 75%;
 }
 .center {
 	width: 50%; 
