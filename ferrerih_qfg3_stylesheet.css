@@ -23,6 +23,12 @@ header,footer, article, section {
 	width: 82px; 
 }
 
+@font-face {
+  font-family: SierraSCImenu;
+  font-style: normal;
+  src: url("Sierra-SCI-Menu-Font.ttf");
+}
+
 a:link {
 	display: inline; 
 	color: #4d4d4d;
@@ -73,7 +79,7 @@ address {
 	line-height: 1; 
 }
 body {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 100%; 
 	margin: auto; 
 	width: 100%; 
@@ -115,19 +121,19 @@ body:before {
 	background-color: purple !important; 
 }
 div {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
 	font-size: 100%; 
 	color: #333; 
 }
 .smaller-note {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
 	font-size: 75%; 
 	line-height: 85%; 
 	text-align: center; 
 }
 
 .center {
-    font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+    font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 90%; 
 	margin: 0em auto; 
 	font-size: 2.5em; 
@@ -136,7 +142,7 @@ div {
 .dropdown {
 	max-width: 180px; 
 	margin: auto; 
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 }
 .dropdown-menu {
     position: absolute; 
@@ -176,7 +182,7 @@ ul.dropdown-menu a:visited {
 header {
 	text-align: center; 
 	color: #000; 
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-weight: normal; 
 	margin-left: 0.938em; 
 	margin-right: 0.938em; 
@@ -202,7 +208,8 @@ hr {
     height: 0.125em; 
 }
 html {
-	height: 100% !important; 
+	height: 100% !important;
+	font-size: 6px;
 }
 img {
 	border: none;
@@ -233,7 +240,7 @@ ul {
 /*begin responsive elements*/
 
 button, .btn {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
 	color: black !important; 
@@ -245,6 +252,7 @@ button, .btn {
 	padding: 0.1em 0.8em; 
 	display: block;
 	margin: auto;
+	height: 49px;
 }
 .affix {
 	visibility: visible; 
@@ -270,7 +278,7 @@ ul.affix {
     display: none; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 231px; 
 	height: 145px; 
 	font-size: 1em; 
@@ -326,7 +334,8 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
-	width: 210px; 
+	width: 210px;
+	height: 48px;
 	display: block; 
 	font-style: normal; 
 	-webkit-tap-highlight-color: transparent; 
@@ -345,7 +354,7 @@ li.othernavbar {
 	padding: 0 0 120px 0; 
 }
 button, .btn {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
 	color: black !important; 
@@ -356,6 +365,7 @@ button, .btn {
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
+	height:48px;
 }
 .affix {
 	visibility: visible; 
@@ -370,7 +380,7 @@ ul.affix {
 	top: 45px; 
 }
 .center {
-    font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+    font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 80%; 
 	margin: 0em auto; 
 	font-size: 3em; 
@@ -379,7 +389,7 @@ ul.affix {
 	display: none;
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 286px; 
 	height: 180px; 
 	font-size: 1em; 
@@ -438,9 +448,10 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
-	width: 230px; 
+	width: 230px;
+	height:55px;
 	display: block; 
-	font-style: normal; 
+	font-style: normal;
 	-webkit-tap-highlight-color: transparent; 
 }
 .offset {
@@ -462,7 +473,7 @@ article {
 {
 
 button, .btn {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
 	z-index: 10 !important; 
 	color: black !important; 
@@ -472,7 +483,8 @@ button, .btn {
 	background-image: url("qfg3-button.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
-	display: block; 
+	display: block;
+	height: 56px;
 }
 .affix {
 	visibility:visible; 
@@ -502,7 +514,7 @@ ul.affix {
 	display: block; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 335px; 
 	height: 211px; 
 	font-size: 1em; 
@@ -561,6 +573,7 @@ li.othernavbar {
 	padding: 0em 0.5em; 
 	margin: 0; 
 	width: 230px; 
+	height: 55px;
 	display: block; 
 	font-style: normal; 
 	-webkit-tap-highlight-color: transparent; 
@@ -597,7 +610,7 @@ ul.affix {
 	top: 115px; 
 }
 button, .btn {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
 	color: black !important; 
@@ -607,7 +620,7 @@ button, .btn {
 	background-image: url("qfg3-button.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em;
-
+	height:64px;
 }
 .carousel-indicators {
 	bottom: 0px;
@@ -626,7 +639,7 @@ button, .btn {
 	display: block; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 319.7px; 
 	height: 201px; 
 	font-size: 1em; 
@@ -681,7 +694,8 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
-	width: 280px; 
+	width: 280px;
+	height: 65px;
 	display: block; 
 	font-style: normal; 
 	-webkit-tap-highlight-color: transparent; 
@@ -732,16 +746,17 @@ ul.affix {
 	background-attachment: fixed;
 }
 button, .btn {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
-	font-size: 4em; 
-    z-index: 10 !important; 	
-	color: black !important; 
-	border: none !important; 
-	border-color: transparent !important; 
-	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
-    background-size: contain; 
-	padding: 0.1em 0.8em; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 4em;
+    z-index: 10 !important;
+	color: black !important;
+	border: none !important;
+	border-color: transparent !important;
+	background-color: transparent !important;
+	background-image: url("qfg3-button.png") !important;
+    background-size: contain;
+	padding: 0.1em 0.8em;
+	height: 126px;
 }
 #feet-icon {
 	height: 55px; 
@@ -750,7 +765,7 @@ button, .btn {
 	border: none; 
 }
 footer {
-	font-family: "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 368.7px; 
 	height: 232px; 
 	font-size: 1em; 
@@ -808,7 +823,8 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
-	width: 280px; 
+	width: 280px;
+	height: 65px;
 	display: block; 
 	font-style: normal; 
 	-webkit-tap-highlight-color: transparent; 
