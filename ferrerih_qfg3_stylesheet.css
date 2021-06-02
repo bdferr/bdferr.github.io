@@ -1,4 +1,4 @@
-/*last updated 6/1/2021*/
+/*last updated 6/2/2021*/
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -808,7 +808,7 @@ footer {
 	width: 1012px; 
 	position: fixed; 
 	top: 0; 
-	left: 12%; 
+	left: 13%; 
 	z-index: 16; 
 }
 h1 {
@@ -888,5 +888,10 @@ h1 {
 	left: 30%; 
 	height: 131px; 
 }
+#game-toolbar
+{
+	left: 18% !important;
+}
+
 
 }
