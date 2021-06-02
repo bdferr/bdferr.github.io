@@ -279,7 +279,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 20%; 
-	top: 45px; 
+	top: 47px; 
 }
 .container {
 	margin: 0; 
@@ -389,12 +389,12 @@ button, .btn {
 }
 button.affix {
 	top: 0%; 
-	left: 35%; 
+	left: 34%; 
 }
 ul.affix {
 	position: fixed; 
-	left: 35%; 
-	top: 45px; 
+	left: 28%; 
+	top: 46px; 
 }
 .center {
     font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
@@ -513,7 +513,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 76%; 
-	top: 92px; 
+	top: 55px; 
 }
 .carousel-indicators {
 	bottom: -60px;
@@ -625,8 +625,8 @@ button.affix {
 }
 ul.affix {
 	position: fixed; 
-	left: 74%; 
-	top: 115px; 
+	left: 72%; 
+	top: 63px; 
 }
 button, .btn {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
@@ -744,12 +744,12 @@ article {
 }
 button.affix {
 	top: 0%; 
-	left: 77%; 
+	left: 78%; 
 }
 ul.affix {
 	position: fixed; 
-	left: 77%; 
-	top: 115px; 
+	left: 75%; 
+	top: 125px; 
 }
 .carousel-indicators {
 	bottom: 0px;
