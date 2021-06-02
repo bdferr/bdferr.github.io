@@ -9,18 +9,22 @@ header,footer, article, section {
 #eye-icon {
 	height: 26px;
 	width: 53px;
+	display: inline;
 }
 #hand-icon {
 	height: 48px; 
-	width: 58px; 
+	width: 58px;
+	display: inline;
 }
 #mouth-icon {
 	height: 29px; 
-	width: 64px; 
+	width: 64px;
+	display: inline;
 }
 #sword-icon {
 	height: 81px; 
 	width: 82px; 
+	display: inline;
 }
 #question-mark-icon {
 	height: 44px;
