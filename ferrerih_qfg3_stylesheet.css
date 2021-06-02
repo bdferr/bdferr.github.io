@@ -142,7 +142,6 @@ div {
 .smaller-note {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
 	font-size: 75%; 
-	line-height: 85%; 
 	text-align: center; 
 	color: #331100; 
 }
@@ -294,8 +293,8 @@ ul.affix {
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
-	width: 231px; 
-	height: 145px; 
+	width: 260px; 
+	height: 164px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("qfg3-text-4.png"); 
@@ -407,8 +406,8 @@ ul.affix {
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
-	width: 286px; 
-	height: 180px; 
+	width: 309px; 
+	height: 194px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("qfg3-text-4.png"); 
@@ -661,8 +660,8 @@ button, .btn {
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
-	width: 319.7px; 
-	height: 201px; 
+	width: 360px; 
+	height: 226px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("qfg3-text-4.png"); 
@@ -789,8 +788,8 @@ button, .btn {
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
-	width: 368.7px; 
-	height: 232px; 
+	width: 408px; 
+	height: 256px; 
 	font-size: 1em; 
 	font-style: italic; 
 	background-image: url("qfg3-text-4.png"); 
