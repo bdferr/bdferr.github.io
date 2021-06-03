@@ -1,5 +1,11 @@
 /*last updated 6/2/2021*/
 
+@font-face {
+  font-family: SierraSCImenu;
+  font-style: normal;
+  src: url("Sierra-SCI-Menu-Font.ttf");
+}
+
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
 header,footer, article, section {
@@ -33,12 +39,6 @@ header,footer, article, section {
 #question-mark-icon {
 	height: 44px;
 	margin: 5px auto;
-}
-
-@font-face {
-  font-family: SierraSCImenu;
-  font-style: normal;
-  src: url("Sierra-SCI-Menu-Font.ttf");
 }
 
 a:link {
