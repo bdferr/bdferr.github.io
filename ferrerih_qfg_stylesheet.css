@@ -1,4 +1,9 @@
-/*last updated 5/31/2021*/
+/*last updated 6/2/2021*/
+
+@font-face {
+  font-family: gloryquest;
+  src: url("gloryquest.ttf") format("ttf");
+}
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
@@ -25,12 +30,6 @@ header,footer, article, section {
 #question-mark-icon {
 	height: 44px;
 	margin: 5px auto;
-}
-
-@font-face {
-  font-family: gloryquest;
-  font-style: normal;
-  src: url("gloryquest.ttf") format("ttf");
 }
 
 a:link {
