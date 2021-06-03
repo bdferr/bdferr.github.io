@@ -110,11 +110,10 @@ body:before {
 	display: inline;
 }
 .pillars {
-	background-image: url("qfg3-background-color.png"); 
     background-size: initial; 
 	background-color: transparent; 
-	border: 40px solid transparent; 
-	border-image: url("qfg3-main-menu2.png") 12.5% round; 
+	border: 33px solid transparent; 
+	border-image: url("qfg1-medium-text-box2.png") 30 30 fill; 
 }
 div {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
@@ -299,7 +298,7 @@ h1 {
 	left: 12%; 
 	height: 50px; 
 	width: 278px;
-    background-image: url("qfg3-heading-small.png"); 
+    background-image: url("qfg1-medium-text-box2.png"); 
   	background-size: contain;
     color: black; 
     text-align: center; 
@@ -407,10 +406,9 @@ h1 {
 	font-size: 3.5em;
 	padding: 0em;
 	position: absolute;
-	background-image: url("qfg3-background-color.png"); 
-    background-size: contain;
+	background-image: none;
     border: 15px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	top: 32px;
 	left: 20%;
 	height: 72px;
@@ -529,11 +527,10 @@ footer {
 h1 {
 	font-size: 4.5em; 
 	padding: 0em; 
-	position: absolute; 
-	background-image: url("qfg3-background-color.png"); 
-    background-size: auto;
+	position: absolute;
+	background-image: none;
     border: 25px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	top: 46px; 
 	left: 22%; 
 	height: 97px; 
@@ -650,11 +647,10 @@ footer {
 }
 
 h1 {
-	font-size: 5.5em; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+	font-size: 5.5em;
+	background-image: none;
 	border: 30px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
     width: 51%; 
 	padding: 0.2em; 
 	position: absolute; 
@@ -777,11 +773,10 @@ footer {
 h1 {
     font-size: 6.0em;  
     color: black; 
-    text-align: center; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+    text-align: center;
+	background-image: none;
 	border: 30px solid;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
     width: 45%; 
     margin: auto; 
     padding: 0em; 
@@ -838,11 +833,10 @@ article {
 h1 {
 	font-size: 7.0em;  
 	color: black; 
-	text-align: center; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+	text-align: center;
+	background-image: none;
 	border: 30px solid;
-	border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	width: 40%; 
 	margin: auto; 
 	padding: 0em; 
