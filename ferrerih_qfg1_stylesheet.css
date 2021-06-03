@@ -238,12 +238,12 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
 	margin: auto;
-	height: 49px;
+	height: 45px;
 }
 .affix {
 	visibility: visible; 
@@ -352,11 +352,11 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important;
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
-	height:48px;
+	height:44px;
 }
 .affix {
 	visibility: visible; 
@@ -469,11 +469,11 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
-	height: 56px;
+	height: 51px;
 }
 .affix {
 	visibility:visible; 
@@ -498,9 +498,7 @@ ul.affix {
 	padding: 0 0 150px 0; 
 }
 #feet-icon {
-	height: 45px; 
-	width: 34px; 
-	display: block; 
+	display: none;
 }
 footer {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
@@ -603,10 +601,10 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em;
-	height:64px;
+	height: 115px;
 }
 .carousel-indicators {
 	bottom: 0px;
@@ -738,10 +736,10 @@ button, .btn {
 	border: none !important;
 	border-color: transparent !important;
 	background-color: transparent !important;
-	background-image: url("qfg3-button.png") !important;
+	background-image: url("qfg1-button2.png") !important;
     background-size: contain;
 	padding: 0.1em 0.8em;
-	height: 126px;
+	height: 116px;
 }
 #feet-icon {
 	height: 55px; 
