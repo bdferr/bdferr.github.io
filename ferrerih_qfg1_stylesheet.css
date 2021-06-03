@@ -1,4 +1,4 @@
-/*last updated 6/2/2021*/
+/*last updated 6/3/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -10,35 +10,6 @@
 but this is to deal with possible problems in older browsers*/
 header,footer, article, section {
     display: block; 
-}
-
-#eye-icon {
-	height: 26px;
-	width: 53px;
-	display: inline;
-	margin: 5px 0px;
-}
-#hand-icon {
-	height: 48px; 
-	width: 58px;
-	display: inline;
-	margin: 5px 0px;
-}
-#mouth-icon {
-	height: 29px; 
-	width: 64px;
-	display: inline;
-	margin: 5px 0px;
-}
-#sword-icon {
-	height: 81px; 
-	width: 82px; 
-	display: inline;
-	margin: 5px 0px;
-}
-#question-mark-icon {
-	height: 44px;
-	margin: 5px auto;
 }
 
 a:link {
@@ -133,6 +104,10 @@ body:before {
 }
 .carousel-indicators .active {
 	background-color: #b30000 !important; 
+}
+.icon {
+	padding: 5px;
+	display: inline;
 }
 .pillars {
 	background-image: url("qfg3-background-color.png"); 
