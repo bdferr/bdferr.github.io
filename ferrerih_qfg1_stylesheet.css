@@ -274,7 +274,7 @@ footer {
 	height: 162px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.8em 0.5em 0.9em 0.5em; 
@@ -295,9 +295,9 @@ h1 {
 	padding: 0.2em; 
 	position: absolute; 
 	top: 32px; 
-	left: 12%; 
+	left: 16%; 
 	height: 50px; 
-	width: 278px;
+	width: 245px;
     background-image: url("qfg1-medium-text-box2.png"); 
   	background-size: contain;
     color: black; 
