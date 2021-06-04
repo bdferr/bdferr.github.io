@@ -110,11 +110,10 @@ body:before {
 	display: inline;
 }
 .pillars {
-	background-image: url("qfg3-background-color.png"); 
     background-size: initial; 
 	background-color: transparent; 
-	border: 40px solid transparent; 
-	border-image: url("qfg3-main-menu2.png") 12.5% round; 
+	border: 33px solid transparent; 
+	border-image: url("qfg1-medium-text-box2.png") 30 30 fill; 
 }
 div {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
@@ -239,12 +238,12 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
 	margin: auto;
-	height: 49px;
+	height: 45px;
 }
 .affix {
 	visibility: visible; 
@@ -256,7 +255,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 20%; 
-	top: 45px; 
+	top: 44px; 
 }
 .container {
 	margin: 0; 
@@ -272,10 +271,10 @@ ul.affix {
 footer {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 260px; 
-	height: 164px; 
+	height: 162px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.8em 0.5em 0.9em 0.5em; 
@@ -296,17 +295,17 @@ h1 {
 	padding: 0.2em; 
 	position: absolute; 
 	top: 32px; 
-	left: 12%; 
+	left: 16%; 
 	height: 50px; 
-	width: 278px;
-    background-image: url("qfg3-heading-small.png"); 
+	width: 245px;
+    background-image: url("qfg1-medium-text-box2.png"); 
   	background-size: contain;
     color: black; 
     text-align: center; 
     margin: auto; 
 }
 #li-bottom {
-	background-image: url("qfg3-li-bottom.png"); 
+	background-image: url("qfg1-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
@@ -314,13 +313,13 @@ h1 {
 	padding: 0em 1em 0.45em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg3-li-top.png"); 
+	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
 	padding: 0.5em 0.5em 0.5em 0.5em !important; 
 	height: 45px; 
 }
 li.othernavbar {
-	background-image: url("qfg3-li.png"); 
+	background-image: url("qfg1-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
@@ -353,11 +352,11 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important;
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
-	height:48px;
+	height:44px;
 }
 .affix {
 	visibility: visible; 
@@ -369,7 +368,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 28%; 
-	top: 46px; 
+	top: 43px; 
 }
 .center {
     font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
@@ -383,10 +382,10 @@ ul.affix {
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
 	width: 309px; 
-	height: 194px; 
+	height: 192px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.5em 0.5em 0.9em 0.5em; 
@@ -407,10 +406,9 @@ h1 {
 	font-size: 3.5em;
 	padding: 0em;
 	position: absolute;
-	background-image: url("qfg3-background-color.png"); 
-    background-size: contain;
+	background-image: none;
     border: 15px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	top: 32px;
 	left: 20%;
 	height: 72px;
@@ -418,7 +416,7 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg3-li-bottom.png"); 
+	background-image: url("qfg1-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
@@ -426,20 +424,20 @@ h1 {
 	padding: 0em 0.5em 0.63em 0.5em !important; 
 }
 #li-top {
-	background-image: url("qfg3-li-top.png"); 
+	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
 	padding: 0.5em 0.5em 0.5em 0.5em !important; 
 	height: 45px; 
 }
 
 li.othernavbar {
-	background-image: url("qfg3-li.png"); 
+	background-image: url("qfg1-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
 	padding: 0em 0.5em; 
 	margin: 0; 
-	width: 230px;
+	width: 217px;
 	height:45px;
 	display: block; 
 	font-style: normal;
@@ -471,11 +469,11 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
-	height: 56px;
+	height: 51px;
 }
 .affix {
 	visibility:visible; 
@@ -487,7 +485,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 76%; 
-	top: 55px; 
+	top: 50px; 
 }
 .carousel-indicators {
 	bottom: -60px;
@@ -500,17 +498,15 @@ ul.affix {
 	padding: 0 0 150px 0; 
 }
 #feet-icon {
-	height: 45px; 
-	width: 34px; 
-	display: block; 
+	display: none;
 }
 footer {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 309px; 
-	height: 194px; 
+	height: 192px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.5em 0.5em 0.9em 0.5em; 
@@ -529,11 +525,10 @@ footer {
 h1 {
 	font-size: 4.5em; 
 	padding: 0em; 
-	position: absolute; 
-	background-image: url("qfg3-background-color.png"); 
-    background-size: auto;
+	position: absolute;
+	background-image: none;
     border: 25px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	top: 46px; 
 	left: 22%; 
 	height: 97px; 
@@ -541,7 +536,7 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg3-li-bottom.png"); 
+	background-image: url("qfg1-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
@@ -549,20 +544,20 @@ h1 {
 	padding: 0em 0.5em 0.615em 0.6em !important; 
 }
 #li-top {
-	background-image: url("qfg3-li-top.png"); 
+	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
 	padding: 0.5em 0.5em 0.5em 0.6em !important; 
 	height: 45px; 
 }
 
 li.othernavbar {
-	background-image: url("qfg3-li.png"); 
+	background-image: url("qfg1-li.png"); 
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
 	padding: 0em 0.6em; 
 	margin: 0; 
-	width: 230px; 
+	width: 217px; 
 	height: 45px;
 	display: block; 
 	font-style: normal; 
@@ -596,7 +591,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 72%; 
-	top: 63px; 
+	top: 114px; 
 }
 button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
@@ -606,10 +601,10 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg1-button2.png") !important; 
     background-size: contain; 
 	padding: 0.1em 0.8em;
-	height:64px;
+	height: 115px;
 }
 .carousel-indicators {
 	bottom: 0px;
@@ -630,10 +625,10 @@ button, .btn {
 footer {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
 	width: 360px; 
-	height: 226px; 
+	height: 224px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.5em 0.7em 0.7em 0.7em; 
@@ -650,11 +645,10 @@ footer {
 }
 
 h1 {
-	font-size: 5.5em; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+	font-size: 5.5em;
+	background-image: none;
 	border: 30px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
     width: 51%; 
 	padding: 0.2em; 
 	position: absolute; 
@@ -663,7 +657,7 @@ h1 {
 	height: 131px; 
 }
 #li-bottom {
-	background-image: url("qfg3-li-bottom.png"); 
+	background-image: url("qfg1-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
@@ -671,19 +665,19 @@ h1 {
 	padding: 0em 0.5em 0.45em 0.8em !important; 
 }
 #li-top {
-	background-image: url("qfg3-li-top.png"); 
+	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
 	padding: 0.5em 0.5em 0.7em 0.8em !important; 
 	height: 60px; 
 }
 li.othernavbar {
-	background-image: url("qfg3-li.png"); 
+	background-image: url("qfg1-li.png"); 
 	background-size: contain; 
 	font-size: 2em; 
 	background-color: transparent;
 	padding: 0em 0.8em; 
 	margin: 0; 
-	width: 310px;
+	width: 290px;
 	height: 60px;
 	display: block; 
 	font-style: normal; 
@@ -717,7 +711,7 @@ button.affix {
 ul.affix {
 	position: fixed; 
 	left: 75%; 
-	top: 125px; 
+	top: 115px; 
 }
 .carousel-indicators {
 	bottom: 0px;
@@ -742,10 +736,10 @@ button, .btn {
 	border: none !important;
 	border-color: transparent !important;
 	background-color: transparent !important;
-	background-image: url("qfg3-button.png") !important;
+	background-image: url("qfg1-button2.png") !important;
     background-size: contain;
 	padding: 0.1em 0.8em;
-	height: 126px;
+	height: 116px;
 }
 #feet-icon {
 	height: 55px; 
@@ -756,10 +750,10 @@ button, .btn {
 footer {
 	font-family: gloryquest, Sylfaen, "Times New Roman", serif !important; 
 	width: 408px; 
-	height: 256px; 
+	height: 254px; 
 	font-size: 1em; 
 	font-style: italic; 
-	background-image: url("qfg3-text-4.png"); 
+	background-image: url("qfg1-settings-menu2.png"); 
     background-size: contain; 
 	background-color: transparent; 
 	padding: 0.5em 0.5em 0.9em 0.5em; 
@@ -777,11 +771,10 @@ footer {
 h1 {
     font-size: 6.0em;  
     color: black; 
-    text-align: center; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+    text-align: center;
+	background-image: none;
 	border: 30px solid;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
     width: 45%; 
     margin: auto; 
     padding: 0em; 
@@ -792,27 +785,27 @@ h1 {
 }
 
 #li-bottom {
-	background-image: url("qfg3-li-bottom.png"); 
+	background-image: url("qfg1-li-bottom.png"); 
 	background-size: contain; 
 	background-color: transparent; 
 	line-height: 80% !important; 
-	height: 60px;
+	height: 59px;
 	padding: 0em 0.5em 0.453em 0.8em !important; 
 }
 #li-top {
-	background-image: url("qfg3-li-top.png"); 
+	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
 	padding: 0.5em 0.5em 0.7em 0.8em !important; 
-	height: 60px; 
+	height: 59px; 
 }
 li.othernavbar {
-	background-image: url("qfg3-li.png"); 
+	background-image: url("qfg1-li.png"); 
 	background-size: contain; 
 	font-size: 2em; 
 	background-color: transparent;
 	padding: 0em 0.8em; 
 	margin: 0; 
-	width: 308px;
+	width: 287px;
 	height: 60px;
 	display: block; 
 	font-style: normal; 
@@ -838,11 +831,10 @@ article {
 h1 {
 	font-size: 7.0em;  
 	color: black; 
-	text-align: center; 
-	background-image: url("qfg3-background-color.png"); 
-	background-size: auto;
+	text-align: center;
+	background-image: none;
 	border: 30px solid;
-	border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg1-medium-text-box2.png") 30 30 fill;
 	width: 40%; 
 	margin: auto; 
 	padding: 0em; 
