@@ -14,14 +14,14 @@ header,footer, article, section {
 
 a:link {
 	display: inline; 
-	color: #4d4d4d;
+	color: #331100;
 	text-decoration: none; 
 	font-weight: normal; 
 	padding-top: 0em !important; 
 }
 a:visited {
 	display: inline; 
-	color: #4d4d4d;
+	color: #331100;
 	text-decoration: none; 
 	font-weight: normal; 
 }
@@ -117,8 +117,8 @@ body:before {
 }
 div {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
-	font-size: 100%; 
-	color: #333; 
+	font-size: 100%;
+	color: black;
 }
 .smaller-note {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
@@ -159,7 +159,7 @@ div {
     background-color: transparent !important;
 }
 ul.dropdown-menu a:link {
-	color: #333;
+	color: #331100;
 	text-decoration: none; 
 	background-color: transparent !important; 
 	font-weight: normal; 
@@ -171,7 +171,7 @@ ul.dropdown-menu a:hover {
 	font-weight: bold; 
 }
 ul.dropdown-menu a:visited {
-	color: #333;
+	color: #331100;
 	text-decoration: none; 
 	font-weight: normal; 
 }
