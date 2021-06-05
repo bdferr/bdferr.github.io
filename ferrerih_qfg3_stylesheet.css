@@ -40,7 +40,14 @@ header,footer, article, section {
 	height: 44px;
 	margin: 5px auto;
 }
-
+#scarab-icon {
+	margin: 5px 0px;
+	display: inline;
+}
+#walking-icon {
+	margin: 5px 0px;
+	display: inline;
+}
 a:link {
 	display: inline; 
 	color: #331100;
