@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory I,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-06-02" />
+	<meta name="dcterms.modified" content="2021-06-04" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -40,7 +40,23 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
-	});
+		$("#night-mode").click(function() {
+			$("#game-toolbar").attr("src", "qfg1-menu-bar-nighttime.png");
+			$("footer").css("background-image", "url('qfg1-settings-menu-nighttime3.png')");
+			$("h1").css("border-image", "url('qfg1-short-text-box-nighttime3.png') 30 30 fill");
+			$(".btn").css("background-image", "url('qfg1-button-nighttime2.png')");
+			$(".pillars").css("border-image", "url('qfg1-settings-menu-nighttime3.png') 30 30 fill");
+			$(".container").css({"background-image": "url('qfg1-town-nighttime1.png')", "background-size": "cover"});
+		});
+		$("#day-mode").click(function() {
+			$("#game-toolbar").attr("src", "qfg1-toolbar2.png");
+			$("footer").css("background-image", "url('qfg1-settings-menu2.png')");
+			$("h1").css("border-image", "url('qfg1-medium-text-box2.png') 30 30 fill");
+			$(".btn").css("background-image", "url('qfg1-button2.png')");
+			$(".pillars").css("border-image", "url('qfg1-settings-menu2.png') 30 30 fill");
+			$(".container").css({"background": "url('qfg1-brauggi.gif') no-repeat", "background-attachment": "fixed"});
+		});
+});
 	</script>
 </head>
 <body>
@@ -203,33 +219,35 @@
 			An attempt has already been made by others to implement	some of these as 
 			<a href="http://www.questformoreglory.com/downloads/qfg-cursorsT.html" target="_blank">extensions</a> to an operating system.
 			</p>
-			<img src="QfG_icons/qfg1-eye-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-eye-icon-nighttime2b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-hand-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-hand-icon-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-mouth-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-mouth-icon-nighttime.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-walking-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-walking-icon-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-stealth-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-stealth-icon-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-running-icon-daytime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-running-icon-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-pointer-icon-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-pointer-icon-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-question-mark-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
-			<img src="QfG_icons/qfg1-question-mark-nighttime-b.png" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-eye-icon-daytime-b.png" class="icon" id="eye-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-eye-icon-nighttime2b.png" class="icon" id="eye-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-hand-icon-daytime-b.png" class="icon" id="hand-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-hand-icon-nighttime-b.png" class="icon" id="hand-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-mouth-icon-daytime-b.png" class="icon" id="mouth-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-mouth-icon-nighttime.png" class="icon" id="mouth-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-walking-icon-daytime-b.png" class="icon" id="walking-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-walking-icon-nighttime-b.png" class="icon" id="walking-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-stealth-icon-daytime-b.png" class="icon" id="stealth-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-stealth-icon-nighttime-b.png" class="icon" id="stealth-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-running-icon-daytime-b.png" class="icon" id="running-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-running-icon-nighttime-b.png" class="icon" id="running-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-pointer-icon-b.png" class="icon" id="pointer-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-pointer-icon-nighttime-b.png" id="pointer-icon-nighttime" class="icon" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-question-mark-b.png" class="icon" id="question-icon-daytime" alt="Quest for Glory I: So You Want to Be A Hero icon">
+			<img src="QfG_icons/qfg1-question-mark-nighttime-b.png" class="icon" id="question-icon-nighttime" alt="Quest for Glory I: So You Want to Be A Hero icon">
 			<div id="music" class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
 			</section>
 			</article>
 			<footer>
-			<br />
 			<div class="smaller-note">&copy; 2021 Brendan 
 			<br /> Ferreri-Hanberry 
 			<br /> 
 			<br />
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a></div>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a>	 
+			<br />
+			<br />
+		    <span id="day-mode">Day mode</span>&nbsp;|&nbsp;<span id="night-mode">Night mode</span></div>
 		    </footer>
 		</div>
 	</div>
