@@ -1,4 +1,4 @@
-/*last updated 6/3/2021*/
+/*last updated 6/4/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -44,7 +44,15 @@ section a:hover, footer a:hover {
 	cursor: url("QfG_icons/qfg1-mouth-icon-daytime-b.png"), pointer !important; 
 }
 
-abbr{
+#day-mode {
+    cursor: url("QfG_icons/qfg1-eye-icon-daytime-b.png"), pointer !important;	
+}
+
+#night-mode {
+	cursor: url("QfG_icons/qfg1-eye-icon-nighttime2b.png"), pointer !important;	
+}
+
+abbr {
 	cursor: url("QfG_icons/qfg1-question-mark-b.png"), help !important;
 }
 .btn:hover {
