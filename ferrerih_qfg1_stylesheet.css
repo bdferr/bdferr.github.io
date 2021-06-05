@@ -51,6 +51,9 @@ section a:hover, footer a:hover {
 #night-mode {
 	cursor: url("QfG_icons/qfg1-eye-icon-nighttime2b.png"), pointer !important;	
 }
+#running-icon {
+	margin: 20px auto;
+}
 
 abbr {
 	cursor: url("QfG_icons/qfg1-question-mark-b.png"), help !important;

@@ -47,6 +47,7 @@
 			$(".btn").css("background-image", "url('qfg1-button-nighttime2.png')");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu-nighttime3.png') 30 30 fill");
 			$(".container").css({"background-image": "url('qfg1-town-nighttime1.png')", "background-size": "cover"});
+			$("#running-icon").attr("src", "QfG_icons/qfg1-running-icon-nighttime-b.png");
 		});
 		$("#day-mode").click(function() {
 			$("#game-toolbar").attr("src", "qfg1-toolbar2.png");
@@ -55,6 +56,7 @@
 			$(".btn").css("background-image", "url('qfg1-button2.png')");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu2.png') 30 30 fill");
 			$(".container").css({"background": "url('qfg1-brauggi.gif') no-repeat", "background-attachment": "fixed"});
+			$("#running-icon").attr("src", "QfG_icons/qfg1-running-icon-daytime-b.png");
 		});
 });
 	</script>
@@ -67,7 +69,7 @@
 			<div id="dropdown_menu" class="dropdown offset">
 				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
-					<img id="feet-icon" src="QfG_icons/qfg3-walking-icon-best.png" alt="Quest for Glory III: Wages of War walking icon" />
+					<img id="running-icon" src="QfG_icons/qfg1-running-icon-daytime-b.png" alt="Quest for Glory I: So You Want to Be A Hero running icon" />
 				</button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
 					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
