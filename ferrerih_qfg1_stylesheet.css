@@ -238,7 +238,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg1-button2.png") !important; 
+	background-image: url("qfg1-button2.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
@@ -352,7 +352,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important;
 	background-color: transparent !important; 
-	background-image: url("qfg1-button2.png") !important; 
+	background-image: url("qfg1-button2.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
@@ -469,7 +469,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg1-button2.png") !important; 
+	background-image: url("qfg1-button2.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
@@ -601,7 +601,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg1-button2.png") !important; 
+	background-image: url("qfg1-button2.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em;
 	height: 115px;
@@ -736,7 +736,7 @@ button, .btn {
 	border: none !important;
 	border-color: transparent !important;
 	background-color: transparent !important;
-	background-image: url("qfg1-button2.png") !important;
+	background-image: url("qfg1-button2.png");
     background-size: contain;
 	padding: 0.1em 0.8em;
 	height: 116px;
