@@ -329,6 +329,7 @@ h1 {
     color: black; 
     text-align: center; 
     margin: auto; 
+	cursor: url("QfG_icons/qfg3-scarab-icon-best.png"), pointer !important;
 }
 
 #li-bottom {
