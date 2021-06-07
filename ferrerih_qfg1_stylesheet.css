@@ -314,6 +314,7 @@ h1 {
     color: black; 
     text-align: center; 
     margin: auto;
+	cursor: url("QfG_icons/qfg1-dragon-icon.png"), pointer !important;
 }
 #li-bottom {
 	background-image: url("qfg1-li-bottom.png"); 
