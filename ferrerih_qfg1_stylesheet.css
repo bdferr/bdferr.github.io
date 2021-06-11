@@ -26,7 +26,8 @@ a:visited {
 	font-weight: normal; 
 }
 li a:hover {
-    color: #b30000 !important;
+    color: #c58d56 !important;
+	background-color: #331100 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg1-hand-icon-daytime-b.png"), pointer !important; 
@@ -176,7 +177,8 @@ ul.dropdown-menu a:link {
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: #b30000 !important;
+    color: #c58d56 !important;
+	background-color: #331100 !important;
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
