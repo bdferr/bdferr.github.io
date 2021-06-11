@@ -329,7 +329,7 @@ h1 {
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	padding: 0.2em 0.5em 0.5em 0.5em !important; 
 	height: 45px; 
 }
 li.othernavbar {
@@ -440,7 +440,7 @@ h1 {
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.8em !important; 
+	padding: 0.2em 0.8em !important; 
 	height: 45px; 
 }
 
@@ -560,7 +560,7 @@ h1 {
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.8em !important; 
+	padding: 0.2em 0.8em !important; 
 	height: 45px; 
 }
 
@@ -681,7 +681,7 @@ h1 {
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.8em 0.7em 0.8em !important; 
+	padding: 0.2em 0.8em 0.7em 0.8em !important; 
 	height: 60px; 
 }
 li.othernavbar {
@@ -809,7 +809,7 @@ h1 {
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.8em 0.7em 0.8em !important; 
+	padding: 0.2em 0.8em 0.7em 0.8em !important; 
 	height: 59px; 
 }
 li.othernavbar {
