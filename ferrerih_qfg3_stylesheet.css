@@ -134,6 +134,7 @@ body:before {
 	bottom: -45px;
 	left: 42%;
 	width: 85%;
+	z-index: 0 !important;
 }
 .carousel-indicators li {
 	border-color: purple !important; 
@@ -656,6 +657,7 @@ button, .btn {
 	bottom: 0px;
 	padding-bottom: 0px;
 	width: 75%;
+	z-index: 1 !important;
 }
 .center {
 	width: 55%; 
@@ -766,6 +768,7 @@ ul.affix {
 	bottom: 0px;
 	padding-bottom: 0px;
 	width: 75%;
+	z-index: 1 !important;
 }
 .center {
 	width: 50%; 
