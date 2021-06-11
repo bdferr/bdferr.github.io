@@ -1,4 +1,4 @@
-/*last updated 6/4/2021*/
+/*last updated 6/11/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -26,10 +26,11 @@ a:visited {
 	font-weight: normal; 
 }
 li a:hover {
-    color: #b30000 !important;
+    color: #c58d56 !important;
+	background-color: #331100 !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/qfg1-hand-icon-daytime-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important; 
 }
 
 section a:hover, footer a:hover {
@@ -176,7 +177,8 @@ ul.dropdown-menu a:link {
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: #b30000 !important;
+    color: #c58d56 !important;
+	background-color: #331100 !important;
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
@@ -322,7 +324,7 @@ h1 {
 	background-color: transparent; 
 	line-height: 80% !important; 
 	height: 45px;
-	padding: 0em 1em 0.45em 0.5em !important; 
+	padding: 0em 0.5em 0.45em 0.5em !important; 
 }
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
@@ -433,12 +435,12 @@ h1 {
 	background-color: transparent; 
 	line-height: 80% !important; 
 	height: 45px;
-	padding: 0em 0.5em 0.63em 0.5em !important; 
+	padding: 0em 0.8em 0.63em 0.8em !important; 
 }
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	padding: 0.5em 0.8em !important; 
 	height: 45px; 
 }
 
@@ -447,7 +449,7 @@ li.othernavbar {
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
-	padding: 0em 0.5em; 
+	padding: 0em 0.8em; 
 	margin: 0; 
 	width: 217px;
 	height:45px;
@@ -553,12 +555,12 @@ h1 {
 	background-color: transparent; 
 	line-height: 80% !important; 
 	height: 45px;
-	padding: 0em 0.5em 0.615em 0.6em !important; 
+	padding: 0em 0.8em 0.615em 0.8em !important; 
 }
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.5em 0.6em !important; 
+	padding: 0.5em 0.8em !important; 
 	height: 45px; 
 }
 
@@ -567,7 +569,7 @@ li.othernavbar {
 	background-size: contain; 
 	font-size: 1.5em; 
 	background-color: transparent;
-	padding: 0em 0.6em; 
+	padding: 0em 0.8em; 
 	margin: 0; 
 	width: 217px; 
 	height: 45px;
@@ -674,12 +676,12 @@ h1 {
 	background-color: transparent; 
 	line-height: 80% !important; 
 	height: 60px;
-	padding: 0em 0.5em 0.45em 0.8em !important; 
+	padding: 0em 0.8em 0.45em 0.8em !important; 
 }
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.7em 0.8em !important; 
+	padding: 0.5em 0.8em 0.7em 0.8em !important; 
 	height: 60px; 
 }
 li.othernavbar {
@@ -802,12 +804,12 @@ h1 {
 	background-color: transparent; 
 	line-height: 80% !important; 
 	height: 59px;
-	padding: 0em 0.5em 0.453em 0.8em !important; 
+	padding: 0em 0.8em 0.453em 0.8em !important; 
 }
 #li-top {
 	background-image: url("qfg1-li-top.png"); 
 	background-size: contain; 
-	padding: 0.5em 0.5em 0.7em 0.8em !important; 
+	padding: 0.5em 0.8em 0.7em 0.8em !important; 
 	height: 59px; 
 }
 li.othernavbar {
