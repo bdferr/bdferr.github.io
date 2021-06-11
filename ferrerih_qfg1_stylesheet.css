@@ -1,4 +1,4 @@
-/*last updated 6/4/2021*/
+/*last updated 6/11/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -30,7 +30,7 @@ li a:hover {
 	background-color: #331100 !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/qfg1-hand-icon-daytime-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important; 
 }
 
 section a:hover, footer a:hover {
