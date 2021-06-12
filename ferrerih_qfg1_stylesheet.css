@@ -25,6 +25,7 @@ a:visited {
 	text-decoration: none; 
 	font-weight: normal; 
 }
+
 li a:hover {
     color: #c58d56 !important;
 	background-color: #331100 !important;
@@ -33,12 +34,20 @@ li a:hover {
 	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important; 
 }
 
+.day:hover {
+    color: #c58d56 !important;
+}
+
 section a:hover, footer a:hover {
 	display: inline; 
     color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg1-running-icon-daytime-b.png"), pointer !important; 
+}
+
+.night:hover {
+	color: #452f7e !important;
 }
 
 #contact {
@@ -178,7 +187,6 @@ ul.dropdown-menu a:link {
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: #c58d56 !important;
 	background-color: #331100 !important;
 	text-decoration: none; 
 	background-color: transparent; 
