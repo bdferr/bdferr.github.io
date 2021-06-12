@@ -20,12 +20,14 @@ a:link {
 	padding-top: 0em !important; 
 }
 a:visited {
-	display: inline; 
-	color: #331100;
-	text-decoration: none; 
-	font-weight: normal; 
+	color: #331100 !important;
 }
-
+a.day:visited {
+	color: #331100 !important;
+}
+a.night:visited {
+	color: #170324 !important;
+}
 li a:hover {
     color: #c58d56 !important;
 	background-color: #331100 !important;
@@ -33,21 +35,27 @@ li a:hover {
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important; 
 }
-
-.day:hover {
-    color: #c58d56 !important;
-}
-
 section a:hover, footer a:hover {
 	display: inline; 
-    color: #b30000 !important;
+    color: #b30000;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg1-running-icon-daytime-b.png"), pointer !important; 
 }
+.day {
+	color: #331100 !important;
+}
+.night {
+	color: #170324 !important;
+}
+ul a.day:hover {
+    color: #c58d56 !important;
+	background-color: #331100 !important;
+}
 
-.night:hover {
+ul a.night:hover {
 	color: #452f7e !important;
+	background-color: #170324 !important;
 }
 
 #contact {
@@ -77,7 +85,7 @@ abbr {
 
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;
-	background-color: transparent !important; 
+	background-color: transparent;
     text-decoration: none; 
 }
 address {
@@ -175,28 +183,20 @@ div {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
     text-align: left; 
 }
-.dropdown-menu>li>a:focus {
-    color: #262626;
-    text-decoration: none;
-    background-color: transparent !important;
-}
+
 ul.dropdown-menu a:link {
 	color: #331100;
 	text-decoration: none; 
-	background-color: transparent !important; 
+	background-color: transparent;  */
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-	background-color: #331100 !important;
+	background-color: #331100;
 	text-decoration: none; 
-	background-color: transparent; 
+	background-color: transparent;
 	font-weight: bold; 
 }
-ul.dropdown-menu a:visited {
-	color: #331100;
-	text-decoration: none; 
-	font-weight: normal; 
-}
+
 
 header {
 	text-align: center; 
@@ -256,7 +256,6 @@ button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
-	color: #331100 !important; 
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
@@ -371,7 +370,6 @@ button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
     z-index: 10 !important; 
-	color: #331100 !important; 
 	border: none !important; 
 	border-color: transparent !important;
 	background-color: transparent !important; 
@@ -488,7 +486,6 @@ button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
 	z-index: 10 !important; 
-	color: #331100 !important; 
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
@@ -620,7 +617,6 @@ button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em; 
     z-index: 10 !important; 	
-	color: #331100 !important; 
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
@@ -757,7 +753,6 @@ button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
 	font-size: 4em;
     z-index: 10 !important;
-	color: #331100 !important;
 	border: none !important;
 	border-color: transparent !important;
 	background-color: transparent !important;
