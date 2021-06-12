@@ -55,7 +55,8 @@
 			$("li.othernavbar").css("background-image", "url('qfg1-li-nighttime.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top-nighttime.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom-nighttime.png')");
-			$("ul.dropdown-menu a:hover").css("color", "#452f7e !important");
+			$("li a").addClass("night");
+			$("li a").removeClass("day");
 		});
 		$("#day-mode").click(function() {
 			$("#night-mode").show();
@@ -70,7 +71,8 @@
 			$("li.othernavbar").css("background-image", "url('qfg1-li.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom.png')");
-			$("ul.dropdown-menu a:hover").css("color", "#c58d56 !important");
+			$("li a").removeClass("night");
+			$("li a").addClass("day");
 		});
 });
 	</script>
@@ -86,11 +88,11 @@
 					<img id="running-icon" src="QfG_icons/qfg1-running-icon-daytime-b.png" alt="Quest for Glory I: So You Want to Be A Hero running icon" />
 				</button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
-					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
-					<li class="othernavbar normal"><a href="#images">Game Images</a></li>
-					<li class="othernavbar normal"><a href="#icons">Icons</a></li>
-					<li class="othernavbar normal"><a href="quest-for-glory3.html">QfG III</a></li>
-					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory.html">QfG IV</a></li>
+					<li id="li-top" class="othernavbar"><a href="#downloads" class="day">Downloads</a></li>
+					<li class="othernavbar normal"><a href="#images" class="day">Game Images</a></li>
+					<li class="othernavbar normal"><a href="#icons" class="day">Icons</a></li>
+					<li class="othernavbar normal"><a href="quest-for-glory3.html" class="day">QfG III</a></li>
+					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory.html" class="day">QfG IV</a></li>
 				</ul>
             </div>
 		</header>
