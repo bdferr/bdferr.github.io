@@ -49,12 +49,16 @@
 			$("footer").css("background-image", "url('qfg1-settings-menu-nighttime3.png')");
 			$("h1").css("border-image", "url('qfg1-short-text-box-nighttime3.png') 30 30 fill");
 			$(".btn").css("background-image", "url('qfg1-button-nighttime2.png')");
+			$(".btn").addClass("night");
+			$(".btn").removeClass("day");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu-nighttime3.png') 30 30 fill");
 			$(".container").css({"background-image": "url('qfg1-lake-nighttime.png')", "background-size": "cover"});
 			$("#running-icon").attr("src", "QfG_icons/qfg1-running-icon-nighttime-b.png");
 			$("li.othernavbar").css("background-image", "url('qfg1-li-nighttime.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top-nighttime.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom-nighttime.png')");
+			$("a").addClass("night");
+			$("a").removeClass("day");
 			$("li a").addClass("night");
 			$("li a").removeClass("day");
 		});
@@ -65,12 +69,16 @@
 			$("footer").css("background-image", "url('qfg1-settings-menu2.png')");
 			$("h1").css("border-image", "url('qfg1-medium-text-box2.png') 30 30 fill");
 			$(".btn").css("background-image", "url('qfg1-button2.png')");
+			$(".btn").addClass("day");
+			$(".btn").removeClass("night");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu2.png') 30 30 fill");
 			$(".container").css({"background": "url('qfg1-brauggi.gif') no-repeat", "background-attachment": "fixed"});
 			$("#running-icon").attr("src", "QfG_icons/qfg1-running-icon-daytime-b.png");
 			$("li.othernavbar").css("background-image", "url('qfg1-li.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom.png')");
+			$("a").removeClass("night");
+			$("a").addClass("day");
 			$("li a").removeClass("night");
 			$("li a").addClass("day");
 		});
@@ -83,7 +91,7 @@
 		<img src="qfg1-toolbar2.png" id="game-toolbar" alt="Quest for Glory I: So You Want to Be A Hero toolbar" />
 		<h1 id="main-title">Quest for Glory I</h1>
 			<div id="dropdown_menu" class="dropdown offset">
-				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
+				<button class="btn day btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
 					<img id="running-icon" src="QfG_icons/qfg1-running-icon-daytime-b.png" alt="Quest for Glory I: So You Want to Be A Hero running icon" />
 				</button>
