@@ -39,6 +39,7 @@ header,footer, article, section {
 #question-mark-icon {
 	height: 44px;
 	margin: 5px auto;
+	display: inline;
 }
 #scarab-icon {
 	margin: 5px 0px;
