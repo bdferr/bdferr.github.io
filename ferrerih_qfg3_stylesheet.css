@@ -1,4 +1,4 @@
-/*last updated 6/2/2021*/
+/*last updated 6/13/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -12,39 +12,40 @@ header,footer, article, section {
     display: block; 
 }
 
-#eye-icon {
+.eye-icon {
 	height: 26px;
 	width: 53px;
 	display: inline;
 	margin: 5px 0px;
 }
-#hand-icon {
+.hand-icon {
 	height: 48px; 
 	width: 58px;
 	display: inline;
 	margin: 5px 0px;
 }
-#mouth-icon {
+.mouth-icon {
 	height: 29px; 
 	width: 64px;
 	display: inline;
 	margin: 5px 0px;
 }
-#sword-icon {
+.sword-icon {
 	height: 81px; 
 	width: 82px; 
 	display: inline;
 	margin: 5px 0px;
 }
-#question-mark-icon {
+.question-mark-icon {
 	height: 44px;
 	margin: 5px auto;
+	display: inline;
 }
-#scarab-icon {
+.scarab-icon {
 	margin: 5px 0px;
 	display: inline;
 }
-#walking-icon {
+.walking-icon {
 	margin: 5px 0px;
 	display: inline;
 }
