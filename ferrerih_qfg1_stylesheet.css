@@ -33,14 +33,14 @@ li a:hover {
 	background-color: #331100 !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-pointer-icon.png"), pointer !important; 
 }
 section a:hover, footer a:hover {
 	display: inline; 
     color: #b30000;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/qfg1-running-icon-daytime-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-running-icon.png"), pointer !important; 
 }
 .day {
 	color: #331100 !important;
@@ -59,28 +59,28 @@ ul a.night:hover {
 }
 
 #contact {
-	cursor: url("QfG_icons/qfg1-mouth-icon-daytime-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-mouth-icon.png"), pointer !important; 
 }
 
 #day-mode {
-    cursor: url("QfG_icons/qfg1-eye-icon-daytime-b.png"), pointer !important;	
+    cursor: url("QfG_icons/qfg1-eye-icon.png"), pointer !important;	
 }
 
 #night-mode {
-	cursor: url("QfG_icons/qfg1-eye-icon-nighttime2b.png"), pointer !important;	
+	cursor: url("QfG_icons/qfg1-eye-icon-night.png"), pointer !important;	
 }
 #running-icon {
 	margin: 20px auto;
 }
 
 abbr {
-	cursor: url("QfG_icons/qfg1-question-mark-b.png"), help !important;
+	cursor: url("QfG_icons/qfg1-question-mark.png"), help !important;
 }
 .btn:hover {
-	cursor: url("QfG_icons/qfg1-eye-icon-daytime-b.png"), pointer !important; 
+	cursor: url("QfG_icons/qfg1-eye-icon.png"), pointer !important; 
 }
 .carousel-control:hover {
-	cursor: url("QfG_icons/qfg1-hand-icon-daytime-b.png"), pointer !important;
+	cursor: url("QfG_icons/qfg1-hand-icon.png"), pointer !important;
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
@@ -103,7 +103,7 @@ body {
 	background: #a6a6a6; 
 	border: none; 
 	padding: 0em;
-	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), default !important;
+	cursor: url("QfG_icons/qfg1-pointer-icon.png"), default !important;
 }
 
 body:before {
@@ -130,7 +130,7 @@ body:before {
 }
 .carousel-indicators li {
 	border-color: #b30000 !important; 
-	cursor: url("QfG_icons/qfg1-pointer-icon-b.png"), pointer !important;
+	cursor: url("QfG_icons/qfg1-pointer-icon.png"), pointer !important;
 }
 .carousel-indicators .active {
 	background-color: #b30000 !important; 
