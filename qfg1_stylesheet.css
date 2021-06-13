@@ -744,10 +744,6 @@ ul.affix {
 }
 .container {
 	padding: 0 0 240px 0;
-	background-image: url("qfg1-brauggi.gif"); 
-	background-position: 0% 0%; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed;
 }
 button, .btn {
 	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
