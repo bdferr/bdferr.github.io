@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory I,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-06-13" />
+	<meta name="dcterms.modified" content="2021-06-14" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -49,8 +49,6 @@
 			$("footer").css("background-image", "url('qfg1-settings-menu-nighttime3.png')");
 			$("h1").css("border-image", "url('qfg1-short-text-box-nighttime3.png') 30 30 fill");
 			$(".btn").css("background-image", "url('qfg1-button-nighttime2.png')");
-			$(".btn").addClass("night");
-			$(".btn").removeClass("day");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu-nighttime3.png') 30 30 fill");
 			$(".container").css({"background-image": "url('qfg1-lake-nighttime.png')", "background-size": "cover", 
 			"background-position": "0% 0%", "background-repeat": "no-repeat", "background-attachment": "fixed"});	
@@ -58,10 +56,14 @@
 			$("li.othernavbar").css("background-image", "url('qfg1-li-nighttime.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top-nighttime.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom-nighttime.png')");
-			$("a").addClass("night");
-			$("a").removeClass("day");
-			$("li a").addClass("night");
-			$("li a").removeClass("day");
+			$("a").addClass("night").removeClass("day");
+			$("body").addClass("night").removeClass("day");
+			$("#contact").addClass("night").removeClass("day");
+			$(".btn").addClass("night").removeClass("day");
+			$("h1").addClass("night").removeClass("day");
+			$("abbr").addClass("night").removeClass("day");
+			$(".carousel-control").addClass("carousel-control-night").removeClass("carousel-control-day");
+			$(".carousel-indicators li").addClass("carousel-indicators-night").removeClass("carousel-indicators-day");
 		});
 		$("#day-mode").click(function() {
 			$("#night-mode").show();
@@ -70,18 +72,20 @@
 			$("footer").css("background-image", "url('qfg1-settings-menu2.png')");
 			$("h1").css("border-image", "url('qfg1-medium-text-box2.png') 30 30 fill");
 			$(".btn").css("background-image", "url('qfg1-button2.png')");
-			$(".btn").addClass("day");
-			$(".btn").removeClass("night");
 			$(".pillars").css("border-image", "url('qfg1-settings-menu2.png') 30 30 fill");
 			$(".container").css({"background-image": "none"});
 			$("#running-icon").attr("src", "QfG_icons/qfg1-running-icon.png");
 			$("li.othernavbar").css("background-image", "url('qfg1-li.png')");
 			$("#li-top").css("background-image", "url('qfg1-li-top.png')");
 			$("#li-bottom").css("background-image", "url('qfg1-li-bottom.png')");
-			$("a").removeClass("night");
-			$("a").addClass("day");
-			$("li a").removeClass("night");
-			$("li a").addClass("day");
+			$("a").addClass("day").removeClass("night");
+			$("body").addClass("day").removeClass("night");
+			$("#contact").addClass("day").removeClass("night");
+			$(".btn").addClass("day").removeClass("night");
+			$("h1").addClass("day").removeClass("night");
+			$("abbr").addClass("day").removeClass("night");
+			$(".carousel-control").addClass("carousel-control-day").removeClass("carousel-control-night");
+			$(".carousel-indicators li").addClass("carousel-indicators-day").removeClass("carousel-indicators-night");
 		});
 });
 	</script>
@@ -174,7 +178,7 @@
 			can move through much of the world of <cite>Quest for Glory IV</cite>.
 			Demo videos of this mod, known as <cite><a href="https://www.youtube.com/watch?v=d7HBenoe_Lc" target="_blank">Quest for Glory IV 3D</a></cite>, 
 			can be found on YouTube. His website, <a href="http://blakessanctum.x10.mx/Games/QFGSeries/index.html">Blake's Sanctum</a>, 
-			contains extensive <cite><abbr title="Quest for Glory">QfG</abbr></cite>-related resources.
+			contains extensive <cite><abbr class="day" title="Quest for Glory">QfG</abbr></cite>-related resources.
 			</p>
 			<div id="images" class="smaller-note"><a href="#container">Back to top &uarr;</a>
 			</div>
@@ -186,16 +190,16 @@
 			<div id="qfgCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Carousel indicators -->
 		    <ol class="carousel-indicators">
-				<li data-target="#qfgCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#qfgCarousel" data-slide-to="1"></li>
-				<li data-target="#qfgCarousel" data-slide-to="2"></li>
-				<li data-target="#qfgCarousel" data-slide-to="3"></li>
-				<li data-target="#qfgCarousel" data-slide-to="4"></li>
-				<li data-target="#qfgCarousel" data-slide-to="5"></li>
-				<li data-target="#qfgCarousel" data-slide-to="6"></li>
-				<li data-target="#qfgCarousel" data-slide-to="7"></li>
-				<li data-target="#qfgCarousel" data-slide-to="8"></li>
-				<li data-target="#qfgCarousel" data-slide-to="9"></li>
+				<li data-target="#qfgCarousel" data-slide-to="0" class="active carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="1" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="2" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="3" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="4" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="5" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="6" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="7" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="8" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="9" class="carousel-indicators-day"></li>
 		    </ol>
 			<!-- Carousel images -->
 			<div class="carousel-inner" role="listbox">
