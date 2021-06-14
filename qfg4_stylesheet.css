@@ -339,15 +339,16 @@ h1 {
 	font-size: 3.5em; 
 	padding: 0.2em; 
 	position: absolute; 
-	top: 35px; 
-	left: 12%; 
+	top: 35px;
+	left: 12%;
 	height: 48px; 
 	width: 278px;
-    background-image: url("qfg4-li-b-top2-smaller.webp"); 
+    background-image: url("qfg4-li-b-top2-smaller.webp");
   	background-size: contain;
-    color: black; 
-    text-align: center; 
-    margin: auto; 
+    color: black;
+    text-align: center;
+    margin: auto;
+	cursor: url("QfG_icons/qfg4-dark-one-sign2.png"), pointer !important;
 }
 
 #li-bottom {
