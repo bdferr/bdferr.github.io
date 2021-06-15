@@ -15,32 +15,45 @@ header,footer, article, section {
 #eye-icon {
 	height: 32px;
 	width: 32px;
+	margin: 0px 5px;
+	display: inline;
 }
 #hand-icon {
 	height: 33px; 
 	width: 39px; 
+	margin: 0px 5px;
+	display: inline;
 }
 #mouth-icon {
 	height: 20px; 
 	width: 34px; 
+	margin: 0px 5px;
+	display: inline;
 }
 .sword-icon {
 	height: 53px; 
-	width: 51px; 
+	width: 51px;
+	margin: 0px 5px;
+	display: inline;	
 }
 #dark-one-sign {
 	height: 34px;
 	width: 46px;
+	margin: 0px 5px;
+	display: inline;
 }
 #question-mark-icon {
 	height: 32px;
 	width: 21px;
-	margin: 5px auto;
+	margin: 0px 5px;
+	display: inline;
 }
 #feet-icon
 {
 	height: 36px;
-	width: 28px; 
+	width: 28px;
+	margin: 0px 5px;
+	display: inline;	
 }
 
 a:link {
