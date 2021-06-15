@@ -28,6 +28,10 @@ header,footer, article, section {
 	height: 58px; 
 	width: 56px; 
 }
+#dark-one-sign {
+	height: 34px;
+	width: 46px;
+}
 #question-mark-icon {
 	height: 44px;
 	margin: 5px auto;
