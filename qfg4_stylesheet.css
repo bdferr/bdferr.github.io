@@ -15,27 +15,45 @@ header,footer, article, section {
 #eye-icon {
 	height: 32px;
 	width: 32px;
+	margin: 0px 5px;
+	display: inline;
 }
 #hand-icon {
 	height: 33px; 
 	width: 39px; 
+	margin: 0px 5px;
+	display: inline;
 }
 #mouth-icon {
 	height: 20px; 
 	width: 34px; 
+	margin: 0px 5px;
+	display: inline;
 }
-#sword-icon {
+.sword-icon {
 	height: 53px; 
-	width: 51px; 
+	width: 51px;
+	margin: 0px 5px;
+	display: inline;	
 }
 #dark-one-sign {
 	height: 34px;
 	width: 46px;
+	margin: 0px 5px;
+	display: inline;
 }
 #question-mark-icon {
 	height: 32px;
 	width: 21px;
-	margin: 5px auto;
+	margin: 0px 5px;
+	display: inline;
+}
+#feet-icon
+{
+	height: 36px;
+	width: 28px;
+	margin: 0px 5px;
+	display: inline;	
 }
 
 a:link {
@@ -316,7 +334,7 @@ ul.affix {
 	font-size: 100%; 
 }
 
-#feet-icon {
+#feet-menu-button {
     display: none; 
 }
 footer {
@@ -455,7 +473,7 @@ ul.affix {
 	margin: 0em auto; 
 	font-size: 3em; 
 }
-#feet-icon {
+#feet-menu-button {
 	display: none;
 }
 footer {
@@ -605,7 +623,7 @@ ul.affix {
 .container {
 	padding: 0 0 150px 0; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 45px; 
 	width: 34px; 
 	display: block; 
@@ -758,7 +776,7 @@ button, .btn {
 .container {
 	padding: 0 0 215px 0; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
@@ -911,7 +929,7 @@ button, .btn {
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
