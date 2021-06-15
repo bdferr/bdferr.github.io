@@ -24,7 +24,7 @@ header,footer, article, section {
 	height: 20px; 
 	width: 34px; 
 }
-#sword-icon {
+.sword-icon {
 	height: 53px; 
 	width: 51px; 
 }
@@ -36,6 +36,11 @@ header,footer, article, section {
 	height: 32px;
 	width: 21px;
 	margin: 5px auto;
+}
+#feet-icon
+{
+	height: 36px;
+	width: 28px; 
 }
 
 a:link {
@@ -316,7 +321,7 @@ ul.affix {
 	font-size: 100%; 
 }
 
-#feet-icon {
+#feet-menu-button {
     display: none; 
 }
 footer {
@@ -455,7 +460,7 @@ ul.affix {
 	margin: 0em auto; 
 	font-size: 3em; 
 }
-#feet-icon {
+#feet-menu-button {
 	display: none;
 }
 footer {
@@ -605,7 +610,7 @@ ul.affix {
 .container {
 	padding: 0 0 150px 0; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 45px; 
 	width: 34px; 
 	display: block; 
@@ -758,7 +763,7 @@ button, .btn {
 .container {
 	padding: 0 0 215px 0; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
@@ -911,7 +916,7 @@ button, .btn {
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 }
-#feet-icon {
+#feet-menu-button {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
