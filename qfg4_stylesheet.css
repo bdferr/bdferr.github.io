@@ -13,27 +13,28 @@ header,footer, article, section {
 }
 
 #eye-icon {
-	height: 48px;
-	width: 46px;
+	height: 32px;
+	width: 32px;
 }
 #hand-icon {
-	height: 61px; 
-	width: 73px; 
+	height: 33px; 
+	width: 39px; 
 }
 #mouth-icon {
-	height: 30px; 
-	width: 48px; 
+	height: 20px; 
+	width: 34px; 
 }
 #sword-icon {
-	height: 58px; 
-	width: 56px; 
+	height: 53px; 
+	width: 51px; 
 }
 #dark-one-sign {
 	height: 34px;
 	width: 46px;
 }
 #question-mark-icon {
-	height: 44px;
+	height: 32px;
+	width: 21px;
 	margin: 5px auto;
 }
 
