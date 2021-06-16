@@ -362,7 +362,7 @@ h1 {
 	font-size: 3.5em; 
 	padding: 0.2em; 
 	position: absolute; 
-	top: 35px;
+	top: 32px;
 	left: 12%;
 	height: 48px; 
 	width: 278px;
@@ -401,7 +401,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 82px; 
+	top: 80px; 
 }
 @media (min-width: 30em) and (max-width: 40em)
 {
@@ -506,7 +506,7 @@ h1 {
     background-size: contain;
     border: 15px solid transparent;
     border-image: url(border-image9.webp) 25% round;
-	top: 35px;
+	top: 32px;
 	left: 20%;
 	height: 72px;
 	width: 62%;
@@ -542,7 +542,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 106px; 
+	top: 104px; 
 }
 article {
     background-color: transparent;
@@ -657,7 +657,7 @@ h1 {
     background-size: auto;
     border: 25px solid transparent;
     border-image: url(border-image9.webp) 25% round;
-	top: 50px; 
+	top: 46px; 
 	left: 22%; 
 	height: 97px; 
 	width: 57%; 
@@ -693,7 +693,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 147px; 
+	top: 143px; 
 }
 article {
 	background-color: transparent;
@@ -811,7 +811,7 @@ h1 {
     width: 51%; 
 	padding: 0.2em; 
 	position: absolute; 
-	top: 75px; 
+	top: 68px; 
 	left: 25%; 
 	height: 131px; 
 }
@@ -843,7 +843,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 207px; 
+	top: 199px; 
 }
 article {
 	background-color: transparent;
@@ -968,7 +968,7 @@ h1 {
     margin: auto; 
     padding: 0em; 
 	position: absolute; 
-	top: 100px; 
+	top: 91px; 
     left: 26%; 
 	height: 131px;
 }
@@ -1000,7 +1000,7 @@ li.othernavbar {
 }
 .offset {
 	position: relative; 
-	top: 232px; 
+	top: 222px; 
 }
 article {
 	background-color: transparent;
@@ -1065,7 +1065,7 @@ h1 {
 	margin: auto; 
 	padding: 0em; 
 	position: absolute; 
-	top: 100px; 
+	top: 91px; 
 	left: 30%; 
 	height: 131px; 
 }
