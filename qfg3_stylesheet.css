@@ -1,4 +1,4 @@
-/*last updated 6/13/2021*/
+/*last updated 6/16/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -258,7 +258,7 @@ article {
     background-size: initial; 
 	background-color: transparent; 
 	border: 40px solid transparent; 
-	border-image: url("qfg3-main-menu2.png") 12.5% round; 
+	border-image: url("qfg3-main-menu2.webp") 12.5% round; 
 }
 ul {
 	padding: 15px; 
@@ -447,7 +447,7 @@ h1 {
 	background-image: url("qfg3-background-color.png"); 
     background-size: contain;
     border: 15px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
 	top: 32px;
 	left: 20%;
 	height: 72px;
@@ -573,7 +573,7 @@ h1 {
 	background-image: url("qfg3-background-color.png"); 
     background-size: auto;
     border: 25px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
 	top: 46px; 
 	left: 22%; 
 	height: 97px; 
@@ -699,7 +699,7 @@ h1 {
 	background-image: url("qfg3-background-color.png"); 
 	background-size: auto;
 	border: 30px solid transparent;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
     width: 51%; 
 	padding: 0.2em; 
 	position: absolute; 
@@ -830,7 +830,7 @@ h1 {
 	background-image: url("qfg3-background-color.png"); 
 	background-size: auto;
 	border: 30px solid;
-    border-image: url("qfg3-main-menu2.png") 12.5% round;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
     width: 45%; 
     margin: auto; 
     padding: 0em; 
@@ -891,7 +891,7 @@ h1 {
 	background-image: url("qfg3-background-color.png"); 
 	background-size: auto;
 	border: 30px solid;
-	border-image: url("qfg3-main-menu2.png") 12.5% round;
+	border-image: url("qfg3-main-menu2.webp") 12.5% round;
 	width: 40%; 
 	margin: auto; 
 	padding: 0em; 
