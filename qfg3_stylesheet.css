@@ -257,8 +257,11 @@ article {
 	background-image: url("qfg3-background-color.png"); 
     background-size: initial; 
 	background-color: transparent; 
-	border: 40px solid transparent; 
-	border-image: url("qfg3-main-menu2.webp") 12.5% round; 
+	border-left: 40px solid transparent; 
+	border-right: 40px solid transparent; 
+	border-top: 38px solid transparent; 
+	border-bottom: 38px solid transparent; 
+	border-image: url("qfg3-main-menu2.webp") 90 115 round; 
 }
 ul {
 	padding: 15px; 
