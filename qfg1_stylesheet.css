@@ -177,10 +177,10 @@ body:before {
 	z-index: 0 !important;
 }
 .carousel-indicators li {
-	border-color: #b30000 !important; 
+	border-color: #331100 !important; 
 }
 .carousel-indicators .active {
-	background-color: #b30000 !important; 
+	background-color: #331100 !important; 
 }
 .icon {
 	padding: 5px;
