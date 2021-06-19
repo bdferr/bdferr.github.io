@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-06-16" />
+	<meta name="dcterms.modified" content="2021-06-19" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="qfg3_stylesheet.css" />
 	<link rel="icon" href="QfG_icons/sierra-icon.ico" type="image/x-icon" />
 	<script>
-	$(document).ready(function()
+    $(document).ready(function()
 	{
     	$("#game-toolbar").hide();
 		$("#main-title").mouseover(function()
@@ -38,7 +38,32 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
-	});
+		$("#day-mode").hide();
+		$(".btn").css("background-image", "url('qfg3-button.png')");
+		$("#night-mode").click(function() {
+		    $("#day-mode").show();
+			$("#night-mode").hide();
+			$("#game-toolbar").attr("src", "qfg3-menu-bar-night.webp");
+			$("footer").css("background-image", "url('qfg3-text-4-night.png')");
+			$("h1").css("border-image", "url('qfg3-settings-nighttime.png') 30 30 fill");
+			$(".btn").css("background-image", "url('qfg3-button-night.png')");
+			$(".pillars").css("border-image", "url('qfg3-settings-nighttime.png') 30 30 fill");
+			$(".container").css({"background-image": "url('pool-of-peace1.webp')", "background-size": "cover", 
+			"background-position": "0% 0%", "background-repeat": "no-repeat", "background-attachment": "fixed"});	
+			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon-night.png");
+		});
+		$("#day-mode").click(function() {
+			$("#night-mode").show();
+			$("#day-mode").hide();
+			$("#game-toolbar").attr("src", "qfg3-menu-bar.webp");
+			$("footer").css("background-image", "url('qfg3-text-4.png')");
+			$("h1").css("border-image", "url('qfg3-main-menu2.webp') 12.5% round");
+			$(".btn").css("background-image", "url('qfg3-button.png')");
+			$(".pillars").css("border-image", "url('qfg3-main-menu2.webp') 90 115 round");
+			$(".container").css({"background-image": "url('qfg3-rakeesh.jpg')", "background-size": "auto"});
+			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon.png");
+		});
+});
 	</script>
 </head>
 <body>
@@ -49,7 +74,7 @@
 			<div id="dropdown_menu" class="dropdown offset">
 				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
-					<img id="feet-icon" src="QfG_icons/qfg3-walking-icon.png" alt="Quest for Glory III: Wages of War walking icon" />
+					<img id="walking-icon" src="QfG_icons/qfg3-walking-icon.png" alt="Quest for Glory III: Wages of War walking icon" />
 				</button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
 					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
@@ -236,7 +261,10 @@
 			<br /> 
 			<br />
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a></div>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a>
+			<br />
+			<br />
+		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span></div>
 		    </footer>
 		</div>
 	</div>
