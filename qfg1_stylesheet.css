@@ -1,4 +1,4 @@
-/*last updated 6/16/2021*/
+/*last updated 6/19/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -118,11 +118,22 @@ li.night {
 
 #day-mode {
     cursor: url("QfG_icons/qfg1-eye-icon.png"), pointer !important;	
+    color: #170324;	
 }
 
 #night-mode {
 	cursor: url("QfG_icons/qfg1-eye-icon-night.png"), pointer !important;	
+	color: #331100;
 }
+#day-mode:hover{
+	color: #331100;
+	font-weight: bold;
+}
+#night-mode:hover {
+	color: #170324;
+	font-weight: bold;
+}
+
 #running-icon {
 	margin: 20px auto;
 }
