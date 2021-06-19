@@ -1,4 +1,4 @@
-/*last updated 6/16/2021*/
+/*last updated 6/19/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -92,6 +92,17 @@ abbr{
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important;
 }
 
+#day-mode {
+    cursor: url("QfG_icons/qfg3-eye-icon.png"), pointer !important;	
+}
+
+#night-mode {
+	cursor: url("QfG_icons/qfg3-eye-icon-night.png"), pointer !important;	
+}
+#day-mode:hover, #night-mode:hover {
+	color: purple;
+	font-weight: bold;
+}
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: purple;
 	background-color: transparent !important; 
@@ -124,7 +135,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("pool-of-peace1.webp") no-repeat center center;
+  background: url("pool-of-peace4.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -277,7 +288,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg3-button.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
@@ -304,7 +315,7 @@ ul.affix {
 	font-size: 100%; 
 }
 
-#feet-icon {
+#walking-icon {
     display: none; 
 }
 footer {
@@ -394,7 +405,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important;
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg3-button.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block; 
@@ -418,7 +429,7 @@ ul.affix {
 	margin: 0em auto; 
 	font-size: 3em; 
 }
-#feet-icon {
+#walking-icon {
 	display: none;
 }
 footer {
@@ -513,7 +524,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg3-button.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em; 
 	display: block;
@@ -543,7 +554,7 @@ ul.affix {
 .container {
 	padding: 0 0 150px 0; 
 }
-#feet-icon {
+#walking-icon {
 	height: 45px; 
 	width: 34px; 
 	display: block; 
@@ -652,7 +663,7 @@ button, .btn {
 	border: none !important; 
 	border-color: transparent !important; 
 	background-color: transparent !important; 
-	background-image: url("qfg3-button.png") !important; 
+	background-image: url("qfg3-button.png"); 
     background-size: contain; 
 	padding: 0.1em 0.8em;
 	height:64px;
@@ -671,7 +682,7 @@ button, .btn {
 .container {
 	padding: 0 0 215px 0; 
 }
-#feet-icon {
+#walking-icon {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
@@ -794,12 +805,12 @@ button, .btn {
 	border: none !important;
 	border-color: transparent !important;
 	background-color: transparent !important;
-	background-image: url("qfg3-button.png") !important;
+	background-image: url("qfg3-button.png");
     background-size: contain;
 	padding: 0.1em 0.8em;
 	height: 126px;
 }
-#feet-icon {
+#walking-icon {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
