@@ -37,7 +37,7 @@ li a:hover {
 }
 section a:hover, footer a:hover {
 	display: inline; 
-    color: #b30000;
+    color: #331100;
     text-decoration: none; 
 	font-weight: bold; 
 }
@@ -82,6 +82,9 @@ button.night {
 }
 .carousel-control-night {
 	cursor: url("QfG_icons/qfg1-hand-icon-night.png"), pointer !important; 
+}
+.carousel-control:hover {
+	color: #331100;
 }
 .carousel-indicators-day {
 	cursor: url("QfG_icons/qfg1-pointer-icon.png"), pointer !important;
