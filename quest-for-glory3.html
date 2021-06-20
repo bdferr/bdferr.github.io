@@ -51,6 +51,14 @@
 			$(".container").css({"background-image": "url('pool-of-peace1.webp')", "background-size": "cover", 
 			"background-position": "0% 0%", "background-repeat": "no-repeat", "background-attachment": "fixed"});	
 			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon-night.png");
+			$("a").addClass("night").removeClass("day");
+			$("body").addClass("night").removeClass("day");
+			$("#contact").addClass("night").removeClass("day");
+			$(".btn").addClass("night").removeClass("day");
+			$("h1").addClass("night").removeClass("day");
+			$("abbr").addClass("night").removeClass("day");
+			$(".carousel-control").addClass("carousel-control-night").removeClass("carousel-control-day");
+			$(".carousel-indicators li").addClass("carousel-indicators-night").removeClass("carousel-indicators-day");
 		});
 		$("#day-mode").click(function() {
 			$("#night-mode").show();
@@ -62,6 +70,14 @@
 			$(".pillars").css("border-image", "url('qfg3-main-menu2.webp') 90 115 round");
 			$(".container").css({"background-image": "url('qfg3-rakeesh.jpg')", "background-size": "auto"});
 			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon.png");
+			$("a").addClass("day").removeClass("night");
+			$("body").addClass("day").removeClass("night");
+			$("#contact").addClass("day").removeClass("night");
+			$(".btn").addClass("day").removeClass("night");
+			$("h1").addClass("day").removeClass("night");
+			$("abbr").addClass("day").removeClass("night");
+			$(".carousel-control").addClass("carousel-control-day").removeClass("carousel-control-night");
+			$(".carousel-indicators li").addClass("carousel-indicators-day").removeClass("carousel-indicators-night");
 		});
 });
 	</script>
@@ -72,16 +88,16 @@
 		<img src="qfg3-menu-bar.webp" id="game-toolbar" alt="Quest for Glory III: Wages of War game toolbar" />
 		<h1 id="main-title">Quest for Glory III</h1>
 			<div id="dropdown_menu" class="dropdown offset">
-				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
+				<button class="btn day btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
 				Where to?
 					<img id="walking-icon" src="QfG_icons/qfg3-walking-icon.png" alt="Quest for Glory III: Wages of War walking icon" />
 				</button>
 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
-					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
-					<li class="othernavbar normal"><a href="#images">Game Images</a></li>
-					<li class="othernavbar normal"><a href="#icons">Icons</a></li>
-					<li class="othernavbar normal"><a href="quest-for-glory1.html">QfG I</a></li>
-					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory4.html">QfG IV</a></li>
+					<li id="li-top" class="othernavbar"><a href="#downloads" class="day">Downloads</a></li>
+					<li class="othernavbar normal"><a href="#images" class="day">Game Images</a></li>
+					<li class="othernavbar normal"><a href="#icons" class="day">Icons</a></li>
+					<li class="othernavbar normal"><a href="quest-for-glory1.html" class="day">QfG I</a></li>
+					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory4.html" class="day">QfG IV</a></li>
 				</ul>
             </div>
 		</header>
@@ -95,71 +111,72 @@
 			This is Rakeesh, a noble warrior who introduces you to your quest and assists you at key points.
 			</p>
 			<p>
-			This game received <a href="https://web.archive.org/web/20150319223820/http://annarchive.com/files/Drmg192.pdf">high praise</a>
+			This game received <a href="https://web.archive.org/web/20150319223820/http://annarchive.com/files/Drmg192.pdf" class="day" target="_blank">high praise</a>
 			from some when it was released, but has also been 
-			<a href="https://web.archive.org/web/20170523012745/http://www.rpgamer.com/games/qfg/qfg3/reviews/qfg3strev1.html">criticized</a>
+			<a href="https://web.archive.org/web/20170523012745/http://www.rpgamer.com/games/qfg/qfg3/reviews/qfg3strev1.html" class="day" target="_blank">criticized</a>
 			as the "filler" game of the series,	and in many ways it is less impressive than its successor. 
 			The game is relatively short and simple; it can be beaten quickly with relatively little thinking. There is no equivalent here 
 			to the puzzles surrounding Dr. Cranium in <cite>Quest for Glory IV</cite>, and there are not many side quests to complete.
 			</p>
 			<p>
 			Both the music and graphics are not at the level of <cite>Shadows of Darkness</cite>, but greatly improved over those of earlier titles.
-			The <a href="https://www.youtube.com/watch?v=h8aiK7gW34o">soundtrack</a> includes intricate melodies and fits the heroic mood of the game very well.
+			The <a href="https://www.youtube.com/watch?v=h8aiK7gW34o" class="day" target="_blank">soundtrack</a> includes intricate melodies and fits the heroic mood of the game very well.
 			The graphics, featuring 256 colors as opposed to the mere 16 seen in its predecessors, can be seen in the carousel below.
 			</p>			
     		<p>
 			My main purpose here is to follow up
-			on an <a href="http://inls718userinterfacedesign.blogspot.com/2015/01/i-miss-days-whenpixels-were-clearly.html" target="_blank">idea</a> 
+			on an <a href="http://inls718userinterfacedesign.blogspot.com/2015/01/i-miss-days-whenpixels-were-clearly.html" class="day" target="_blank">idea</a> 
 			which came to me in 2015 in the context of a user interface course in graduate school.
 			I am taking much of the interface of the game, including the graphics 
 			for the game's text boxes and menus, and applying it to a website.
 			Originally this applied only to <cite>Quest for Glory IV</cite>, but here I am applying it to <cite>Quest for Glory III</cite>.
 			</p>
-			<div id="downloads" class="smaller-note"><a href="#container">Back to top &uarr;</a>
+			<div id="downloads" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a>
 			</div>
 			</section>
             <section>
 			<h2>Downloads</h2>
 			<p>
 			All five of the original games in the series can be had cheaply 
-			from <a href="https://www.gog.com/game/quest_for_glory" target="_blank">GOG.com</a>.
+			from <a href="https://www.gog.com/game/quest_for_glory" class="day" target="_blank">GOG.com</a>.
 			This set of the games includes a remake of the first title with far better graphics, 
 			but unfortunately those of the second game are still rather primitive. You can however download 
-			a greatly improved 2008 <a href="http://www.agdinteractive.com/games/qfg2/homepage/homepage.html" target="_blank">remake</a> 
+			a greatly improved 2008 <a href="http://www.agdinteractive.com/games/qfg2/homepage/homepage.html" class="day" target="_blank">remake</a> 
 			of <cite>Quest for Glory II: Trial by Fire</cite>.
 			</p>
 			<p>
-			A new "role-playing adventure game" entitled <cite><a href="http://hero-u.com/" target="_blank">Hero-U: Rogue to Redemption</a></cite> 
+			A new "role-playing adventure game" entitled <cite><a href="http://hero-u.com/" class="day" target="_blank">Hero-U: Rogue to Redemption</a></cite> 
 			has been developed by Sierra designers Corey and Lori Cole,
 			who were responsible for the <cite>Quest for Glory</cite> series.
-			The title has received overwhelmingly positive reviews from both <a href="https://store.steampowered.com/app/375440/HeroU_Rogue_to_Redemption/#app_reviews_hash">players</a> 
-			and <a href="https://adventuregamers.com/articles/view/35569" target="_blank">critics</a>. The game is intended to be the first 
-			of <a href="https://advgamer.blogspot.com/2018/07/interview-with-corey-cole.html" target="_blank">five similar titles</a>,
-			and a more casual game entitled <cite><a href="https://summerdazegame.com/" target="_blank">Summer Daze at Hero-U</a></cite> 
+			The title has received overwhelmingly positive reviews from both 
+			<a href="https://store.steampowered.com/app/375440/HeroU_Rogue_to_Redemption/#app_reviews_hash" class="day" target="_blank">players</a> 
+			and <a href="https://adventuregamers.com/articles/view/35569" class="day" target="_blank">critics</a>. The game is intended to be the first 
+			of <a href="https://advgamer.blogspot.com/2018/07/interview-with-corey-cole.html" class="day" target="_blank">five similar titles</a>,
+			and a more casual game entitled <cite><a href="https://summerdazegame.com/" class="day" target="_blank">Summer Daze at Hero-U</a></cite> 
 			is scheduled for release on June 22nd of this year.
 			</p>
 			<p>
 			A well-received 2013 game based on the series, 
-			entitled <cite><a href="http://store.steampowered.com/app/283880" target="_blank">Heroine's Quest</a></cite> is free to download.
+			entitled <cite><a href="http://store.steampowered.com/app/283880" class="day" target="_blank">Heroine's Quest</a></cite> is free to download.
 			The story, based on Norse mythology, takes place in a region cursed by a frost giant to be in endless winter.
 			The heroine must thwart the giant's attempts to bring about the end of the world and restore the normal change of seasons.
 			</p>
 			<p>
 			Many more downloads including screenshots can be found at a fan page 
-			called <a href="http://www.questformoreglory.com/index3.html" target="_blank">Quest for More Glory</a>,
+			called <a href="http://www.questformoreglory.com/index3.html" class="day" target="_blank">Quest for More Glory</a>,
 			while help for various problems, including the game's manual, 
-			is available at <a href="http://www.sierrahelp.com/Games/QuestForGlory/QfG3Help.html" target="_blank">Sierrahelp.com</a>.
+			is available at <a href="http://www.sierrahelp.com/Games/QuestForGlory/QfG3Help.html" class="day" target="_blank">Sierrahelp.com</a>.
 			Sierragamers.com supplies the 
-			<a href="https://www.sierragamers.com/wp-content/uploads/2019/12/Quest_for_Glory_3_Hint_Book.pdf" target="_blank">hint book</a>. 
+			<a href="https://www.sierragamers.com/wp-content/uploads/2019/12/Quest_for_Glory_3_Hint_Book.pdf" class="day" target="_blank">hint book</a>. 
 			</p>
 			<p>
 			A fan has created a modification to the classic first-person shooter game Hexen in which the player 
 			can move through much of the world of <cite>Quest for Glory IV</cite>.
-			Demo videos of this mod, known as <cite><a href="https://www.youtube.com/watch?v=d7HBenoe_Lc" target="_blank">Quest for Glory IV 3D</a></cite>, 
-			can be found on YouTube. His website, <a href="http://blakessanctum.x10.mx/Games/QFGSeries/index.html">Blake's Sanctum</a>, 
+			Demo videos of this mod, known as <cite><a href="https://www.youtube.com/watch?v=d7HBenoe_Lc" class="day" target="_blank">Quest for Glory IV 3D</a></cite>, 
+			can be found on YouTube. His website, <a href="http://blakessanctum.x10.mx/Games/QFGSeries/index.html" class="day" target="_blank">Blake's Sanctum</a>, 
 			contains extensive <cite><abbr title="Quest for Glory">QfG</abbr></cite>-related resources.
 			</p>
-			<div id="images" class="smaller-note"><a href="#container">Back to top &uarr;</a>
+			<div id="images" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a>
 			</div>
 			</section>
 			<section>
@@ -169,16 +186,16 @@
 			<div id="qfgCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Carousel indicators -->
 		    <ol class="carousel-indicators">
-				<li data-target="#qfgCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#qfgCarousel" data-slide-to="1"></li>
-				<li data-target="#qfgCarousel" data-slide-to="2"></li>
-				<li data-target="#qfgCarousel" data-slide-to="3"></li>
-				<li data-target="#qfgCarousel" data-slide-to="4"></li>
-				<li data-target="#qfgCarousel" data-slide-to="5"></li>
-				<li data-target="#qfgCarousel" data-slide-to="6"></li>
-				<li data-target="#qfgCarousel" data-slide-to="7"></li>
-				<li data-target="#qfgCarousel" data-slide-to="8"></li>
-				<li data-target="#qfgCarousel" data-slide-to="9"></li>
+				<li data-target="#qfgCarousel" data-slide-to="0" class="active carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="1" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="2" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="3" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="4" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="5" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="6" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="7" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="8" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="9" class="carousel-indicators-day"></li>
 		    </ol>
 			<!-- Carousel images -->
 			<div class="carousel-inner" role="listbox">
@@ -214,16 +231,16 @@
 				</div>
 			</div>
 			<!-- Carousel next and previous buttons -->
-				<a class="left carousel-control" href="#qfgCarousel" role="button" data-slide="prev">
+				<a class="left carousel-control carousel-control-day" href="#qfgCarousel" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			    </a>
-			    <a class="right carousel-control" href="#qfgCarousel" role="button" data-slide="next">
+			    <a class="right carousel-control carousel-control-day" href="#qfgCarousel" role="button" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			    </a>
 			</div>
-			<div id="icons" class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
+			<div id="icons" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a></div>
 			</section>
 			<section>
 			<h3>Icons</h3>
@@ -235,7 +252,7 @@
 			and cannot intervene.
 			They appear different depending on whether it is day or night in the game, so they are presented in pairs below.
 			An attempt has already been made by others to implement	some of these as 
-			<a href="http://www.questformoreglory.com/downloads/qfg-cursorsT.html" target="_blank">extensions</a> to an operating system.
+			<a href="http://www.questformoreglory.com/downloads/qfg-cursorsT.html" class="day" target="_blank">extensions</a> to an operating system.
 			</p>
 			<img src="QfG_icons/qfg3-sword-icon.png" class="sword-icon" alt="Quest for Glory III: Wages of War sword icon">
 			<img src="QfG_icons/qfg3-sword-icon-night.png" class="sword-icon" alt="Quest for Glory III: Wages of War sword icon nighttime">
@@ -261,7 +278,7 @@
 			<br /> 
 			<br />
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io" class="day">Homepage</a>
 			<br />
 			<br />
 		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span></div>
