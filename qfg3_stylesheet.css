@@ -68,7 +68,6 @@ section a:hover, footer a:hover {
     color: purple !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/qfg3-walking-icon.png"), pointer !important; 
 }
 footer a {
 	color: #331100 !important;
@@ -85,11 +84,71 @@ a:visited {
 abbr{
 	cursor: url("QfG_icons/QG3Question.png"), help !important;
 }
-.btn:hover {
+p a.day, .smaller-note a.day{
+	cursor: url("QfG_icons/qfg3-walking-icon.png"), pointer !important; 
+}
+p a.night, .smaller-note a.night{
+	cursor: url("QfG_icons/qfg3-walking-icon-night.png"), pointer !important; 
+}
+body.day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), default !important;
+}
+body.night {
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), default !important;
+}
+#contact.day {
+	cursor: url("QfG_icons/qfg3-mouth-icon.png"), pointer !important; 
+}
+#contact.night {
+	cursor: url("QfG_icons/qfg3-mouth-icon-night.png"), pointer !important; 
+}
+h1.day {
+	cursor: url("QfG_icons/qfg3-scarab-icon.png"), pointer !important;
+}
+h1.night {
+	cursor: url("QfG_icons/qfg3-scarab-icon-night.png"), pointer !important;
+}
+button.day {
 	cursor: url("QfG_icons/qfg3-eye-icon.png"), pointer !important; 
 }
-.carousel-control:hover {
-	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important;
+button.night {
+	cursor: url("QfG_icons/qfg3-eye-icon-night.png"), pointer !important; 
+}
+.carousel-control-day {
+    cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+.carousel-control-night {
+	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
+}
+.carousel-indicators-day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
+}
+.carousel-indicators-night {
+    cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important;
+}
+
+ul a.day:hover {
+    color: #c58d56 !important;
+	background-color: #331100 !important;
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important; 
+}
+
+ul a.night:hover {
+	color: #452f7e !important;
+	background-color: #170324 !important;
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important; 
+}
+li.day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
+}
+li.night {
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important;
+}
+abbr.day {
+	cursor: url("QfG_icons/QG3Question.png"), help !important;
+}
+abbr.night {
+	cursor: url("QfG_icons/qfg3-question-icon-night1.png"), help !important;
 }
 
 #day-mode {
@@ -150,7 +209,7 @@ body:before {
 }
 .carousel-indicators li {
 	border-color: purple !important; 
-	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer;
 }
 .carousel-indicators .active {
 	background-color: purple !important; 
