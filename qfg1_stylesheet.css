@@ -1,4 +1,4 @@
-/*last updated 6/19/2021*/
+/*last updated 6/20/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -88,11 +88,18 @@ button.night {
 }
 .carousel-indicators-day {
 	cursor: url("QfG_icons/qfg1-pointer-icon.png"), pointer !important;
+	border-color: #331100 !important;
 }
 .carousel-indicators-night {
     cursor: url("QfG_icons/qfg1-pointer-icon-night.png"), pointer !important;
+    border-color: #170324 !important;
 }
-
+.carousel-indicators-day.active {
+	background-color: #331100 !important; 
+}
+.carousel-indicators-night.active{
+    background-color: #170324 !important;
+}
 ul a.day:hover {
     color: #c58d56 !important;
 	background-color: #331100 !important;
@@ -190,12 +197,7 @@ body:before {
 	width: 73%;
 	z-index: 0 !important;
 }
-.carousel-indicators li {
-	border-color: #331100 !important; 
-}
-.carousel-indicators .active {
-	background-color: #331100 !important; 
-}
+
 .icon {
 	padding: 5px;
 	display: inline;
