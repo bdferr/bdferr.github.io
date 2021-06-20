@@ -44,7 +44,7 @@
 		    $("#day-mode").show();
 			$("#night-mode").hide();
 			$("#game-toolbar").attr("src", "qfg3-menu-bar-night.webp");
-			$("footer").css("background-image", "url('qfg3-text-4-night.png')");
+			$("footer").css("background-image", "url('qfg3-text-4-night.png')").addClass("night").removeClass("day");
 			$("h1").css("border-image", "url('qfg3-settings-nighttime.png') 30 30 fill");
 			$(".btn").css("background-image", "url('qfg3-button-night.png')");
 			$(".pillars").css("border-image", "url('qfg3-settings-nighttime.png') 30 30 fill");
@@ -64,7 +64,7 @@
 			$("#night-mode").show();
 			$("#day-mode").hide();
 			$("#game-toolbar").attr("src", "qfg3-menu-bar.webp");
-			$("footer").css("background-image", "url('qfg3-text-4.png')");
+			$("footer").css("background-image", "url('qfg3-text-4.png')").addClass("day").removeClass("night");
 			$("h1").css("border-image", "url('qfg3-main-menu2.webp') 12.5% round");
 			$(".btn").css("background-image", "url('qfg3-button.png')");
 			$(".pillars").css("border-image", "url('qfg3-main-menu2.webp') 90 115 round");
@@ -268,17 +268,17 @@
 			<img src="QfG_icons/qfg3-scarab-icon-night.png" class="scarab-icon" alt="Quest for Glory III: Wages of War scarab icon nighttime">
 			<img src="QfG_icons/QG3Question.png" class="question-mark-icon" alt="Quest for Glory III: Wages of War question mark icon">
 			<img src="QfG_icons/qfg3-question-icon-night1.png" class="question-mark-icon" alt="Quest for Glory III: Wages of War question mark icon nighttime">
-			<div id="music" class="smaller-note"><a href="#container">Back to top &uarr;</a></div>
+			<div id="music" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a></div>
 			</section>
 			</article>
-			<footer>
+			<footer class="day">
 			<br />
 			<div class="smaller-note">&copy; 2021 Brendan 
 			<br /> Ferreri-Hanberry 
 			<br /> 
 			<br />
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io" class="day">Homepage</a>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a>
 			<br />
 			<br />
 		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span></div>
