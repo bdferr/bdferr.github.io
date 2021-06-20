@@ -144,9 +144,7 @@ button.night {
     cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important;
 	border-color: #170324 !important; 
 }
-.carousel-indicators .active {
-	background-color: purple;
-}
+
 .carousel-indicators-day.active {
 	background-color: purple !important; 
 }
