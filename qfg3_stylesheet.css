@@ -1,4 +1,4 @@
-/*last updated 6/20/2021*/
+/*last updated 6/22/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -103,6 +103,12 @@ p a.day, .smaller-note a.day{
 }
 p a.night, .smaller-note a.night{
 	cursor: url("QfG_icons/qfg3-walking-icon-night.png"), pointer !important; 
+}
+article.night {
+	color: black !important;
+}
+article.day {
+	border-image: url('qfg3-main-menu2.webp') 90 115 round !important;
 }
 body.day {
 	cursor: url("QfG_icons/qfg3-sword-icon.png"), default !important;
@@ -468,6 +474,14 @@ li.othernavbar {
 	position: relative; 
 	top: 82px; 
 }
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 40 fill !important;
+	color: black !important;
+	padding: 1.0em;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+
 @media (min-width: 30em) and (max-width: 40em)
 {
 
@@ -593,6 +607,12 @@ article {
 	line-height: 100%; 
 	color: black; 
 }
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 1.1em !important;
+	border-left: 35px solid transparent !important;
+	border-right: 35px solid transparent !important;
+}
 }
 
 @media (min-width: 40em) and (max-width: 55em)
@@ -713,11 +733,20 @@ li.othernavbar {
 article {
 	background-color: transparent;
 	margin: auto; 
-	padding: 0.6em; 
 	width: 100%; 
 	height: 80%; 
 	line-height: 100%; 
 	color: black; 
+}
+article.day {
+	padding: 0.6em; 
+}
+article.night
+{
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 1.2em;
+	border-left: 35px solid transparent !important;
+	border-right: 35px solid transparent !important;
 }
 }
 
@@ -843,6 +872,12 @@ article {
 	height: 80%; 
 	line-height: 100%; 
 	color: black; 
+}
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 1.1em;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
 }
 }
 
@@ -975,6 +1010,12 @@ article {
 	height: 80%; 
 	line-height: 100%; 
 	color: black; 
+}
+article.night {
+    padding: 1.2em;
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
 }
 }
 @media (min-width: 85em)
