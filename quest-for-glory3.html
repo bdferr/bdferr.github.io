@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-06-22" />
+	<meta name="dcterms.modified" content="2021-06-26" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -50,6 +50,9 @@
 			$(".container").css({"background-image": "url('pool-of-peace1.webp')", "background-size": "cover", 
 			"background-position": "0% 0%", "background-repeat": "no-repeat", "background-attachment": "fixed"});	
 			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon-night.png");
+			$("#li-top").css("background-image", "url('qfg3-li-top-night.png')");
+			$("#li-bottom").css("background-image", "url('qfg3-li-bottom-night.png')");
+			$("li.othernavbar.normal").css("background-image", "url('qfg3-li-night.jpg')");
 			$("article").addClass("night").removeClass("day")
 			$("a").addClass("night").removeClass("day");
 			$("body").addClass("night").removeClass("day");
@@ -69,6 +72,9 @@
 			$(".btn").css("background-image", "url('qfg3-button.png')");
 			$(".container").css({"background-image": "url('qfg3-rakeesh.jpg')", "background-size": "auto"});
 			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon.png");
+			$("#li-top").css("background-image", "url('qfg3-li-top.png')");
+			$("#li-bottom").css("background-image", "url('qfg3-li-bottom.png')");
+			$("li.othernavbar.normal").css("background-image", "url('qfg3-li.jpg')");
 			$("article").addClass("day").removeClass("night")
 			$("a").addClass("day").removeClass("night");
 			$("body").addClass("day").removeClass("night");
