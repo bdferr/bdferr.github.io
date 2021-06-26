@@ -1,4 +1,4 @@
-/*last updated 6/22/2021*/
+/*last updated 6/26/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -57,10 +57,16 @@ a:link {
 	padding-top: 0em !important; 
 }
 li a:hover {
-    color: purple !important;
     text-decoration: none; 
 	font-weight: bold; 
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+li a.day:hover {
+	color: purple !important;
+}
+
+li a.night:hover {
+	color: #170324 !important;
 }
 
 section a:hover, footer a:hover {
@@ -105,6 +111,9 @@ p a.night, .smaller-note a.night{
 	cursor: url("QfG_icons/qfg3-walking-icon-night.png"), pointer !important; 
 }
 article.night {
+	color: black !important;
+}
+article.day {
 	color: black !important;
 }
 article.day {
@@ -159,14 +168,14 @@ button.night {
 }
 
 ul a.day:hover {
-    color: #c58d56 !important;
-	background-color: #331100 !important;
+    /* color: #c58d56 !important; */
+	/* background-color: #331100 !important; */
 	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important; 
 }
 
 ul a.night:hover {
-	color: #452f7e !important;
-	background-color: #170324 !important;
+	/* color: #452f7e !important; */
+	/* background-color: #170324 !important; */
 	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important; 
 }
 li.day {
@@ -294,7 +303,7 @@ ul.dropdown-menu a:link {
 	font-weight: normal; 
 }
 ul.dropdown-menu a:hover {
-    color: purple !important;
+    color: purple;
 	text-decoration: none; 
 	background-color: transparent; 
 	font-weight: bold; 
@@ -854,7 +863,7 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.8em; 
 	margin: 0; 
-	width: 308px;
+	width: 307px;
 	height: 60px;
 	display: block; 
 	font-style: normal; 
@@ -992,7 +1001,7 @@ li.othernavbar {
 	background-color: transparent;
 	padding: 0em 0.8em; 
 	margin: 0; 
-	width: 308px;
+	width: 307px;
 	height: 60px;
 	display: block; 
 	font-style: normal; 
