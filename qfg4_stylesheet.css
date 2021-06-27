@@ -1,4 +1,4 @@
-/*last updated 6/14/2021*/
+/*last updated 6/26/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -625,7 +625,7 @@ ul.affix {
 }
 #feet-menu-button {
 	height: 45px; 
-	width: 34px; 
+	width: 35px; 
 	display: block; 
 }
 footer {
@@ -778,7 +778,7 @@ button, .btn {
 }
 #feet-menu-button {
 	height: 55px; 
-	width: 47px; 
+	width: 42px; 
 	display: block; 
 }
 footer {
@@ -931,7 +931,7 @@ button, .btn {
 }
 #feet-menu-button {
 	height: 55px; 
-	width: 47px; 
+	width: 42px; 
 	display: block; 
 	border: none; 
 }
