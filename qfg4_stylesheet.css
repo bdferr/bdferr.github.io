@@ -73,7 +73,7 @@ li a:hover {
     color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/hand-icon2.png"), pointer !important; 
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important; 
 }
 
 section a:hover, footer a:hover {
@@ -81,21 +81,21 @@ section a:hover, footer a:hover {
     color: #b30000 !important;
     text-decoration: none; 
 	font-weight: bold; 
-	cursor: url("QfG_icons/feet-icon2.png"), pointer; 
+	cursor: url("QfG_icons/feet-icon.png"), pointer; 
 }
 
 #contact {
-	cursor: url("QfG_icons/mouth-icon2.png"), pointer !important; 
+	cursor: url("QfG_icons/mouth-icon.png"), pointer !important; 
 }
 
 abbr{
 	cursor: url("QfG_icons/QG4Question.png"), help !important;
 }
 .btn:hover {
-	cursor: url("QfG_icons/eye-icon2.png"), pointer !important; 
+	cursor: url("QfG_icons/eye-icon.png"), pointer !important; 
 }
 .carousel-control:hover {
-	cursor: url("QfG_icons/hand-icon2.png"), pointer !important;
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
