@@ -1,4 +1,4 @@
-/*last updated 6/20/2021*/
+/*last updated 6/27/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -260,7 +260,9 @@ ul.dropdown-menu a:hover {
 	font-weight: bold; 
 }
 
-
+button {
+	border-radius: 0 !important;
+}
 header {
 	text-align: center; 
 	color: #000; 
