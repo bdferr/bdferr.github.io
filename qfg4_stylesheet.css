@@ -1,4 +1,4 @@
-/*last updated 6/27/2021*/
+/*last updated 7/5/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -97,7 +97,9 @@ abbr{
 .carousel-control:hover {
 	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
 }
-
+.language {
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
+}
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;
 	background-color: transparent !important; 
