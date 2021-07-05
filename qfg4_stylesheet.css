@@ -213,6 +213,10 @@ ul.dropdown-menu a:visited {
 
 button {
 	border-radius: 0px !important;
+	text-shadow: 2px 2px lightgray;
+}
+.container {
+	text-shadow: 2px 2px lightgray;
 }
 header {
 	text-align: center; 
