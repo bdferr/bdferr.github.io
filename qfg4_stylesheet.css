@@ -1,11 +1,15 @@
-/*last updated 7/5/2021*/
+/*last updated 7/7/2021*/
 
 @font-face {
   font-family: gloryquest;
   font-style: normal;
   src: url("/fonts/gloryquest.ttf") format("ttf");
 }
-
+@font-face {
+  font-family: cardinal;
+  font-style: normal;
+  src: url("/fonts/cardinal-regular.ttf") format("ttf");
+}
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
 header,footer, article, section {
@@ -83,7 +87,10 @@ section a:hover, footer a:hover {
 	font-weight: bold; 
 	cursor: url("QfG_icons/feet-icon.png"), pointer; 
 }
-
+p::first-letter {
+	font-family: cardinal, gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 2.0em;
+}
 #contact {
 	cursor: url("QfG_icons/mouth-icon.png"), pointer !important; 
 }
