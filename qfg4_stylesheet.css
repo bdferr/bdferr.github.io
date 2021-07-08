@@ -286,15 +286,12 @@ ul {
 }
 /*begin responsive elements*/
 /*images sized at 40%*/
-#actions-menu {
-	height: 95px; 
-	width: 139px; 
-}
+
 #general-store-menu {
 	height: 120px; 
 	width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -306,7 +303,6 @@ ul {
 	height: 115px; 
 	width: 200px; 
 }
-
 #settings-menu {
 	height: 126px; 
 	width: 188px; 
@@ -422,15 +418,11 @@ li.othernavbar {
 @media (min-width: 30em) and (max-width: 40em)
 {
 /*carousel images sized at 40%*/
-#actions-menu {
-	height: 95px; 
-	width: 139px; 
-}
 #general-store-menu {
 	height: 120px; 
 	width: 192px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 128px; 
 	width: 205px; 
 }
@@ -574,15 +566,11 @@ article {
 @media (min-width: 40em) and (max-width: 55em)
 {
 /*carousel images sized at 50%*/
-#actions-menu {
-	height: 119px; 
-	width: 174px; 
-}
 #general-store-menu {
 	height: 150px; 
 	width: 240px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 160px; 
 	width: 256px; 
 }
@@ -725,15 +713,11 @@ article {
 @media (min-width: 55em) and (max-width: 70em)
 {
 /*carousel images sized at 75%*/
-#actions-menu {
-	height: 178px; 
-	width: 261px; 
-}
 #general-store-menu {
 	height: 225px; 
 	width: 360px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 240px; 
 	width: 384px; 
 }
@@ -875,15 +859,11 @@ article {
 @media (min-width: 70em)
 {
 /*carousel images sized at 85%*/
-#actions-menu {
-	height: 201px; 
-	width: 296px; 
-}
 #general-store-menu {
 	height: 255px; 
 	width: 408px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 272px; 
 	width: 435px; 
 }
@@ -1031,15 +1011,11 @@ article {
 @media (min-width: 85em)
 {
 /*carousel images at "full" size*/
-#actions-menu {
-	height: 237px; 
-	width: 348px; 
-}
 #general-store-menu {
 	height: 300px; 
 	width: 480px; 
 }
-#hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
 	height: 320px; 
 	width: 512px; 
 }
