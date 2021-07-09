@@ -1,4 +1,4 @@
-/*last updated 7/8/2021*/
+/*last updated 7/9/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -365,7 +365,7 @@ footer {
 #game-toolbar {
 	max-height: 35px; 
 	width: 354px; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	left: 3%; 
 	z-index: 16; 
@@ -501,7 +501,7 @@ footer {
 #game-toolbar {
 	max-height: 35px; 
 	width: 354px; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	left: 16%; 
 	z-index: 16; 
@@ -648,7 +648,7 @@ footer {
 #game-toolbar {
 	max-height: 50px; 
 	width: 506px; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	left: 16%; 
 	z-index: 16; 
@@ -797,7 +797,7 @@ footer {
 #game-toolbar {
 	max-height: 75px; 
 	width: 759px; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	left: 12%; 
 	z-index: 16; 
@@ -947,7 +947,7 @@ footer {
 #game-toolbar {
 	max-height: 100px; 
 	width: 1012px; 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	left: 12%; 
 	z-index: 16; 
@@ -1035,7 +1035,7 @@ article {
 #game-toolbar {
 	max-height: 100px; 
 	width: 1012px; 
- 	position: fixed; 
+ 	position: absolute; 
     top: 0; 
 	left: 18%; 
 	z-index: 16; 
