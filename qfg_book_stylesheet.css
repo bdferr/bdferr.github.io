@@ -81,6 +81,10 @@ h1 {
 h2 {
 	line-height: 100%;
 }
+label
+{
+	cursor: url("QfG_icons/QG1Sword.png"), default;
+}
 .red {
 	color: red;
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
