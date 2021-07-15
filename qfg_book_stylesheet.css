@@ -41,6 +41,10 @@ body {
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
 	cursor: url("QfG_icons/QG1Sword.png"), default !important;
 }
+.bold
+{
+	font-weight: bold;
+}
 .button {
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
 	font-size: 1.2em;
