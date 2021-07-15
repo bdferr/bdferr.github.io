@@ -80,7 +80,9 @@ body {
 	margin:0.5em;
 	border-width: 3px;
 }
-
+#email:focus-visible {
+	outline: darkgray;
+}
 h1 {
 	line-height: 100%;
 }
