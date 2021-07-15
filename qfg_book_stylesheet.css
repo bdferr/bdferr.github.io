@@ -1,4 +1,4 @@
-/*last updated 7/14/2021*/
+/*last updated 7/15/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -51,6 +51,7 @@ body {
 	padding: 0.2em;
 	margin-top: 0.5em;
 	cursor: url("QfG_icons/QG1Sword.png"), default !important;
+	border-width: 3px;
 }
 .center {
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
@@ -77,6 +78,7 @@ body {
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
 	font-size: 1em;
 	margin:0.5em;
+	border-width: 3px;
 }
 
 h1 {
