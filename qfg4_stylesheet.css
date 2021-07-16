@@ -1,4 +1,4 @@
-/*last updated 7/9/2021*/
+/*last updated 7/15/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -87,7 +87,7 @@ section a:hover, footer a:hover {
 	font-weight: bold; 
 	cursor: url("QfG_icons/feet-icon.png"), pointer; 
 }
-p::first-letter {
+article.it p::first-letter {
 	font-family: cardinal, gloryquest, "Pixelar Regular W01 Regular";
 	font-size: 2.0em;
 }
@@ -103,6 +103,11 @@ abbr{
 }
 .carousel-control:hover {
 	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
+}
+.init-cap {
+	display: inline !important;
+	margin-right: 0.1em;
+	margin-top: -0.35em;
 }
 .language {
 	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
