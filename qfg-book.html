@@ -20,10 +20,10 @@ Quest for Glory Book
 	<!--my stylesheet-->
 	<link rel="stylesheet" href="qfg_book_stylesheet.css" />
 	<link rel="icon" href="QfG_icons/sierra-icon.ico" type="image/x-icon" />
-	<!--<script id="mcjs">!function(c,h,i,m,p){
-	m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}
-	(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ebb588a46089253cb8ec0fa68/5687916e5bcaec102de687785.js%22");
-	</script>-->
+	<script id="mcjs">!function(c,h,i,m,p){ 
+	m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)} 
+	(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ebb588a46089253cb8ec0fa68/5687916e5bcaec102de687785.js"); 
+	</script>
 </head>
 <body>
 	<div class="black">
@@ -51,8 +51,7 @@ Quest for Glory Book
 		<p>
 		We're working hard on the book right now! If you want updates,
 		and to be the first to know when the crowdfunding campaign is live,
-		join our mailing list below. <span class="bold">Note: this site is still under construction,
-		so your email address cannot be submitted here yet! Please come back later.</span>
+		join our mailing list below.
 		</p>
 		<p>
 		There will be regular streams of Quest for Glory and other games
@@ -62,7 +61,8 @@ Quest for Glory Book
 		<br />
 	</div>
 	<div class="white">
-		<form class="center">
+		<form class="center validate" action="https://qfgbook.us17.list-manage.com/subscribe/post?u=ebb588a46089253cb8ec0fa68&amp;id=a5c07f33b2" 
+		method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
 		<p class="bluetext">
 		Get news and alerts about the Quest for Glory book Kickstarter campaign!
 		</p>
@@ -71,10 +71,12 @@ Quest for Glory Book
 		<span class="red">*</span>
 		</label>
 		<br />
-		<input type="email" id="email">
+		<input type="email" id="email" name="EMAIL">
 		<br />
 		<span class="red">*This field is required.</span>
 		<br />
+		<!-- do not remove this or risk form bot signups -->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ebb588a46089253cb8ec0fa68_a5c07f33b2" tabindex="-1" value=""></div>
 		<input type="submit" value="Subscribe" class="button">
 		<form>
 	</div>
