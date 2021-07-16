@@ -87,7 +87,10 @@ section a:hover, footer a:hover {
 	font-weight: bold; 
 	cursor: url("QfG_icons/feet-icon.png"), pointer; 
 }
-
+article.it p::first-letter {
+	font-family: cardinal, gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 2.0em;
+}
 #contact {
 	cursor: url("QfG_icons/mouth-icon.png"), pointer !important; 
 }
