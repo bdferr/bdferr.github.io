@@ -1,4 +1,4 @@
-/*last updated 7/15/2021*/
+/*last updated 7/16/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -22,7 +22,7 @@ a:hover {
 .black {
 	background-color: black;
 	color: white;
-	font-size: 2em;
+	font-size: 1.9em;
 	font-family: gloryquest, "Pixelar Regular W01 Regular";
 	padding: 1em;
 }
@@ -111,4 +111,21 @@ label
 	font-size: 2em;
 	padding: 1em 0;
 	text-align: center;
+}
+
+/*rules for mobile devices*/
+@media (max-width: 30em) {
+body {
+	font-size: 12px;
+}
+}
+@media (max-width: 50em) {
+	.right {
+		float: none;
+	}
+}
+@media (min-width: 30em) and (max-width:50em) {
+	body {
+		font-size: 16px;
+	}
 }
