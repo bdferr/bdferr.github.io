@@ -213,18 +213,11 @@ abbr.night {
 	left: 22%;
 	z-index: 2;
 }
-#time-and-date-toggle {
-	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
-}
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
 }
 #time-and-date-toggle.night {
 	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
-}
-#time-and-date-toggle:hover {
-	color: purple;
-    font-weight: bold;	
 }
 #time-and-date-toggle.day:hover {
 	color: purple !important;
