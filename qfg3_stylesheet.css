@@ -209,12 +209,9 @@ abbr.night {
 }
 #time-and-date {
 	position: fixed;
-	top: 20%;
-	left: 22%;
+	top: 1%;
+	left: 38%;
 	z-index: 2;
-}
-#time-and-date-toggle {
-	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
 }
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
@@ -222,12 +219,8 @@ abbr.night {
 #time-and-date-toggle.night {
 	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
 }
-#time-and-date-toggle:hover {
-	color: purple;
-    font-weight: bold;	
-}
 #time-and-date-toggle.day:hover {
-	color: purple;
+	color: purple !important;
     font-weight: bold;	
 }
 #time-and-date-toggle.night:hover {

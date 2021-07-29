@@ -63,6 +63,7 @@
 			$(".carousel-control").addClass("carousel-control-night").removeClass("carousel-control-day");
 			$(".carousel-indicators li").addClass("carousel-indicators-night").removeClass("carousel-indicators-day");
 			$("#time-and-date-toggle").addClass("night").removeClass("day");
+			$("#time-and-date").hide();
 		});
 		$("#day-mode").click(function() {
 			$("#night-mode").show();
@@ -86,10 +87,19 @@
 			$(".carousel-control").addClass("carousel-control-day").removeClass("carousel-control-night");
 			$(".carousel-indicators li").addClass("carousel-indicators-day").removeClass("carousel-indicators-night");
 			$("#time-and-date-toggle").addClass("day").removeClass("night");
+			$("#time-and-date").hide();
 		});
 		$("#time-and-date").hide();
 		$("#time-and-date-toggle").click(function() {
+		time = $("#time-and-date-toggle").attr("class");
+		if (time == "night") {
 		    $("#time-and-date").toggle();
+			$("#time-and-date").children().attr("src", "qfg3-time-and-date-box2.png");
+			}
+		else {
+		    $("#time-and-date").toggle()
+			$("#time-and-date").children().attr("src", "qfg3-time-and-date-box3.png");
+		}
 		});
 });
 	</script>
@@ -114,7 +124,7 @@
             </div>
 		</header>
 		<div id="time-and-date">
-		    <img src="qfg3-time-and-date-box1.png"/>
+		    <img src="qfg3-time-and-date-box3.png"/>
 		</div>
 		<div class="center offset">
 			<article class="pillars day">
@@ -292,7 +302,7 @@
 			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a> | <a href="https://bdferr.github.io">Homepage</a>
 			<br />
 			<br />
-		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span> | <span id="time-and-date-toggle">Time &amp; date</a></div>
+		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span> | <span id="time-and-date-toggle" class="day">Time &amp; date</a></div>
 		    </footer>
 		</div>
 	</div>
