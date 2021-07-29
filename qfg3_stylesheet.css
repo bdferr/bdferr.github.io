@@ -216,8 +216,23 @@ abbr.night {
 #time-and-date-toggle {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
 }
+#time-and-date-toggle.day {
+	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+#time-and-date-toggle.night {
+	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
+}
 #time-and-date-toggle:hover {
 	color: purple;
+    font-weight: bold;	
+}
+#time-and-date-toggle.day:hover {
+	color: purple;
+    font-weight: bold;	
+}
+#time-and-date-toggle.night:hover {
+	color: #170324;
+    font-weight: bold;	
 }
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: purple;
