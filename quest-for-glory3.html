@@ -63,6 +63,7 @@
 			$(".carousel-control").addClass("carousel-control-night").removeClass("carousel-control-day");
 			$(".carousel-indicators li").addClass("carousel-indicators-night").removeClass("carousel-indicators-day");
 			$("#time-and-date-toggle").addClass("night").removeClass("day");
+			$("#time-and-date").hide();
 		});
 		$("#day-mode").click(function() {
 			$("#night-mode").show();
@@ -86,6 +87,7 @@
 			$(".carousel-control").addClass("carousel-control-day").removeClass("carousel-control-night");
 			$(".carousel-indicators li").addClass("carousel-indicators-day").removeClass("carousel-indicators-night");
 			$("#time-and-date-toggle").addClass("day").removeClass("night");
+			$("#time-and-date").hide();
 		});
 		$("#time-and-date").hide();
 		$("#time-and-date-toggle").click(function() {
