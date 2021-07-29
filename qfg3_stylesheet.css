@@ -209,8 +209,8 @@ abbr.night {
 }
 #time-and-date {
 	position: fixed;
-	top: 20%;
-	left: 22%;
+	top: 1%;
+	left: 38%;
 	z-index: 2;
 }
 #time-and-date-toggle.day {
