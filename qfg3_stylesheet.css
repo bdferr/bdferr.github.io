@@ -227,7 +227,7 @@ abbr.night {
     font-weight: bold;	
 }
 #time-and-date-toggle.day:hover {
-	color: purple;
+	color: purple !important;
     font-weight: bold;	
 }
 #time-and-date-toggle.night:hover {
