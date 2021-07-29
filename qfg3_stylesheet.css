@@ -1,4 +1,4 @@
-/*last updated 7/15/2021*/
+/*last updated 7/29/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -206,6 +206,18 @@ abbr.night {
 #night-mode:hover {
 	color: #170324;
 	font-weight: bold;
+}
+#time-and-date {
+	position: fixed;
+	top: 20%;
+	left: 22%;
+	z-index: 2;
+}
+#time-and-date-toggle {
+	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+#time-and-date-toggle:hover {
+	color: purple;
 }
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: purple;
