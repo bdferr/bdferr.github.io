@@ -208,11 +208,9 @@ abbr.night {
 	font-weight: bold;
 }
 #time-and-date {
-	position: fixed;
-	top: 1%;
-	left: 38%;
 	z-index: 2;
 }
+
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
 }
@@ -374,6 +372,8 @@ img {
 	display: block; 
 	margin: auto;  
 	text-align: center; 
+	height: inherit;
+	width: inherit;
 }
 
 article {
@@ -399,7 +399,13 @@ ul {
 	background-color: #a6a6a6; 
 }
 /*begin responsive elements*/
-
+#time-and-date {
+	position: fixed;
+	top:21%;
+	left: 6%;
+	width: 315px;
+	height: 130px;
+}
 button, .btn {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
@@ -516,7 +522,13 @@ article.night {
 
 @media (min-width: 30em) and (max-width: 40em)
 {
-
+#time-and-date {
+	position: fixed;
+	top: 20%;
+	left: 13%;
+	width: 394px;
+	height: 162px;
+}
 .carousel-indicators {
 	bottom: -60px;
 	padding-bottom: 15px;
@@ -649,7 +661,13 @@ article.night {
 
 @media (min-width: 40em) and (max-width: 55em)
 {
-
+#time-and-date {
+	position: fixed;
+	top: 25%;
+	left: 24%;
+	width: 394px;
+	height: 162px;
+}
 button, .btn {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3.5em; 
@@ -784,6 +802,13 @@ article.night
 
 @media (min-width: 55em) and (max-width: 70em)
 {
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 30%;
+	width: 394px;
+	height: 162px;
+}
 /*carousel images sized at 75%*/
 
 .affix {
@@ -915,7 +940,13 @@ article.night {
 
 @media (min-width: 70em)
 {
-
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 38%;
+	width: 394px;
+	height: 162px;
+}
 .affix {
 	visibility: visible; 
 }
