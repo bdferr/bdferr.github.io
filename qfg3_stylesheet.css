@@ -218,7 +218,7 @@ abbr.night {
 	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
 }
 #time-and-date-toggle.day:hover {
-	color: purple !important;
+	color: #331100;
     font-weight: bold;	
 }
 #time-and-date-toggle.night:hover {
