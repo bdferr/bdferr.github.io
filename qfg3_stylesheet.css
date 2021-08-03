@@ -210,6 +210,7 @@ abbr.night {
 #time-and-date {
 	z-index: 2;
 	background-image: url("qfg3-time-and-date-box3.png");
+	box-shadow: rgb(0, 0, 0, 70%) 14px 7px;
 }
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
