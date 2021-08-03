@@ -211,6 +211,7 @@ abbr.night {
 	z-index: 2;
 	background-image: url("qfg3-time-and-date-box3.png");
 	box-shadow: rgb(0, 0, 0, 70%) 14px 7px;
+	background-size: contain;
 }
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
@@ -226,12 +227,8 @@ abbr.night {
 	color: #170324;
     font-weight: bold;	
 }
-#now {
-	position: absolute;
-	left: 45px;
-	bottom: 9px;
-	font-size: 1.8em;
-}
+
+
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: purple;
 	background-color: transparent !important; 
@@ -413,6 +410,12 @@ ul {
 	width: 315px;
 	height: 130px;
 }
+#now {
+	position: absolute;
+	left: 37px;
+	bottom: 6px;
+	font-size: 1.6em;
+}
 button, .btn {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
 	font-size: 3em; 
@@ -535,6 +538,12 @@ article.night {
 	left: 13%;
 	width: 394px;
 	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
 }
 .carousel-indicators {
 	bottom: -60px;
@@ -674,6 +683,12 @@ article.night {
 	left: 24%;
 	width: 394px;
 	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
 }
 button, .btn {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
@@ -816,6 +831,12 @@ article.night
 	width: 394px;
 	height: 162px;
 }
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
+}
 /*carousel images sized at 75%*/
 
 .affix {
@@ -953,6 +974,12 @@ article.night {
 	left: 38%;
 	width: 394px;
 	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
 }
 .affix {
 	visibility: visible; 
