@@ -104,7 +104,7 @@
 			"August", "September", "October", "November", "December"];
 			month = d.getMonth();
 			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
-			+ months[month] + " " + addZeroes(d.getDate()) + ", " + d.getFullYear() + ".";
+			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
 			console.log("It is", now);
 			$("#now").html("It's " + now);
 			time = $("#time-and-date-toggle").attr("class");
