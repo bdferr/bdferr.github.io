@@ -1,4 +1,4 @@
-/*last updated 7/29/2021*/
+/*last updated 8/3/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -209,8 +209,8 @@ abbr.night {
 }
 #time-and-date {
 	z-index: 2;
+	background-image: url("qfg3-time-and-date-box3.png");
 }
-
 #time-and-date-toggle.day {
 	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
 }
@@ -224,6 +224,12 @@ abbr.night {
 #time-and-date-toggle.night:hover {
 	color: #170324;
     font-weight: bold;	
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
 }
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: purple;

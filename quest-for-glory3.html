@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-08-02" />
+	<meta name="dcterms.modified" content="2021-08-03" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -104,16 +104,19 @@
 			"August", "September", "October", "November", "December"];
 			month = d.getMonth();
 			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
-			+ months[month] + " " + addZeroes(d.getDate()) + ", " + d.getFullYear() + ".";
+			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
 			console.log("It is", now);
+			$("#now").html("It's " + now);
 			time = $("#time-and-date-toggle").attr("class");
 			if (time == "night") {
 				$("#time-and-date").toggle();
-				$("#time-and-date").children().attr("src", "qfg3-time-and-date-box2.png");
+				$("#time-and-date").css("background-image", "url('qfg3-time-and-date-night.png')")
+				$("#now").css("color", "black");
 				}
 			else {
 				$("#time-and-date").toggle()
-				$("#time-and-date").children().attr("src", "qfg3-time-and-date-box3.png");
+				$("#time-and-date").css("background-image", "url('qfg3-time-and-date-day.png')");
+				$("#now").css("color", "#331100");
 			}
 		});
 });
@@ -139,7 +142,7 @@
             </div>
 		</header>
 		<div id="time-and-date">
-			<img src="qfg3-time-and-date-box3.png" />
+		    <span id="now"></span>
 		</div>
 		<div class="center offset">
 			<article class="pillars day">
