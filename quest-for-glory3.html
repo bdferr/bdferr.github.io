@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-08-03" />
+	<meta name="dcterms.modified" content="2021-08-04" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -105,7 +105,6 @@
 			month = d.getMonth();
 			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
 			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
-			console.log("It is", now);
 			$("#now").html("It's " + now);
 			time = $("#time-and-date-toggle").attr("class");
 			if (time == "night") {
