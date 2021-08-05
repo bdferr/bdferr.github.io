@@ -114,7 +114,7 @@ abbr{
 }
 #time-and-date {
 	z-index: 2;
-	background-image: url("qfg4-date-and-time-night1.png");
+	background-image: url("qfg4-date-and-time-night2.png");
 	background-size: contain;
 }
 #time-and-date-toggle {
@@ -123,6 +123,9 @@ abbr{
 #time-and-date-toggle:hover {
 	color: #b30000;
     font-weight: bold;	
+}
+#now {
+	color: black;
 }
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;
@@ -309,7 +312,12 @@ ul {
 	width: 288px;
 	height: 144px;
 }
-
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 9px;
+	font-size: 2.1em;
+}
 /*images sized at 40%*/
 
 #general-store-menu {
@@ -449,7 +457,12 @@ li.othernavbar {
 	width: 288px;
 	height: 144px;
 }
-
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 9px;
+	font-size: 2.1em;
+}
 /*carousel images sized at 40%*/
 #general-store-menu {
 	height: 120px; 
@@ -605,7 +618,12 @@ article {
 	width: 288px;
 	height: 144px;
 }
-
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 9px;
+	font-size: 2.1em;
+}
 /*carousel images sized at 50%*/
 #general-store-menu {
 	height: 150px; 
@@ -760,7 +778,12 @@ article {
 	width: 288px;
 	height: 144px;
 }
-
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 9px;
+	font-size: 2.1em;
+}
 /*carousel images sized at 75%*/
 #general-store-menu {
 	height: 225px; 
@@ -914,7 +937,12 @@ article {
 	width: 288px;
 	height: 144px;
 }
-
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 9px;
+	font-size: 2.1em;
+}
 /*carousel images sized at 85%*/
 #general-store-menu {
 	height: 255px; 
