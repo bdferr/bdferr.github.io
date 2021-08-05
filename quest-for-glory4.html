@@ -43,6 +43,11 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
+
+		$("#time-and-date").hide();
+		$("#time-and-date-toggle").click(function() {
+			$("#time-and-date").toggle();
+		});
 	});
 	</script>
 </head>
@@ -66,6 +71,9 @@
 				</ul>
             </div>
 		</header>
+		<div id="time-and-date">
+		    <span id="now"></span>
+		</div>
 		<div class="center offset">
 			<article class="stone1">
 			<section>
@@ -261,7 +269,7 @@
 			<footer>
 			<div class="smaller-note">&copy; 2021 Brendan Ferreri-Hanberry <br /> 
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact me</a>&nbsp; | &nbsp;<a href="https://bdferr.github.io">Homepage</a>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contact</a>&nbsp; | &nbsp;<a href="https://bdferr.github.io">Home</a>&nbsp; |&nbsp;<span id="time-and-date-toggle">Time & Date</span>
 			<br />
 			<br />
 			<a href="quest-for-glory4-de.html" class="language">Deutsch</a>&nbsp; | &nbsp;<a href="quest-for-glory4-it.html" class="language">Italiano</a></div>
