@@ -46,6 +46,21 @@
 
 		$("#time-and-date").hide();
 		$("#time-and-date-toggle").click(function() {
+			d = new Date();
+			function addZeroes(n){
+				if(n < 10){
+					return "0" + n;
+				}
+				else {
+					return n
+				}
+			}			
+			months = ["January", "February", "March", "April", "May", "June", "July",
+			"August", "September", "October", "November", "December"];
+			month = d.getMonth();
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
+			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
+			$("#now").html("It's " + now);
 			$("#time-and-date").toggle();
 		});
 	});
