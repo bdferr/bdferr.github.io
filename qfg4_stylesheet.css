@@ -112,6 +112,18 @@ abbr{
 .language {
 	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
 }
+#time-and-date {
+	z-index: 2;
+	background-image: url("qfg4-date-and-time-night1.png");
+	background-size: contain;
+}
+#time-and-date-toggle {
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important; 
+}
+#time-and-date-toggle:hover {
+	color: #b30000;
+    font-weight: bold;	
+}
 li.othernavbar a:hover, li.footernavbar a:hover {
     color: #b30000;
 	background-color: transparent !important; 
@@ -290,6 +302,14 @@ ul {
 	background-color: #a6a6a6; 
 }
 /*begin responsive elements*/
+#time-and-date {
+	position: fixed;
+	top:21%;
+	left: 6%;
+	width: 288px;
+	height: 144px;
+}
+
 /*images sized at 40%*/
 
 #general-store-menu {
@@ -422,6 +442,14 @@ li.othernavbar {
 }
 @media (min-width: 30em) and (max-width: 40em)
 {
+#time-and-date {
+	position: fixed;
+	top: 20%;
+	left: 13%;
+	width: 288px;
+	height: 144px;
+}
+
 /*carousel images sized at 40%*/
 #general-store-menu {
 	height: 120px; 
@@ -570,6 +598,14 @@ article {
 
 @media (min-width: 40em) and (max-width: 55em)
 {
+#time-and-date {
+	position: fixed;
+	top: 32%;
+	left: 23%;
+	width: 288px;
+	height: 144px;
+}
+
 /*carousel images sized at 50%*/
 #general-store-menu {
 	height: 150px; 
@@ -717,6 +753,14 @@ article {
 
 @media (min-width: 55em) and (max-width: 70em)
 {
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 36%;
+	width: 288px;
+	height: 144px;
+}
+
 /*carousel images sized at 75%*/
 #general-store-menu {
 	height: 225px; 
@@ -863,6 +907,14 @@ article {
 
 @media (min-width: 70em)
 {
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 41%;
+	width: 288px;
+	height: 144px;
+}
+
 /*carousel images sized at 85%*/
 #general-store-menu {
 	height: 255px; 
