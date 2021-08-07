@@ -1,4 +1,4 @@
-/*last updated 8/3/2021*/
+/*last updated 8/7/2021*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -71,9 +71,14 @@ li a.night:hover {
 
 section a:hover, footer a:hover {
 	display: inline; 
-    color: purple !important;
     text-decoration: none; 
 	font-weight: bold; 
+}
+section a.day:hover, footer a.day:hover {
+    color: #331100 !important;
+}
+section a.night:hover, footer a.night:hover {
+	color: #170324 !important;
 }
 footer a {
 	color: #331100 !important;
@@ -146,10 +151,12 @@ button.night {
 	color: #170324 !important;
 }
 .carousel-control-day {
-    cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+    cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important;
+	color: purple !important;
 }
 .carousel-control-night {
 	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
+	color: #170324 !important;
 }
 .carousel-indicators-day {
 	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
@@ -200,7 +207,7 @@ abbr.night {
 }
 #day-mode:hover {
 	color: #331100;
-	font-weight: bold:
+	font-weight: bold;
 }
 
 #night-mode:hover {

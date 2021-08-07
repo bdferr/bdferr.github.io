@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-08-04" />
+	<meta name="dcterms.modified" content="2021-08-07" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<!--[if lt IE 9]>
@@ -53,8 +53,10 @@
 			$("#li-top").css("background-image", "url('qfg3-li-top-night.png')");
 			$("#li-bottom").css("background-image", "url('qfg3-li-bottom-night.png')");
 			$("li.othernavbar.normal").css("background-image", "url('qfg3-li-night.jpg')");
-			$("article").addClass("night").removeClass("day")
-			$("a").addClass("night").removeClass("day");
+			$("article").addClass("night").removeClass("day");
+			$("p a").addClass("night").removeClass("day");
+			$("li a").addClass("night").removeClass("day");
+			$(".smaller-note a").addClass("night").removeClass("day");
 			$("body").addClass("night").removeClass("day");
 			$("#contact").addClass("night").removeClass("day");
 			$(".btn").addClass("night").removeClass("day");
@@ -77,8 +79,10 @@
 			$("#li-top").css("background-image", "url('qfg3-li-top.png')");
 			$("#li-bottom").css("background-image", "url('qfg3-li-bottom.png')");
 			$("li.othernavbar.normal").css("background-image", "url('qfg3-li.jpg')");
-			$("article").addClass("day").removeClass("night")
-			$("a").addClass("day").removeClass("night");
+			$("article").addClass("day").removeClass("night");
+			$("p a").addClass("day").removeClass("night");
+			$("li a").addClass("day").removeClass("night");
+			$(".smaller-note a").addClass("day").removeClass("night");
 			$("body").addClass("day").removeClass("night");
 			$("#contact").addClass("day").removeClass("night");
 			$(".btn").addClass("day").removeClass("night");
