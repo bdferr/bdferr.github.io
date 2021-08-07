@@ -9,7 +9,7 @@
 	<meta name="description" content="Diese Fanseite für das Rollen-Abenteuerspiel Quest for Glory IV von Sierra
 	führt Bootstrap und jQuery vor und versucht, die Benutzeroberfläche des Spiels auf eine Website anzuwenden."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2021-07-15" />
+	<meta name="dcterms.modified" content="2021-08-07" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<link rel="alternate" href="quest-for-glory.html" hreflang="en">
@@ -43,7 +43,27 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
+		$("#time-and-date").hide();
+		$("#time-and-date-toggle").click(function() {
+			d = new Date();
+			function addZeroes(n){
+				if(n < 10){
+					return "0" + n;
+				}
+				else {
+					return n
+				}
+			}			
+			months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+			"August", "September", "Oktober", "November", "Dezember"];
+			month = d.getMonth();
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " am " 
+			+ d.getDate() + "." +  " " + months[month] + " " + d.getFullYear() + ".";
+			$("#now").html("Es ist " + now);
+			$("#time-and-date").toggle();
+		});	
 	});
+	
 	</script>
 </head>
 <body>
@@ -66,6 +86,9 @@
 				</ul>
             </div>
 		</header>
+		<div id="time-and-date">
+		    <span id="now"></span>
+		</div>
 		<div class="center offset">
 			<article class="stone1">
 			<section>
@@ -265,7 +288,8 @@
 			<footer>
 			<div class="smaller-note">&copy; 2021 Brendan Ferreri-Hanberry <br /> 
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Kontakt</a>&nbsp; | &nbsp;<a href="https://bdferr.github.io">Startseite</a>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Kontakt</a>&nbsp; | &nbsp;<a href="https://bdferr.github.io"><abbr title="zur Startseite">Home</abbr></a>&nbsp; 
+			|&nbsp;<span id="time-and-date-toggle">Tag u. Zeit</span>
 			<br />
 			<br />
 			<a href="quest-for-glory4.html" class="language">English</a>&nbsp; | &nbsp;<a href="quest-for-glory4-it.html" class="language">Italiano</a></div>
