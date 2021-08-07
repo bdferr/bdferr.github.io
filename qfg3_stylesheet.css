@@ -275,14 +275,6 @@ body:before {
   background-size: cover;
 }
 
-.carousel-indicators {
-	bottom: -45px;
-	left: 42%;
-	width: 85%;
-	z-index: 0 !important;
-}
-
-
 .carousel-inner {
 	margin-bottom: 5px;
 }
@@ -450,6 +442,12 @@ ul.affix {
 	left: 20%; 
 	top: 47px; 
 }
+.carousel-indicators {
+	bottom: -45px;
+	left: 35%;
+	width: 90%;
+	z-index: 0 !important;
+}
 .container {
 	margin: 0; 
 	padding: 0 0 80px 0; 
@@ -553,9 +551,10 @@ article.night {
 	font-size: 1.8em;
 }
 .carousel-indicators {
-	bottom: -60px;
+	bottom: -62px;
+	left: 40%;
 	padding-bottom: 15px;
-	width: 75%;
+	width: 80%;
 }
 .container {
 	padding: 0 0 120px 0; 
@@ -724,7 +723,8 @@ ul.affix {
 	top: 55px; 
 }
 .carousel-indicators {
-	bottom: -60px;
+	bottom: -62px;
+	left: 42%;
 	padding-bottom: 15px;
 	width: 75%;
 }
@@ -873,6 +873,7 @@ button, .btn {
 }
 .carousel-indicators {
 	bottom: 0px;
+	left: 42%;
 	padding-bottom: 0px;
 	width: 75%;
 	z-index: 1 !important;
@@ -1002,6 +1003,7 @@ ul.affix {
 }
 .carousel-indicators {
 	bottom: 0px;
+	left: 42%;
 	padding-bottom: 0px;
 	width: 75%;
 	z-index: 1 !important;
