@@ -530,7 +530,7 @@ li.othernavbar {
 article.night {
 	border-image: url('qfg3-settings-nighttime.png') 35 40 fill !important;
 	color: black !important;
-	padding: 1.0em;
+	padding: 0 1.0em;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
 }
@@ -675,7 +675,7 @@ article {
 }
 article.night {
 	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
-	padding: 1.1em !important;
+	padding: 0 1.1em !important;
 	border-left: 35px solid transparent !important;
 	border-right: 35px solid transparent !important;
 }
@@ -823,7 +823,7 @@ article.day {
 article.night
 {
 	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
-	padding: 1.2em;
+	padding: 0 1.2em;
 	border-left: 35px solid transparent !important;
 	border-right: 35px solid transparent !important;
 }
@@ -968,7 +968,7 @@ article {
 }
 article.night {
 	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
-	padding: 1.1em;
+	padding: 0 1.1em;
 	border-left: 37px solid transparent;
 	border-right: 37px solid transparent;
 }
@@ -1118,7 +1118,7 @@ article {
 	color: black; 
 }
 article.night {
-    padding: 1.2em;
+    padding: 0 1.2em;
 	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
 	border-left: 40px solid transparent;
 	border-right: 40px solid transparent;
