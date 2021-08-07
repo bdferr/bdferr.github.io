@@ -43,6 +43,32 @@
 		{
 			$("#game-toolbar").slideUp("slow");
 		});
+		$("#time-and-date").hide();
+		$("#time-and-date-toggle").click(function() {
+			d = new Date();
+			function addZeroes(n){
+				if(n < 10){
+					return "0" + n;
+				}
+				else {
+					return n
+				}
+			}			
+			months = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
+			"agosto", "settembre", "ottobre", "novembre", "dicembre"];
+			month = d.getMonth();
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " il " 
+			+ d.getDate() +  " " + months[month] + " " + d.getFullYear() + ".";
+			hours = [0, 1, 12, 13];
+			hour = d.getHours();
+			if (hours.includes(hour)) {
+				$("#now").html("È " + now);
+			}
+			else {
+				$("#now").html("Sono le " + now);
+			}
+			$("#time-and-date").toggle();
+		});	
 	});
 	</script>
 </head>
@@ -66,6 +92,9 @@
 				</ul>
             </div>
 		</header>
+		<div id="time-and-date">
+		    <span id="now"></span>
+		</div>
 		<div class="center offset">
 			<article class="stone1 it">
 			<section>
@@ -247,7 +276,8 @@
 			<footer>
 			<div class="smaller-note">&copy; 2021 Brendan Ferreri-Hanberry <br /> 
 			<br />
-			<a href="mailto:brendanfh@protonmail.com" id="contact">Contattare</a>&nbsp;|&nbsp;<a href="https://bdferr.github.io">Pagina principale</a>
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Contattare</a>&nbsp;|&nbsp;<a href="https://bdferr.github.io"><abbr title="pagina iniziale">Home</abbr></a>&nbsp; 
+			|&nbsp;<span id="time-and-date-toggle">Data e ora</span>
 			<br />
 			<br />
 			<a href="quest-for-glory4-de.html" class="language">Deutsch</a>&nbsp; | &nbsp;<a href="quest-for-glory4.html" class="language">English</a></div>
