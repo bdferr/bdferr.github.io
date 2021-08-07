@@ -74,7 +74,12 @@
 			$("footer").css("background-image", "url('qfg3-text-4.webp')").addClass("day").removeClass("night");
 			$("h1").css("border-image", "url('qfg3-main-menu2.webp') 12.5% round");
 			$(".btn").css("background-image", "url('qfg3-button.webp')");
-			$(".container").css({"background-image": "url('qfg3-rakeesh.jpg')", "background-size": "auto"});
+			if (window.innerWidth > 1119) {
+			    $(".container").css({"background-image": "url('qfg3-rakeesh.jpg')", "background-size": "auto"});
+			}
+			else {
+				$(".container").css({"background-image": "none", "background-size": "auto"});
+			}
 			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon.png");
 			$("#li-top").css("background-image", "url('qfg3-li-top.png')");
 			$("#li-bottom").css("background-image", "url('qfg3-li-bottom.png')");
