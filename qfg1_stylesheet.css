@@ -147,9 +147,11 @@ li.night {
 
 abbr.day {
 	cursor: url("QfG_icons/qfg1-question-mark.png"), help !important;
+	color: black !important;
 }
 abbr.night {
 	cursor: url("QfG_icons/qfg1-question-mark-night.png"), help !important;
+	color: black !important;
 }
 
 li.othernavbar a:hover, li.footernavbar a:hover {
