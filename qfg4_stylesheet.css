@@ -1,4 +1,4 @@
-/*last updated 7/15/2021*/
+/*last updated 8/7/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -166,12 +166,6 @@ body:before {
   background-size: cover;
 }
 
-.carousel-indicators {
-	bottom: -50px;
-	left: 42%;
-	width: 73%;
-	z-index: 0 !important;
-}
 .carousel-indicators li {
 	border-color: #b30000 !important; 
 	cursor: url("QfG_icons/sword-icon-night.png"), pointer !important;
@@ -317,6 +311,12 @@ ul {
 	left: 26px;
 	bottom: 9px;
 	font-size: 2.1em;
+}
+.carousel-indicators {
+	bottom: -60px;
+	left: 42%;
+	width: 73%;
+	z-index: 0 !important;
 }
 /*images sized at 40%*/
 
