@@ -1,4 +1,4 @@
-/*last updated 8/7/2021*/
+/*last updated 8/11/2021*/
 
 @font-face {
   font-family: gloryquest;
@@ -114,7 +114,7 @@ abbr{
 }
 #time-and-date {
 	z-index: 2;
-	background-image: url("qfg4-date-and-time-night2.png");
+	background-image: url("qfg4-date-and-time-night4.png");
 	background-size: contain;
 }
 #time-and-date-toggle {
@@ -303,13 +303,13 @@ ul {
 	position: fixed;
 	top:21%;
 	left: 6%;
-	width: 288px;
-	height: 144px;
+	width: 298px;
+	height: 147px;
 }
 #now {
 	position: absolute;
 	left: 26px;
-	bottom: 9px;
+	bottom: 12px;
 	font-size: 2.1em;
 }
 .carousel-indicators {
@@ -454,13 +454,13 @@ li.othernavbar {
 	position: fixed;
 	top: 20%;
 	left: 13%;
-	width: 288px;
-	height: 144px;
+	width: 298px;
+	height: 147px;
 }
 #now {
 	position: absolute;
 	left: 26px;
-	bottom: 9px;
+	bottom: 12px;
 	font-size: 2.1em;
 }
 /*carousel images sized at 40%*/
@@ -615,13 +615,13 @@ article {
 	position: fixed;
 	top: 32%;
 	left: 23%;
-	width: 288px;
-	height: 144px;
+	width: 298px;
+	height: 147px;
 }
 #now {
 	position: absolute;
 	left: 26px;
-	bottom: 9px;
+	bottom: 12px;
 	font-size: 2.1em;
 }
 /*carousel images sized at 50%*/
@@ -775,13 +775,13 @@ article {
 	position: fixed;
 	top:1%;
 	left: 36%;
-	width: 288px;
-	height: 144px;
+	width: 298px;
+	height: 147px;
 }
 #now {
 	position: absolute;
 	left: 26px;
-	bottom: 9px;
+	bottom: 12px;
 	font-size: 2.1em;
 }
 /*carousel images sized at 75%*/
@@ -934,13 +934,13 @@ article {
 	position: fixed;
 	top:1%;
 	left: 41%;
-	width: 288px;
-	height: 144px;
+	width: 298px;
+	height: 147px;
 }
 #now {
 	position: absolute;
 	left: 26px;
-	bottom: 9px;
+	bottom: 12px;
 	font-size: 2.1em;
 }
 /*carousel images sized at 85%*/
