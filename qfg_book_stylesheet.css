@@ -1,0 +1,131 @@
+/*last updated 7/16/2021*/
+
+@font-face {
+  font-family: gloryquest;
+  font-style: normal;
+  src: url("/fonts/gloryquest.ttf") format("ttf");
+}
+a {
+	color: white;
+}
+a:visted {
+	color: white;
+}
+a:hover {
+	color: cyan;
+	cursor: url("QfG_icons/QG1Sword.png"), default !important;
+}
+.button:hover {
+	color: blue;
+	cursor: url("QfG_icons/QG1Sword.png"), default !important;
+}
+.black {
+	background-color: black;
+	color: white;
+	font-size: 1.9em;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	padding: 1em;
+}
+.blue {
+	background-color: blue;
+	width: 100%;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+}
+.bluetext {
+	color: blue;
+	font-size: 1.5em;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+}
+body {
+	font-size: 18px;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	cursor: url("QfG_icons/QG1Sword.png"), default !important;
+}
+.bold
+{
+	font-weight: bold;
+}
+.button {
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 1.2em;
+	padding: 0.2em;
+	margin-top: 0.5em;
+	cursor: url("QfG_icons/QG1Sword.png"), default !important;
+	border-width: 3px;
+}
+.center {
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	margin: auto;
+}
+.cyan {
+	clear: both;
+    color: black;
+	background-color: cyan;
+	box-shadow: 4px 4px;
+	width: 60%;
+	border: 2px solid black;
+	margin: auto;
+	padding: 1em;
+	font-size: 2em;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	text-align: center;
+	line-height: 115%;
+}
+#email
+{
+	height: 1em;
+	width: 250px;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 1em;
+	margin:0.5em;
+	border-width: 3px;
+}
+#email:focus-visible {
+	outline: darkgray;
+}
+h1 {
+	line-height: 100%;
+}
+h2 {
+	line-height: 100%;
+	font-style: italic;
+}
+label
+{
+	cursor: url("QfG_icons/QG1Sword.png"), default;
+}
+.red {
+	color: red;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 1em;
+}
+.right {
+	float: right;
+	background-color: inherit;
+}
+.white {
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	font-family: gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 2em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+/*rules for mobile devices*/
+@media (max-width: 30em) {
+body {
+	font-size: 12px;
+}
+}
+@media (max-width: 50em) {
+	.right {
+		float: none;
+	}
+}
+@media (min-width: 30em) and (max-width:50em) {
+	body {
+		font-size: 16px;
+	}
+}

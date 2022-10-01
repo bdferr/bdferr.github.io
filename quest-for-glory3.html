@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!--Token referring to stylesheet: c5e1d8d8-a768-48f7-8391-841257898ec5-->
+<html lang="en-US">
+<head>
+	<title>
+	Quest for Glory III
+	</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory III,
+	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+	<meta name="dcterms.modified" content="2021-08-07" />
+	<meta name="author" content="Brendan Ferreri-Hanberry" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<!--[if lt IE 9]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!--Bootstrap-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>-->
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--Bootstrap stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<!--my stylesheet-->
+	<link rel="stylesheet" href="qfg3_stylesheet.css" />
+	<link rel="icon" href="QfG_icons/sierra-icon.ico" type="image/x-icon" />
+	<script>
+    $(document).ready(function()
+	{
+    	$("#game-toolbar").hide();
+		$("#main-title").mouseover(function()
+		{
+			$("#game-toolbar").slideDown("slow");
+		});
+		$("#main-title").mouseout(function()
+		{
+			$("#game-toolbar").slideUp("slow");
+		});
+		$("#day-mode").hide();
+		$(".btn").css("background-image", "url('qfg3-button.webp')");
+		$("#night-mode").click(function() {
+		    $("#day-mode").show();
+			$("#night-mode").hide();
+			$("#game-toolbar").attr("src", "qfg3-menu-bar-night.webp");
+			$("footer").css("background-image", "url('qfg3-text-4-night.png')").addClass("night").removeClass("day");
+			$("h1").css("border-image", "url('qfg3-settings-nighttime.png') 30 30 fill");
+			$(".btn").css("background-image", "url('qfg3-button-night.png')");
+			$(".container").css({"background-image": "url('qfg3-pool-of-peace1.webp')", "background-size": "cover", 
+			"background-position": "0% 0%", "background-repeat": "no-repeat", "background-attachment": "fixed"});	
+			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon-night.png");
+			$("#li-top").css("background-image", "url('qfg3-li-top-night.png')");
+			$("#li-bottom").css("background-image", "url('qfg3-li-bottom-night.png')");
+			$("li.othernavbar.normal").css("background-image", "url('qfg3-li-night.jpg')");
+			$("article").addClass("night").removeClass("day");
+			$("p a").addClass("night").removeClass("day");
+			$("li a").addClass("night").removeClass("day");
+			$(".smaller-note a").addClass("night").removeClass("day");
+			$("body").addClass("night").removeClass("day");
+			$("#contact").addClass("night").removeClass("day");
+			$(".btn").addClass("night").removeClass("day");
+			$("h1").addClass("night").removeClass("day");
+			$("abbr").addClass("night").removeClass("day");
+			$(".carousel-control").addClass("carousel-control-night").removeClass("carousel-control-day");
+			$(".carousel-indicators li").addClass("carousel-indicators-night").removeClass("carousel-indicators-day");
+			$("#time-and-date-toggle").addClass("night").removeClass("day");
+			$("#time-and-date").hide();
+		});
+		$("#day-mode").click(function() {
+			$("#night-mode").show();
+			$("#day-mode").hide();
+			$("#game-toolbar").attr("src", "qfg3-menu-bar.webp");
+			$("footer").css("background-image", "url('qfg3-text-4.webp')").addClass("day").removeClass("night");
+			$("h1").css("border-image", "url('qfg3-main-menu2.webp') 12.5% round");
+			$(".btn").css("background-image", "url('qfg3-button.webp')");
+			if (window.innerWidth > 1119) {
+			    $(".container").css({"background-image": "url('qfg3-Rakeesh-framed.png')", "background-size": "auto"});
+			}
+			else {
+				$(".container").css({"background-image": "none", "background-size": "auto"});
+			}
+			$("#walking-icon").attr("src", "QfG_icons/qfg3-walking-icon.png");
+			$("#li-top").css("background-image", "url('qfg3-li-top.png')");
+			$("#li-bottom").css("background-image", "url('qfg3-li-bottom.png')");
+			$("li.othernavbar.normal").css("background-image", "url('qfg3-li.jpg')");
+			$("article").addClass("day").removeClass("night");
+			$("p a").addClass("day").removeClass("night");
+			$("li a").addClass("day").removeClass("night");
+			$(".smaller-note a").addClass("day").removeClass("night");
+			$("body").addClass("day").removeClass("night");
+			$("#contact").addClass("day").removeClass("night");
+			$(".btn").addClass("day").removeClass("night");
+			$("h1").addClass("day").removeClass("night");
+			$("abbr").addClass("day").removeClass("night");
+			$(".carousel-control").addClass("carousel-control-day").removeClass("carousel-control-night");
+			$(".carousel-indicators li").addClass("carousel-indicators-day").removeClass("carousel-indicators-night");
+			$("#time-and-date-toggle").addClass("day").removeClass("night");
+			$("#time-and-date").hide();
+		});
+		$("#time-and-date").hide();
+		$("#time-and-date-toggle").click(function() {
+		    d = new Date();
+			function addZeroes(n){
+				if(n < 10){
+					return "0" + n;
+				}
+				else {
+					return n
+				}
+			}
+			months = ["January", "February", "March", "April", "May", "June", "July",
+			"August", "September", "October", "November", "December"];
+			month = d.getMonth();
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
+			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
+			$("#now").html("It's " + now);
+			time = $("#time-and-date-toggle").attr("class");
+			if (time == "night") {
+				$("#time-and-date").toggle();
+				$("#time-and-date").css("background-image", "url('qfg3-time-and-date-night.png')")
+				$("#now").css("color", "black");
+				}
+			else {
+				$("#time-and-date").toggle()
+				$("#time-and-date").css("background-image", "url('qfg3-time-and-date-day.png')");
+				$("#now").css("color", "#331100");
+			}
+		});
+});
+	</script>
+</head>
+<body>
+	<div class="container" id="container">
+		<header>
+		<img src="qfg3-menu-bar.webp" id="game-toolbar" alt="Quest for Glory III: Wages of War game toolbar" />
+		<h1 id="main-title">Quest for Glory III</h1>
+			<div id="dropdown_menu" class="dropdown offset">
+				<button class="btn day btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
+				Where to?
+					<img id="walking-icon" src="QfG_icons/qfg3-walking-icon.png" alt="Quest for Glory III: Wages of War walking icon" />
+				</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
+					<li id="li-top" class="othernavbar"><a href="#downloads" class="day">Downloads</a></li>
+					<li class="othernavbar normal"><a href="#images" class="day">Game Images</a></li>
+					<li class="othernavbar normal"><a href="#icons" class="day">Icons</a></li>
+					<li class="othernavbar normal"><a href="quest-for-glory1.html" class="day">QfG I</a></li>
+					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory4.html" class="day">QfG IV</a></li>
+				</ul>
+            </div>
+		</header>
+		<div id="time-and-date">
+		    <span id="now"></span>
+		</div>
+		<div class="center offset">
+			<article class="pillars day">
+			<section>
+			<p>
+			<cite>Quest for Glory III: Wages of War</cite> is a role-playing/adventure game released in 1992 by Sierra. 
+			It takes place in an area called Fricana, based on Africa, where the hero must avert a war between two opposing tribes
+			and ultimately defeat a demon. Depending on the width of your browser window, you may see a feline creature at the top left.
+			This is Rakeesh, a noble warrior who introduces you to your quest and assists you at key points.
+			</p>
+			<p>
+			This game received <a href="https://web.archive.org/web/20150319223820/http://annarchive.com/files/Drmg192.pdf" class="day" target="_blank">high praise</a>
+			from some when it was released, but has also been 
+			<a href="https://web.archive.org/web/20170523012745/http://www.rpgamer.com/games/qfg/qfg3/reviews/qfg3strev1.html" class="day" target="_blank">criticized</a>
+			as the "filler" game of the series,	and in many ways it is less impressive than its successor. 
+			The game is relatively short and simple; it can be beaten quickly with relatively little thinking. There is no equivalent here 
+			to the puzzles surrounding Dr. Cranium in <cite>Quest for Glory IV</cite>, and there are not many side quests to complete.
+			</p>
+			<p>
+			Both the music and graphics are not at the level of <cite>Shadows of Darkness</cite>, but greatly improved over those of earlier titles.
+			The <a href="https://www.youtube.com/watch?v=h8aiK7gW34o" class="day" target="_blank">soundtrack</a> includes intricate melodies and fits the heroic mood of the game very well.
+			The graphics, featuring 256 colors as opposed to the mere 16 seen in its predecessors, can be seen in the carousel below.
+			</p>			
+    		<p>
+			My main purpose here is to follow up
+			on an <a href="http://inls718userinterfacedesign.blogspot.com/2015/01/i-miss-days-whenpixels-were-clearly.html" class="day" target="_blank">idea</a> 
+			which came to me in 2015 in the context of a user interface course in graduate school.
+			I am taking much of the interface of the game, including the graphics 
+			for the game's text boxes and menus, and applying it to a website.
+			Originally this applied only to <cite>Quest for Glory IV</cite>, but here I am applying it to <cite>Quest for Glory III</cite>.
+			</p>
+			<div id="downloads" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a>
+			</div>
+			</section>
+            <section>
+			<h2>Downloads</h2>
+			<p>
+			All five of the original games in the series can be had cheaply 
+			from <a href="https://www.gog.com/game/quest_for_glory" class="day" target="_blank">GOG.com</a>.
+			This set of the games includes a remake of the first title with far better graphics, 
+			but unfortunately those of the second game are still rather primitive. You can however download 
+			a greatly improved 2008 <a href="http://www.agdinteractive.com/games/qfg2/homepage/homepage.html" class="day" target="_blank">remake</a> 
+			of <cite>Quest for Glory II: Trial by Fire</cite>.
+			</p>
+			<p>
+			A new "role-playing adventure game" entitled <cite><a href="http://hero-u.com/" class="day" target="_blank">Hero-U: Rogue to Redemption</a></cite> 
+			has been developed by Sierra designers Corey and Lori Cole,
+			who were responsible for the <cite>Quest for Glory</cite> series.
+			The title has received overwhelmingly positive reviews from both 
+			<a href="https://store.steampowered.com/app/375440/HeroU_Rogue_to_Redemption/#app_reviews_hash" class="day" target="_blank">players</a> 
+			and <a href="https://adventuregamers.com/articles/view/35569" class="day" target="_blank">critics</a>. The game is intended to be the first 
+			of <a href="https://advgamer.blogspot.com/2018/07/interview-with-corey-cole.html" class="day" target="_blank">five similar titles</a>,
+			and a more casual game entitled <cite><a href="https://summerdazegame.com/" class="day" target="_blank">Summer Daze at Hero-U</a></cite> 
+			is scheduled for release in October of this year.
+			</p>
+			<p>
+			A well-received 2013 game based on the series, 
+			entitled <cite><a href="http://store.steampowered.com/app/283880" class="day" target="_blank">Heroine's Quest</a></cite> is free to download.
+			The story, based on Norse mythology, takes place in a region cursed by a frost giant to be in endless winter.
+			The heroine must thwart the giant's attempts to bring about the end of the world and restore the normal change of seasons.
+			</p>
+			<p>
+			Many more <cite><abbr title="Quest for Glory" class="day">QfG</abbr></cite>-related resources including screenshots can be found at two
+            fan pages, <a href="http://www.questformoreglory.com/index3.html" class="day" target="_blank">Quest for More Glory</a>
+			and <a href="http://blakessanctum.x10.mx/Games/QFGSeries/index.html" class="day" target="_blank">Blake's Sanctum</a>, 
+			while help for various problems, including the game's manual, 
+			is available at <a href="http://www.sierrahelp.com/Games/QuestForGlory/QfG3Help.html" class="day" target="_blank">Sierrahelp.com</a>.
+			Sierragamers.com supplies the 
+			<a href="https://www.sierragamers.com/wp-content/uploads/2019/12/Quest_for_Glory_3_Hint_Book.pdf" class="day" target="_blank">hint book</a>. 
+			</p>
+			<div id="images" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a>
+			</div>
+			</section>
+			<section>
+		    <h2>Game Images</h2>
+			<p>Here are some screenshots taken from the game, to give a sense of what this page is attempting to emulate.
+			</p>
+			<div id="qfgCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Carousel indicators -->
+		    <ol class="carousel-indicators">
+				<li data-target="#qfgCarousel" data-slide-to="0" class="active carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="1" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="2" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="3" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="4" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="5" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="6" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="7" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="8" class="carousel-indicators-day"></li>
+				<li data-target="#qfgCarousel" data-slide-to="9" class="carousel-indicators-day"></li>
+		    </ol>
+			<!-- Carousel images -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				<img src="qfg3-heart-of-world-trunk2.webp" alt="Quest for Glory III: Wages of War screenshot Mother of World" />
+				</div>
+				<div class="item">
+				<img src="qfg3-bedroom1.webp" alt="Quest for Glory III: Wages of War screenshot bedroom at inn" />
+				</div>
+				<div class="item">
+				<img src="qfg3-manu-cowardly.png" alt="Quest for Glory III: Wages of War screenshot monkey guide in jungle" />
+				</div>
+				<div class="item">
+				<img src="qfg3-time-and-date2.png" alt="Quest for Glory III: Wages of War screenshot savannah overview with time of night" />
+				</div>
+				<div class="item">
+				<img src="qfg3-demon-1.png" alt="Quest for Glory III: Wages of War screenshot demon battle" />
+				</div>
+				<div class="item">
+				<img src="qfg3-settings.webp" alt="Quest for Glory III: Wages of War screenshot settings menu" />
+				</div>
+				<div class="item">
+				<img src="qfg3-Tarna-gates.webp" alt="Quest for Glory III: Wages of War screenshot gates of Tarna" />
+				</div>
+				<div class="item">
+				<img src="qfg3-heart-of-world-bottoml1.png" alt="Quest for Glory III: Wages of War screenshot Mother of World bottom left" />
+				</div>
+				<div class="item">
+				<img src="qfg3-pool-of-peace1.webp" alt="Quest for Glory III: Wages of War screenshot Pool of Peace" />
+				</div>
+				<div class="item">
+				<img src="qfg3-main-menu3.webp" alt="Quest for Glory III: Wages of War screenshot main menu" />
+				</div>
+			</div>
+			<!-- Carousel next and previous buttons -->
+				<a class="left carousel-control carousel-control-day" href="#qfgCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control carousel-control-day" href="#qfgCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			    </a>
+			</div>
+			<div id="icons" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a></div>
+			</section>
+			<section>
+			<h3>Icons</h3>
+			<p>Here are some icons from the game.
+			The icons are used to interact with the environment in different ways; 
+			for example, the mouth icon is used to speak with someone, 
+			while the walking man you can see here when you mouse over a link is used to walk somewhere.
+			The scarab represents waiting; it appears during any action in the game of which the character is only an observer
+			and cannot intervene.
+			They appear different depending on whether it is day or night in the game, so they are presented in pairs below.
+			</p>
+			<p>
+			An attempt has already been made by others to implement	some of these as 
+			<a href="http://www.questformoreglory.com/downloads/qfg-cursorsT.html" class="day" target="_blank">extensions</a> to an operating system.
+			</p>
+			<img src="QfG_icons/qfg3-sword-icon.png" class="sword-icon" alt="Quest for Glory III: Wages of War sword icon">
+			<img src="QfG_icons/qfg3-sword-icon-night.png" class="sword-icon" alt="Quest for Glory III: Wages of War sword icon nighttime">
+			<img src ="QfG_icons/qfg3-hand-icon.png" class="hand-icon" alt="Quest for Glory III: Wages of War hand icon">
+			<img src ="QfG_icons/qfg3-hand-icon-night.png" class="hand-icon" alt="Quest for Glory III: Wages of War hand icon nighttime">
+			<img src="QfG_icons/qfg3-eye-icon.png" class="eye-icon" alt="Quest for Glory III: Wages of War eye icon">
+			<img src="QfG_icons/qfg3-eye-icon-night.png" class="eye-icon" alt="Quest for Glory III: Wages of War eye icon nighttime">
+			<img src="QfG_icons/qfg3-mouth-icon.png" class="mouth-icon" alt="Quest for Glory III: Wages of War mouth icon">
+			<img src="QfG_icons/qfg3-mouth-icon-night.png" class="mouth-icon" alt="Quest for Glory III: Wages of War mouth icon nighttime">
+			<img src="QfG_icons/qfg3-walking-icon.png" class="walking-icon" alt="Quest for Glory III: Wages of War walking icon">
+			<img src="QfG_icons/qfg3-walking-icon-night.png" class="walking-icon" alt="Quest for Glory III: Wages of War walking icon nighttime">
+			<img src="QfG_icons/qfg3-scarab-icon.png" class="scarab-icon" alt="Quest for Glory III: Wages of War scarab icon">
+			<img src="QfG_icons/qfg3-scarab-icon-night.png" class="scarab-icon" alt="Quest for Glory III: Wages of War scarab icon nighttime">
+			<img src="QfG_icons/QG3Question.png" class="question-mark-icon" alt="Quest for Glory III: Wages of War question mark icon">
+			<img src="QfG_icons/qfg3-question-icon-night1.png" class="question-mark-icon" alt="Quest for Glory III: Wages of War question mark icon nighttime">
+			<div id="music" class="smaller-note"><a href="#container" class="day">Back to top &uarr;</a></div>
+			</section>
+			</article>
+			<footer class="day">
+			<br />
+			<div class="smaller-note">&copy; 2021 Brendan 
+			<br /> Ferreri-Hanberry 
+			<br /> 
+            <br />
+			<br />
+			<a href="mailto:brendanfh@protonmail.com" id="contact" class="day">Contact me</a> | <a href="https://bdferr.github.io" class="day">Homepage</a>
+			<br />
+			<br />
+		    <span id="day-mode">Day mode</span><span id="night-mode">Night mode</span> | <span id="time-and-date-toggle" class="day">Time &amp; date</a></div>
+		    </footer>
+		</div>
+	</div>
+</body>
+</html>

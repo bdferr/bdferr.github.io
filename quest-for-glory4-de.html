@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--Token referring to stylesheet: c5e1d8d8-a768-48f7-8391-841257898ec5-->
+<html lang="de-US">
+<head>
+	<title>
+	Quest for Glory IV
+	</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Diese Fanseite für das Rollen-Abenteuerspiel Quest for Glory IV von Sierra
+	führt Bootstrap und jQuery vor und versucht, die Benutzeroberfläche des Spiels auf eine Website anzuwenden."/>
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+	<meta name="dcterms.modified" content="2021-08-07" />
+	<meta name="author" content="Brendan Ferreri-Hanberry" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<link rel="alternate" href="quest-for-glory.html" hreflang="en">
+	<link rel="alternate" href="quest-for-glory-de.html" hreflang="de">
+	<link rel="alternate" href="quest-for-glory-it.html" hreflang="it">
+	<!--[if lt IE 9]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<!--a pixelated font from fonts.com-->
+	<link rel="stylesheet" href="https://fast.fonts.net/cssapi/35bb4fcb-e728-4a43-9ecf-79aafffd52cb.css"/>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!--Bootstrap-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>-->
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--Bootstrap stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<!--my stylesheet-->
+	<link rel="stylesheet" href="qfg4_stylesheet.css" />
+	<link rel="icon" href="QfG_icons/sierra-icon.ico" type="image/x-icon" />
+	<script>
+	$(document).ready(function()
+	{
+    	$("#game-toolbar").hide();
+		$("#main-title").mouseover(function()
+		{
+			$("#game-toolbar").slideDown("slow");
+		});
+		$("#main-title").mouseout(function()
+		{
+			$("#game-toolbar").slideUp("slow");
+		});
+		$("#time-and-date").hide();
+		$("#time-and-date-toggle").click(function() {
+			d = new Date();
+			function addZeroes(n){
+				if(n < 10){
+					return "0" + n;
+				}
+				else {
+					return n
+				}
+			}			
+			months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+			"August", "September", "Oktober", "November", "Dezember"];
+			month = d.getMonth();
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " am " 
+			+ d.getDate() + "." +  " " + months[month] + " " + d.getFullYear() + ".";
+			$("#now").html("Es ist " + now);
+			$("#time-and-date").toggle();
+		});	
+	});
+	
+	</script>
+</head>
+<body>
+	<div class="container" id="container">
+		<header>
+		<img src="qfg4-toolbar1.webp" id="game-toolbar" alt="game toolbar" />
+		<h1 id="main-title">Quest for Glory IV</h1>
+			<div id="dropdown_menu" class="dropdown offset">
+				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" data-spy="affix" data-offset-top="231">
+				&nbsp; Wohin? &nbsp;
+					<img id="feet-menu-button" src="QfG_icons/feet-icon.png" alt="feet icon" />
+				</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdown_menu" data-spy="affix" data-offset-top="231">
+					<li id="li-top" class="othernavbar"><a href="#downloads">Downloads</a></li>
+					<li class="othernavbar normal"><a href="#images">Spiel-Bilder</a></li>
+					<li class="othernavbar normal"><a href="#icons">Icons</a></li>
+					<li class="othernavbar normal"><a href="#music">Musik</a></li>
+					<li class="othernavbar normal"><a href="quest-for-glory1.html">QfG I</a></li>
+					<li id="li-bottom" class="othernavbar"><a href="quest-for-glory3.html">QfG III</a></li>
+				</ul>
+            </div>
+		</header>
+		<div id="time-and-date">
+		    <span id="now"></span>
+		</div>
+		<div class="center offset">
+			<article class="stone1">
+			<section>
+			<p>
+			<img src="qfg4-capital-D.png" class="init-cap" alt="D">iese Seite wird von meiner Liebe für das klassische Computerspiel
+			<cite>Quest for Glory: Shadows of Darkness</cite> inspiriert, auch als <cite>Quest for Glory IV</cite> bekannt, 
+			das Sierra zuerst 1993 veröffentlicht hat.
+			Die Handlung findet in und um einer kleinen Stadt namens Mordavia in einem erfundenen mittelalterlichen Land 
+			gleichen Namens statt, das sich auf slawischem Osteuropa basiert und
+			Bestandteile des örtlichen Volkstums wie den <a href="https://en.wikipedia.org/wiki/Domovoy" target="_blank">Domowoi</a> 
+			und die <a href="https://en.wikipedia.org/wiki/Rusalka" target="_blank">Rusalka</a> eingliedert.
+			Der Held muss die Bemühungen eines dunklen Kults verhindern, ihren Gott wiederzubeleben, was die Welt zerstören würde.
+			</p>
+			<p>
+			<img src="qfg4-capital-D.png" class="init-cap" alt="D">as Spiel finde ich bemerkenswert nicht nur aufgrund seines gemischten Rollenspiel-Abenteuer Spielablaufs, der 
+            meistens ähnlich allen früheren Spielen der Reihe geht, aber auch 
+			wegen seiner ausgezeichneten <a href="#music">Musik</a>, Synchronsprecher, und visuellen Ästhetik. 
+			Manche halten den Titel für den <a href="http://www.engadget.com/2012/05/17/the-glory-of-quest-for-glory/" target="_blank">Besten</a> 
+			der fünf Einträge der Reihe, und während zeitgenössiche  
+			<a href="https://web.archive.org/web/20170913084340/http://www.sierragamers.com/uploads/24082/Articles/Article_Quest_For_Glory_4_ReviewCompuerGameReview1994.pdf" target="_blank">Kritiker</a> 
+			ihn nicht für ausgezeichnet hielten, nennen ihn manche jetzt einer der <a href="http://www.pcgamer.com/the-25-best-adventure-games/" target="_blank">besten</a> 
+			<a href="http://www.adventuregamers.com/articles/view/18643/page17" target="_blank">Abenteuerspiele</a> aller Zeit.
+			</p>
+			<p>
+			<img src="qfg4-capital-D.png" class="init-cap" alt="D">er Mann, den Sie aufgrund Ihrer Rasterweite mögen sehen könnten, heißt Dr. Cranium, 
+			ein bizarrer aber hilfreicher Wissenschaftler aus dem Spiel,
+			während das Hintergrundbild das Innenbereich seines Laboratoriums darstellt. 
+			Dieser weist auf die Denkspielreihe <cite>Dr. Brain</cite>, herausgegeben von der gleichen Firma.
+			</p>
+    		<p>
+			<img src="qfg4-capital-M.png" class="init-cap" alt="M">ein Hauptziel hiermit heißt,
+			eine <a href="http://inls718userinterfacedesign.blogspot.com/2015/01/i-miss-days-whenpixels-were-clearly.html" target="_blank">Idee</a>
+			weiterzuverfolgen, die mir 2015 im Zusammenhang mit einem Kursus über Benutzerschnittstellen an der Graduiertenfakultät kam.
+			Nämlich heißt es ein Versuch, viel der Schnittstelle des Spiels nachzuahmen, einschließlich der Graphik 
+			für die Hinweisfelder und Bildschirmmenüs des Spiels, sie aber auf kein Spiel sondern auf eine Website anzuwenden.
+			</p>
+			<div id="downloads" class="smaller-note"><a href="#container">Wieder nach oben &uarr;</a>
+			</div>
+			</section>
+            <section>
+			<h2>Downloads</h2>
+			<p>
+			<img src="qfg4-capital-A.png" class="init-cap" alt="A">lle fünf der ursprünglichen Spiele der Reihe kann man billig  
+			auf <a href="https://www.gog.com/game/quest_for_glory" target="_blank">GOG.com</a> erhalten.
+			Diese Sammlung schließt eine Neuauflage des ersten Titels mit weitaus besserer Graphik ein, 
+			aber leider sind die des zweiten Spiels noch ziemlich primitiv. Man kann sich jedoch 
+			eine viel verbesserte 2008 <a href="http://www.agdinteractive.com/games/qfg2/homepage/homepage.html" target="_blank">Neuauflage</a> 
+			von <cite>Quest for Glory II: Trial by Fire</cite> herunterladen.
+			</p>
+			<p>
+			<img src="qfg4-capital-M.png" class="init-cap" alt="M">an kann ein gut empfangenes und auf der Reihe basiertes Spiel aus 2013 
+			namens <cite><a href="http://store.steampowered.com/app/283880" target="_blank">Heroine's Quest</a></cite> kostenlos erhalten.
+			Die auf nordischer Mythologie basierte Handlung findet in einer Gegend statt, die ein Frost-Riese verflucht hat,
+			in einem endlosen Winter zu bleiben. Die Heldin muss den Riesen davon verhindern, den Weltuntergang herbeizuführen,
+			und den normalen Wechsel der Jahreszeiten wiederherstellen.
+			</p>
+			<p>
+			<img src="qfg4-capital-N.png" class="init-cap" alt="N">och viele Downloads, einschließlich Bildschirmfotos, findet man bei einer Fanseite 
+			namens <a href="http://www.questformoreglory.com/index3.html" target="_blank">Quest for More Glory</a>,
+			während Hilfe für verschiedene Probleme, einschließlich der ziemlich schöpferischen Spielanleitungen, 
+		    erhält man bei <a href="http://www.sierrahelp.com/Games/QuestForGlory/QfG4Help.html" target="_blank">Sierrahelp.com</a>.
+			Sierragamers.com stellt das 
+			<a href="https://www.sierragamers.com/wp-content/uploads/2019/12/Quest_for_Glory_4_Hint_Book.pdf" target="_blank">Lösungsbuch</a>. 
+			</p>
+			<p>
+			<img src="qfg4-capital-E.png" class="init-cap" alt="E">in neues "Rollen-Abenteuerspiel" unter dem Titel <cite><a href="http://hero-u.com/" target="_blank">Hero-U: Rogue to Redemption</a></cite> 
+			haben die Sierra Spiel-Designer Corey und Lori Cole entwickelt,
+			die für die Serie <cite>Quest for Glory</cite> verantwortlich sind.
+			Den Titel hat überwiegend positive Kritik sowie von <a href="https://store.steampowered.com/app/375440/HeroU_Rogue_to_Redemption/#app_reviews_hash">Spielern</a> 
+			als auch von <a href="https://adventuregamers.com/articles/view/35569" target="_blank">Kritikern</a> empfangen. Das Spiel soll der erste 
+			von <a href="https://advgamer.blogspot.com/2018/07/interview-with-corey-cole.html" target="_blank">fünf ähnlichen Titeln</a>
+			darstellen, und ein zwangloseres Spiel unter dem Titel <cite><a href="https://summerdazegame.com/" target="_blank">Summer Daze at Hero-U</a></cite>
+			wird im Oktober dieses Jahres erhältlich sein.
+			</p>
+			<p>
+			<img src="qfg4-capital-E.png" class="init-cap" alt="E">in Fan hat eine Modifikation des klassischen Ego-Shooters Hexen gemacht, in welcher der Spieler 
+			sich durch einen Großteil der Welt von <cite>Quest for Glory IV</cite> bewegen kann.
+			Videos dieser Mod, namens <cite><a href="https://www.youtube.com/watch?v=d7HBenoe_Lc" target="_blank">Quest for Glory IV 3D</a></cite>, 
+			findet man auf YouTube. Seine Website, <a href="http://blakessanctum.x10.mx/Games/QFGSeries/index.html">Blake's Sanctum</a>, 
+			beinhält ausführliche mit <cite><abbr title="Quest for Glory">QfG</abbr></cite> verbundene Ressourcen.
+			</p>
+			<div id="images" class="smaller-note"><a href="#container">Wieder nach oben &uarr;</a>
+			</div>
+			</section>
+			<section>
+		    <h2>Spiel-Bilder</h2>
+			<p>
+			<img src="qfg4-capital-H.png" class="init-cap" alt="H">ier gibt es einige Bildschirmfotos aus dem Spielablauf, um eine Ahnung davon zu geben, was diese Seite nachzuahmen versucht.
+			Viele andere Beispiele der <a href="http://www.spriters-resource.com/pc_computer/questforglory4/sheet/53053/" target="_blank">Kunst des Spiels</a> 
+			sind auch erhältlich. 
+			</p>
+			<div id="qfgCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Carousel indicators -->
+		    <ol class="carousel-indicators">
+				<li data-target="#qfgCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#qfgCarousel" data-slide-to="1"></li>
+				<li data-target="#qfgCarousel" data-slide-to="2"></li>
+				<li data-target="#qfgCarousel" data-slide-to="3"></li>
+				<li data-target="#qfgCarousel" data-slide-to="4"></li>
+				<li data-target="#qfgCarousel" data-slide-to="5"></li>
+				<li data-target="#qfgCarousel" data-slide-to="6"></li>
+				<li data-target="#qfgCarousel" data-slide-to="7"></li>
+				<li data-target="#qfgCarousel" data-slide-to="8"></li>
+				<li data-target="#qfgCarousel" data-slide-to="9"></li>
+		    </ol>
+			<!-- Carousel images -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item">
+				<img src="qfg4-swamp-hideable-toolbar.gif" id="swamp-toolbar" alt="Quest for Glory IV: Shadows of Darkness screenshot toolbar in swamp" />
+				</div>
+				<div class="item active">
+				<img src="qfg4-iron-maiden-text.png" id="iron-maiden" alt="Quest for Glory IV: Shadows of Darkness screenshot settings menu" />
+				</div>
+				<div class="item">
+				<img src="qfg4-domovoi.png" id="domovoi" alt="Quest for Glory IV: Shadows of Darkness screenshot Hotel Mordavia inn with domovoi" />
+				</div>
+				<div class="item">
+				<img src="qfg4-gatekeeper-dialog-menu.png" id="dialog-menu" alt="Quest for Glory IV: Shadows of Darkness screenshot rope actions menu" />
+				</div>
+				<div class="item">
+				<img src="qfg4-skull-hat.png" id="hatted-skull" alt="Quest for Glory IV: Shadows of Darkness screenshot hatted skull at Baba Yaga's hut" />
+				</div>
+				<div class="item">
+				<img src="qfg4-date-and-time-night.png" id="date-time" alt="Quest for Glory IV: Shadows of Darkness screenshot general store purchase menu" />
+				</div>
+				<div class="item">
+				<img src="qfg4-wraith-battle4.png" id="wraith-battle" alt="Quest for Glory IV: Shadows of Darkness screenshot wraith battle with paladin" />
+				</div>
+				<div class="item">
+				<img src="qfg4-entering-guild.webp" id="adventurers-guild" alt="Quest for Glory IV: Shadows of Darkness screenshot hero entering adventurers guild" />
+				</div>
+				<div class="item">
+				<img src="qfg4-cranium-lab4.webp" id="cranium-in-lab" alt="Quest for Glory IV: Shadows of Darkness screenshot Dr. Cranium in lab with monster" />
+				</div>
+				<div class="item">
+				<img src="qfg4-intro-menu3.webp" id="intro-menu" alt="Quest for Glory IV: Shadows of Darkness screenshot intro menu" />
+				</div>
+			</div>
+			<!-- Carousel next and previous buttons -->
+				<a class="left carousel-control" href="#qfgCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Früheres</span>
+			    </a>
+			    <a class="right carousel-control" href="#qfgCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Nächstes</span>
+			    </a>
+			</div>
+			<div id="icons" class="smaller-note"><a href="#container">Wieder nach oben &uarr;</a></div>
+			</section>
+			<section>
+			<h3>Icons</h3>
+			<p><img src="qfg4-capital-H.png" class="init-cap" alt="H">ier gibt es einige Icons aus dem Spiel.
+			Die Icons verwendet man, um mit der Umgebung auf verschiedener Weise zu interagieren.
+			Zum Beispiel verwendet man das Mund-Icon, um mit jemandem zu sprechen, 
+			während das Fuß-Icon, das man sehen kann, als man seinen Mauszeiger über einen Link bewegt, benutzt man um irgendwohin zu gehen.
+			Das sechsbeinige Zeichen, das erscheint, als der Mauszeiger über der Überschrift steht, stellt einen Gegenstand aus dem Spiel vor, 
+			das die von den Antagonisten verehrten Gottheit darstellt.
+			</p>
+			<p>
+			<img src="qfg4-capital-E.png" class="init-cap" alt="E">inen Versuch haben andere schon gemacht, einige davon als 
+			<a href="http://www.questformoreglory.com/downloads/qfg-cursorsT.html" target="_blank">Erweiterungen für ein Betriebssystem</a> einzusetzen.
+			</p>
+			<img src ="QfG_icons/hand-icon.png" id="hand-icon" alt="Quest for Glory IV: Shadows of Darkness hand icon">
+			<img src="QfG_icons/sword-icon-night.png" class="sword-icon" alt="Quest for Glory IV: Shadows of Darkness nighttime sword icon">
+			<img src="QfG_icons/sword-icon-day.png" class="sword-icon" alt="Quest for Glory IV: Shadows of Darkness daytime sword icon">
+			<img src="QfG_icons/eye-icon.png" id="eye-icon" alt="Quest for Glory IV: Shadows of Darkness eye icon">
+			<img src="QfG_icons/mouth-icon.png" id="mouth-icon" alt="Quest for Glory IV: Shadows of Darkness mouth icon">
+			<img src="QfG_icons/feet-icon.png" id="feet-icon" alt="Quest for Glory IV: Shadows of Darkness feet icon" />
+			<img src="QfG_icons/QG4Question.png" id="question-mark-icon" alt="Quest for Glory IV: Shadows of Darkness question mark icon">
+			<img src="QfG_icons/qfg4-dark-one-sign.png" id="dark-one-sign" alt="Quest for Glory IV: Shadows of Darkness dark one sign">
+			<div id="music" class="smaller-note"><a href="#container">Wieder nach oben &uarr;</a></div>
+			</section>
+			<section>
+			<h2>Musik</h2>
+			<img src ="qfg4-soundtrack-cover.webp" id="soundtrack" alt="Quest for Glory IV: Shadows of Darkness soundtrack cover art">
+			<br />
+			<p>
+			<img src="qfg4-capital-D.png" class="init-cap" alt="D">ie <a href="https://www.youtube.com/watch?v=Czh4n_ARKi8" target="_blank">Musik</a> dieses Spiels hat man als "gotisch, Folk und Rock" beschrieben und schließt einen Vortrag
+		    von <cite><a href="https://www.youtube.com/watch?v=gcEnSITNaGM" target="_blank">Anitra's Dance</a></cite> ein, 
+			Teil der <cite>Peer Gynt Suite No. 1, Op. 46</cite> von Edvard Grieg. 
+			Grieg war ein norwegischer nationalistischer Komponist der Romantik, und passend
+			für die ländliche Stellung und Bauernfiguren des Spiels wurde er von der Volksmusik seines eigenen Landes beinflußt.
+			</p>
+		    <p>
+			<img src="qfg4-capital-L.png" class="init-cap" alt="L">aut des Soundtracks Komponisten <a href="http://www.aubreyhodges.com/" target="_blank">Aubrey Hodges</a> 
+			sei nichts davon in Form von Notenausgabe schon erhältlich. 
+			Der Original-Soundtrack bleibt aber kostenlos erhältlich auf YouTube,
+			oder auf <a href="http://www.sierramusiccentral.com/qfg4.html" target="_blank">Sierra Music Central</a>, 
+			während eine auf den neuesten Stand gebrachte Version, Live-Instrumenten und 42 neue Arrangements eingeschloßen,
+			kann man auf des Komponisten 
+			<a href="https://aubreyhodges.bandcamp.com/album/quest-for-glory-shadows-of-darkness-official-soundtrack" target="_blank">Bandcamp-Seite</a> kaufen.
+			</p>
+		    <div class="smaller-note"><a href="#container">Wieder nach oben &uarr;</a></div>
+			</section>
+			</article>
+			<footer>
+			<div class="smaller-note">&copy; 2021 Brendan Ferreri-Hanberry <br /> 
+			<br />
+			<a href="mailto:brendanfh@protonmail.com" id="contact">Kontakt</a>&nbsp; | &nbsp;<a href="https://bdferr.github.io"><abbr title="zur Startseite">Home</abbr></a>&nbsp; 
+			|&nbsp;<span id="time-and-date-toggle">Tag u. Zeit</span>
+			<br />
+			<br />
+			<a href="quest-for-glory4.html" class="language">English</a>&nbsp; | &nbsp;<a href="quest-for-glory4-it.html" class="language">Italiano</a></div>
+		    </footer>
+		</div>
+	</div>
+</body>
+</html>

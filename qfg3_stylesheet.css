@@ -1,0 +1,1149 @@
+/*last updated 8/7/2021*/
+
+@font-face {
+  font-family: SierraSCImenu;
+  font-style: normal;
+  src: url("/fonts/Sierra-SCI-Menu-Font.ttf");
+}
+
+/*These elements should already be displayed as blocks 
+but this is to deal with possible problems in older browsers*/
+header,footer, article, section {
+    display: block; 
+}
+
+.eye-icon {
+	height: 26px;
+	width: 53px;
+	display: inline;
+	margin: 5px 0px;
+}
+.hand-icon {
+	height: 48px; 
+	width: 58px;
+	display: inline;
+	margin: 5px 0px;
+}
+.mouth-icon {
+	height: 29px; 
+	width: 64px;
+	display: inline;
+	margin: 5px 0px;
+}
+.sword-icon {
+	height: 81px; 
+	width: 82px; 
+	display: inline;
+	margin: 5px 0px;
+}
+.question-mark-icon {
+	height: 44px;
+	margin: 5px auto;
+	display: inline;
+}
+.scarab-icon {
+	margin: 5px 0px;
+	display: inline;
+}
+.walking-icon {
+	margin: 5px 0px;
+	display: inline;
+}
+a:link {
+	display: inline; 
+	color: #331100;
+	text-decoration: none; 
+	font-weight: normal; 
+	padding-top: 0em !important; 
+}
+li a:hover {
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+li a.day:hover {
+	color: purple !important;
+}
+
+li a.night:hover {
+	color: #170324 !important;
+}
+
+section a:hover, footer a:hover {
+	display: inline; 
+    text-decoration: none; 
+	font-weight: bold; 
+}
+section a.day:hover, footer a.day:hover {
+    color: #331100 !important;
+}
+section a.night:hover, footer a.night:hover {
+	color: #170324 !important;
+}
+footer a {
+	color: #331100 !important;
+}
+#contact {
+	cursor: url("QfG_icons/qfg3-mouth-icon.png"), pointer !important; 
+}
+
+.day {
+	color: #331100 !important;
+}
+.night {
+	color: #170324 !important;
+}
+a.night:hover {
+	color: #170324 !important;
+}
+a.day:hover {
+	color: #331100 !important;
+}
+a.day:visited {
+	color: #331100 !important;
+}
+a.night:visited {
+	color: #170324 !important;
+}
+p a.day, .smaller-note a.day{
+	cursor: url("QfG_icons/qfg3-walking-icon.png"), pointer !important; 
+}
+p a.night, .smaller-note a.night{
+	cursor: url("QfG_icons/qfg3-walking-icon-night.png"), pointer !important; 
+}
+article.night {
+	color: black !important;
+}
+article.day {
+	color: black !important;
+}
+article.day {
+	border-image: url('qfg3-main-menu2.webp') 90 115 round !important;
+}
+body.day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), default !important;
+}
+body.night {
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), default !important;
+}
+#contact.day {
+	cursor: url("QfG_icons/qfg3-mouth-icon.png"), pointer !important; 
+}
+#contact.night {
+	cursor: url("QfG_icons/qfg3-mouth-icon-night.png"), pointer !important; 
+}
+h1.day {
+	cursor: url("QfG_icons/qfg3-scarab-icon.png"), pointer !important;
+}
+h1.night {
+	cursor: url("QfG_icons/qfg3-scarab-icon-night.png"), pointer !important;
+}
+button.day {
+	cursor: url("QfG_icons/qfg3-eye-icon.png"), pointer !important;
+	color: #331100;	
+}
+button.night {
+	cursor: url("QfG_icons/qfg3-eye-icon-night.png"), pointer !important; 
+	color: #170324 !important;
+}
+.carousel-control-day {
+    cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important;
+	color: purple !important;
+}
+.carousel-control-night {
+	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
+	color: #170324 !important;
+}
+.carousel-indicators-day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
+	border-color: purple !important; 
+}
+.carousel-indicators-night {
+    cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important;
+	border-color: #170324 !important; 
+}
+
+.carousel-indicators-day.active {
+	background-color: purple !important; 
+}
+.carousel-indicators-night.active{
+    background-color: #170324 !important;
+}
+
+ul a.day:hover {
+    /* color: #c58d56 !important; */
+	/* background-color: #331100 !important; */
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important; 
+}
+
+ul a.night:hover {
+	/* color: #452f7e !important; */
+	/* background-color: #170324 !important; */
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important; 
+}
+li.day {
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), pointer !important;
+}
+li.night {
+	cursor: url("QfG_icons/qfg3-sword-icon-night.png"), pointer !important;
+}
+abbr.day {
+	cursor: url("QfG_icons/QG3Question.png"), help !important;
+	color: black !important;
+}
+abbr.night {
+	cursor: url("QfG_icons/qfg3-question-icon-night1.png"), help !important;
+	color: black !important;
+}
+
+#day-mode {
+    cursor: url("QfG_icons/qfg3-eye-icon.png"), pointer !important;	
+}
+
+#night-mode {
+	cursor: url("QfG_icons/qfg3-eye-icon-night.png"), pointer !important;	
+}
+#day-mode:hover {
+	color: #331100;
+	font-weight: bold;
+}
+
+#night-mode:hover {
+	color: #170324;
+	font-weight: bold;
+}
+#time-and-date {
+	z-index: 2;
+	background-image: url("qfg3-time-and-date-box3.png");
+	box-shadow: rgb(0, 0, 0, 70%) 14px 7px;
+	background-size: contain;
+}
+#time-and-date-toggle.day {
+	cursor: url("QfG_icons/qfg3-hand-icon.png"), pointer !important; 
+}
+#time-and-date-toggle.night {
+	cursor: url("QfG_icons/qfg3-hand-icon-night.png"), pointer !important; 
+}
+#time-and-date-toggle.day:hover {
+	color: #331100;
+    font-weight: bold;	
+}
+#time-and-date-toggle.night:hover {
+	color: #170324;
+    font-weight: bold;	
+}
+
+
+li.othernavbar a:hover, li.footernavbar a:hover {
+    color: purple;
+	background-color: transparent !important; 
+    text-decoration: none; 
+}
+address {
+	display: inline-flex; 
+	line-height: 1; 
+}
+body {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 100%; 
+	margin: auto; 
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	font-weight: normal; 
+	background: #a6a6a6; 
+	border: none; 
+	padding: 0em;
+	cursor: url("QfG_icons/qfg3-sword-icon.png"), default !important;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("qfg3-pool-of-peace4.webp") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-inner {
+	margin-bottom: 5px;
+}
+div {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
+	font-size: 100%; 
+}
+.smaller-note {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif;
+	font-size: 75%; 
+	text-align: center; 
+}
+
+.center {
+    font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 90%; 
+	margin: 0em auto; 
+	font-size: 2.5em; 
+}
+
+.dropdown {
+	max-width: 180px; 
+	margin: auto; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+}
+.dropdown-menu {
+    position: absolute; 
+	top: 100%; 
+	left: 0%; 
+    z-index: 10; 
+    min-width: 10em; 
+    padding: 0; 
+    margin: auto; 
+	background-color: transparent !important; 
+    font-size: 2em; 
+    text-align: left; 
+}
+.dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+ul.dropdown-menu a:link {
+	color: #331100;
+	text-decoration: none; 
+	background-color: transparent !important; 
+	font-weight: normal; 
+}
+ul.dropdown-menu a:hover {
+    color: purple;
+	text-decoration: none; 
+	background-color: transparent; 
+	font-weight: bold; 
+}
+ul.dropdown-menu a:visited {
+	color: #331100;
+	text-decoration: none; 
+	font-weight: normal; 
+}
+
+button {
+	border-radius: 0px !important;
+}
+header {
+	text-align: center; 
+	color: #000; 
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-weight: normal; 
+	margin-left: 0.938em; 
+	margin-right: 0.938em; 
+	background: transparent; 
+}
+h2 {
+	font-size: 2.0em; 
+	font-weight: bold; 
+	font-style: normal; 
+}
+h3 {
+	font-size:1.5em;
+	font-weight: bold; 
+	font-style: normal;
+}
+hr {
+    border: 0px; 
+    margin-top: 0.625em; 
+    margin-bottom: 0.625em; 
+    width: 100%; 
+    color: #000; 
+    background-color: #000; 
+    height: 0.125em; 
+}
+html {
+	height: 100% !important;
+	font-size: 6px;
+}
+img {
+	border: none;
+	display: block; 
+	margin: auto;  
+	text-align: center; 
+	height: inherit;
+	width: inherit;
+}
+
+article {
+    background-color: transparent;
+	margin: auto; 
+	padding: 0em; 
+	width: 100%; 
+	line-height: 100%; 
+	color: black; 
+}
+.pillars {
+	background-image: url("qfg3-background-color.png"); 
+    background-size: initial; 
+	background-color: transparent; 
+	border-left: 40px solid transparent; 
+	border-right: 40px solid transparent; 
+	border-top: 38px solid transparent; 
+	border-bottom: 38px solid transparent; 
+	border-image: url("qfg3-main-menu2.webp") 90 115 round; 
+}
+ul {
+	padding: 15px; 
+	background-color: #a6a6a6; 
+}
+/*begin responsive elements*/
+#time-and-date {
+	position: fixed;
+	top:21%;
+	left: 6%;
+	width: 315px;
+	height: 130px;
+}
+#now {
+	position: absolute;
+	left: 37px;
+	bottom: 6px;
+	font-size: 1.6em;
+}
+button, .btn {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 3em; 
+    z-index: 10 !important; 
+	color: #331100 !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg3-button.webp"); 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block;
+	margin: auto;
+	height: 49px;
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 27%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 20%; 
+	top: 47px; 
+}
+.carousel-indicators {
+	bottom: -45px;
+	left: 35%;
+	width: 90%;
+	z-index: 0 !important;
+}
+.container {
+	margin: 0; 
+	padding: 0 0 80px 0; 
+	width: 100%; 
+	height: auto; 
+	font-size: 100%; 
+}
+
+#walking-icon {
+    display: none; 
+}
+footer {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 260px; 
+	height: 164px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg3-text-4.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.8em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 35px; 
+	width: 354px; 
+	position: absolute; 
+	top: 0; 
+	left: 3%; 
+	z-index: 2; 
+}
+h1 {
+	font-size: 3.5em; 
+	padding: 0.2em; 
+	position: absolute; 
+	top: 32px; 
+	left: 12%; 
+	height: 50px; 
+	width: 278px;
+    background-image: url("qfg3-heading-small.png"); 
+  	background-size: contain;
+    color: black; 
+    text-align: center; 
+    margin: auto; 
+	cursor: url("QfG_icons/qfg3-scarab-icon.png"), pointer !important;
+}
+
+#li-bottom {
+	background-image: url("qfg3-li-bottom.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	height: 45px;
+	padding: 0em 1em 0.45em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg3-li-top.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	height: 45px; 
+}
+li.othernavbar {
+	background-image: url("qfg3-li.png"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 231px;
+	height: 45px;
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 82px; 
+}
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 40 fill !important;
+	color: black !important;
+	padding: 0 1.0em;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+
+@media (min-width: 30em) and (max-width: 40em)
+{
+#time-and-date {
+	position: fixed;
+	top: 20%;
+	left: 13%;
+	width: 394px;
+	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
+}
+.carousel-indicators {
+	bottom: -62px;
+	left: 40%;
+	padding-bottom: 15px;
+	width: 80%;
+}
+.container {
+	padding: 0 0 120px 0; 
+}
+button, .btn {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 3em; 
+    z-index: 10 !important; 
+	color: #331100 !important; 
+	border: none !important; 
+	border-color: transparent !important;
+	background-color: transparent !important; 
+	background-image: url("qfg3-button.webp"); 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block; 
+	height:48px;
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 34%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 28%; 
+	top: 46px; 
+}
+.center {
+    font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 80%; 
+	margin: 0em auto; 
+	font-size: 3em; 
+}
+#walking-icon {
+	display: none;
+}
+footer {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 309px; 
+	height: 194px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg3-text-4.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+
+#game-toolbar {
+	max-height: 35px; 
+	width: 354px; 
+	position: absolute; 
+	top: 0; 
+	left: 16%; 
+	z-index: 2; 
+}
+h1 {
+	font-size: 3.5em;
+	padding: 0em;
+	position: absolute;
+	background-image: url("qfg3-background-color.png"); 
+    background-size: contain;
+    border: 15px solid transparent;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
+	top: 32px;
+	left: 20%;
+	height: 72px;
+	width: 62%;
+}
+
+#li-bottom {
+	background-image: url("qfg3-li-bottom.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	height: 45px;
+	padding: 0em 0.5em 0.63em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg3-li-top.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	height: 45px; 
+}
+li.normal {
+	padding: 2px 15px 3px 15px; 
+}
+li.othernavbar {
+	background-image: url("qfg3-li.png"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 230px;
+	height:45px;
+	display: block; 
+	font-style: normal;
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 104px; 
+}
+article {
+    background-color: transparent;
+	margin: auto; 
+	padding: 0.3em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 0 1.1em !important;
+	border-left: 35px solid transparent !important;
+	border-right: 35px solid transparent !important;
+}
+}
+
+@media (min-width: 40em) and (max-width: 55em)
+{
+#time-and-date {
+	position: fixed;
+	top: 25%;
+	left: 24%;
+	width: 394px;
+	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
+}
+button, .btn {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 3.5em; 
+	z-index: 10 !important; 
+	color: #331100 !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg3-button.webp"); 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block;
+	height: 56px;
+}
+.affix {
+	visibility:visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 76%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 76%; 
+	top: 55px; 
+}
+.carousel-indicators {
+	bottom: -62px;
+	left: 42%;
+	padding-bottom: 15px;
+	width: 75%;
+}
+.center {
+	width: 67%; 
+	font-size: 3em; 
+}
+.container {
+	padding: 0 0 150px 0; 
+}
+#walking-icon {
+	height: 45px; 
+	width: 34px; 
+	display: block; 
+}
+footer {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 309px; 
+	height: 194px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg3-text-4.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 50px; 
+	width: 506px; 
+	position: absolute; 
+	top: 0; 
+	left: 16%; 
+	z-index: 2; 
+}
+h1 {
+	font-size: 4.5em; 
+	padding: 0em; 
+	position: absolute; 
+	background-image: url("qfg3-background-color.png"); 
+    background-size: auto;
+    border: 25px solid transparent;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
+	top: 46px; 
+	left: 22%; 
+	height: 97px; 
+	width: 57%; 
+}
+
+#li-bottom {
+	background-image: url("qfg3-li-bottom.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	height: 45px;
+	padding: 0em 0.5em 0.615em 0.6em !important; 
+}
+#li-top {
+	background-image: url("qfg3-li-top.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.6em !important; 
+	height: 45px; 
+}
+li.normal {
+	padding: 2px 15px 3px 15px; 
+}
+li.othernavbar {
+	background-image: url("qfg3-li.png"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.6em; 
+	margin: 0; 
+	width: 230px; 
+	height: 45px;
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 143px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+article.day {
+	padding: 0.6em; 
+}
+article.night
+{
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 0 1.2em;
+	border-left: 35px solid transparent !important;
+	border-right: 35px solid transparent !important;
+}
+}
+
+@media (min-width: 55em) and (max-width: 70em)
+{
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 30%;
+	width: 394px;
+	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
+}
+/*carousel images sized at 75%*/
+
+.affix {
+	visibility:visible;
+}
+button.affix {
+	top: 0%; 
+	left: 74%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 72%; 
+	top: 63px; 
+}
+button, .btn {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 4em; 
+    z-index: 10 !important; 	
+	color: #331100 !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg3-button.webp"); 
+    background-size: contain; 
+	padding: 0.1em 0.8em;
+	height:64px;
+}
+.carousel-indicators {
+	bottom: 0px;
+	left: 42%;
+	padding-bottom: 0px;
+	width: 75%;
+	z-index: 1 !important;
+}
+.center {
+	width: 55%; 
+	margin: 0em auto; 
+	font-size: 3.5em; 
+}
+.container {
+	padding: 0 0 215px 0; 
+}
+#walking-icon {
+	height: 55px; 
+	width: 47px; 
+	display: block; 
+}
+footer {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 360px; 
+	height: 226px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg3-text-4.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.7em 0.7em 0.7em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 75px; 
+	width: 759px; 
+	position: absolute; 
+	top: 0; 
+	left: 12%; 
+	z-index: 2; 
+}
+h1 {
+	font-size: 5.5em; 
+	background-image: url("qfg3-background-color.png"); 
+	background-size: auto;
+	border: 30px solid transparent;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
+    width: 51%; 
+	padding: 0.2em; 
+	position: absolute; 
+	top: 69px; 
+	left: 25%; 
+	height: 131px; 
+}
+
+#li-bottom {
+	background-image: url("qfg3-li-bottom.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	height: 60px;
+	padding: 0em 0.5em 0.45em 0.8em !important; 
+}
+#li-top {
+	background-image: url("qfg3-li-top.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.7em 0.8em !important; 
+	height: 60px; 
+}
+li.othernavbar {
+	background-image: url("qfg3-li.png"); 
+	background-size: contain; 
+	font-size: 2em; 
+	background-color: transparent;
+	padding: 0em 0.8em; 
+	margin: 0; 
+	width: 307px;
+	height: 60px;
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 200px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	padding: 0.8em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+article.night {
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	padding: 0 1.1em;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+}
+}
+
+@media (min-width: 70em)
+{
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 38%;
+	width: 394px;
+	height: 162px;
+}
+#now {
+	position: absolute;
+	left: 45px;
+	bottom: 9px;
+	font-size: 1.8em;
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 77%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 75%; 
+	top: 125px; 
+}
+.carousel-indicators {
+	bottom: 0px;
+	left: 42%;
+	padding-bottom: 0px;
+	width: 75%;
+	z-index: 1 !important;
+}
+.center {
+	width: 50%; 
+	margin: 0em auto; 
+	font-size: 4em; 
+}
+.container {
+	padding: 0 0 240px 0;
+	background-image: url("qfg3-Rakeesh-framed.png"); 
+	background-position: 0% 0%; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+button, .btn {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif; 
+	font-size: 4em;
+    z-index: 10 !important;
+	color: #331100 !important;
+	border: none !important;
+	border-color: transparent !important;
+	background-color: transparent !important;
+	background-image: url("qfg3-button.webp");
+    background-size: contain;
+	padding: 0.1em 0.8em;
+	height: 126px;
+}
+#walking-icon {
+	height: 55px; 
+	width: 47px; 
+	display: block; 
+	border: none; 
+}
+footer {
+	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
+	width: 408px; 
+	height: 256px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg3-text-4.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 100px; 
+	width: 1012px; 
+	position: absolute; 
+	top: 0; 
+	left: 13%; 
+	z-index: 2; 
+}
+h1 {
+    font-size: 6.0em;  
+    color: black; 
+    text-align: center; 
+	background-image: url("qfg3-background-color.png"); 
+	background-size: auto;
+	border: 30px solid;
+    border-image: url("qfg3-main-menu2.webp") 12.5% round;
+    width: 45%; 
+    margin: auto; 
+    padding: 0em; 
+	position: absolute; 
+	top: 92px; 
+    left: 26%; 
+	height: 131px;
+}
+
+#li-bottom {
+	background-image: url("qfg3-li-bottom.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	height: 60px;
+	padding: 0em 0.5em 0.453em 0.8em !important; 
+}
+#li-top {
+	background-image: url("qfg3-li-top.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.7em 0.8em !important; 
+	height: 60px; 
+}
+li.othernavbar {
+	background-image: url("qfg3-li.png"); 
+	background-size: contain; 
+	font-size: 2em; 
+	background-color: transparent;
+	padding: 0em 0.8em; 
+	margin: 0; 
+	width: 307px;
+	height: 60px;
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 223px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	padding: 1em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+article.night {
+    padding: 0 1.2em;
+	border-image: url('qfg3-settings-nighttime.png') 35 35 fill !important;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+}
+@media (min-width: 85em)
+{
+
+h1 {
+	font-size: 7.0em;  
+	color: black; 
+	text-align: center; 
+	background-image: url("qfg3-background-color.png"); 
+	background-size: auto;
+	border: 30px solid;
+	border-image: url("qfg3-main-menu2.webp") 12.5% round;
+	width: 40%; 
+	margin: auto; 
+	padding: 0em; 
+	position: absolute; 
+	top: 92px; 
+	left: 30%; 
+	height: 131px; 
+}
+#game-toolbar
+{
+	left: 18% !important;
+}
+
+}

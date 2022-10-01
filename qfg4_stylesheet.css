@@ -1,0 +1,1150 @@
+/*last updated 8/11/2021*/
+
+@font-face {
+  font-family: gloryquest;
+  font-style: normal;
+  src: url("/fonts/gloryquest.ttf") format("ttf");
+}
+@font-face {
+  font-family: cardinal;
+  font-style: normal;
+  src: url("/fonts/cardinal-regular.ttf") format("ttf");
+}
+/*These elements should already be displayed as blocks 
+but this is to deal with possible problems in older browsers*/
+header,footer, article, section {
+    display: block; 
+}
+
+#eye-icon {
+	height: 32px;
+	width: 32px;
+	margin: 0px 5px;
+	display: inline;
+}
+#hand-icon {
+	height: 33px; 
+	width: 39px; 
+	margin: 0px 5px;
+	display: inline;
+}
+#mouth-icon {
+	height: 20px; 
+	width: 34px; 
+	margin: 0px 5px;
+	display: inline;
+}
+.sword-icon {
+	height: 53px; 
+	width: 51px;
+	margin: 0px 5px;
+	display: inline;	
+}
+#dark-one-sign {
+	height: 34px;
+	width: 46px;
+	margin: 0px 5px;
+	display: inline;
+}
+#question-mark-icon {
+	height: 32px;
+	width: 21px;
+	margin: 0px 5px;
+	display: inline;
+}
+#feet-icon
+{
+	height: 36px;
+	width: 28px;
+	margin: 0px 5px;
+	display: inline;	
+}
+
+a:link {
+	display: inline; 
+	color: #4d4d4d;
+	text-decoration: none; 
+	font-weight: normal; 
+	padding-top: 0em !important; 
+}
+a:visited {
+	display: inline; 
+	color: #4d4d4d;
+	text-decoration: none; 
+	font-weight: normal; 
+}
+li a:hover {
+    color: #b30000 !important;
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important; 
+}
+
+section a:hover, footer a:hover {
+	display: inline; 
+    color: #b30000 !important;
+    text-decoration: none; 
+	font-weight: bold; 
+	cursor: url("QfG_icons/feet-icon.png"), pointer; 
+}
+article.it p::first-letter {
+	font-family: cardinal, gloryquest, "Pixelar Regular W01 Regular";
+	font-size: 2.0em;
+}
+#contact {
+	cursor: url("QfG_icons/mouth-icon.png"), pointer !important; 
+}
+
+abbr{
+	cursor: url("QfG_icons/QG4Question.png"), help !important;
+}
+.btn:hover {
+	cursor: url("QfG_icons/eye-icon.png"), pointer !important; 
+}
+.carousel-control:hover {
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
+}
+.init-cap {
+	display: inline !important;
+	margin-right: 0.1em;
+	margin-top: -0.35em;
+}
+.language {
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important;
+}
+#time-and-date {
+	z-index: 2;
+	background-image: url("qfg4-date-and-time-night4.png");
+	background-size: contain;
+}
+#time-and-date-toggle {
+	cursor: url("QfG_icons/hand-icon.png"), pointer !important; 
+}
+#time-and-date-toggle:hover {
+	color: #b30000;
+    font-weight: bold;	
+}
+#now {
+	color: black;
+}
+li.othernavbar a:hover, li.footernavbar a:hover {
+    color: #b30000;
+	background-color: transparent !important; 
+    text-decoration: none; 
+}
+address {
+	display: inline-flex; 
+	line-height: 1; 
+}
+body {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 100%; 
+	margin: auto; 
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	font-weight: normal; 
+	background: #a6a6a6; 
+	border: none; 
+	padding: 0em;
+	cursor: url("QfG_icons/sword-icon-night.png"), default !important;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("qfg4-cranium-lab4-altered3.webp") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-indicators li {
+	border-color: #b30000 !important; 
+	cursor: url("QfG_icons/sword-icon-night.png"), pointer !important;
+}
+.carousel-indicators .active {
+	background-color: #b30000 !important; 
+}
+div {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 100%; 
+	color: #333; 
+}
+.smaller-note {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif;
+	font-size: 75%; 
+	line-height: 80%; 
+	text-align: center;
+	padding-top: 10px;
+}
+
+.center {
+    font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 90%; 
+	margin: 0em auto; 
+	font-size: 2.5em; 
+}
+
+.dropdown {
+	max-width: 180px; 
+	margin: auto; 
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+}
+.dropdown-menu {
+    position: absolute; 
+	top: 100%; 
+	left: 0%; 
+    z-index: 10; 
+    min-width: 10em; 
+    padding: 0; 
+    margin: auto; 
+	background-color: transparent !important; 
+    font-size: 2em; 
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+    text-align: left; 
+}
+.dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+ul.dropdown-menu a:link {
+	color: #333;
+	text-decoration: none; 
+	background-color: transparent !important; 
+	font-weight: normal; 
+}
+ul.dropdown-menu a:hover {
+    color: #b30000 !important;
+	text-decoration: none; 
+	background-color: transparent; 
+	font-weight: bold; 
+}
+ul.dropdown-menu a:visited {
+	color: #333;
+	text-decoration: none; 
+	font-weight: normal; 
+}
+
+button {
+	border-radius: 0px !important;
+	text-shadow: 2px 2px lightgray;
+}
+.container {
+	text-shadow: 2px 2px lightgray;
+}
+header {
+	text-align: center; 
+	color: #000; 
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-weight: normal; 
+	margin-left: 0.938em; 
+	margin-right: 0.938em; 
+	background: transparent; 
+}
+h2 {
+	font-size: 2.0em; 
+	font-weight: bold; 
+	font-style: normal; 
+}
+h3 {
+	font-size:1.5em;
+	font-weight: bold; 
+	font-style: normal;
+}
+hr {
+    border: 0px; 
+    margin-top: 0.625em; 
+    margin-bottom: 0.625em; 
+    width: 100%; 
+    color: #000; 
+    background-color: #000; 
+    height: 0.125em; 
+}
+html {
+	height: 100% !important; 
+}
+img {
+	border: none;
+	display: block; 
+	margin: auto;  
+	text-align: center; 
+}
+
+article {
+    background-color: transparent;
+	margin: auto; 
+	padding: 0em; 
+	width: 100%; 
+	line-height: 100%; 
+	color: black; 
+}
+.stone1 {
+	background-image: url("qfg4-stone-panel-no-border-best.webp"); 
+    background-size: initial; 
+	background-color: transparent; 
+	border: 40px solid transparent; 
+	border-image: url("qfg4-border-image9.webp") 27.5% round; 
+}
+ul {
+	padding: 15px; 
+	background-color: #a6a6a6; 
+}
+/*begin responsive elements*/
+#time-and-date {
+	position: fixed;
+	top:21%;
+	left: 6%;
+	width: 298px;
+	height: 147px;
+}
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 12px;
+	font-size: 2.1em;
+}
+.carousel-indicators {
+	bottom: -60px;
+	left: 42%;
+	width: 73%;
+	z-index: 0 !important;
+}
+/*images sized at 40%*/
+
+#general-store-menu {
+	height: 120px; 
+	width: 192px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 128px; 
+	width: 205px; 
+}
+#intro-menu {
+	height: 128px; 
+	width: 180px; 
+}
+#inventory {
+	height: 115px; 
+	width: 200px; 
+}
+#settings-menu {
+	height: 126px; 
+	width: 188px; 
+}
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
+button, .btn {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 3em; 
+    z-index: 10 !important; 
+	color: black !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg4-button.jpg") !important; 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block;
+	margin: auto;
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 27%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 20%; 
+	top: 45px; 
+}
+.container {
+	margin: 0; 
+	padding: 0 0 80px 0; 
+	width: 100%; 
+	height: auto; 
+	font-size: 100%; 
+}
+
+#feet-menu-button {
+    display: none; 
+}
+footer {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 258px; 
+	height: 151px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg4-stone-panel-no-text1.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.8em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 35px; 
+	width: 354px; 
+	position: absolute; 
+	top: 0; 
+	left: 3%; 
+	z-index: 16; 
+}
+h1 {
+	font-size: 3.5em; 
+	padding: 0.2em; 
+	position: absolute; 
+	top: 32px;
+	left: 12%;
+	height: 48px; 
+	width: 278px;
+    background-image: url("qfg4-li-b-top2-smaller.webp");
+  	background-size: contain;
+    color: black;
+    text-align: center;
+    margin: auto;
+	cursor: url("QfG_icons/qfg4-dark-one-sign.png"), pointer !important;
+}
+
+#li-bottom {
+	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	padding: 0em 1em 0.45em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	height: 60px; 
+}
+li.othernavbar {
+	background-image: url("qfg4-li3.jpg"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 210px; 
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 80px; 
+}
+@media (min-width: 30em) and (max-width: 40em)
+{
+#time-and-date {
+	position: fixed;
+	top: 20%;
+	left: 13%;
+	width: 298px;
+	height: 147px;
+}
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 12px;
+	font-size: 2.1em;
+}
+/*carousel images sized at 40%*/
+#general-store-menu {
+	height: 120px; 
+	width: 192px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 128px; 
+	width: 205px; 
+}
+#intro-menu {
+	height: 128px; 
+	width: 180px; 
+}
+#inventory {
+	height: 115px; 
+	width: 200px; 
+}
+
+#settings-menu {
+	height: 126px; 
+	width: 188px; 
+}
+#soundtrack {
+	height: 256px; 
+	width: 256px;
+	margin: auto;
+}
+.carousel-indicators {
+	bottom: -60px;
+}
+.container {
+	padding: 0 0 120px 0; 
+}
+button, .btn {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 3em; 
+    z-index: 10 !important; 
+	color: black !important; 
+	border: none !important; 
+	border-color: transparent !important;
+	background-color: transparent !important; 
+	background-image: url("qfg4-button.jpg") !important; 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block; 
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 35%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 35%; 
+	top: 45px; 
+}
+.center {
+    font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 80%; 
+	margin: 0em auto; 
+	font-size: 3em; 
+}
+#feet-menu-button {
+	display: none;
+}
+footer {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 286px; 
+	height: 167px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg4-stone-panel-no-text1.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+
+#game-toolbar {
+	max-height: 35px; 
+	width: 354px; 
+	position: absolute; 
+	top: 0; 
+	left: 16%; 
+	z-index: 16; 
+}
+h1 {
+	font-size: 3.5em;
+	padding: 0em;
+	position: absolute;
+	background-image: url("qfg4-stone-panel-no-border-best.webp");
+    background-size: contain;
+    border: 15px solid transparent;
+    border-image: url(qfg4-border-image9.webp) 25% round;
+	top: 32px;
+	left: 20%;
+	height: 72px;
+	width: 62%;
+}
+
+#li-bottom {
+	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	padding: 0em 0.5em 0.63em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	height: 65px; 
+}
+li.normal {
+	padding: 2px 15px 3px 15px!important; 
+}
+li.othernavbar {
+	background-image: url("qfg4-li3.jpg"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 230px; 
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 104px; 
+}
+article {
+    background-color: transparent;
+	margin: auto; 
+	padding: 0.3em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+}
+
+@media (min-width: 40em) and (max-width: 55em)
+{
+#time-and-date {
+	position: fixed;
+	top: 32%;
+	left: 23%;
+	width: 298px;
+	height: 147px;
+}
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 12px;
+	font-size: 2.1em;
+}
+/*carousel images sized at 50%*/
+#general-store-menu {
+	height: 150px; 
+	width: 240px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 160px; 
+	width: 256px; 
+}
+#intro-menu {
+	height: 160px; 
+	width: 215px; 
+}
+#inventory {
+	height: 144px; 
+	width: 250px; 
+}
+
+#settings-menu {
+	height: 157px; 
+	width: 235px; 
+}
+#soundtrack {
+	height: 307px; 
+	width: 307px;
+	margin: 0;
+}
+button, .btn {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 3.5em; 
+	z-index: 10 !important; 
+	color: black !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg4-button.jpg") !important; 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+	display: block; 
+}
+.affix {
+	visibility:visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 76%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 76%; 
+	top: 92px; 
+}
+.carousel-indicators {
+	bottom: -60px;
+}
+.center {
+	width: 67%; 
+	font-size: 3em; 
+}
+.container {
+	padding: 0 0 150px 0; 
+}
+#feet-menu-button {
+	height: 45px; 
+	width: 35px; 
+	display: block; 
+}
+footer {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 298px; 
+	height: 174px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg4-stone-panel-no-text1.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.85em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 50px; 
+	width: 506px; 
+	position: absolute; 
+	top: 0; 
+	left: 16%; 
+	z-index: 16; 
+}
+h1 {
+	font-size: 4.5em; 
+	padding: 0em; 
+	position: absolute; 
+	background-image: url("qfg4-stone-panel-no-border-best.webp");
+    background-size: auto;
+    border: 25px solid transparent;
+    border-image: url(qfg4-border-image9.webp) 25% round;
+	top: 46px; 
+	left: 22%; 
+	height: 97px; 
+	width: 57%; 
+}
+
+#li-bottom {
+	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	padding: 0em 0.5em 0.615em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-size: contain; 
+	padding: 0.5em 0.5em 0.5em 0.5em !important; 
+	height: 65px; 
+}
+li.normal {
+	padding: 2px 15px 3px 15px!important; 
+}
+li.othernavbar {
+	background-image: url("qfg4-li3.jpg"); 
+	background-size: contain; 
+	font-size: 1.5em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 230px; 
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 143px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	padding: 0.6em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+}
+
+@media (min-width: 55em) and (max-width: 70em)
+{
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 36%;
+	width: 298px;
+	height: 147px;
+}
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 12px;
+	font-size: 2.1em;
+}
+/*carousel images sized at 75%*/
+#general-store-menu {
+	height: 225px; 
+	width: 360px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 240px; 
+	width: 384px; 
+}
+#intro-menu {
+	height: 240px; 
+	width: 338px; 
+}
+#inventory {
+	height: 215px; 
+	width: 375px; 
+}
+
+#settings-menu {
+	height: 237px; 
+	width: 353px; 
+}
+#soundtrack {
+	height: 384px; 
+	width: 384px;
+	margin: 0;
+}
+.affix {
+	visibility:visible;
+}
+button.affix {
+	top: 0%; 
+	left: 74%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 74%; 
+	top: 115px; 
+}
+button, .btn {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 4em; 
+    z-index: 10 !important; 	
+	color: black !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg4-button.jpg") !important; 
+    background-size: contain; 
+	padding: 0.1em 0.8em;
+
+}
+.carousel-indicators {
+	bottom: 0px;
+	z-index: 1 !important;
+}
+.center {
+	width: 55%; 
+	margin: 0em auto; 
+	font-size: 3.5em; 
+}
+.container {
+	padding: 0 0 215px 0; 
+}
+#feet-menu-button {
+	height: 55px; 
+	width: 42px; 
+	display: block; 
+}
+footer {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 319.7px; 
+	height: 186.7px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg4-stone-panel-no-text1.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.7em 0.7em 0.7em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 75px; 
+	width: 759px; 
+	position: absolute; 
+	top: 0; 
+	left: 12%; 
+	z-index: 16; 
+}
+h1 {
+	font-size: 5.5em; 
+	background-image: url("qfg4-stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("qfg4-border-image9.webp") 25% round;
+    width: 51%; 
+	padding: 0.2em; 
+	position: absolute; 
+	top: 68px; 
+	left: 25%; 
+	height: 131px; 
+}
+
+#li-bottom {
+	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	padding: 0em 0.5em 0.45em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-size: contain; 
+	padding: 0.4em 0.5em 0.7em 0.5em !important; 
+	height: 79px; 
+}
+li.othernavbar {
+	background-image: url("qfg4-li3.jpg"); 
+	background-size: contain; 
+	font-size: 2em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 280px; 
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 199px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	padding: 0.8em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+}
+
+@media (min-width: 70em)
+{
+#time-and-date {
+	position: fixed;
+	top:1%;
+	left: 41%;
+	width: 298px;
+	height: 147px;
+}
+#now {
+	position: absolute;
+	left: 26px;
+	bottom: 12px;
+	font-size: 2.1em;
+}
+/*carousel images sized at 85%*/
+#general-store-menu {
+	height: 255px; 
+	width: 408px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 272px; 
+	width: 435px; 
+}
+#intro-menu {
+	height: 272px; 
+	width: 382px; 
+}
+#inventory {
+	height: 244px; 
+	width: 425px; 
+}
+
+#settings-menu {
+	height: 272px; 
+	width: 406px; 
+}
+#soundtrack {
+	height: 435px; 
+	width: 435px;
+	margin: 0;
+}
+.affix {
+	visibility: visible; 
+}
+button.affix {
+	top: 0%; 
+	left: 77%; 
+}
+ul.affix {
+	position: fixed; 
+	left: 77%; 
+	top: 115px; 
+}
+.carousel-indicators {
+	bottom: 0px;
+	z-index: 1 !important;
+}
+.center {
+	width: 50%; 
+	margin: 0em auto; 
+	font-size: 4em; 
+}
+.container {
+	padding: 0 0 240px 0;
+	background-image: url("qfg4-drcranium.jpg"); 
+	background-position: 0% 0%; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+button, .btn {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif; 
+	font-size: 4em; 
+    z-index: 10 !important; 	
+	color: black !important; 
+	border: none !important; 
+	border-color: transparent !important; 
+	background-color: transparent !important; 
+	background-image: url("qfg4-button.jpg") !important; 
+    background-size: contain; 
+	padding: 0.1em 0.8em; 
+}
+#feet-menu-button {
+	height: 55px; 
+	width: 42px; 
+	display: block; 
+	border: none; 
+}
+footer {
+	font-family: gloryquest, "Pixelar Regular W01 Regular", Sylfaen, "Times New Roman", serif !important; 
+	width: 368.7px; 
+	height: 215px; 
+	font-size: 1em; 
+	font-style: italic; 
+	background-image: url("qfg4-stone-panel-no-text1.webp"); 
+    background-size: contain; 
+	background-color: transparent; 
+	padding: 0.5em 0.5em 0.9em 0.5em; 
+	margin: 0.5em auto; 
+	overflow: auto; 
+}
+#game-toolbar {
+	max-height: 100px; 
+	width: 1012px; 
+	position: absolute; 
+	top: 0; 
+	left: 12%; 
+	z-index: 16; 
+}
+h1 {
+    font-size: 6.0em;  
+    color: black; 
+    text-align: center; 
+	background-image: url("qfg4-stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("qfg4-border-image9.webp") 25% round;
+    width: 45%; 
+    margin: auto; 
+    padding: 0em; 
+	position: absolute; 
+	top: 91px; 
+    left: 26%; 
+	height: 131px;
+}
+
+#li-bottom {
+	background-image: url("qfg4-li-b-bottom-smallest2.png"); 
+	background-size: contain; 
+	background-color: transparent; 
+	line-height: 80% !important; 
+	padding: 0em 0.5em 0.453em 0.5em !important; 
+}
+#li-top {
+	background-image: url("qfg4-li-b-top2-smallest.png"); 
+	background-size: contain; 
+	padding: 0.4em 0.5em 0.7em 0.5em !important; 
+	height: 79px; 
+}
+li.othernavbar {
+	background-image: url("qfg4-li3.jpg"); 
+	background-size: contain; 
+	font-size: 2em; 
+	background-color: transparent;
+	padding: 0em 0.5em; 
+	margin: 0; 
+	width: 280px; 
+	display: block; 
+	font-style: normal; 
+	-webkit-tap-highlight-color: transparent; 
+}
+.offset {
+	position: relative; 
+	top: 222px; 
+}
+article {
+	background-color: transparent;
+	margin: auto; 
+	padding: 1em; 
+	width: 100%; 
+	height: 80%; 
+	line-height: 100%; 
+	color: black; 
+}
+}
+@media (min-width: 85em)
+{
+/*carousel images at "full" size*/
+#general-store-menu {
+	height: 300px; 
+	width: 480px; 
+}
+#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
+	height: 320px; 
+	width: 512px; 
+}
+#intro-menu {
+	height: 320px; 
+	width: 449px; 
+}
+#inventory {
+	height: 287px; 
+	width: 500px; 
+}
+
+#settings-menu {
+	height: 315px; 
+	width: 470px; 
+}
+#game-toolbar {
+	max-height: 100px; 
+	width: 1012px; 
+ 	position: absolute; 
+    top: 0; 
+	left: 18%; 
+	z-index: 16; 
+}
+#soundtrack {
+	height: 512px; 
+	width: 512px;
+	margin: 0;
+}
+h1 {
+	font-size: 7.0em;  
+	color: black; 
+	text-align: center; 
+	background-image: url("qfg4-stone-panel-no-border-best.webp"); 
+	background-size: auto;
+	border: 30px solid transparent;
+	border-image: url("qfg4-border-image9.webp") 25% round;
+	width: 40%; 
+	margin: auto; 
+	padding: 0em; 
+	position: absolute; 
+	top: 91px; 
+	left: 30%; 
+	height: 131px; 
+}
+
+}
