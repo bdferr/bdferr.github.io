@@ -734,9 +734,7 @@ ul.affix {
 	padding: 0 0 150px 0; 
 }
 #walking-icon {
-	height: 45px; 
-	width: 34px; 
-	display: block; 
+	display: none; 
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
@@ -883,9 +881,7 @@ button, .btn {
 	padding: 0 0 215px 0; 
 }
 #walking-icon {
-	height: 55px; 
-	width: 47px; 
-	display: block; 
+	display: none;
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
