@@ -1,4 +1,4 @@
-/*last updated 8/7/2021*/
+/*last updated 10/2/2022*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -8,7 +8,7 @@
 
 /*These elements should already be displayed as blocks 
 but this is to deal with possible problems in older browsers*/
-header,footer, article, section {
+header, footer, article, section {
     display: block; 
 }
 
@@ -842,8 +842,6 @@ article.night
 	bottom: 9px;
 	font-size: 1.8em;
 }
-/*carousel images sized at 75%*/
-
 .affix {
 	visibility:visible;
 }
@@ -987,6 +985,10 @@ article.night {
 	bottom: 9px;
 	font-size: 1.8em;
 }
+#whereto{
+	margin: 12px 0 17px 0;
+	display: block;
+}
 .affix {
 	visibility: visible; 
 }
@@ -1035,7 +1037,8 @@ button, .btn {
 	height: 55px; 
 	width: 47px; 
 	display: block; 
-	border: none; 
+	border: none;
+	margin: 15px auto 0 auto;
 }
 footer {
 	font-family: SierraSCImenu, Sylfaen, "Times New Roman", serif !important; 
