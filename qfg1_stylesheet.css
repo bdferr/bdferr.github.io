@@ -1,4 +1,4 @@
-/*last updated 8/7/2021*/
+/*last updated 10/3/2022*/
 
 @font-face {
   font-family: gloryquest;
@@ -423,6 +423,10 @@ li.othernavbar {
 	position: relative; 
 	top: 82px; 
 }
+#running-icon {
+	display: none;
+}
+
 @media (min-width: 30em) and (max-width: 40em)
 {
 
@@ -530,6 +534,9 @@ li.othernavbar {
 .offset {
 	position: relative; 
 	top: 104px; 
+}
+#running-icon {
+	display: none;
 }
 article {
     background-color: transparent;
@@ -650,6 +657,9 @@ li.othernavbar {
 	position: relative; 
 	top: 142px; 
 }
+#running-icon {
+	display: none;
+}
 article {
 	background-color: transparent;
 	margin: auto; 
@@ -769,6 +779,9 @@ li.othernavbar {
 .offset {
 	position: relative; 
 	top: 199px; 
+}
+#running-icon {
+	display: block;
 }
 article {
 	background-color: transparent;
@@ -893,6 +906,9 @@ li.othernavbar {
 .offset {
 	position: relative; 
 	top: 221px; 
+}
+#running-icon {
+	display: block;
 }
 article {
 	background-color: transparent;
