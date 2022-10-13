@@ -1,4 +1,4 @@
-/*last updated 10/11/2022*/
+/*last updated 10/13/2022*/
 
 @font-face {
   font-family: gloryquest;
@@ -319,13 +319,8 @@ ul {
 }
 /*images sized at 40%*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 128px; 
-	width: 205px; 
-}
-#intro-menu {
-	height: 128px; 
-	width: 180px; 
+.carousel-img {
+	height: 128px !important; 
 }
 #soundtrack {
 	height: 256px; 
@@ -452,23 +447,14 @@ li.othernavbar {
 }
 /*carousel images sized at 40%*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 128px; 
-	width: 205px; 
-}
-#intro-menu {
-	height: 128px; 
-	width: 180px; 
+.carousel-img {
+	height: 128px !important; 
 }
 
-#soundtrack {
-	height: 256px; 
-	width: 256px;
-	margin: auto;
-}
 .carousel-indicators {
 	bottom: -60px;
 }
+
 .container {
 	padding: 0 0 120px 0; 
 }
@@ -602,13 +588,8 @@ article {
 }
 /*carousel images sized at 50%*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 160px; 
-	width: 256px; 
-}
-#intro-menu {
-	height: 160px; 
-	width: 215px; 
+.carousel-img {
+	height: 160px !important; 
 }
 
 #soundtrack {
@@ -751,13 +732,8 @@ article {
 }
 /*carousel images sized at 75%*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 240px; 
-	width: 384px; 
-}
-#intro-menu {
-	height: 240px; 
-	width: 338px; 
+.carousel-img {
+	height: 240px !important; 
 }
 
 #soundtrack {
@@ -899,13 +875,8 @@ article {
 }
 /*carousel images sized at 85%*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 272px; 
-	width: 435px; 
-}
-#intro-menu {
-	height: 272px; 
-	width: 382px; 
+.carousel-img {
+	height: 272px !important;
 }
 
 #soundtrack {
@@ -1040,13 +1011,8 @@ article {
 {
 /*carousel images at "full" size*/
 
-#iron-maiden, #date-time, #dialog-menu, #hatted-skull, #swamp-toolbar, #wraith-battle, #cranium-in-lab, #domovoi, #adventurers-guild {
-	height: 320px; 
-	width: 512px; 
-}
-#intro-menu {
-	height: 320px; 
-	width: 449px; 
+.carousel-img {
+	height: 320px !important; 
 }
 
 #game-toolbar {
