@@ -1,4 +1,4 @@
-/*last updated 10/13/2022*/
+/*last updated 10/2/2022*/
 
 @font-face {
   font-family: SierraSCImenu;
@@ -446,9 +446,6 @@ ul.affix {
 	width: 90%;
 	z-index: 0 !important;
 }
-.carousel-img {
-	height: 160px !important;
-}
 .container {
 	margin: 0; 
 	padding: 0 0 80px 0; 
@@ -556,9 +553,6 @@ article.night {
 	left: 40%;
 	padding-bottom: 15px;
 	width: 80%;
-}
-.carousel-img {
-	height: 160px !important;
 }
 .container {
 	padding: 0 0 120px 0; 
@@ -732,9 +726,6 @@ ul.affix {
 	padding-bottom: 15px;
 	width: 75%;
 }
-.carousel-img {
-	height: 210px !important;
-}
 .center {
 	width: 67%; 
 	font-size: 3em; 
@@ -874,9 +865,6 @@ button, .btn {
 	padding: 0.1em 0.8em;
 	height:64px;
 }
-.carousel-img {
-	height: 260px !important;
-}
 .carousel-indicators {
 	bottom: 0px;
 	left: 42%;
@@ -1015,9 +1003,6 @@ ul.affix {
 	padding-bottom: 0px;
 	width: 75%;
 	z-index: 1 !important;
-}
-.carousel-img {
-	height: 310px !important;
 }
 .center {
 	width: 50%; 
@@ -1159,7 +1144,5 @@ h1 {
 {
 	left: 18% !important;
 }
-.carousel-img {
-	height: 380px !important;
-}
+
 }
