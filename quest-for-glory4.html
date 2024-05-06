@@ -9,7 +9,7 @@
 	<meta name="description" content="Fanpage for the Sierra role-playing adventure game Quest for Glory IV,
 	demonstrating Bootstrap and jQuery. Applies UI elements of game to website."/>
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
-	<meta name="dcterms.modified" content="2023-05-24" />
+	<meta name="dcterms.modified" content="2024-05-06" />
 	<meta name="author" content="Brendan Ferreri-Hanberry" />
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<link rel="alternate" href="quest-for-glory.html" hreflang="en">
@@ -58,7 +58,7 @@
 			months = ["January", "February", "March", "April", "May", "June", "July",
 			"August", "September", "October", "November", "December"];
 			month = d.getMonth();
-			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + ":" + addZeroes(d.getSeconds()) + " on " 
+			now = addZeroes(d.getHours()) + ":" + addZeroes(d.getMinutes()) + " on " 
 			+ months[month] + " " + d.getDate() + ", " + d.getFullYear() + ".";
 			$("#now").html("It's " + now);
 			$("#time-and-date").toggle();
